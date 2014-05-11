@@ -128,4 +128,5 @@ File Name: main-stylesheet.css
     }
 	.search{
 		float:right;
+		display:inline-block;
 	}
