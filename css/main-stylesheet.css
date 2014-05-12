@@ -22,17 +22,15 @@ body{
     min-width: 100%;
     min-height: 100%
 }
-footer{
+.footer{
     font-family: sans-serif;
     background-color:#ccc;
-    width: 100%;
-    height: 100%;
 }
 .footer-logo{
     background: no-repeat;
     padding: 0;
     float:left;
-    display: inline-block;
+   margin: 2%
 }
 .email-contact{
     padding-top: 20px;
@@ -78,7 +76,7 @@ footer{
 }
 
 .sitemap{ 
-
+	float: left;
 }
 
 
