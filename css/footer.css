@@ -51,15 +51,22 @@ html, body {
 }
 .logo{
 	display:inline-block;
+	float:left;
 }
 
 .sitemap{
-	float:right;
+	float:left;
 	display:inline-block;
 	padding-left:10%;
 	background: gold;
 }
-.sitemap ul, .sitemap ul li{ display: inline-block; }
+/***** sitemap points****/
+.sitemap ul { display: inline-block; }
+
+.sitemap ul li{
+	
+	list-style-type: none;
+}
 .facebook-roll {
 	background-image: url("../images/soical-media/facebook-48gray-circle.png");
 	height: 48px;
