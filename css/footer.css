@@ -1,9 +1,35 @@
 /******
 FileName: footer.css
 Description: this is for the footer stylesheet
-Authors: Elizabeth Stevens, Hakkon L'Orange, and Tiffany Tse 
+Authors: Elizabeth Stevens, Hakkon L'Orange, and Tiffany Tse
 
 ************/
+@font-face{
+  font-family: Light;
+  src: url(../fonts/HelveticaNeueLTPro-Lt.otf);
+}
+
+@font-face{
+  font-family: Medium;
+  src: url(../fonts/HelveticaNeueLTPro-Md.otf);
+}
+
+body, h1, h2, h3 ,h4, h5, h6 {
+  line-height: 1;
+  font-family: Light; /* Set default Font Family */
+  color:#4a4a4a; /* Set default Font Color */
+  font-size:16px;
+}
+
+a{
+  font-family: Light;
+  color:#4a4a4a;
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
 
 * {
   margin: 0;
@@ -11,37 +37,187 @@ Authors: Elizabeth Stevens, Hakkon L'Orange, and Tiffany Tse
 html, body {
   height: 100%;
 }
+
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -350px; 
+  margin-bottom: -350px;
 }
+
+
+/************* HAAKONS FORMATTING **************/
+
+footer {
+  height:30%;
+  width:100%;
+  background-color: #efefef;
+}
+
+#footer-topbar {
+  height:15%;
+  width:100%;
+  background-color:#4a4a4a;
+  float:left;
+  bottom-margin:1%;
+  color:#efefef;
+  line-height:2em;
+}
+
+#newsletter-signup {
+  display:inline-block;
+  margin-top:0.2%;
+  margin-left:30%;
+}
+
+#footer-logo-field{
+  height:85%;
+  width:20%;
+  */background-color:red;*/
+  display:inline-block;
+  float:left;
+}
+
+#ADI-footer-logo{
+  float:left;
+  margin-left:10%;
+}
+
+#contactinfo-field {
+  display:inline-block;
+  height:15%;
+  width:72%;
+  /*background-color:blue;*/
+  float:left;
+  text-align:center;
+  padding-left:8%;
+}
+
+#contactinfo-field ul li {
+  float:left;
+  posistion:relative;
+}
+
+.contact-icons {
+  display:inline-block;
+  margin-left:10%;
+  /*background-color:yellow;*/
+}
+
+/* ALIGNING ICON AND TEXT PROPERLY */
+.iconing a, .iconing p {display:inline-block; vertical-align:middle;}
+
+[class^="icon-email"],[class*="icon-phone"] {width:30px; height:30px;}
+
+.icon-text {display:block; margin-top:2%;}
+
+#footer-sitemap-field {
+  display:inline-block;
+  height:55%;
+  width:80%;
+  /*background-color:yellow;*/
+  float:left;
+  text-align:center;
+  margin-top:1%;
+}
+
+#footer-social-media {
+  display:inline-block;
+  height:100%;
+  width:20%;
+  /*background-color:green;*/
+  float:right;
+}
+
+.footer-sm-icons {
+  margin-right:10%;
+}
+
+
+#sitemap-field {
+  height:85%;
+  width:100%;
+  /*background-color:green;*/
+  float:left;
+}
+
+#sitemap-heading {
+  height:15%;
+  width:100%;
+  /*background-color:grey;*/
+  float:left;
+  padding-top:0.1%;
+}
+
+.sitemap-pages {
+  display:inline-block;
+  height:100%;
+  width:12%;
+
+  /*background-color:blue;*/
+  float:center;
+  text-align:left;
+}
+
+.sitemap-pages ul {
+  display:inline-block;
+  float:left;
+  list-style-type:none;
+  font-size:0.9em;
+  line-height:1.1em;
+}
+
+.sitemap-pages ul li a:hover {
+  color: #087cb3;
+}
+
+.list-heading{
+  font-size:1.1em;
+}
+
+#footer-copyright-field {
+  display:inline-block;
+  height:10%;
+  width:80%;
+  /*background-color:purple;*/
+  float:left;
+  text-align:center;
+  line-height:2em;
+  font-size:0.8em;
+}
+
+
+
+
 .page-wrap:after {
   content: "";
   display: block;
 }
+
 .site-footer, .page-wrap:after {
   /* .push must be the same height as footer */
-  height: 350px; 
+  height: 350px;
 }
+
 .site-footer {
   background: grey;
 }
+
 .deals{
 	display:inline-block;
 	float:left;
 	width:100%;
 	background:blue;
 
-	
+
 }
+
 .email{
 	display: inline-block;
 	background: none repeat scroll 0% 0% #F00;
 	padding-left: 30%;
 	margin: 0px;
 	min-width: 70%;
-		
+
 }
 
 /***soical media effects*******/
@@ -60,13 +236,16 @@ html, body {
 	padding-left:10%;
 	background: gold;
 }
+
+
 /***** sitemap points****/
 .sitemap ul { display: inline-block; }
 
 .sitemap ul li{
-	
+
 	list-style-type: none;
 }
+
 .facebook-roll {
 	background-image: url("../images/soical-media/facebook-48gray-circle.png");
 	height: 48px;
