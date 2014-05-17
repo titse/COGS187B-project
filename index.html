@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>AD | HOME</title>
+<title>ADI | HOME</title>
 <link rel="stylesheet" href="css/global_adi.css" />
 
 <!--[if lt IE 9]>
@@ -13,6 +13,19 @@
     var el = $(this);
     var link = el.attr('href');
     window.location = link;
+});
+// show and hide sub menu
+$(function(){
+	$('nav ul li').hover(
+		function () {
+			//show its submenu
+			$('ul', this).slideDown(150);
+		}, 
+		function () {
+			//hide its submenu
+			$('ul', this).slideUp(150);			
+		}
+	);
 });
 </script>
 </head>
@@ -46,12 +59,61 @@
 
       <nav>
         <ul>
-          <li><a href="ecoqube.html">ECOQUBE</a></li>
-          <li><a href="shop.html">SHOP</a>
-          <li><a href="services.html">SERVICES</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="learn.html">LEARN</a></li>
-          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="ecoqube.html"><span class="arrow">ECOQUBE</span></a>
+		  
+			<ul style="display:none;" class="sub_menu">
+				<li class="arrow_top"> </li>
+				<li> </li>
+				<li> </li>
+				<li> </li>
+			</ul>
+		  </li>
+          <li class="current"><a href="shop.html">SHOP</a> 
+			<ul>
+				<li> </li>
+				<li> </li>
+				<li> </li>
+				<li> </li>
+			</ul>
+		  
+		  
+		  </li>
+		  
+          <li><a href="services.html">SERVICES</a>
+			<ul>
+				<li> </li>
+				<li> </li>
+				<li> </li>
+				<li> </li>
+			</ul>		  
+		  
+		  </li>
+          <li><a href="about.html">ABOUT</a>
+			<ul>
+				<li> </li>
+				<li> </li>
+				<li> </li>
+				<li> </li>
+			</ul>		  
+		  </li>
+          <li><a href="learn.html">LEARN</a>
+			<ul>
+				<li> </li>
+				<li> </li>
+				<li> </li>
+				<li> </li>
+			</ul>		  
+		  
+		  </li>
+          <li><a href="faq.html">FAQ</a>
+			<ul>
+				<li> </li>
+				<li> </li>
+				<li> </li>
+				<li> </li>
+			</ul>		  
+		  
+		  </li>
         </ul>
       </nav>
 
