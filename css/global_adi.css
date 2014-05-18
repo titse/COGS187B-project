@@ -200,9 +200,12 @@ header {
 #navbar nav li ul.sub_menu{
 	display: none;
 	position: absolute;
+
 	top:25px;
 	left:0;
 	width: 150px;
+	top:30px;
+	left:0;
 	background: #fff;
 	border:1px solid #ececec;
 	border-top:5px solid blue;
@@ -220,18 +223,22 @@ header {
 	height: 100%;
 	display:block;
 	border:none;
-	
 	background:url(../images/navbar/arrow-top.png) no-repeat left top;
 }
+
+
 /*** finally solved the problem with drop down not appearing, you need to add this***/
 #navbar nav ul li:hover ul.sub_menu{
 	display:block;
 }
 
 #navbar nav ul li ul.sub_menu li {
-	float:none;
+	
 	margin:0;
 	padding:0;
 	border-bottom:1px solid #ececec;
 	display:block;
+
+	float: none;
+
 }
