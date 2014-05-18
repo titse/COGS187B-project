@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>ADI | HOME</title>
+<title>AD | HOME</title>
 <link rel="stylesheet" href="css/global_adi.css" />
-
+<script href="js/jquery-1.7.2.min.js"> </script>
 <!--[if lt IE 9]>
 <script src="js/html5shiv.js"></script>
 <![endif]-->
@@ -13,19 +13,6 @@
     var el = $(this);
     var link = el.attr('href');
     window.location = link;
-});
-// show and hide sub menu
-$(function(){
-	$('nav ul li').hover(
-		function () {
-			//show its submenu
-			$('ul', this).slideDown(150);
-		}, 
-		function () {
-			//hide its submenu
-			$('ul', this).slideUp(150);			
-		}
-	);
 });
 </script>
 </head>
@@ -56,68 +43,26 @@ $(function(){
           </div>
         </div>
       </div>
-
+<div id= "navbar">
       <nav>
         <ul>
-          <li><a href="ecoqube.html"><span class="arrow">ECOQUBE</span></a>
+          <li class="current"><a href="ecoqube.html">ECOQUBE </a>
 		  
-			<ul style="display:none;" class="sub_menu">
-				<li class="arrow_top"> </li>
-				<li> </li>
-				<li> </li>
-				<li> </li>
+			<ul  class="sub_menu">
+				<li id="arrow_top"> </li>
+				<li> BLAH</li>
+				<li> BLAH</li>
 			</ul>
 		  </li>
-          <li class="current"><a href="shop.html">SHOP</a> 
-			<ul>
-				<li> </li>
-				<li> </li>
-				<li> </li>
-				<li> </li>
-			</ul>
-		  
-		  
-		  </li>
-		  
-          <li><a href="services.html">SERVICES</a>
-			<ul>
-				<li> </li>
-				<li> </li>
-				<li> </li>
-				<li> </li>
-			</ul>		  
-		  
-		  </li>
-          <li><a href="about.html">ABOUT</a>
-			<ul>
-				<li> </li>
-				<li> </li>
-				<li> </li>
-				<li> </li>
-			</ul>		  
-		  </li>
-          <li><a href="learn.html">LEARN</a>
-			<ul>
-				<li> </li>
-				<li> </li>
-				<li> </li>
-				<li> </li>
-			</ul>		  
-		  
-		  </li>
-          <li><a href="faq.html">FAQ</a>
-			<ul>
-				<li> </li>
-				<li> </li>
-				<li> </li>
-				<li> </li>
-			</ul>		  
-		  
-		  </li>
+          <li><a href="shop.html">SHOP</a>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="learn.html">LEARN</a></li>
+          <li><a href="faq.html">FAQ</a></li>
         </ul>
       </nav>
 
-
+</div>
     </header>
 
 

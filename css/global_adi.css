@@ -143,8 +143,8 @@ header {
   float:left;
 }
 
-/*** navbar ****/
-nav {
+
+#navbar nav {
   height:52.5%; /*55%*/
   width:57%; /*60%*/
   /*background-color:blue;*/
@@ -152,8 +152,19 @@ nav {
   padding-top:2.5%;
   padding-left:3%;
 }
-
-nav ul li a {
+/**tiff's addon*/
+#navbar nav ul {
+	display:block;
+	z-index:999999;
+}
+#navbar nav ul li {
+	display:inline-block;
+	padding:0;
+	margin-left:4%;
+	position:relative;
+}
+/**end of tiff's addon*/
+#navbar nav ul li a {
   display:inline-block;
   float:left;
   margin-top:2%;
@@ -161,85 +172,66 @@ nav ul li a {
   font-family: Light;
   font-size:1em;
 }
-
-nav ul li a:hover {
+/**tiff' addon **/
+#navbar nav ul li a:link {
+  display:inline-block;
+  position:relative;
+ 
+}
+/*end of tiff's add on'*/
+#navbar nav ul li a:hover {
   color: #087cb3;
+  background-color: white;
+}
+/* start of tiffany's nav dropdown'*/
+#navbar nav ul li a:active{
+	color:#e25d29;
+	text-decoration:none;
 }
 
-nav ul li a:active{
-	color:  #087cb3;
-	text-decoration: none;
-}
-
-nav ul li span{
-	position:absolute;
-	right:-12px;
-	bottom:6px;
-	width:7px;
-	height:8px;
-	margin:0 0 0 3px;
-	float:right;
-	display:block;
-	
-}
-/***this is for if the current page that you are on is active */
-nav ul li.current a {
+#navbar nav ul li.current a {
 	color: #087cb3;
 	cursor: default;
 }
-
- nav ul li.current ul li a {
+#navbar nav ul li.current ul li a{
 	cursor:pointer;
 }
- nav ul li ul.sub_menu {
-	position:absolute;
-	top:90px;
+/*** this is the main code for drop down ***/
+#navbar nav li ul.sub_menu{
+	display: none;
+	position: absolute;
+	top:25px;
 	left:0;
-	margin:0;
-	padding:0;
-	background:#fff;
+	width: 150px;
+	background: #fff;
 	border:1px solid #ececec;
 	border-top:5px solid blue;
-	display:none;
 	z-index:999999;
     -moz-box-shadow: 0px 6px 7px #121012;
     -webkit-box-shadow: 0px 6px 7px #121012;
     box-shadow: 0px 6px 7px #121012;
 }
-/*=====submenu======*/
- nav ul li ul.sub_menu li.arrow_top {
+/*** this is the arrow for the dropdown ***/
+#navbar nav ul li ul.sub_menu li#arrow_top {
 	position:absolute;
 	top:-12px;
 	left:12px;
-	width:13px;
-	height:8px;
+	width: 100%;
+	height: 100%;
 	display:block;
 	border:none;
-	background:url('images/arrow_top.png') no-repeat left top;
+	
+	background:url(../images/navbar/arrow-top.png) no-repeat left top;
 }
-nav ul li ul.sub_menu li {
+/*** finally solved the problem with drop down not appearing, you need to add this***/
+#navbar nav ul li:hover ul.sub_menu{
+	display:block;
+}
+
+#navbar nav ul li ul.sub_menu li {
 	float:none;
 	margin:0;
 	padding:0;
 	border-bottom:1px solid #ececec;
-}
- nav ul li ul.sub_menu li a {
-	white-space: nowrap;
-	width: 150px;
-	padding:12px;
-	font:13px Arial, tahoma, sans-serif;
-	text-transform:capitalize;
-	color:#777;
-}
-nav ul li ul.sub_menu li a:hover {
-	background:#f9f9f9;
-	color:#333;
-}
-/* ===== submenu list line subactive tag */
- nav ul li ul.sub_menu li a.subCurrent {
-	color:#e25d29;
-	cursor:default;
-}
-nav ul li ul.sub_menu li a.subCurrent:hover {
-	background:none;
+	display:block;
 }
