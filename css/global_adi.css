@@ -196,14 +196,34 @@ header {
 #navbar nav ul li.current ul li a{
 	cursor:pointer;
 }
+/*** this is the main code for drop down ***/
 #navbar nav li ul.sub_menu{
 	display: none;
 	position: absolute;
 	top:30px;
 	left:0;
 	width: 100px;
+	background: #fff;
+	border:1px solid #ececec;
+	border-top:5px solid blue;
+	z-index:999999;
+    -moz-box-shadow: 0px 6px 7px #121012;
+    -webkit-box-shadow: 0px 6px 7px #121012;
+    box-shadow: 0px 6px 7px #121012;
+}
+/*** this is the arrow for the dropdown ***/
+#navbar nav ul li ul.sub_menu li#arrow_top {
+	position:absolute;
+	top:-12px;
+	left:12px;
+	width:13px;
+	height:8px;
+	display:block;
+	border:none;
+	background:url(../images/navbar/arrow-top.png) no-repeat left top;
 }
 /*** finally solved the problem with drop down not appearing, you need to add this***/
 #navbar nav ul li:hover ul.sub_menu{
-	display:block
+	display:block;
+	float: none;
 }
