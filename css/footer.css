@@ -99,9 +99,10 @@ footer {
 
 .contact-icons {
   display:inline-block;
-  margin-left:10%;
+  margin-left:35%;
   /*background-color:yellow;*/
 }
+
 
 /* ALIGNING ICON AND TEXT PROPERLY */
 .iconing a, .iconing p {display:inline-block; vertical-align:middle;}
@@ -109,6 +110,70 @@ footer {
 [class^="icon-email"],[class*="icon-phone"] {width:30px; height:30px;}
 
 .icon-text {display:block; margin-top:2%;}
+
+
+.icon-text:hover {
+  color: #087cb3;
+}
+
+/********* EMAIL SECTION ********/
+#footer-email-icon {
+  background-image:url('../images/social-media/email_icon.gif');
+  height:30px;
+  width:30px;
+}
+
+#footer-email-icon:hover {
+  background-image:url('../images/social-media/email_icon_hover.gif');
+}
+
+/********* PHONE SECTION ********/
+#footer-phone-icon {
+  background-image:url('../images/social-media/phone_icon.gif');
+  height:30px;
+  width:30px;
+}
+
+#footer-phone-icon:hover {
+  background-image:url('../images/social-media/phone_icon_hover.gif');
+}
+
+#footer-social-media {
+  display:inline-block;
+  height:100%;
+  width:15%;
+  /*background-color:green;*/
+  float:right;
+  padding-left:3%;
+}
+
+.footer-sm-icons {
+  margin-left:10%;
+}
+
+#footer-fb-icon {
+  display:block;
+  background-image:url('../images/social-media/facebook_icon.gif');
+  height:30px;
+  width:30px;
+  float:left;
+}
+
+#footer-fb-icon:hover {
+  background-image:url('../images/social-media/facebook_icon_hover.gif');
+}
+
+#footer-twitter-icon {
+  float:left;
+  display:block;
+  background-image:url('../images/social-media/twitter_icon.gif');
+  height:30px;
+  width:30px;
+}
+
+#footer-twitter-icon:hover {
+  background-image:url('../images/social-media/twitter_icon_hover.gif');
+}
 
 #footer-sitemap-field {
   display:inline-block;
@@ -119,19 +184,6 @@ footer {
   text-align:center;
   margin-top:1%;
 }
-
-#footer-social-media {
-  display:inline-block;
-  height:100%;
-  width:20%;
-  /*background-color:green;*/
-  float:right;
-}
-
-.footer-sm-icons {
-  margin-right:10%;
-}
-
 
 #sitemap-field {
   height:85%;

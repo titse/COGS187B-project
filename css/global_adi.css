@@ -176,7 +176,7 @@ header {
 #navbar nav ul li a:link {
   display:inline-block;
   position:relative;
- 
+
 }
 /*end of tiff's add on'*/
 #navbar nav ul li a:hover {
@@ -233,7 +233,7 @@ header {
 }
 
 #navbar nav ul li ul.sub_menu li {
-	
+
 	margin:0;
 	padding:0;
 	border-bottom:1px solid #ececec;
