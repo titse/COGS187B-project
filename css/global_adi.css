@@ -247,6 +247,6 @@ header {
 
 }
 #navbar  nav ul li ul a{
-	padding: 18px;
+	padding-left: 1em;
 	display:block;
 }
