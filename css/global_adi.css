@@ -176,6 +176,7 @@ header {
 #navbar nav ul li a:link {
   display:inline-block;
   position:relative;
+  padding: 6px;
 
 }
 /*end of tiff's add on'*/
@@ -200,10 +201,11 @@ header {
 #navbar nav li ul.sub_menu{
 	display: none;
 	position: absolute;
-
+	padding: 18px;
 	top:25px;
 	left:0;
 	width: 150px;
+	height:auto;
 	top:30px;
 	left:0;
 	background: #fff;
@@ -230,6 +232,7 @@ header {
 /*** finally solved the problem with drop down not appearing, you need to add this***/
 #navbar nav ul li:hover ul.sub_menu{
 	display:block;
+	
 }
 
 #navbar nav ul li ul.sub_menu li {
@@ -241,4 +244,8 @@ header {
 
 	float: none;
 
+}
+#navbar  nav ul li ul a{
+	padding: 18px;
+	display:block;
 }
