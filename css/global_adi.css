@@ -162,6 +162,7 @@ header {
 	padding:0;
 	margin-left:4%;
 	position:relative;
+	text-align:left;
 }
 /**end of tiff's addon*/
 #navbar nav ul li a {
@@ -241,7 +242,7 @@ header {
 	padding:0;
 	border-bottom:1px solid #ececec;
 	display:block;
-
+	text-align:left;
 	float: none;
 
 }
