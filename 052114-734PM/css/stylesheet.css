@@ -1,0 +1,389 @@
+*, *:before, *:after { /*Borders and padding are drawn inside the set width of the content*/
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+*{
+     font-family:"Helvetica Neue LT Pro 35 Thin";
+     /*font-size:1em;*/
+}
+
+@font-face{
+     font-family:"Helvetica Neue LT Pro 35 Thin";
+     src:url("../fonts/HelveticaNeueLTPro-Th.otf");
+}
+
+@font-face{
+     font-family:"Helvetica Neue LT Pro 65 Medium";
+     src:url("../fonts/HelveticaNeueLTPro-Md.otf");
+}
+
+@font-face{
+     font-family:"Entypo";
+     src:url("../img/icons/Entypo.otf");
+}
+
+@font-face{
+     font-family:"Entypo Social";
+     src:url("../img/icons/Entypo-Social.otf");
+}
+
+body{
+     border:0;
+     margin:0 auto;
+     max-width:1600px;
+     min-width:1280px;
+     padding:0;
+     /*width:100%;*/
+}
+
+/*Header*/
+     #header-container{
+          background-color:rgba(255,255,255,.95);
+          box-shadow:2px 2px 2px rgba(0,0,0,.2);
+          padding:1em 1em 1em 1em;
+          position:fixed;
+          width:100%;
+     }
+
+     header{
+     }
+
+     #header-logo{
+          float:left;
+     }
+
+     #header-logo img{
+          width:450px;
+     }
+
+     /*#header-navigation{
+
+     }
+
+     #header-navigation ul li{
+          display:block;
+          float:left;
+          list-style:none;
+     }*/
+
+     #header-navigation{
+          float:right;
+          /*width:100%;*/
+     }
+
+     /*#header-navigation ul{
+          margin:0 auto;
+     }*/
+
+     /*#header-navigation ul, #header-navigation li{
+         display:inline;
+         list-style:none;
+         position:absolute;
+         width:auto;
+     }*/
+
+     .header-heading{
+          font-weight:bold;
+          text-transform:uppercase;
+     }
+
+     .current{
+          color:#087cb3;
+     }
+
+     #header-cart-icon{
+          font-family:"Entypo";
+          font-size:3em;
+          line-height:0em;
+     }
+
+     /*Dropdown*/
+          #header-navigation ul{
+               display:inline;
+               list-style:none;
+               margin:0;
+               padding:0;
+               z-index:10;
+          }
+
+          #header-navigation ul li{
+               float:left;
+               display:block;
+               padding:10px 15px 5px 15px;
+               position:relative;
+          }
+
+          #header-navigation ul li ul {
+               display: none;
+          }
+
+          #header-navigation ul li a {
+               display:block;
+               margin-left:1px;
+               text-decoration:none;
+               white-space:nowrap;
+          }
+
+          /*#header-navigation ul li a:hover {*/
+               /*z-index:10;*/
+          /*}*/
+
+          #header-navigation ul li:hover {
+               /*background:rgba(150,250,0,1);*/
+               padding-bottom:7px;
+               z-index:10;
+          }
+
+          #header-navigation ul li ul li:hover {
+               /*background:rgba(100,50,90,1);*/
+               border-radius:0;
+               color:#e84b14;
+          }
+
+          #header-navigation li:hover ul {
+               background:rgba(255,255,255,1);
+               border-radius:2px;
+               box-shadow:2px 2px 2px rgba(0,0,0,.1);
+               display: block;
+               left:0px;
+               position:absolute;
+               top:34px;
+          }
+
+          #header-navigation li:hover li {
+               float:none;
+               padding:10px 50px 10px 14px;
+          }
+
+          #header-navigation li:hover li:first-of-type{
+              border-top:5px solid #4a4a4a;
+          }
+
+     /*Header Links*/
+          header a:link{
+               color:#4a4a4a;
+               text-decoration:none;
+          }
+
+          header a:visited{
+               color:#4a4a4a;
+               text-decoration:none;
+          }
+
+          header a:hover{
+               color:#087cb3;
+               opacity:.9;
+               text-decoration:none;
+               transition:all .9s ease;
+               -webkit-transition:all 0.9s ease;
+               -mox-transition:all 0.9s ease;
+               -o-transition:all 0.9s ease;
+          }
+
+          header a:active{
+               color:#4a4a4a;
+               text-decoration:none;
+          }
+
+/*Content*/
+     #content-container{
+          background-color:rgba(255,255,255,1);
+          width:100%;
+     }
+
+     .section{
+          display:inline-block;
+          width:100%;
+     }
+
+     .section-heading{
+          font-family:"Helvetica Neue LT Pro 35 Thin";
+          font-size:2em;
+          font-weight:bold;
+          text-transform:uppercase;
+     }
+
+     .section-left-col{
+          display:inline-block;
+          float:left;
+          /*font-size:1em;*/
+          height:auto;
+          margin:2em 0 2em 2em;
+          max-width:75%;
+          /*min-width:100%;*/
+          /*width:80%;*/
+     }
+
+     .section-right-col{
+          display:inline-block;
+          float:right;
+          height:auto;
+          margin:2em 2em 2em 0;
+          max-width:100%;
+          /*min-width:50%;*/
+          /*width:20%;*/
+     }
+
+     /*video*/
+          .video-1{
+               /*height:475px;*/
+               width:100%;
+          }
+
+          .video-2{
+               height:475px;
+               /*width:100%;*/
+               overflow:hidden;
+          }
+
+          .video-player{
+               /*height:475px;*/
+               /*height:auto;*/
+               width:100%;
+               /*width:auto;*/
+          }
+
+     /*blurb*/
+          .blurb img{
+               width:100%;
+          }
+
+/*Footer*/
+     #footer-container{
+          background-color:#efefef;
+          max-width:100%;
+     }
+
+     #footer-topbar{
+          background-color:#4a4a4a;
+          color:rgba(255,255,255,1);
+          height:auto;
+          max-width:100%;
+          padding:.5em 0 .5em 0;
+          text-align:center;
+          text-transform:uppercase;
+     }
+
+     footer{
+          padding:0 1em .2em 1em;
+     }
+
+     #footer-left-col{
+          display:inline-block;
+          float:left;
+          /*height:100px;*/
+          /*max-width:200px;*/
+          height:100%;
+          width:auto;
+     }
+
+     #footer-logo img{
+          height:250px;
+     }
+
+     #footer-right-col{
+          display:inline-block;
+          float:right;
+          /*height:auto;*/
+          max-width:100%;
+     }
+
+     #footer-contact{
+          display:inline-block;
+          width:100%;
+     }
+
+     #footer-contact li{
+          display:inline;
+          float:left;
+          list-style:none;
+     }
+
+     #footer-phone-email{
+          display:inline;
+          float:left;
+     }
+
+     .footer-phone-email-icon{
+          font-family:"Entypo";
+          font-size:3em;
+          line-height:0em;
+     }
+
+     #footer-social-media{
+          display:inline;
+          float:right;
+          padding-right:2.5em;
+     }
+
+     .footer-social-media-icon{
+          font-family:"Entypo Social";
+          font-size:3em;
+          line-height:0em;
+     }
+
+     #footer-sitemap-container{
+          width:100%;
+     }
+
+     .footer-heading-1{
+          display:block;
+          padding-top:1em;
+          padding-bottom:1em;
+          text-transform:uppercase;
+          text-align:center;
+          width:100%;
+     }
+
+     #footer-sitemap{
+          display:inline-block;
+          font-size:1em;
+     }
+
+     #footer-sitemap ul{
+          display:inline-block;
+          float:left;
+          list-style:none;
+          padding-right:2em;
+     }
+
+     .footer-heading-2{
+          font-weight:bold;
+          text-transform:uppercase;
+     }
+
+     #footer-copyright{
+          color:#4a4a4a;
+          display:inline-block;
+          text-align:center;
+          text-transform:uppercase;
+          width:100%;
+     }
+
+     /*Footer Links*/
+          footer a:link{
+               color:#4a4a4a;
+               text-decoration:none;
+          }
+
+          footer a:visited{
+               color:#4a4a4a;
+               text-decoration:none;
+          }
+
+          footer a:hover{
+               color:#087cb3;
+               opacity:.9;
+               text-decoration:none;
+               transition:all .9s ease;
+               -webkit-transition:all 0.9s ease;
+               -mox-transition:all 0.9s ease;
+               -o-transition:all 0.9s ease;
+          }
+
+          footer a:active{
+               color:#4a4a4a;
+               text-decoration:none;
+          }
