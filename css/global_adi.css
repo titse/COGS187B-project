@@ -194,6 +194,7 @@ header {
 #navbar nav ul li.current a {
 	color: #087cb3;
 	cursor: default;
+	padding-left:0;
 }
 #navbar nav ul li.current ul li a{
 	cursor:pointer;
@@ -202,11 +203,12 @@ header {
 #navbar nav li ul.sub_menu{
 	display: none;
 	position: absolute;
-	padding: 18px;
+	
 	top:25px;
 	left:0;
-	width: 150px;
-	height:auto;
+	max-width: 136px;
+	height: auto;
+	
 	top:30px;
 	left:0;
 	background: #fff;
@@ -240,13 +242,12 @@ header {
 
 	margin:0;
 	padding:0;
-	border-bottom:1px solid #ececec;
 	display:block;
 	text-align:left;
 	float: none;
 
 }
 #navbar  nav ul li ul a{
-	padding-left: 1em;
+	
 	display:block;
 }
