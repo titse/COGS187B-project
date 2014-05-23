@@ -60,6 +60,7 @@ body{
           background-color:rgba(239,239,239,.95);
           box-shadow:2px 2px 2px rgba(0,0,0,.2);
           height:115px;
+          margin:0 auto;
           max-width:1600px;
           min-width:1280px;
           padding:1em 1em 1em 1em;
@@ -211,22 +212,24 @@ body{
 /*Content*/
      #content-container{
           background:url("../img/witewall_3.png") repeat;
-          /*max-width:1600px;*/
-          /*width:1280px;*/
+          margin:0 auto;
+          max-width:1600px;
+          min-width:1280px;
           /*opacity:.5;*/
-          padding:115px;
-          /*width:100%;*/
+          width:100%;
      }
 
      a.anchor{
           display:block;
           position:relative;
-          top:-120px;
+          top:-125px;
           visibility:hidden;
      }
 
      .section{
           display:inline-block;
+          max-width:1600px;
+          min-width:1300px;
           width:100%;
      }
 
@@ -276,6 +279,7 @@ body{
 /*Footer*/
      #footer-container{
           background-color:rgba(239,239,239,1);
+          margin:0 auto;
           max-width:1600px;
           min-width:1280px;
           width:100%;
