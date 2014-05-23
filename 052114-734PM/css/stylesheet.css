@@ -1,3 +1,41 @@
+/*Colors:
+-Blue: #006cb8, rgba(0,108,184,1)
+-Blue (EcoQube): #015189, rgba(0,81,137,1)
+-Green: #26a02f, rgba(38,160,47,1)
+-Gray: #4a4a4a, rgba(74,74,74,1)
+-Gray (Light): #efefef, rgba(239,239,239,1)*/
+
+/*Fonts*/
+     @font-face{ /*For all section headings and link headings + font-weight:bold;*/
+          font-family:"Helvetica Neue LT Pro Thin";
+          src:url("../fonts/HelveticaNeueLTPro-Th.otf");
+     }
+
+     @font-face{ /*For all text/links*/
+          font-family:"Helvetica Neue LT Pro Light";
+          src:url("../fonts/HelveticaNeueLTPro-Lt.otf");
+     }
+
+     @font-face{
+          font-family:"Helvetica Neue LT Pro Medium";
+          src:url("../fonts/HelveticaNeueLTPro-Md.otf");
+     }
+
+     @font-face{
+          font-family:"Helvetica Neue LT Pro Roman";
+          src:url("../fonts/HelveticaNeueLTPro-Roman.otf");
+     }
+
+     @font-face{
+          font-family:"Entypo";
+          src:url("../img/icons/Entypo.otf");
+     }
+
+     @font-face{
+          font-family:"Entypo Social";
+          src:url("../img/icons/Entypo-Social.otf");
+     }
+
 *, *:before, *:after { /*Borders and padding are drawn inside the set width of the content*/
      -moz-box-sizing: border-box;
      -webkit-box-sizing: border-box;
@@ -5,28 +43,7 @@
 }
 
 *{
-     font-family:"Helvetica Neue LT Pro 35 Thin";
-     /*font-size:1em;*/
-}
-
-@font-face{
-     font-family:"Helvetica Neue LT Pro 35 Thin";
-     src:url("../fonts/HelveticaNeueLTPro-Th.otf");
-}
-
-@font-face{
-     font-family:"Helvetica Neue LT Pro 65 Medium";
-     src:url("../fonts/HelveticaNeueLTPro-Md.otf");
-}
-
-@font-face{
-     font-family:"Entypo";
-     src:url("../img/icons/Entypo.otf");
-}
-
-@font-face{
-     font-family:"Entypo Social";
-     src:url("../img/icons/Entypo-Social.otf");
+     font-family:"Helvetica Neue LT Pro Light";
 }
 
 body{
@@ -40,7 +57,7 @@ body{
 
 /*Header*/
      #header-container{
-          background-color:rgba(255,255,255,.95);
+          background-color:rgba(239,239,239,.95);
           box-shadow:2px 2px 2px rgba(0,0,0,.2);
           padding:1em 1em 1em 1em;
           position:fixed;
@@ -70,6 +87,7 @@ body{
 
      #header-navigation{
           float:right;
+          padding-top:1em;
           /*width:100%;*/
      }
 
@@ -89,8 +107,8 @@ body{
           text-transform:uppercase;
      }
 
-     .current{
-          color:#087cb3;
+     #current{
+          color:rgba(0,108,184,1);
      }
 
      #header-cart-icon{
@@ -139,12 +157,11 @@ body{
           #header-navigation ul li ul li:hover {
                /*background:rgba(100,50,90,1);*/
                border-radius:0;
-               color:#e84b14;
+               rgba(38,160,47,1)
           }
 
           #header-navigation li:hover ul {
-               background:rgba(255,255,255,1);
-               border-radius:2px;
+               background:rgba(239,239,239,.95);
                box-shadow:2px 2px 2px rgba(0,0,0,.1);
                display: block;
                left:0px;
@@ -158,38 +175,40 @@ body{
           }
 
           #header-navigation li:hover li:first-of-type{
-              border-top:5px solid #4a4a4a;
+              border-top:5px solid rgba(74,74,74,1);
           }
 
      /*Header Links*/
           header a:link{
-               color:#4a4a4a;
+               color:rgba(74,74,74,1);
+               font-family:"Helvetica Neue LT Pro Light";
+               font-size:1.3em;
                text-decoration:none;
           }
 
           header a:visited{
-               color:#4a4a4a;
+               color:rgba(74,74,74,1);
+               font-family:"Helvetica Neue LT Pro Light";
                text-decoration:none;
           }
 
           header a:hover{
-               color:#087cb3;
+               color:rgba(0,108,184,1);
+               font-family:"Helvetica Neue LT Pro Light";
                opacity:.9;
                text-decoration:none;
-               transition:all .9s ease;
-               -webkit-transition:all 0.9s ease;
-               -mox-transition:all 0.9s ease;
-               -o-transition:all 0.9s ease;
           }
 
           header a:active{
-               color:#4a4a4a;
+               color:rgba(74,74,74,1);
+               font-family:"Helvetica Neue LT Pro Light";
                text-decoration:none;
           }
 
 /*Content*/
      #content-container{
-          background-color:rgba(255,255,255,1);
+          background:url("../img/witewall_3.png") repeat;
+          /*opacity:.5;*/
           width:100%;
      }
 
@@ -199,7 +218,8 @@ body{
      }
 
      .section-heading{
-          font-family:"Helvetica Neue LT Pro 35 Thin";
+          color:rgba(74,74,74,1);
+          font-family:"Helvetica Neue LT Pro Light";
           font-size:2em;
           font-weight:bold;
           text-transform:uppercase;
@@ -226,23 +246,13 @@ body{
           /*width:20%;*/
      }
 
-     /*video*/
+     /*Splash video*/
           .video-1{
-               /*height:475px;*/
                width:100%;
           }
 
-          .video-2{
-               height:475px;
-               /*width:100%;*/
-               overflow:hidden;
-          }
-
-          .video-player{
-               /*height:475px;*/
-               /*height:auto;*/
+          .video-1 img{
                width:100%;
-               /*width:auto;*/
           }
 
      /*blurb*/
@@ -252,12 +262,12 @@ body{
 
 /*Footer*/
      #footer-container{
-          background-color:#efefef;
+          background-color:rgba(239,239,239,1);
           max-width:100%;
      }
 
      #footer-topbar{
-          background-color:#4a4a4a;
+          background-color:rgba(0,108,184,1);
           color:rgba(255,255,255,1);
           height:auto;
           max-width:100%;
@@ -292,6 +302,8 @@ body{
 
      #footer-contact{
           display:inline-block;
+          /*color:rgba(74,74,74,1);*/
+          font-size:1.2em;
           width:100%;
      }
 
@@ -330,6 +342,7 @@ body{
 
      .footer-heading-1{
           display:block;
+          /*font-family:"Helvetica Neue LT Pro Light";*/
           padding-top:1em;
           padding-bottom:1em;
           text-transform:uppercase;
@@ -350,13 +363,15 @@ body{
      }
 
      .footer-heading-2{
+          /*font-family:"Helvetica Neue LT Pro Light";*/
           font-weight:bold;
           text-transform:uppercase;
      }
 
      #footer-copyright{
-          color:#4a4a4a;
+          color:rgba(74,74,74,1);
           display:inline-block;
+          font-size:.7em;
           text-align:center;
           text-transform:uppercase;
           width:100%;
@@ -364,26 +379,25 @@ body{
 
      /*Footer Links*/
           footer a:link{
-               color:#4a4a4a;
+               color:rgba(74,74,74,1);
+               font-family:"Helvetica Neue LT Pro Light";
                text-decoration:none;
           }
 
           footer a:visited{
-               color:#4a4a4a;
+               color:rgba(74,74,74,1);
+               font-family:"Helvetica Neue LT Pro Light";
                text-decoration:none;
           }
 
           footer a:hover{
-               color:#087cb3;
-               opacity:.9;
+               color:rgba(0,108,184,1);
+               font-family:"Helvetica Neue LT Pro Light";
                text-decoration:none;
-               transition:all .9s ease;
-               -webkit-transition:all 0.9s ease;
-               -mox-transition:all 0.9s ease;
-               -o-transition:all 0.9s ease;
           }
 
           footer a:active{
-               color:#4a4a4a;
+               color:rgba(74,74,74,1);
+               font-family:"Helvetica Neue LT Pro Light";
                text-decoration:none;
           }
