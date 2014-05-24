@@ -6,6 +6,9 @@
           <link type="text/css" rel="stylesheet" href="../css/shop.css"/>
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1">
+          <script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
+          <script type="text/javascript" src="../js/layerlib.js"></script>
+          <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
      </head>
      <body>
 
@@ -113,45 +116,67 @@
 
 <!-- Content  -->
 
-          <div id="shop-content-container" class="section">
+          <div id="shop-content-container">
 
-            <div class="product">
-              <div class="product-image">
+            <div class="product" id="test-prod">
+              <div class="product-image-conatiner">
+                <div class="product-image"></div>
+              </div>
 
+              <div class="info-icons-wrapper">
+                <div class="icon-description-field">
+                  <img src="../img/ecoqube/leaf.png" class="icon" width="40" alt="EcoQube icon" title="EcoQube item"/>
+                  <p class="icon-description">EQ item</p>
+                </div>
+
+                <div class="icon-description-field">
+                  <img src="../img/ecoqube/fish.png" class="icon" width="40" alt="Lifetime icon" title="Lifetime of item"/>
+                  <p class="icon-description">4 months</p>
+                </div>
+
+                <div class="icon-description-field">
+                  <img src="../img/ecoqube/water.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
+                  <p class="icon-description">25 degrees</p>
+                </div>
               </div>
               <p class="product-name">Algae eating Horned nerite snails</p>
               <p class="price">$ 4.99</p>
-              <div class="info-icons-wrapper">
-                <div id="icon-1" class="icon-description"></div>
-                <div id="icon-2" class="icon-description"></div>
-                <div id="icon-3" class="icon-description"></div>
+            </div>
+
+
+
+
+            <div class="product">
+
+            </div>
+
+            <div class="product">
+
+            </div>
+
+            <div class="product">
+
+            </div>
+
+            <div class="product">
+
+            </div>
+
+            <div class="product">
+
+            </div>
+
+            <div id="product-image-overlay">
+              <div class="product-image-conatiner">
+                <div class="product-image">
+                  <div id="upper-overlay" class="overlay-section">
+                    <h3>DESCRIPTION</h3>
+                  </div>
+                  <div id="lower-overlay" class="overlay-section">
+                    <h3>ADD TO CART</h3>
+                  </div>
+                </div>
               </div>
-
-              <!--
-              <div class="price-holder">
-                <p>$ 4.99</p>
-              </div>
-            -->
-            </div>
-
-            <div class="product">
-
-            </div>
-
-            <div class="product">
-
-            </div>
-
-            <div class="product">
-
-            </div>
-
-            <div class="product">
-
-            </div>
-
-            <div class="product">
-
             </div>
 
           </div><!-- #content-container -->
@@ -250,11 +275,48 @@
                     </div><!-- #footer-right-col -->
 
                     <div id="footer-copyright">
-                         <p>Aqua Design Innovations 2014 - All Rights Reserved</p>
+                         <p id="testdiv">Aqua Design Innovations 2014 - All Rights Reserved</p>
                     </div><!-- #footer-copyright -->
 
                     </footer>
           </div><!-- #footer-container -->
+
+          <script>
+
+            var DEBUG = true;
+
+            $("div.product").mouseover(function() {
+              if (DEBUG) { console.log("Mouse over product with ID: " + this.id); };
+
+              var o = $(this);
+              var x = o.offset().left;
+              var y = o.offset().top;
+
+              console.log("X: " + x + ", Y: " + y);
+
+              showOverlay(x, y);
+
+            });
+
+            function showOverlay(x, y) {
+              if (DEBUG) { console.log("Showing overlay at X: " + x + ", Y: " + y); };
+
+              var overlay = $("#product-image-overlay");
+
+              setX("product-image-overlay", x);
+              setY("product-image-overlay", y);
+
+            }
+
+
+
+
+            $(document).ready(function() {
+
+            });
+
+
+          </script>
 <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
      </body>
 </html>
