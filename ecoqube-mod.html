@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
      <head>
-          <title>ADI | shop</title>
-          <link type="text/css" rel="stylesheet" href="../css/stylesheet.css"/>
-          <link type="text/css" rel="stylesheet" href="../css/shop.css"/>
+          <title>Aqua Design Innovations</title>
+          <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1">
-          <script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
-          <script type="text/javascript" src="../js/layerlib.js"></script>
-          <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+
      </head>
      <body>
 
@@ -16,21 +14,21 @@
           <div id="header-container">
                <header>
                     <div id="header-logo">
-                         <a href="../index.html"><img src="../img/logos/header-logo.png" /></a>
+                         <a href="index.html"><img src="img/logos/header-logo.png" /></a>
                     </div><!-- #header-logo -->
 
                     <div id="header-navigation">
                          <ul>
-                              <li><a href="ecoqube.html" class="header-heading">EcoQube</a>
+                              <li><a href="ecoqube.html" class="header-heading" id="current">EcoQube</a>
                                    <ul class="sub_menu">
-                                        <li><a href="ecoqube.html#howitworks">How It Works</a></li>
-                                        <li><a href="ecoqube.html#keyfeatures">Key Features</a></li>
-                                        <li><a href="ecoqube.html#fishandplants">Fish & Plants</a></li>
-                                        <li><a href="ecoqube.html#buyittoday">Buy It Today</a></li>
-                                        <li><a href="ecoqube.html#press">Press Releases</a></li>
+                                        <li><a id='howitworksBtn' href="ecoqube.html#howitworks">How It Works</a></li>
+                                        <li><a  id= 'keyfeaturesBtn' href="ecoqube.html#keyfeatures">Key Features</a></li>
+                                        <li><a id = 'fishandplantsBtn' href="ecoqube.html#fishandplants">Fish & Plants</a></li>
+                                        <li><a id ='buyittodayBtn' href="ecoqube.html#buyittoday">Buy It Today</a></li>
+                                        <li><a id ='pressBtn'href="ecoqube.html#press">Press Releases</a></li>
                                    </ul>
                               </li>
-                              <li><a href="shop.html" class="header-heading"><span class="current">Shop</span></a>
+                              <li><a href="shop/index.html" class="header-heading">Shop</a> 
                                    <ul class="sub_menu">
                                         <li><a href="shop/ecoqube.html">EcoQube</a></li>
                                         <li><a href="shop/livestock.html">Livestock</a></li>
@@ -69,115 +67,74 @@
                                         <li><a href="faq.html#warranty">Warranty</a></li>
                                    </ul>
                               </li>
-                              <li><a href="../index.html" id="header-cart-icon">&#59197</a>
+                              <li><a href="index.html" id="header-cart-icon">&#59197</a>
                               </li>
                          </ul>
                     </div><!-- #header-navigation -->
                </header>
           </div><!-- #header-container -->
 
-<!-- Secondary-navigation  -->
-          <div id="side-navbar">
-            <div id="side-navbar-content">
-              <ul>
-                <li id="categories-heading">
-                  <h3> CATEGORIES </h3>
-                </li>
-                <li class="shop-category">
-                  <ul id="shop-category-ecoqube">
-                    <li><a href="#" id="category-subheading-ecoqube" class="shop-category-heading"> EcoQube </a></li>
-                    <li><a href="#" class="shop-category-item"> Fish </a></li>
-                    <li><a href="#" class="shop-category-item"> Plants </a></li>
-                    <li><a href="#" class="shop-category-item"> Accessories </a></li>
-                  </ul>
-                </li>
-                <li class="shop-category">
-                  <ul id="shop-category-livestock">
-                    <li><a href="#" id="category-subheading-livestock" class="shop-category-heading"> Livestock </a></li>
-                    <li><a href="#" class="shop-category-item"> Fish </a></li>
-                    <li><a href="#" class="shop-category-item"> Invertebrates </a></li>
-                  </ul>
-                </li>
-                <li class="shop-category">
-                  <ul id="shop-category-livestock">
-                    <li><a href="#" id="category-subheading-livestock" class="shop-category-heading"> Plants </a></li>
-                    <li><a href="#" class="shop-category-item"> Terrestrial </a></li>
-                    <li><a href="#" class="shop-category-item"> Aquatic </a></li>
-                  </ul>
-                </li>
-                <li class="shop-category">
-                  <ul id="shop-category-livestock">
-                    <li><a href="#" id="category-subheading-livestock" class="shop-category-heading"> Accessories </a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div><!-- #Side-navbar-content  -->
-          </div><!-- #Side-navbar  -->
-
 <!-- Content  -->
+          <div id="content-container">
+               <div class="section">
+                    <div class="video-1">
+                         <img src="img/ecoqube1.jpg" />
+                    </div><!-- .video-1 -->
+               </div><!-- .section -->
 
-          <div id="shop-content-container">
+               <div class="section">
+                    <div class="section-left-col">
+                         <div class="section-heading">
+                              <a id="howitworks" class="anchor"></a>How Does the EcoQube Work?
+                         </div><!-- .section-heading -->
+                         <br />
+                         <img src="img/ecoqube/fish.png" />
+                         Fish excrete waste into the water.
+                         <img src="img/ecoqube/water.png" />
+                         Aquaponics filter turns waste into fertilizer.
+                         <img src="img/ecoqube/leaf.png" />
+                         Filter uses plants to purify the water.
+                         <br />
+                         The EcoQube’s patent pending aquaponics filter allows you to efficiently grow your house plants or micro-greens with ease, while using the same plants to keep your aquarium clean.
+                         <br />
+                         Fertilized water from the fish is fed to plant roots at 100 gallons per hour and the roots remove the fish waste before water re-enters the aquarium, making it a low maintenance plant propagator and easy to care for aquarium.
+                         <br />
+                         This makes the EcoQube a natural, self-sustainable, and easy to care for aquarium.
+                    </div><!-- .section-left-col -->
+                    <div class="section-right-col">
+                         <img src="img/ecoqube/eqrender.png" />
+                    </div><!-- .section-right-col -->
+               </div><!-- .section -->
 
-            <div class="product" id="test-prod">
-              <div class="product-image-conatiner">
-                <div class="product-image"></div>
-              </div>
+               <div class="section">
+                    <div class="blurb">
+                         <img src="img/ecoqube3.png" />
+                    </div><!-- .blurb -->
+               </div><!-- .section -->
 
-              <div class="info-icons-wrapper">
-                <div class="icon-description-field">
-                  <img src="../img/ecoqube/leaf.png" class="icon" width="40" alt="EcoQube icon" title="EcoQube item"/>
-                  <p class="icon-description">EQ item</p>
-                </div>
+               <div class="section">
+                    <div class="section-left-col">
+                         <div class="section-heading">
+                              <a id="keyfeatures" class="anchor"></a>Key Features
+                         </div><!-- .section-heading -->
 
-                <div class="icon-description-field">
-                  <img src="../img/ecoqube/fish.png" class="icon" width="40" alt="Lifetime icon" title="Lifetime of item"/>
-                  <p class="icon-description">4 months</p>
-                </div>
-
-                <div class="icon-description-field">
-                  <img src="../img/ecoqube/water.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
-                  <p class="icon-description">25 degrees</p>
-                </div>
-              </div>
-              <p class="product-name">Algae eating Horned nerite snails</p>
-              <p class="price">$ 4.99</p>
-            </div>
-
-
-
-
-            <div class="product">
-
-            </div>
-
-            <div class="product">
-
-            </div>
-
-            <div class="product">
-
-            </div>
-
-            <div class="product">
-
-            </div>
-
-            <div class="product">
-
-            </div>
-
-            <div id="product-image-overlay">
-              <div class="product-image-conatiner">
-                <div class="product-image">
-                  <div id="upper-overlay" class="overlay-section">
-                    <h3>DESCRIPTION</h3>
-                  </div>
-                  <div id="lower-overlay" class="overlay-section">
-                    <h3>ADD TO CART</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
+                         <br />
+                         The aquarium kit provides you with the easiest and most sustainable way to keep fish and grow plants!
+                         <br />
+                         The complete EcoQube includes the following:
+                         <br />
+                         LED Light
+                         <br />
+                         LED UV Sterilizer
+                         <br />
+                         Aquaponics filter
+                         <br />
+                         Aquarium
+                    </div><!-- .section-left-col -->
+                    <div class="section-right-col">
+                         <img src="img/ecoqube/eqfeatures.png" />
+                    </div><!-- .section-right-col -->
+               </div><!-- .section -->
 
           </div><!-- #content-container -->
 
@@ -194,7 +151,7 @@
                <footer>
                     <div id="footer-left-col">
                          <div id="footer-logo">
-                              <a href="index.html"><img src="../img/logos/footer-logo.png" /></a>
+                              <a href="index.html"><img src="img/logos/footer-logo.png" /></a>
                          </div><!-- #footer-logo -->
                     </div><!-- #footer-left-col -->
 
@@ -224,7 +181,6 @@
 
                          <div id="footer-sitemap-container">
                               <div class="footer-heading-1">
-                                   Sitemap
                               </div><!-- .footer-heading-1 -->
 
                               <div id="footer-sitemap">
@@ -275,48 +231,18 @@
                     </div><!-- #footer-right-col -->
 
                     <div id="footer-copyright">
-                         <p id="testdiv">Aqua Design Innovations 2014 - All Rights Reserved</p>
+                         <p>Aqua Design Innovations 2014 - All Rights Reserved</p>
                     </div><!-- #footer-copyright -->
 
                     </footer>
           </div><!-- #footer-container -->
 
-          <script>
-
-            var DEBUG = true;
-
-            $("div.product").mouseover(function() {
-              if (DEBUG) { console.log("Mouse over product with ID: " + this.id); };
-
-              var o = $(this);
-              var x = o.offset().left;
-              var y = o.offset().top;
-
-              console.log("X: " + x + ", Y: " + y);
-
-              showOverlay(x, y);
-
-            });
-
-            function showOverlay(x, y) {
-              if (DEBUG) { console.log("Showing overlay at X: " + x + ", Y: " + y); };
-
-              var overlay = $("#product-image-overlay");
-
-              setX("product-image-overlay", x);
-              setY("product-image-overlay", y);
-
-            }
-
-
-
-
-            $(document).ready(function() {
-
-            });
-
-
-          </script>
-<!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+<!-- scroll js file -->
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/scrolld.js"></script>
+<script type="text/javascript">
+$("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
+</script>
      </body>
 </html>
