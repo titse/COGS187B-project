@@ -21,11 +21,11 @@
                          <ul>
                               <li><a href="ecoqube.html" class="header-heading" id="current">EcoQube</a>
                                    <ul class="sub_menu">
-                                        <li><a href="ecoqube.html#howitworks">How It Works</a></li>
-                                        <li><a href="ecoqube.html#keyfeatures">Key Features</a></li>
-                                        <li><a href="ecoqube.html#fishandplants">Fish & Plants</a></li>
-                                        <li><a href="ecoqube.html#buyittoday">Buy It Today</a></li>
-                                        <li><a href="ecoqube.html#press">Press Releases</a></li>
+                                        <li><a id="howitworksBtn"  class="scrolldEasing2 scrolldEasing2Mobile" href="ecoqube.html#howitworks">How It Works</a></li>
+                                        <li><a id ="keyfeaturesBtn"  class="scrolldEasing2 scrolldEasing2Mobile" href="ecoqube.html#keyfeatures">Key Features</a></li>
+                                        <li><a id = "fishandplantsBtn" class="scrolldEasing2 scrolldEasing2Mobile" href="ecoqube.html#fishandplants">Fish & Plants</a></li>
+                                        <li><a id ="buyittodayBtn" class="scrolldEasing2 scrolldEasing2Mobile" href="ecoqube.html#buyittoday">Buy It Today</a></li>
+                                        <li><a id ="pressBtn"  class="scrolldEasing2 scrolldEasing2Mobile" href="ecoqube.html#press">Press Releases</a></li>
                                    </ul>
                               </li>
                               <li><a href="shop/index.html" class="header-heading">Shop</a> 
@@ -238,11 +238,11 @@
           </div><!-- #footer-container -->
 
 <!-- scroll js file -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-		<script type="text/javascript" src="../COGS187B-project/js/scrolld.js"></script>
+			<script type="text/javascript" src="../COGS187B-project/js/scrolld.js"></script>
 		<script type="text/javascript">
 		$("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
-
+		</script>
+		     
 </html>
