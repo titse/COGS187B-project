@@ -1,6 +1,6 @@
 (function ($) {
     $.fn.scrolld = function (options) {
-        var scrolldCustom = 0; // Set 'scrolldCustom' value here | Additional distance (+-) on scrolldTop & scrolldPre  
+        var scrolldCustom = 0; // Set 'scrolldCustom' value here | Additional distance (+-) on scrolldTop & scrolldPre
         var scrolldNavBar = ''; // Set id name of fixed web navbar
         var scrolldMobileNavBar = ''; // Set id name of fixed mobile navbar
 
@@ -15,7 +15,7 @@
         classList = [];
         // Trigger Win Scroll Function
         $win.scroll(function (e) {
-            y = $win.scrollTop(); // Update y value dynamically   
+            y = $win.scrollTop(); // Update y value dynamically
             e.stopImmediatePropagation() // Kill For Next Click
             return false;
         });
@@ -220,7 +220,8 @@
         var speed19 = 1900;
         var speed20 = 2000;
         var speedX = 3000;
-        // Define scrolling functions / Maths             
+
+        // Define scrolling functions / Maths
         var idScroll = $(this).attr('id');
         var scrolldFixed = $("#" + scrolldNavBar).outerHeight();
         var scrolldMobileFixed = $("#" + scrolldMobileNavBar).outerHeight();
@@ -237,6 +238,7 @@
         var scrolldCenter = offsetDivElementTop - Math.round(h / 2 - idScrollDivElementHeight / 2);
         var scrolldMobileTopFixed = Math.round(offsetDivElementTop - scrolldMobileFixed) + scrolldCustom;
         var scrolldMobilePreFixed = offsetDivElementTop - scrolldMobileFixed - Math.round(h / 20) + scrolldCustom;
+
         // Set Vars For Customization
         var scrolldDistance = scrolldTop;
         var scrolldDistanceMin = scrolldTop;
@@ -257,7 +259,7 @@
             /// Set Web Settings
             scrolldDistance: scrolldPre,
             scrolldDistanceMin: scrolldPre,
-            scrolldSpeed: speed11,
+            scrolldSpeed: speed5,
             scrolldEasing: 'scrolldEasing1',
             scrolldFixed: 'true',
             /// Set Mobile Settings
@@ -274,7 +276,7 @@
         this.each(function () {
             if ($(this).attr('id') != '') {
                 var $this = $(this);
-                // Multiple IF's For Easy Customization         
+                // Multiple IF's For Easy Customization
                 if (settings.scrolldDistance) {
                     scrolldDistance = settings.scrolldDistance;
                 }

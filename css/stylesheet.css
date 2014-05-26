@@ -120,10 +120,6 @@ body{
           text-transform:uppercase;
      }
 
-     #current{
-          color:rgba(0,108,184,1);
-     }
-
      #header-cart-icon{
           font-family:"Entypo";
           font-size:3em;
@@ -191,6 +187,10 @@ body{
               border-top:5px solid rgba(74,74,74,1);
           }
 
+          #current{
+               color:rgba(0,108,184,1);
+          }
+
      /*Header Links*/
           header a:link{
                color:rgba(74,74,74,1);
@@ -218,7 +218,27 @@ body{
                text-decoration:none;
           }
 
+/*Dot navigation*/
+     #dot-navigation-container{
+       width:auto;
+       height:auto;
+       /*background-color:white;*/
+       position:fixed;
+       top:35%;
+       left:97%;
+     }
+
+     #dot-navigation-container ul{
+        margin:0;
+        padding:0;
+     }
+
+     .dot-navigation-icon {
+       margin:0.1em;
+     }
+
 /*Content*/
+
      #content-container{
           background:url("../img/witewall_3.png") repeat;
           margin:0 auto;
@@ -231,8 +251,12 @@ body{
      a.anchor{
           display:block;
           position:relative;
-          top:-125px;
+          top:-114px;
           visibility:hidden;
+     }
+
+     .top-section{
+          margin-top:115px;
      }
 
      .section{
@@ -269,6 +293,11 @@ body{
           max-width:100%;
           /*min-width:50%;*/
           /*width:20%;*/
+     }
+
+     .test-section {
+       height:400px;
+       border:solid black 1px;
      }
 
      /*Splash video*/

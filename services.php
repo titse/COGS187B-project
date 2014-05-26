@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
      <head>
-          <title>Aqua Design Innovations</title>
+          <title>Services</title>
           <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
 
           <meta charset="UTF-8">
@@ -21,7 +21,7 @@
 
                     <div id="header-navigation">
                          <ul>
-                              <li><a href="ecoqube.html" class="header-heading" id="current">EcoQube</a>
+                              <li><a href="ecoqube.php" class="header-heading">EcoQube</a>
                                    <ul class="sub_menu">
                                         <li><a id="howitworksBtn"  class="" href="ecoqube.php#howitworks">How It Works</a></li>
                                         <li><a id ="keyfeaturesBtn"  class="" href="ecoqube.php#keyfeatures">Key Features</a></li>
@@ -38,7 +38,7 @@
                                         <li><a href="shop/accessories.html">Accessories</a></li>
                                      </ul>
                               </li>
-                              <li><a href="services.php" class="header-heading">Services</a>
+                              <li><a href="services.html" class="header-heading" id="current" >Services</a>
                                    <ul  class="sub_menu">
                                         <li><a id="contactBtn" href="services.php#contact">Contact</a></li>
                                         <li><a id="installationsBtn" href="services.php#installations">Installations</a></li>
@@ -104,70 +104,11 @@
 
 <!-- Content  -->
           <div id="content-container">
-               <div class="section top-section">
-                    <div class="video-1">
-                         <img src="img/ecoqube1.jpg" />
-                    </div><!-- .video-1 -->
-               </div><!-- .section -->
 
-               <div class="section">
-                    <div class="section-left-col">
-                         <div class="section-heading">
-                              <a id="howitworks" class="anchor"></a>How Does the EcoQube Work?
-                         </div><!-- .section-heading -->
-                         <br />
-                         <img src="img/ecoqube/fish.png" />
-                         Fish excrete waste into the water.
-                         <img src="img/ecoqube/water.png" />
-                         Aquaponics filter turns waste into fertilizer.
-                         <img src="img/ecoqube/leaf.png" />
-                         Filter uses plants to purify the water.
-                         <br />
-                         The EcoQube’s patent pending aquaponics filter allows you to efficiently grow your house plants or micro-greens with ease, while using the same plants to keep your aquarium clean.
-                         <br />
-                         Fertilized water from the fish is fed to plant roots at 100 gallons per hour and the roots remove the fish waste before water re-enters the aquarium, making it a low maintenance plant propagator and easy to care for aquarium.
-                         <br />
-                         This makes the EcoQube a natural, self-sustainable, and easy to care for aquarium.
-                    </div><!-- .section-left-col -->
-                    <div class="section-right-col">
-                         <img src="img/ecoqube/eqrender.png" />
-                    </div><!-- .section-right-col -->
-               </div><!-- .section -->
-
-               <div class="section">
-                    <div class="blurb">
-                         <img src="img/ecoqube3.png" />
-                    </div><!-- .blurb -->
-               </div><!-- .section -->
-
-               <div class="section">
-                    <div class="section-left-col">
-                         <div class="section-heading">
-                              <a id="keyfeatures" class="anchor"></a>Key Features
-                         </div><!-- .section-heading -->
-
-                         <br />
-                         The aquarium kit provides you with the easiest and most sustainable way to keep fish and grow plants!
-                         <br />
-                         The complete EcoQube includes the following:
-                         <br />
-                         LED Light
-                         <br />
-                         LED UV Sterilizer
-                         <br />
-                         Aquaponics filter
-                         <br />
-                         Aquarium
-                    </div><!-- .section-left-col -->
-                    <div class="section-right-col">
-                         <img src="img/ecoqube/eqfeatures.png" />
-                    </div><!-- .section-right-col -->
-               </div><!-- .section -->
-
-               <div class="section test-section">
+               <div class="section test-section top-section">
                   <div class="section-left-col">
                     <div class="section-heading">
-                         <a id="fishandplants" class="anchor"></a>Recommended fish and plants
+                         <a id="contact" class="anchor"></a>Contact us
                     </div><!-- .section-heading -->
                   </div>
 
@@ -176,7 +117,7 @@
                <div class="section test-section">
                   <div class="section-left-col">
                          <div class="section-heading">
-                              <a id="buytoday" class="anchor"></a>Buy the EcoQube today
+                              <a id="installations" class="anchor"></a>Installations services
                          </div><!-- .section-heading -->
                        </div>
                </div><!-- .section -->
@@ -184,7 +125,15 @@
                <div class="section test-section">
                  <div class="section-left-col">
                          <div class="section-heading">
-                              <a id="press" class="anchor"></a>Press releases
+                              <a id="maintenance" class="anchor"></a>Maintenance services
+                         </div><!-- .section-heading -->
+                       </div>
+               </div><!-- .section -->
+
+               <div class="section test-section">
+                 <div class="section-left-col">
+                         <div class="section-heading">
+                              <a id="gallert" class="anchor"></a>Gallery
                          </div><!-- .section-heading -->
                        </div>
                </div><!-- .section -->
@@ -291,11 +240,11 @@
           </div><!-- #footer-container -->
 
 <!-- scroll js file -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-			<script type="text/javascript" src="../COGS187B-project/js/scrolld.js"></script>
-		<script type="text/javascript">
-		$("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
-		</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+      <script type="text/javascript" src="../COGS187B-project/js/scrolld.js"></script>
+    <script type="text/javascript">
+    $("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
+    </script>
 
 </html>
