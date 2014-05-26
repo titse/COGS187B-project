@@ -3,6 +3,16 @@
      <head>
           <title>Aqua Design Innovations</title>
           <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+          <link type="text/css" rel="stylesheet" href="css/stylesheet-2.css"/>
+
+          <!-- Magnific Popup core CSS file -->
+          <link rel="stylesheet" href="Magnific-Popup-master/dist/magnific-popup.css">
+
+          <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+          <!-- Magnific Popup core JS file -->
+          <script src="Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
 
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -111,12 +121,38 @@
 
 <!-- Content  -->
           <div id="content-container">
-               <div class="section top-section">
-                    <div class="video-1">
-                         <img src="img/ecoqube1.jpg" />
-                    </div><!-- .video-1 -->
+
+               <!-- ECOQUBE VIDEO -->
+               <div class="section" id="section-first-margin">
+                    <a href="ecoqube-modal-1.html" class="modal-1">
+                         <div id="section-first-overlay">
+                              Introducing the<br />
+                              <img src="img/logos/ecoqube-logo.png" /><br />
+                              a beautiful, compact, all-in-one<br />
+                              aquatic ecosystem for your home or office.
+                         </div><!-- section-first-overlay -->
+                         <div class="section-first-icon-play">
+                              &#xe817;
+                         </div><!-- .section-first-icon-play -->
+                         <div class="section-first">
+                              <img src="img/ecoqube1.jpg" />
+                         </div><!-- .section-first -->
+                    </a>
+                    <script type="text/javascript">
+                         $(document).ready(function() {
+
+                              $('.modal-1').magnificPopup({
+                              type: 'ajax',
+                              alignTop: true,
+                              overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
+                              });
+
+                         });
+                    </script>
                </div><!-- .section -->
 
+
+               <!-- HOW IT WORKS -->
                <div class="section">
                     <div class="section-left-col">
                          <div class="section-heading">
@@ -171,6 +207,7 @@
                     </div><!-- .section-right-col -->
                </div><!-- .section -->
 
+               <!-- RECOMMENDED FISH AND PLANTS -->
                <div class="section test-section">
                   <div class="section-left-col">
                     <div class="section-heading">
@@ -180,6 +217,7 @@
 
                </div><!-- .section -->
 
+               <!-- BUY THE ECOQUBE TODAY -->
                <div class="section test-section">
                   <div class="section-left-col">
                          <div class="section-heading">
@@ -188,13 +226,16 @@
                        </div>
                </div><!-- .section -->
 
-               <div class="section test-section">
-                 <div class="section-left-col">
-                         <div class="section-heading">
-                              <a id="press" class="anchor"></a>Press releases
-                         </div><!-- .section-heading -->
-                       </div>
-               </div><!-- .section -->
+            <!-- PRESS RELEASES -->
+             <div class="section" id="section-last-margin">
+                  <div class="section-single-col">
+                       <div class="section-heading">
+                            <a id="press" class="anchor"></a>Press Releases
+                       </div><!-- .section-heading -->
+                       <br />
+                       <img src="img/ecoqube/press.png" />
+                  </div><!-- section-single-col -->
+             </div><!-- .section -->
 
           </div><!-- #content-container -->
 
@@ -220,20 +261,20 @@
                               <div id="footer-phone-email">
                                    <ul>
                                         <li>
-                                             <a href="mailto:info@aquadesignainnovations.com"><span class="footer-phone-email-icon">&#9993;</span> info@aquadesignainnovations.com</a>
+                                             <a href="mailto:info@aquadesignainnovations.com"><span id="footer-icon-email">&#xe801;</span> info@aquadesignainnovations.com</a>
                                         </li>
                                         <li>
-                                             <a href="tel:8582243474"><span class="footer-phone-email-icon">&#128222;</span>(888) 224-FISH</a>
+                                             <a href="tel:8582243474"><span id="footer-icon-phone">&#xe800;</span>(888) 224-FISH</a>
                                         </li>
                                    </ul>
                               </div>
                               <div id="footer-social-media">
                                    <ul>
                                         <li>
-                                             <a href="https://www.facebook.com/AQUADESIGNINNOVATIONS"><span class="footer-social-media-icon">&#62220;</span></a>
+                                             <a href="https://www.facebook.com/AQUADESIGNINNOVATIONS"><span id="footer-icon-fb">&#xe81b;</span></a>
                                         </li>
                                         <li>
-                                             <a href="https://twitter.com/DesignADI"><span class="footer-social-media-icon">&#62217;</span></a>
+                                             <a href="https://twitter.com/DesignADI"><span id="footer-icon-tw">&#xe81a;</span></a>
                                         </li>
                                    </ul>
                               </div>

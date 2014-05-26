@@ -48,10 +48,10 @@
                               </li>
                               <li><a href="about.html" class="header-heading">About</a>
                                    <ul  class="sub_menu">
-                                        <li><a href="about.html#ourstory">Our Story</a></li>
-                                        <li><a href="about.html#values">Values</a></li>
-                                        <li><a href="about.html#theteam">The Team</a></li>
-                                        <li><a href="about.html#affiliates">Affiliates</a></li>
+                                        <li><a href="about.php#ourstory">Our Story</a></li>
+                                        <li><a href="about.php#values">Values</a></li>
+                                        <li><a href="about.php#theteam">The Team</a></li>
+                                        <li><a href="about.php#affiliates">Affiliates</a></li>
                                    </ul>
                               </li>
                               <li><a href="learn.html" class="header-heading">Learn</a>
@@ -62,11 +62,11 @@
                               </li>
                               <li><a href="faq.html" class="header-heading">FAQ</a>
                                    <ul  class="sub_menu">
-                                        <li><a href="faq.html#ecoqube">EcoQube</a></li>
-                                        <li><a href="faq.html#shop">Shop</a></li>
-                                        <li><a href="faq.html#services">Services</a></li>
-                                        <li><a href="faq.html#shipping">Shipping</a></li>
-                                        <li><a href="faq.html#warranty">Warranty</a></li>
+                                        <li><a href="faq.php#ecoqube">EcoQube</a></li>
+                                        <li><a href="faq.php#shop">Shop</a></li>
+                                        <li><a href="faq.php#services">Services</a></li>
+                                        <li><a href="faq.php#shipping">Shipping</a></li>
+                                        <li><a href="faq.php#warranty">Warranty</a></li>
                                    </ul>
                               </li>
                               <li><a href="index.html" id="header-cart-icon">&#59197</a>
