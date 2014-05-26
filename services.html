@@ -87,7 +87,7 @@
 <!-- Content  -->
           <div id="content-container">
                <div class="section" id="section-first-margin">
-                    <a href="index.html">
+                    <a href="services-modal-1.html" class="modal-1">
                          <div id="section-first-overlay">
                               Innovative Design<br />
                               Professional Installations<br />
@@ -102,6 +102,17 @@
                               <img src="img/services/happyharbour1.png" />
                          </div><!-- .section-first -->
                     </a>
+                    <script type="text/javascript">
+                         $(document).ready(function() {
+
+                              $('.modal-1').magnificPopup({
+                              type: 'ajax',
+                              alignTop: true,
+                              overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
+                              });
+
+                         });
+                    </script>
                </div><!-- .section -->
 
                <div class="section">

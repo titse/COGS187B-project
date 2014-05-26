@@ -87,7 +87,7 @@
 <!-- Content  -->
           <div id="content-container">
                <div class="section" id="section-first-margin">
-                    <a href="index.html">
+                    <a href="ecoqube-modal-1.html" class="modal-1">
                          <div id="section-first-overlay">
                               Introducing the<br />
                               <img src="img/logos/ecoqube-logo.png" /><br />
@@ -101,6 +101,17 @@
                               <img src="img/ecoqube1.jpg" />
                          </div><!-- .section-first -->
                     </a>
+                    <script type="text/javascript">
+                         $(document).ready(function() {
+
+                              $('.modal-1').magnificPopup({
+                              type: 'ajax',
+                              alignTop: true,
+                              overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
+                              });
+
+                         });
+                    </script>
                </div><!-- .section -->
 
                <div class="section">
@@ -121,19 +132,6 @@
                          Fertilized water from the fish is fed to plant roots at 100 gallons per hour and the roots remove the fish waste before water re-enters the aquarium, making it a low maintenance plant propagator and easy to care for aquarium. 
                          <br />
                          This makes the EcoQube a natural, self-sustainable, and easy to care for aquarium.
-                         <br /><br />
-                         <a class="modal-ecoqube" href="modalwindow.html">Open a modal window.</a>
-                         <script type="text/javascript">
-                              $(document).ready(function() {
-
-                                   $('.modal-ecoqube').magnificPopup({
-                                   type: 'ajax',
-                                   alignTop: true,
-                                   overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
-                                   });
-
-                              });
-                         </script>
                     </div><!-- .section-left-col -->
                     <div class="section-right-col">
                          <img src="img/ecoqube/eqrender.png" />
