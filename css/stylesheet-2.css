@@ -321,7 +321,7 @@ body{
           padding:2em;
      }
 
-     /*blurb*/
+     /*Blurb*/
           .blurb-overlay{
                background-color:rgba(0,0,0,.25);
                color:rgba(255,255,255,.9);
@@ -340,6 +340,11 @@ body{
                height:300px;
                overflow:hidden;
                width:100%;
+          }
+
+     /*Last section*/
+          #section-last-margin{
+               margin-bottom:115px;
           }
 
 /*Footer*/
