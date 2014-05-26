@@ -217,7 +217,26 @@ body{
                font-family:"Helvetica Neue LT Pro Light";
                text-decoration:none;
           }
+/***shopping cart ***/
 
+	.shopping-cart{
+		display: block;
+		width: 10em;
+	}
+	.shopping-cart  ul.shopping-cart-submenu  ul.shopping-header li{
+		float:left;
+		background-color: grey;
+		color: white; 
+	}
+	.shopping-cart-submenu{	
+	clear:both;
+	display: none;
+
+}	  
+		  
+		  
+		  
+		  
 /*Dot navigation*/
      #dot-navigation-container{
        width:auto;

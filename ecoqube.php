@@ -69,7 +69,14 @@
                                         <li><a href="faq.html#warranty">Warranty</a></li>
                                    </ul>
                               </li>
-                              <li><a href="index.html" id="header-cart-icon">&#59197</a>
+                              <li class="shopping cart"><a href="index.html" id="header-cart-icon">&#59197 </a>
+									<ul class="shopping-header">
+										<li>Shopping Cart </li>
+										<li> </li>
+									</ul>
+									
+									<ul>
+									</ul>
                               </li>
                          </ul>
                     </div><!-- #header-navigation -->
