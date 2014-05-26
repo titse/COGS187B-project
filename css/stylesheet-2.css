@@ -205,7 +205,6 @@ body{
           header a:hover{
                color:rgba(0,108,184,1);
                font-family:"Helvetica Neue LT Pro Light";
-               opacity:.9;
                text-decoration:none;
           }
 
