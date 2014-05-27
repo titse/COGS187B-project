@@ -84,18 +84,17 @@
 				
 				<div class="learn-topic-container">
 					<div class="learn-ecosystems">
-					<a href="#"> <img src="img/learn/learn-ecosystems.png"/> </a>
+					<a href="ecosystems.php"><img src="../img/learn/learn-ecosystems.png" /></a>
 						<p>Learn more about aquaponic ecosystems</p>
 					</div>
 					
 					<div class="learn-blog">
-						<a href="#"> <img src="img/learn/adi-blog-picture.png"/> </a>
+						<a href="blog.php"><img src="../img/learn/adi-blog-picture.png" /></a>
 						<p>Read our Blog</p>
 					</div> <!---end of learn blog-->
 				</div> <!-- end learn-topic-container-->
 			</div><!---end of section container-->
           </div><!-- #content-container -->
-
 
 <!-- Footer  -->
           <div id="footer-container">
