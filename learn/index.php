@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
      <head>
-          <title>Aqua Design Innovations - Learn</title>
-          <link type="text/css" rel="stylesheet" href="../css/global.css"/>
-          <link type="text/css" rel="stylesheet" href="../css/learn.css"/>
+          <title>Aqua Design Innovations - EcoQube</title>
+          <link type="text/css" rel="stylesheet" href="css/global.css"/>
+          <link type="text/css" rel="stylesheet" href="css/learn.css"/>
 
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1">
+
+          <!-- Modal window -->
+               <!-- Magnific Popup core CSS file -->
+               <link rel="stylesheet" href="Magnific-Popup-master/dist/magnific-popup.css"> 
+
+               <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+               <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+
+               <!-- Magnific Popup core JS file -->
+               <script src="Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
                
      </head>
      <body>
@@ -15,115 +25,89 @@
           <div id="header-container">
                <header>
                     <div id="header-logo">
-                         <a href="../index.php"><img src="../img/logos/header-logo.png" /></a>
+                         <a href="index.php"><img src="img/logos/header-logo.png" /></a>
                     </div><!-- #header-logo -->
 
                     <div id="header-navigation">
                          <ul>
-                              <li><a href="../ecoqube.php" class="header-heading">EcoQube</a>
+                              <li><a href="ecoqube.php" class="header-heading" id="header-current">EcoQube</a>
                                    <ul class="sub_menu">
-                                        <li><a href="../ecoqube.php#howitworks">How It Works</a></li>
-                                        <li><a href="../ecoqube.php#keyfeatures">Key Features</a></li>
-                                        <li><a href="../ecoqube.php#buyittoday">Buy It Today</a></li>
-                                        <li><a href="../ecoqube.php#fishandplants">Fish & Plants</a></li>
-                                        <li><a href="../ecoqube.php#press">Press Releases</a></li>
+                                        <li><a href="ecoqube.php#howitworks" id="howitworksBtn" class="">How It Works</a></li>
+                                        <li><a href="ecoqube.php#keyfeatures" id="keyfeaturesBtn" class="">Key Features</a></li>
+                                        <li><a href="ecoqube.php#buyittoday" id="buyittodayBtn" class="">Buy It Today</a></li>
+                                        <li><a href="ecoqube.php#fishandplants" id="fishandplantsBtn" class="">Fish & Plants</a></li>
+                                        <li><a href="ecoqube.php#press" id="pressBtn" class="">Press Releases</a></li>
                                    </ul>
                               </li>
-                              <li><a href="../shop/index.php" class="header-heading">Shop</a> 
+                              <li><a href="shop/index.php" class="header-heading">Shop</a> 
                                    <ul class="sub_menu">
-                                        <li><a href="../shop/ecoqube.php">EcoQube</a></li>
-                                        <li><a href="../shop/livestock.php">Livestock</a></li>
-                                        <li><a href="../shop/plants.php">Plants</a></li>
-                                        <li><a href="../shop/accessories.php">Accessories</a></li>
+                                        <li><a href="shop/ecoqube.php">EcoQube</a></li>
+                                        <li><a href="shop/livestock.php">Livestock</a></li>
+                                        <li><a href="shop/plants.php">Plants</a></li>
+                                        <li><a href="shop/accessories.php">Accessories</a></li>
                                      </ul>                           
                               </li>
-                              <li><a href="../services.php" class="header-heading">Services</a>
+                              <li><a href="services.php" class="header-heading">Services</a>
                                    <ul  class="sub_menu">
-                                        <li><a href="../services.php#contact">Contact</a></li>    
-                                        <li><a href="../services.php#installations">Installations</a></li>
-                                        <li><a href="../services.php#maintenance">Maintenance</a></li>
-                                        <li><a href="../services.php#gallery">Gallery</a></li>
+                                        <li><a href="services.php#contact">Contact</a></li>    
+                                        <li><a href="services.php#installations">Installations</a></li>
+                                        <li><a href="services.php#maintenance">Maintenance</a></li>
+                                        <li><a href="services.php#gallery">Gallery</a></li>
                                    </ul>
                               </li>
-                              <li><a href="../about.php" class="header-heading">About</a>
+                              <li><a href="about.php" class="header-heading">About</a>
                                    <ul  class="sub_menu">
-                                        <li><a href="../about.php#ourstory">Our Story</a></li>
-                                        <li><a href="../about.php#values">Values</a></li>
-                                        <li><a href="../about.php#theteam">The Team</a></li>
-                                        <li><a href="../about.php#affiliates">Affiliates</a></li>
+                                        <li><a href="about.php#ourstory">Our Story</a></li>
+                                        <li><a href="about.php#values">Values</a></li>
+                                        <li><a href="about.php#theteam">The Team</a></li>
+                                        <li><a href="about.php#affiliates">Affiliates</a></li>
                                    </ul>
                               </li>
-                              <li><a href="index.php" class="header-heading" id="header-current">Learn</a>
+                              <li><a href="learn/index.php" class="header-heading">Learn</a>
                                    <ul  class="sub_menu">
-                                        <li><a href="blog.php">Blog</a></li>
-                                        <li><a href="ecosystems.php">Ecosystems</a></li>
+                                        <li><a href="learn/blog.php">Blog</a></li>
+                                        <li><a href="learn/ecosystems.php">Ecosystems</a></li>
                                    </ul>
                               </li>
-                              <li><a href="../faq.php" class="header-heading">FAQ</a>
+                              <li><a href="faq.php" class="header-heading">FAQ</a>
                                    <ul class="sub_menu">
-                                        <li><a href="../faq.php#ecoqube">EcoQube</a></li>
-                                        <li><a href="../faq.php#shop">Shop</a></li>
-                                        <li><a href="../faq.php#services">Services</a></li>
-                                        <li><a href="../faq.php#shipping">Shipping</a></li>
-                                        <li><a href="../faq.php#warranty">Warranty</a></li>
+                                        <li><a href="faq.php#ecoqube">EcoQube</a></li>
+                                        <li><a href="faq.php#shop">Shop</a></li>
+                                        <li><a href="faq.php#services">Services</a></li>
+                                        <li><a href="faq.php#shipping">Shipping</a></li>
+                                        <li><a href="faq.php#warranty">Warranty</a></li>
                                    </ul>
                               </li>
-                              <li><a href="../index.php" id="header-icon-cart">&#xe811;</a>
+                              <li><a href="index.php" id="header-icon-cart">&#xe811;</a>
                               </li>
                          </ul>
                     </div><!-- #header-navigation -->
                </header>
           </div><!-- #header-container -->
 
+
+
 <!-- Content  -->
           <div id="content-container">
-               <div class="section-container" id="first-section-margin">
-                    <div class="learn-video-overlay">
-                         Introducing the<br />
-                         <img src="../img/logos/ecoqube-logo.png" /><br />
-                         a beautiful, compact, all-in-one<br />
-                         aquatic ecosystem for your home or office.
-                    </div><!-- .learn-video-overlay -->
-                    <div class="learn-play-icon">
-                         &#xe817;
-                    </div><!-- .learn-play-icon -->
-                    <div class="learn-video-image">
-                         <img src="../img/ecoqube1.jpg" />
-                    </div><!-- .learn-video-image -->
-               </div><!-- .section-container #first-section-margin -->
-
-               <div class="section-container">
-                    <div class="section-content">
-                         <div class="section-heading">
-                              <a id="buyittoday" class="anchor"></a>Purchase an EcoQube Today
-                         </div><!-- .section-heading -->
-                         <br />
-                         The aquarium kit provides you with the easiest and most sustainable way to keep fish and grow plants!
-                         <br />
-                         The complete EcoQube includes the following:
-                         <br />
-                         LED Light
-                         <br />
-                         LED UV Sterilizer
-                         <br />
-                         Aquaponics filter
-                         <br />
-                         Aquarium
-                    </div><!-- section-content -->
-               </div><!-- .section-container -->
-
-               <div class="section-container" id="last-section-margin">
-                    <div class="section-content">
-                         <div class="section-heading">
-                              <a id="press" class="anchor"></a>Press Releases
-                         </div><!-- .section-heading -->
-                         <br />
-                         <img src="../img/ecoqube/press.png" />
-                    </div><!-- section-content -->
-               </div><!-- .section-container #last-section-margin -->
-
+		  <div class="section-container">
+				<div class ="learn-message"> 
+						<h2>Our learning areas provide useful information about aquarium related topics We hope you will use this information to gain knowledge and improve your aquatic ecosystem </h2>
+				</div>
+				
+				<div class="learn-topic-container">
+					<div class="learn-ecosystems">
+					<a href="#"> <img src="img/learn/learn-ecosystems.png"/> </a>
+						<p>Learn more about aquaponic ecosystems</p>
+					</div>
+					
+					<div class="learn-blog">
+						<a href="#"> <img src="img/learn/adi-blog-picture.png"/> </a>
+						<p>Read our Blog</p>
+					</div> <!---end of learn blog-->
+				</div> <!-- end learn-topic-container-->
+			</div><!---end of section container-->
           </div><!-- #content-container -->
-
+<!--End of Content-->
 <!-- Footer  -->
           <div id="footer-container">
                <div id="footer-topbar">
@@ -137,7 +121,7 @@
                <footer>
                     <div id="footer-left-col">
                          <div id="footer-logo">
-                              <a href="../index.php"><img src="../img/logos/footer-logo.png" /></a>
+                              <a href="index.php"><img src="img/logos/footer-logo.png" /></a>
                          </div><!-- #footer-logo -->
                     </div><!-- #footer-left-col -->
 
@@ -171,46 +155,46 @@
 
                               <div id="footer-sitemap">
                                    <ul>
-                                        <li><span class="footer-heading-2"><a href="../ecoqube.php">EcoQube</a></span></li>
-                                        <li><a href="../ecoqube.php#howitworks">How It Works</a></li>
-                                        <li><a href="../ecoqube.php#keyfeatures">Key Features</a></li>
-                                        <li><a href="../ecoqube.php#buyittoday">Buy It Today</a></li>
-                                        <li><a href="../ecoqube.php#fishandplants">Fish & Plants</a></li>
-                                        <li><a href="../ecoqube.php#press">Press Releases</a></li>
+                                        <li><span class="footer-heading-2"><a href="ecoqube.php">EcoQube</a></span></li>
+                                        <li><a href="ecoqube.php#howitworks">How It Works</a></li>
+                                        <li><a href="ecoqube.php#keyfeatures">Key Features</a></li>
+                                        <li><a href="ecoqube.php#buyittoday">Buy It Today</a></li>
+                                        <li><a href="ecoqube.php#fishandplants">Fish & Plants</a></li>
+                                        <li><a href="ecoqube.php#press">Press Releases</a></li>
                                    </ul>
                                    <ul>
-                                        <li><span class="footer-heading-2"><a href="../shop/index.php">Shop</a></span></li>
-                                        <li><a href="../shop/ecoqube.php">EcoQube</a></li>
-                                        <li><a href="../shop/livestock.php">Livestock</a></li>
-                                        <li><a href="../shop/plants.php">Plants</a></li>
-                                        <li><a href="../shop/accessories.php">Accessories</a></li>
+                                        <li><span class="footer-heading-2"><a href="shop/index.php">Shop</a></span></li>
+                                        <li><a href="shop/ecoqube.php">EcoQube</a></li>
+                                        <li><a href="shop/livestock.php">Livestock</a></li>
+                                        <li><a href="shop/plants.php">Plants</a></li>
+                                        <li><a href="shop/accessories.php">Accessories</a></li>
                                    </ul>
                                    <ul>
-                                        <li><span class="footer-heading-2"><a href="../services.php">Services</a></span></li>
-                                        <li><a href="../services.php#contact">Contact</a></li>    
-                                        <li><a href="../services.php#installations">Installations</a></li>
-                                        <li><a href="../services.php#maintenance">Maintenance</a></li>
-                                        <li><a href="../services.php#gallery">Gallery</a></li>
+                                        <li><span class="footer-heading-2"><a href="services.php">Services</a></span></li>
+                                        <li><a href="services.php#contact">Contact</a></li>    
+                                        <li><a href="services.php#installations">Installations</a></li>
+                                        <li><a href="services.php#maintenance">Maintenance</a></li>
+                                        <li><a href="services.php#gallery">Gallery</a></li>
                                    </ul>
                                    <ul>
-                                        <li><span class="footer-heading-2"><a href="../about.php">About</a></span></li>
-                                        <li><a href="../about.php#ourstory">Our Story</a></li>
-                                        <li><a href="../about.php/#values">Values</a></li>
-                                        <li><a href="../about.php/#theteam">The Team</a></li>
-                                        <li><a href="../about.php/#affiliates">Affiliates</a></li>
+                                        <li><span class="footer-heading-2"><a href="about.php">About</a></span></li>
+                                        <li><a href="about.php#ourstory">Our Story</a></li>
+                                        <li><a href="about.php/#values">Values</a></li>
+                                        <li><a href="about.php/#theteam">The Team</a></li>
+                                        <li><a href="about.php/#affiliates">Affiliates</a></li>
                                    </ul>
                                    <ul>
-                                        <li><span class="footer-heading-2"><a href="index.php">Learn</a></span></li>
-                                        <li><a href="blog.php">Blog</a></li>
-                                        <li><a href="ecosystems.php">Ecosystems</a></li>
+                                        <li><span class="footer-heading-2"><a href="learn/index.php">Learn</a></span></li>
+                                        <li><a href="learn/blog.php">Blog</a></li>
+                                        <li><a href="learn/ecosystems.php">Ecosystems</a></li>
                                    </ul>
                                    <ul>
-                                        <li><span class="footer-heading-2"><a href="../faq.php">FAQ</a></span></li>
-                                        <li><a href="../faq.php#ecoqube">EcoQube</a></li>
-                                        <li><a href="../faq.php#shop">Shop</a></li>
-                                        <li><a href="../faq.php#services">Services</a></li>
-                                        <li><a href="../faq.php#shipping">Shipping</a></li>
-                                        <li><a href="../faq.php#warranty">Warranty</a></li>
+                                        <li><span class="footer-heading-2"><a href="faq.php">FAQ</a></span></li>
+                                        <li><a href="faq.php#ecoqube">EcoQube</a></li>
+                                        <li><a href="faq.php#shop">Shop</a></li>
+                                        <li><a href="faq.php#services">Services</a></li>
+                                        <li><a href="faq.php#shipping">Shipping</a></li>
+                                        <li><a href="faq.php#warranty">Warranty</a></li>
                                    </ul>
                               </div><!-- #footer-sitemap -->
                          </div><!-- #footer-sitemap-container -->
@@ -224,4 +208,13 @@
           </div><!-- #footer-container -->
 
      </body>
+
+<!-- Scroll js file -->
+     <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+     <script type="text/javascript" src="js/scrolld.js"></script>
+     <script type="text/javascript">
+          $("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
+     </script>
+
 </html>
