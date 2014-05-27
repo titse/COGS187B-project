@@ -19,6 +19,11 @@
                <!-- Magnific Popup core JS file -->
                <script src="Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
 
+
+         <!-- JQuery visible library to detect which sections of the page is visible
+            at the users screen and sdjust the blue dot-->
+         <script src="jquery-visible-master/jquery.visible.js"></script>
+
      </head>
      <body>
 
@@ -90,32 +95,32 @@
      <div id="dot-navigation-container">
           <ul>
                <li class="dot-navigation-icon">
-                    <a id="howitworksBtn" class="" href="ecoqube.php#howitworks">
-                         <img class="navigation-dot" src="img/dots/dot-current.gif" width="25" height="25" alt="How It Works Navigation Dot" title="How It Works" />
+                    <a id="howitworksBtn" class="section-1-dot" href="ecoqube.php#howitworks">
+                         <img class="navigation-dot" id="img-section-1-dot" src="img/dots/dot-current.gif" width="25" height="25" alt="How It Works Navigation Dot" title="How It Works" />
                     </a>
                </li>
 
                <li class="dot-navigation-icon">
-                    <a id="keyfeaturesBtn" class="" href="ecoqube.php#keyfeatures">
-                         <img class="navigation-dot" src="img/dots/dot.gif" width="25" height="25" alt="Key Features Navigation Dot" title="Key Features" />
+                    <a id="keyfeaturesBtn" class="section-2-dot" href="ecoqube.php#keyfeatures">
+                         <img class="navigation-dot" id="img-section-2-dot" src="img/dots/dot.gif" width="25" height="25" alt="Key Features Navigation Dot" title="Key Features" />
                     </a>
                </li>
 
                <li class="dot-navigation-icon">
-                    <a id="buyittodayBtn" class="" href="ecoqube.php#buyittoday">
-                         <img class="navigation-dot" src="img/dots/dot.gif" width="25" height="25" alt="Buy It Today Navigation Dot" title="Buy It Today" />
+                    <a id="buyittodayBtn" class="section-3-dot" href="ecoqube.php#buyittoday">
+                         <img class="navigation-dot" id="img-section-3-dot" src="img/dots/dot.gif" width="25" height="25" alt="Buy It Today Navigation Dot" title="Buy It Today" />
                     </a>
                </li>
 
                <li class="dot-navigation-icon">
-                    <a id="fishandplantsBtn" class="" href="ecoqube.php#fishandplants">
-                         <img class="navigation-dot" src="img/dots/dot.gif" width="25" height="25" alt="Fish and Plants Navigation Dot" title="Fish and Plants" />
+                    <a id="fishandplantsBtn" class="section-4-dot" href="ecoqube.php#fishandplants">
+                         <img class="navigation-dot" id="img-section-4-dot" src="img/dots/dot.gif" width="25" height="25" alt="Fish and Plants Navigation Dot" title="Fish and Plants" />
                     </a>
                </li>
 
                <li class="dot-navigation-icon">
-                    <a id="pressBtn" class="" href="ecoqube.php#press">
-                         <img class="navigation-dot" src="img/dots/dot.gif" width="25" height="25" alt="Press Releases Navigation Dot" title="Press Releases" />
+                    <a id="pressBtn" class="section-5-dot" href="ecoqube.php#press">
+                         <img class="navigation-dot" id="img-section-5-dot" src="img/dots/dot.gif" width="25" height="25" alt="Press Releases Navigation Dot" title="Press Releases" />
                     </a>
                </li>
           </ul>
@@ -154,7 +159,7 @@
                     </div><!-- .section-container #first-section-margin -->
 
                <!-- How It Works -->
-                    <div class="section-container">
+                    <div class="section-container section-1">
                          <div class="section-content">
                               <div class="section-heading">
                                    <a id="howitworks" class="anchor"></a>How Does the EcoQube Work?
@@ -193,7 +198,7 @@
                     </div><!-- .section-container -->
 
                <!-- Key Features -->
-                    <div class="section-container">
+                    <div class="section-container section-2">
                          <div class="section-content">
                               <div class="section-heading">
                                    <a id="keyfeatures" class="anchor"></a>Key Features
@@ -232,7 +237,7 @@
                     </div><!-- .section-container -->
 
                <!-- Buy It Today -->
-                    <div class="section-container">
+                    <div class="section-container section-3">
                          <div class="section-content">
                               <div class="section-heading">
                                    <a id="buyittoday" class="anchor"></a>Purchase an EcoQube Today
@@ -253,7 +258,7 @@
                     </div><!-- .section-container -->
 
                <!-- Fish and Plants -->
-                    <div class="section-container">
+                    <div class="section-container section-4">
                          <div class="section-content">
                               <div class="section-heading">
                                    <a id="fishandplants" class="anchor"></a>Fish and Plants
@@ -287,7 +292,7 @@
                     </div><!-- .section-container -->
 
                <!-- Press Releases -->
-                    <div class="section-container" id="last-section-margin">
+                    <div class="section-container section-5" id="last-section-margin">
                          <div class="section-content">
                               <div class="section-heading">
                                    <a id="press" class="anchor"></a>Press Releases
@@ -413,14 +418,109 @@
                     </footer>
           </div><!-- #footer-container -->
 
-     </body>
+          <script>
+          var currSection = "";
+          var DEBUG = true;
 
-<!-- Scroll js file -->
-     <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
-     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-     <script type="text/javascript" src="js/scrolld.js"></script>
-     <script type="text/javascript">
-          $("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
-     </script>
+
+          $(window).scroll(function() {
+            if ($(".section-1").visible()) {
+              updateDots("section-1");
+
+            } else if ($(".section-2").visible()) {
+              updateDots("section-2");
+
+            } else if ($(".section-3").visible()) {
+              updateDots("section-3");
+
+            } else if ($(".section-4").visible()) {
+              updateDots("section-4");
+
+            } else if ($(".section-5").visible()) {
+              updateDots("section-5");
+            }
+
+          });
+
+          function updateDots(visibleSection){
+            /*
+            var elementId = $("#img-section-1-dot").id;
+            var src = $("#img-section-1-dot").attr("src");
+            console.log("ID: " + elementId + ", Source: " + src);
+            */
+
+            if (visibleSection == currSection) {
+              console.log("Visible section == Current section returning");
+              return;
+            }
+
+            $("#img-section-1-dot").attr('src','img/dots/dot.gif' );
+            $("#img-section-2-dot").attr('src','img/dots/dot.gif' );
+            $("#img-section-3-dot").attr('src','img/dots/dot.gif' );
+            $("#img-section-4-dot").attr('src','img/dots/dot.gif' );
+            $("#img-section-5-dot").attr('src','img/dots/dot.gif' );
+
+            if (visibleSection == "section-1") {
+              $("#img-section-1-dot").attr('src','img/dots/dot-current.gif' );
+              currSection = "section-1";
+
+              if (DEBUG) {
+                console.log("Section 1 is visible");
+                console.log("Setting currSection to " + currSection);
+              }
+            } else if (visibleSection == "section-2") {
+
+              $("#img-section-2-dot").attr('src','img/dots/dot-current.gif' );
+              currSection = "section-2";
+
+              if (DEBUG) {
+                console.log("Section 2 is visible");
+                console.log("Setting currSection to " + currSection);
+              }
+            } else if (visibleSection == "section-3") {
+
+              $("#img-section-3-dot").attr('src','img/dots/dot-current.gif' );
+              currSection = "section-3";
+
+              if (DEBUG) {
+                console.log("Section 3 is visible");
+                console.log("Setting currSection to " + currSection);
+              }
+            } else if (visibleSection == "section-4") {
+
+              $("#img-section-4-dot").attr('src','img/dots/dot-current.gif' );
+              currSection = "section-4";
+
+              if (DEBUG) {
+                console.log("Section 4 is visible");
+                console.log("Setting currSection to " + currSection);
+              }
+            } else if (visibleSection == "section-5") {
+
+              $("#img-section-5-dot").attr('src','img/dots/dot-current.gif' );
+              currSection = "section-5";
+
+              if (DEBUG) {
+                console.log("Section 5 is visible");
+                console.log("Setting currSection to " + currSection);
+              }
+            }
+
+
+
+          }
+
+
+          </script>
+
+        <!-- Scroll js file -->
+             <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+             <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+             <script type="text/javascript" src="js/scrolld.js"></script>
+             <script type="text/javascript">
+                  $("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
+             </script>
+
+     </body>
 
 </html>
