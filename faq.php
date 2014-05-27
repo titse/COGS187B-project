@@ -114,24 +114,24 @@
           <div id="content-container">
                <div class="section-container" id="first-section-margin">
                     <div class="section-content">
-                         <a href="#ecoqube">EcoQube</a><br />
-                         · <a href="manual.pdf">Download full EcoQube instruction manual.</a><br />
+                         <a href="#ecoqube" class="faq-title">EcoQube</a><br />
+                         · <a href="manual.pdf">Download full EcoQube instruction manual in a PDF format.</a><br />
                          · <a href="#ecoqube-q1">Why does my EcoQube have Algae?</a><br />
                          · <a href="#ecoqube-q2">Why is the water in my EcoQube cloudy?</a>
                          <br /><br />
-                         <a href="#shop">Shop</a><br />
+                         <a href="#shop" class="faq-title">Shop</a><br />
                          · <a href="#shop-q1">How do I navigate within the shop?</a><br />
                          · <a href="#shop-q2">What does the product icons mean?</a>
                          <br /><br />
-                         <a href="#services">Services</a><br />
+                         <a href="#services" class="faq-title">Services</a><br />
                          · <a href="#services-q1">How long is the installation process?</a><br />
                          · <a href="#services-q2">Will my tank be easy to maintain?</a>
                          <br /><br />
-                         <a href="#shipping">Shipping</a><br />
+                         <a href="#shipping" class="faq-title">Shipping</a><br />
                          · <a href="#shipping-q1">How long is the shipping time?</a><br />
                          · <a href="#shipping-q2">What kind of shipping services do we use?</a>
                          <br /><br />
-                         <a href="#warranty">Warranty</a><br />
+                         <a href="#warranty" class="faq-title">Warranty</a><br />
                          · <a href="#warranty-q1">What if my fish dies during the shipping?</a><br />
                          · <a href="#warranty-q2">What if my EcoQube is defective when it arrives?</a>
                     </div> <!-- .section-content -->

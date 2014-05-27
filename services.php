@@ -160,7 +160,7 @@
                          </div><!-- .section-content -->
                     </div><!-- .section-container -->
 
-               <!-- Blurb 1 -->
+               <!-- Blurb -->
                     <div class="section-container">
                          <div class="services-blurb-overlay">
                               “I’ve never had an aquarium with so many fish that is so easy <br />
@@ -181,7 +181,6 @@
                                    <a id="installations" class="anchor"></a>Installations
                               </div><!-- .section-heading -->
                               <br />
-                              · About how long is the install process?<br />
                               We have installed tanks from 10-100 gallons within a 1-3 week timeframe. For tanks larger than this, it might take much longer to gather all the equipment and materials. We do our best to deliver a quality product in a timely manner.<br /><br />
                               Contact us for a free consultation where we can lay out the entire installation process for you!
                          </div><!-- .section-content -->
