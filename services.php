@@ -145,99 +145,104 @@
                     </script>
                </div><!-- .section-container #first-section-margin -->
 
-               <div class="section-container">
-                    <div class="section-content">
-                         <div class="section-heading">
-                              <a id="contact" class="anchor"></a>Get a Free Quote Today!
-                         </div><!-- .section-heading -->
-                         <br />
-                         Free Consultation & Quote!<br /><br />
-                         Contact us today: (858) 224 - FISH<br /><br />
-                         Aqua Design Innovations focuses on innovative methods of freshwater aquarium installations to create a unique aquatic ecosystem, one that has rarely been seen before.<br /><br />
-                         With years of experience involved with nature aquatic ecosystems, ADI is well equipped with the best methods, products, and sources for livestock, plants, driftwood, and stones.<br /><br />
-                         Whether it’s your business or your home, our freshwater aquariums will add beauty to where ever they are installed. If you want to talk to us about getting a free consultation, we’d love to hear from you!
-                    </div><!-- .section-content -->
-               </div><!-- .section-container -->
+               <!-- Contact -->
+                    <div class="section-container">
+                         <div class="section-content">
+                              <div class="section-heading">
+                                   <a id="contact" class="anchor"></a>Get a Free Quote Today!
+                              </div><!-- .section-heading -->
+                              <br />
+                              Free Consultation & Quote!<br /><br />
+                              Contact us today: (858) 224 - FISH<br /><br />
+                              Aqua Design Innovations focuses on innovative methods of freshwater aquarium installations to create a unique aquatic ecosystem, one that has rarely been seen before.<br /><br />
+                              With years of experience involved with nature aquatic ecosystems, ADI is well equipped with the best methods, products, and sources for livestock, plants, driftwood, and stones.<br /><br />
+                              Whether it’s your business or your home, our freshwater aquariums will add beauty to where ever they are installed. If you want to talk to us about getting a free consultation, we’d love to hear from you!
+                         </div><!-- .section-content -->
+                    </div><!-- .section-container -->
 
-               <div class="section-container">
-                    <div class="services-blurb-overlay">
-                         “I’ve never had an aquarium with so many fish that is so easy <br />
-                         to maintain! Thanks ADI for such an easy install <br />
-                         process! Everything was taken care of for me, <br />
-                         including easy instructions for self-maintenance after the install.”<br />
-                         -Erica Shen
-                    </div><!-- srevices-blurb-overlay -->
-                    <div class="services-blurb">
-                         <img src="img/services/installations1.png" />
-                    </div><!-- .services-blurb -->
-               </div><!-- .section-container -->
+               <!-- Blurb 1 -->
+                    <div class="section-container">
+                         <div class="services-blurb-overlay">
+                              “I’ve never had an aquarium with so many fish that is so easy <br />
+                              to maintain! Thanks ADI for such an easy install <br />
+                              process! Everything was taken care of for me, <br />
+                              including easy instructions for self-maintenance after the install.”<br />
+                              -Erica Shen
+                         </div><!-- srevices-blurb-overlay -->
+                         <div class="services-blurb">
+                              <img src="img/services/installations1.png" />
+                         </div><!-- .services-blurb -->
+                    </div><!-- .section-container -->
 
-               <div class="section-container">
-                    <div class="section-content">
-                         <div class="section-heading">
-                              <a id="installations" class="anchor"></a>Installations
-                         </div><!-- .section-heading -->
-                         <br />
-                         · About how long is the install process?<br />
-                         We have installed tanks from 10-100 gallons within a 1-3 week timeframe. For tanks larger than this, it might take much longer to gather all the equipment and materials. We do our best to deliver a quality product in a timely manner.<br /><br />
-                         Contact us for a free consultation where we can lay out the entire installation process for you!
-                    </div><!-- .section-content -->
-               </div><!-- .section-container -->
+               <!-- Installations -->
+                    <div class="section-container">
+                         <div class="section-content">
+                              <div class="section-heading">
+                                   <a id="installations" class="anchor"></a>Installations
+                              </div><!-- .section-heading -->
+                              <br />
+                              · About how long is the install process?<br />
+                              We have installed tanks from 10-100 gallons within a 1-3 week timeframe. For tanks larger than this, it might take much longer to gather all the equipment and materials. We do our best to deliver a quality product in a timely manner.<br /><br />
+                              Contact us for a free consultation where we can lay out the entire installation process for you!
+                         </div><!-- .section-content -->
+                    </div><!-- .section-container -->
 
-               <div class="section-container">
-                    <div class="section-content">
-                         <div class="section-heading">
-                              <a id="maintenance" class="anchor"></a>Maintenance
-                         </div><!-- .section-heading -->
-                         <br />
-                         · Our services include hassle-free and carefree maintenance.<br />
-                         · Planted tanks are actually a lot easier to maintain than you would think.<br />
-                         · We do our best to establish a self sustaining ecosystem that requires little to no maintenance!
-                    </div><!-- .section-content -->
-               </div><!-- .section-container -->
+               <!-- Maintenance -->
+                    <div class="section-container">
+                         <div class="section-content">
+                              <div class="section-heading">
+                                   <a id="maintenance" class="anchor"></a>Maintenance
+                              </div><!-- .section-heading -->
+                              <br />
+                              Our services include hassle-free and carefree maintenance.<br />
+                              Planted tanks are actually a lot easier to maintain than you would think.<br />
+                              We do our best to establish a self sustaining ecosystem that requires little to no maintenance!
+                         </div><!-- .section-content -->
+                    </div><!-- .section-container -->
 
-               <div class="section-container" id="last-section-margin">
-                    <div class="section-content">
-                         <div class="section-heading">
-                              <a id="gallery" class="anchor"></a>Gallery of Our Previous Installations
-                         </div><!-- .section-heading -->
-                         <br />
-                         <!-- Camera Slider -->
-                             <link rel='stylesheet' id='camera-css'  href='camera/css/camera.css' type='text/css' media='all'>     
-                             <script type='text/javascript' src='camera/scripts/jquery.min.js'></script>
-                             <script type='text/javascript' src='camera/scripts/jquery.mobile.customized.min.js'></script>
-                             <script type='text/javascript' src='camera/scripts/jquery.easing.1.3.js'></script> 
-                             <script type='text/javascript' src='camera/scripts/camera.min.js'></script> 
-                             
-                             <script>
-                             jQuery(function(){
-                               
-                               jQuery('#camera_wrap_1').camera({
-                                 height: '350px',
-                                 loader: 'bar',
-                                 pagination: true,
-                                 thumbnails: true,
-                                 fx:'scrollLeft',
-                                 transPeriod:0
-                               });
+               <!-- Gallery -->
+                    <div class="section-container" id="last-section-margin">
+                         <div class="section-content">
+                              <div class="section-heading">
+                                   <a id="gallery" class="anchor"></a>Gallery of Our Previous Installations
+                              </div><!-- .section-heading -->
+                              <br />
+                              <!-- Camera Slider -->
+                                  <link rel='stylesheet' id='camera-css'  href='camera/css/camera.css' type='text/css' media='all'>     
+                                  <script type='text/javascript' src='camera/scripts/jquery.min.js'></script>
+                                  <script type='text/javascript' src='camera/scripts/jquery.mobile.customized.min.js'></script>
+                                  <script type='text/javascript' src='camera/scripts/jquery.easing.1.3.js'></script> 
+                                  <script type='text/javascript' src='camera/scripts/camera.min.js'></script> 
+                                  
+                                  <script>
+                                  jQuery(function(){
+                                    
+                                    jQuery('#camera_wrap_1').camera({
+                                      height: '350px',
+                                      loader: 'bar',
+                                      pagination: true,
+                                      thumbnails: true,
+                                      fx:'scrollLeft',
+                                      transPeriod:0
+                                    });
 
-                             });
-                           </script>
-                           <!-- Camera Slider -->
-                                  <div id="sliderbg">
-                                      <div class="fluid_container">
-                                            <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
-                                                <div data-thumb="img/services/installations2-th.jpg" data-src="img/services/installations2.jpg">
-                                                </div>
-                                                <div data-thumb="img/services/installations3-th.jpg" data-src="img/services/installations3.jpg">
-                                                </div>
-                                                <div data-thumb="img/services/installations4-th.jpg" data-src="img/services/installations4.jpg">
-                                                </div>
-                                            </div>
-                                      </div>
-                                  </div>
-                    </div><!-- .section-content -->
-               </div><!-- .section-container #last-section-margin -->
+                                  });
+                                </script>
+                                <!-- Camera Slider -->
+                                       <div id="sliderbg">
+                                           <div class="fluid_container">
+                                                 <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+                                                     <div data-thumb="img/services/installations2-th.jpg" data-src="img/services/installations2.jpg">
+                                                     </div>
+                                                     <div data-thumb="img/services/installations3-th.jpg" data-src="img/services/installations3.jpg">
+                                                     </div>
+                                                     <div data-thumb="img/services/installations4-th.jpg" data-src="img/services/installations4.jpg">
+                                                     </div>
+                                                 </div>
+                                           </div>
+                                       </div>
+                         </div><!-- .section-content -->
+                    </div><!-- .section-container #last-section-margin -->
 
           </div><!-- #content-container -->
 
@@ -345,7 +350,7 @@
 <!-- Scroll js file -->
      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
      <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-     <script type="text/javascript" src="../COGS187B-project/js/scrolld.js"></script>
+     <script type="text/javascript" src="js/scrolld.js"></script>
      <script type="text/javascript">
           $("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
      </script>

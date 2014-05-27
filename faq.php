@@ -309,4 +309,13 @@
           </div><!-- #footer-container -->
 
      </body>
+
+<!-- Scroll js file -->
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+     <script type="text/javascript" src="js/scrolld.js"></script>
+     <script type="text/javascript">
+          $("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
+     </script>
+
 </html>
