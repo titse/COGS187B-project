@@ -213,40 +213,7 @@
           <a id="gallery" class="anchor"></a>Gallery of Our Previous Installations
         </div><!-- .section-heading -->
         <br />
-        <!-- Camera Slider -->
-        <link rel='stylesheet' id='camera-css'  href='camera/css/camera.css' type='text/css' media='all'>
-        <script type='text/javascript' src='camera/scripts/jquery.min.js'></script>
-        <script type='text/javascript' src='camera/scripts/jquery.mobile.customized.min.js'></script>
-        <script type='text/javascript' src='camera/scripts/jquery.easing.1.3.js'></script>
-        <script type='text/javascript' src='camera/scripts/camera.min.js'></script>
-
-        <script>
-        jQuery(function(){
-
-          jQuery('#camera_wrap_1').camera({
-            height: '350px',
-            loader: 'bar',
-            pagination: true,
-            thumbnails: true,
-            fx:'scrollLeft',
-            transPeriod:0
-          });
-
-        });
-        </script>
-        <!-- Camera Slider -->
-        <div id="sliderbg">
-          <div class="fluid_container">
-            <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
-              <div data-thumb="img/services/installations2-th.jpg" data-src="img/services/installations2.jpg">
-              </div>
-              <div data-thumb="img/services/installations3-th.jpg" data-src="img/services/installations3.jpg">
-              </div>
-              <div data-thumb="img/services/installations4-th.jpg" data-src="img/services/installations4.jpg">
-              </div>
-            </div>
-          </div>
-        </div>
+        Slider goes here
       </div><!-- .section-content -->
     </div><!-- .section-container #last-section-margin -->
 
