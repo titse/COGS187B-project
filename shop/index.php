@@ -59,7 +59,7 @@
                               </li>
                               <li><a href="../learn/index.php" class="header-heading">Learn</a>
                                    <ul  class="sub_menu">
-                                        <li><a href="../blog.php">Blog</a></li>
+                                        <li><a href="../learn/blog.php">Blog</a></li>
                                         <li><a href="../learn/ecosystems.php">Ecosystems</a></li>
                                    </ul>
                               </li>
@@ -261,7 +261,7 @@
                                    </ul>
                                    <ul>
                                         <li><span class="footer-heading-2"><a href="../learn/index.php">Learn</a></span></li>
-                                        <li><a href="../blog.php">Blog</a></li>
+                                        <li><a href="../learn/blog.php">Blog</a></li>
                                         <li><a href="../learn/ecosystems.php">Ecosystems</a></li>
                                    </ul>
                                    <ul>
