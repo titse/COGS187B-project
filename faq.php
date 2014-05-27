@@ -75,7 +75,7 @@
                </header>
           </div><!-- #header-container -->
 
-<!-- Dot navigation --> <!-- E: I think we supposed to do all of the width and height in css?? -->
+<!-- Dot navigation -->
      <div id="dot-navigation-container">
           <ul>
                <li class="dot-navigation-icon">
@@ -311,7 +311,7 @@
      </body>
 
 <!-- Scroll js file -->
-     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+     <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
      <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
      <script type="text/javascript" src="js/scrolld.js"></script>
      <script type="text/javascript">

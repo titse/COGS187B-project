@@ -47,10 +47,10 @@
                               </li>
                               <li><a href="about.php" class="header-heading" id="header-current">About</a>
                                    <ul  class="sub_menu">
-                                        <li><a href="about.php#ourstory">Our Story</a></li>
-                                        <li><a href="about.php#values">Values</a></li>
-                                        <li><a href="about.php#theteam">The Team</a></li>
-                                        <li><a href="about.php#affiliates">Affiliates</a></li>
+                                        <li><a href="about.php#ourstory" id="ourstoryBtn" class="">Our Story</a></li>
+                                        <li><a href="about.php#values" id="valuesBtn" class="">Values</a></li>
+                                        <li><a href="about.php#theteam" id="theteamBtn" class="">The Team</a></li>
+                                        <li><a href="about.php#affiliates" id="affiliatesBtn" class="">Affiliates</a></li>
                                    </ul>
                               </li>
                               <li><a href="learn/index.php" class="header-heading">Learn</a>
@@ -74,6 +74,36 @@
                     </div><!-- #header-navigation -->
                </header>
           </div><!-- #header-container -->
+
+
+<!-- Dot navigation -->
+     <div id="dot-navigation-container">
+          <ul>
+               <li class="dot-navigation-icon">
+                    <a id="ourstoryBtn" class="" href="about.php#ourstory">
+                         <img class="navigation-dot" src="img/dots/dot-current.gif" width="25" height="25" alt="Our Story Navigation Dot" title="Our Story" />
+                    </a>
+               </li>
+
+               <li class="dot-navigation-icon">
+                    <a id="valuesBtn" class="" href="about.php#values">
+                         <img class="navigation-dot" src="img/dots/dot.gif" width="25" height="25" alt="Values Navigation Dot" title="Values" />
+                    </a>
+               </li>
+
+               <li class="dot-navigation-icon">
+                    <a id="theteamBtn" class="" href="about.php#theteam">
+                         <img class="navigation-dot" src="img/dots/dot.gif" width="25" height="25" alt="The Team Navigation Dot" title="The Team" />
+                    </a>
+               </li>
+
+               <li class="dot-navigation-icon">
+                    <a id="affiliatesBtn" class="" href="about.php#affiliates">
+                         <img class="navigation-dot" src="img/dots/dot.gif" width="25" height="25" alt="Affiliates Navigation Dot" title="Affiliates" />
+                    </a>
+               </li>
+          </ul>
+     </div>
 
 <!-- Content  -->
           <div id="content-container">
@@ -347,4 +377,13 @@
           </div><!-- #footer-container -->
 
      </body>
+
+<!-- Scroll js file -->
+     <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+     <script type="text/javascript" src="js/scrolld.js"></script>
+     <script type="text/javascript">
+          $("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
+     </script>
+
 </html>
