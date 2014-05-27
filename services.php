@@ -13,7 +13,7 @@
                <link rel="stylesheet" href="Magnific-Popup-master/dist/magnific-popup.css"> 
 
                <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-               <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+               <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
 
                <!-- Magnific Popup core JS file -->
                <script src="Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
@@ -208,10 +208,10 @@
                               <br />
                               <!-- Camera Slider -->
                                   <link rel='stylesheet' id='camera-css'  href='camera/css/camera.css' type='text/css' media='all'>     
-                                  <!-- <script type='text/javascript' src='camera/scripts/jquery.min.js'></script> -->
+                                  <script type='text/javascript' src='camera/scripts/jquery.min.js'></script>
                                   <script type='text/javascript' src='camera/scripts/jquery.mobile.customized.min.js'></script>
                                   <script type='text/javascript' src='camera/scripts/jquery.easing.1.3.js'></script> 
-                                  <script type='text/javascript' src='camera/scripts/camera.min.js'></script>  
+                                  <script type='text/javascript' src='camera/scripts/camera.min.js'></script> 
                                   
                                   <script>
                                   jQuery(function(){
@@ -347,7 +347,7 @@
      </body>
 
 <!-- Scroll js file -->
-     <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
      <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
      <script type="text/javascript" src="js/scrolld.js"></script>
      <script type="text/javascript">

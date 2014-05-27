@@ -65,7 +65,11 @@ body{
   padding:1em 1em 1em 1em;
   position:fixed;
   width:100%;
-  z-index:9;
+  z-index:100;
+}
+
+.current{
+  color:rgba(0,108,184,1);
 }
 
 header{

@@ -5,19 +5,20 @@
           <link type="text/css" rel="stylesheet" href="css/global.css"/>
           <link type="text/css" rel="stylesheet" href="css/ecoqube.css"/>
 
+
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1">
 
           <!-- Modal window -->
                <!-- Magnific Popup core CSS file -->
-               <link rel="stylesheet" href="Magnific-Popup-master/dist/magnific-popup.css"> 
+               <link rel="stylesheet" href="Magnific-Popup-master/dist/magnific-popup.css">
 
                <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-               <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+               <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
                <!-- Magnific Popup core JS file -->
                <script src="Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
-               
+
      </head>
      <body>
 
@@ -39,17 +40,17 @@
                                         <li><a href="ecoqube.php#press" id="pressBtn" class="">Press Releases</a></li>
                                    </ul>
                               </li>
-                              <li><a href="shop/index.php" class="header-heading">Shop</a> 
+                              <li><a href="shop/index.php" class="header-heading">Shop</a>
                                    <ul class="sub_menu">
                                         <li><a href="shop/ecoqube.php">EcoQube</a></li>
                                         <li><a href="shop/livestock.php">Livestock</a></li>
                                         <li><a href="shop/plants.php">Plants</a></li>
                                         <li><a href="shop/accessories.php">Accessories</a></li>
-                                     </ul>                           
+                                     </ul>
                               </li>
                               <li><a href="services.php" class="header-heading">Services</a>
                                    <ul  class="sub_menu">
-                                        <li><a href="services.php#contact">Contact</a></li>    
+                                        <li><a href="services.php#contact">Contact</a></li>
                                         <li><a href="services.php#installations">Installations</a></li>
                                         <li><a href="services.php#maintenance">Maintenance</a></li>
                                         <li><a href="services.php#gallery">Gallery</a></li>
@@ -169,7 +170,7 @@
                                    <br /><br />
                                    The EcoQube’s patent pending aquaponics filter allows you to efficiently grow your house plants or micro-greens with ease, while using the same plants to keep your aquarium clean.
                                    <br /><br />
-                                   Fertilized water from the fish is fed to plant roots at 100 gallons per hour and the roots remove the fish waste before water re-enters the aquarium, making it a low maintenance plant propagator and easy to care for aquarium. 
+                                   Fertilized water from the fish is fed to plant roots at 100 gallons per hour and the roots remove the fish waste before water re-enters the aquarium, making it a low maintenance plant propagator and easy to care for aquarium.
                                    <br /><br />
                                    This makes the EcoQube a natural, self-sustainable, and easy to care for aquarium.
                               </div><!-- .howitworks-left -->
@@ -376,7 +377,7 @@
                                    </ul>
                                    <ul>
                                         <li><span class="footer-heading-2"><a href="services.php">Services</a></span></li>
-                                        <li><a href="services.php#contact">Contact</a></li>    
+                                        <li><a href="services.php#contact">Contact</a></li>
                                         <li><a href="services.php#installations">Installations</a></li>
                                         <li><a href="services.php#maintenance">Maintenance</a></li>
                                         <li><a href="services.php#gallery">Gallery</a></li>
@@ -415,7 +416,7 @@
      </body>
 
 <!-- Scroll js file -->
-     <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+     <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
      <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
      <script type="text/javascript" src="js/scrolld.js"></script>
      <script type="text/javascript">

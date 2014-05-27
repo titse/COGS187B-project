@@ -35,46 +35,13 @@
                width:100%;
           }
 
-          .about-founders-image{
+          .about-video-image{
                /*height:450px;*/
                /*overflow:hidden;*/
                width:100%;
           }
 
-          .about-founders-image img{
+          .about-video-image img{
                height:450px;
                width:100%;
-          }
-
-          #about-ourstory-timeline{
-               margin:1em 2em 1em 2em;
-          }
-
-          .about-ourstory-timeline-images{
-               height:200px;
-          }
-
-          .about-ourstory-heading{
-               color:rgba(74,74,74,1);
-               font-size:1.5em;
-               font-weight:bold;
-               text-transform:uppercase;
-          }
-
-          #about-ourstory-thebeginning{
-               text-align:justify;
-          }
-
-          #about-ourstory-thebeginning img{
-               height:50px;
-               /*padding:0em 2em;*/
-          }
-
-          .about-team-members{
-               width:100%;
-          }
-
-          .about-affiliates-names{
-               color:rgba(74,74,74,1);
-               font-weight:bold;
           }

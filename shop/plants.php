@@ -1,23 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Shop | Home</title>
+  <title>Shop | Plants</title>
   <link type="text/css" rel="stylesheet" href="../css/global.css"/>
   <link type="text/css" rel="stylesheet" href="../css/shop.css"/>
-  <link type="text/css" rel="stylesheet" href="../css/ecoqube.css"/>
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Modal window -->
-       <!-- Magnific Popup core CSS file -->
-       <link rel="stylesheet" href="../Magnific-Popup-master/dist/magnific-popup.css">
-
-       <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-       <!-- Magnific Popup core JS file -->
-       <script src="../Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+  <script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
+  <script type="text/javascript" src="../js/layerlib.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 </head>
 
@@ -86,73 +79,234 @@
     </header>
   </div><!-- #header-container -->
 
+  <!--Shop heading section -->
+  <div class="shop-heading upper-margin left-margin">
+    <h3 class="categories-heading">PLANTS</h3>
+
+    <div class="shop-filter-container">
+      <srtong>Filter by:</strong>
+        <a href="#" class="filterOptions">EcoQube</a>
+        <a href="#" class="filterOptions">Fish</a>
+        <a href="#" class="filterOptions">Invertebrates</a>
+      </div>
+    </div>
 
     <!-- Secondary-navigation  -->
     <div class="side-navbar">
-      <div class="side-navbar-content">
-        <ul>
-          <li class="categories-heading">
-            <h3> CATEGORIES </h3>
-          </li>
-          <li class="shop-category">
-            <ul id="shop-category-ecoqube">
-              <li><a href="ecoqube.php" id="category-subheading-ecoqube" class="shop-category-heading"> EcoQube </a></li>
-              <li><a href="#" class="shop-category-item"> Fish </a></li>
-              <li><a href="#" class="shop-category-item"> Plants </a></li>
-              <li><a href="#" class="shop-category-item"> Accessories </a></li>
-            </ul>
-          </li>
-          <li class="shop-category">
-            <ul id="shop-category-livestock">
-              <li><a href="livestock.php" id="category-subheading-livestock" class="shop-category-heading"> Livestock </a></li>
-              <li><a href="#" class="shop-category-item"> Fish </a></li>
-              <li><a href="#" class="shop-category-item"> Invertebrates </a></li>
-            </ul>
-          </li>
-          <li class="shop-category">
-            <ul id="shop-category-livestock">
-              <li><a href="plants.php" id="category-subheading-livestock" class="shop-category-heading"> Plants </a></li>
-              <li><a href="#" class="shop-category-item"> Terrestrial </a></li>
-              <li><a href="#" class="shop-category-item"> Aquatic </a></li>
-            </ul>
-          </li>
-          <li class="shop-category">
-            <ul id="shop-category-livestock">
-              <li><a href="accessories.php" id="category-subheading-livestock" class="shop-category-heading"> Accessories </a></li>
-            </ul>
-          </li>
+  <div class="side-navbar-content">
+    <ul>
+      <li class="categories-heading">
+        <h3> CATEGORIES </h3>
+      </li>
+      <li class="shop-category">
+        <ul id="shop-category-ecoqube">
+          <li><a href="ecoqube.php" id="category-subheading-ecoqube" class="shop-category-heading"> EcoQube </a></li>
+          <li><a href="#" class="shop-category-item"> Fish </a></li>
+          <li><a href="#" class="shop-category-item"> Plants </a></li>
+          <li><a href="#" class="shop-category-item"> Accessories </a></li>
         </ul>
-      </div><!-- #Side-navbar-content  -->
-    </div><!-- #Side-navbar  -->
+      </li>
+      <li class="shop-category">
+        <ul id="shop-category-livestock">
+          <li><a href="livestock.php" id="category-subheading-livestock" class="shop-category-heading"> Livestock </a></li>
+          <li><a href="#" class="shop-category-item"> Fish </a></li>
+          <li><a href="#" class="shop-category-item"> Invertebrates </a></li>
+        </ul>
+      </li>
+      <li class="shop-category">
+        <ul id="shop-category-livestock">
+          <li><a href="plants.php" id="category-subheading-livestock" class="shop-category-heading current"> Plants </a></li>
+          <li><a href="#" class="shop-category-item"> Terrestrial </a></li>
+          <li><a href="#" class="shop-category-item"> Aquatic </a></li>
+        </ul>
+      </li>
+      <li class="shop-category">
+        <ul id="shop-category-livestock">
+          <li><a href="accessories.php" id="category-subheading-livestock" class="shop-category-heading"> Accessories </a></li>
+        </ul>
+      </li>
+    </ul>
+  </div><!-- #Side-navbar-content  -->
+</div><!-- #Side-navbar  -->
 
     <!-- Content  -->
-    <div class="shop-content-container left-margin upper-margin">
-      <div class="shop-video">
-           <a href="../ecoqube-modal-1.php" class="ecoqube-modal-1">
-                <div class="ecoqube-video-overlay">
-                     Introducing the<br />
-                     <img src="../img/logos/ecoqube-logo.png" /><br />
-                     a beautiful, compact, all-in-one<br />
-                     aquatic ecosystem for your home or office.
-                </div><!-- .ecoqube-video-overlay -->
-                <div class="ecoqube-play-icon">
-                     &#xe817;
-                </div><!-- .ecoqube-play-icon -->
+    <div class="shop-content-container left-margin">
 
-                <img src="../img/ecoqube1.jpg" class="video-thumbnail"/>
-           </a>
-           <script type="text/javascript">
-                $(document).ready(function() {
+      <div class="product fish">
+        <div class="product-image-conatiner">
+          <div class="product-image">
+            <img src="../img/products/test-product-image.png" alt="Product image">
+          </div>
+        </div>
 
-                     $('.ecoqube-modal-1').magnificPopup({
-                     type: 'ajax',
-                     alignTop: true,
-                     overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
-                     });
+        <div class="info-icons-wrapper">
+          <div class="icon-description-field">
+            <img src="../img/ecoqube/leaf.png" class="icon" width="40" alt="EcoQube icon" title="EcoQube item"/>
+            <p class="icon-description">EQ item</p>
+          </div>
 
-                });
-           </script>
+          <div class="icon-description-field">
+            <img src="../img/ecoqube/fish.png" class="icon" width="40" alt="Lifetime icon" title="Lifetime of item"/>
+            <p class="icon-description">4 months</p>
+          </div>
+
+          <div class="icon-description-field">
+            <img src="../img/ecoqube/water.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
+            <p class="icon-description">25 degrees</p>
+          </div>
+        </div>
+        <p class="product-name">FISH</p>
+        <p class="price">$ 4.99</p>
       </div>
+
+      <div class="product invertebrates">
+        <div class="product-image-conatiner">
+          <div class="product-image">
+            <img src="../img/products/test-product-image.png" alt="Product image">
+          </div>
+        </div>
+
+        <div class="info-icons-wrapper">
+          <div class="icon-description-field">
+            <img src="../img/ecoqube/leaf.png" class="icon" width="40" alt="EcoQube icon" title="EcoQube item"/>
+            <p class="icon-description">EQ item</p>
+          </div>
+
+          <div class="icon-description-field">
+            <img src="../img/ecoqube/fish.png" class="icon" width="40" alt="Lifetime icon" title="Lifetime of item"/>
+            <p class="icon-description">4 months</p>
+          </div>
+
+          <div class="icon-description-field">
+            <img src="../img/ecoqube/water.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
+            <p class="icon-description">25 degrees</p>
+          </div>
+        </div>
+        <p class="product-name">INVERTEBRATE</p>
+        <p class="price">$ 4.99</p>
+      </div>
+
+      <div class="product ecoqube fish">
+        <div class="product-image-conatiner">
+          <div class="product-image">
+            <img src="../img/products/test-product-image.png" alt="Product image">
+          </div>
+        </div>
+
+        <div class="info-icons-wrapper">
+          <div class="icon-description-field">
+            <img src="../img/ecoqube/leaf.png" class="icon" width="40" alt="EcoQube icon" title="EcoQube item"/>
+            <p class="icon-description">EQ item</p>
+          </div>
+
+          <div class="icon-description-field">
+            <img src="../img/ecoqube/fish.png" class="icon" width="40" alt="Lifetime icon" title="Lifetime of item"/>
+            <p class="icon-description">4 months</p>
+          </div>
+
+          <div class="icon-description-field">
+            <img src="../img/ecoqube/water.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
+            <p class="icon-description">25 degrees</p>
+          </div>
+        </div>
+        <p class="product-name">ECOQUBE FISH</p>
+        <p class="price">$ 4.99</p>
+      </div>
+
+      <div class="product ecoqube invertebrates">
+        <div class="product-image-conatiner">
+          <div class="product-image">
+            <img src="../img/products/test-product-image.png" alt="Product image">
+          </div>
+        </div>
+
+        <div class="info-icons-wrapper">
+          <div class="icon-description-field">
+            <img src="../img/ecoqube/leaf.png" class="icon" width="40" alt="EcoQube icon" title="EcoQube item"/>
+            <p class="icon-description">EQ item</p>
+          </div>
+
+          <div class="icon-description-field">
+            <img src="../img/ecoqube/fish.png" class="icon" width="40" alt="Lifetime icon" title="Lifetime of item"/>
+            <p class="icon-description">4 months</p>
+          </div>
+
+          <div class="icon-description-field">
+            <img src="../img/ecoqube/water.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
+            <p class="icon-description">25 degrees</p>
+          </div>
+        </div>
+        <p class="product-name">ECOQUBE INVERTEBRATE</p>
+        <p class="price">$ 4.99</p>
+      </div>
+
+      <div class="product invertebrates">
+        <div class="product-image-conatiner">
+          <div class="product-image">
+            <img src="../img/products/test-product-image.png" alt="Product image">
+          </div>
+        </div>
+
+        <div class="info-icons-wrapper">
+          <div class="icon-description-field">
+            <img src="../img/ecoqube/leaf.png" class="icon" width="40" alt="EcoQube icon" title="EcoQube item"/>
+            <p class="icon-description">EQ item</p>
+          </div>
+
+          <div class="icon-description-field">
+            <img src="../img/ecoqube/fish.png" class="icon" width="40" alt="Lifetime icon" title="Lifetime of item"/>
+            <p class="icon-description">4 months</p>
+          </div>
+
+          <div class="icon-description-field">
+            <img src="../img/ecoqube/water.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
+            <p class="icon-description">25 degrees</p>
+          </div>
+        </div>
+        <p class="product-name">INVERTEBRATE</p>
+        <p class="price">$ 4.99</p>
+      </div>
+
+      <div class="product ecoqube">
+        <div class="product-image-conatiner">
+          <div class="product-image">
+            <img src="../img/products/test-product-image.png" alt="Product image">
+          </div>
+        </div>
+
+        <div class="info-icons-wrapper">
+          <div class="icon-description-field">
+            <img src="../img/ecoqube/leaf.png" class="icon" width="40" alt="EcoQube icon" title="EcoQube item"/>
+            <p class="icon-description">EQ item</p>
+          </div>
+
+          <div class="icon-description-field">
+            <img src="../img/ecoqube/fish.png" class="icon" width="40" alt="Lifetime icon" title="Lifetime of item"/>
+            <p class="icon-description">4 months</p>
+          </div>
+
+          <div class="icon-description-field">
+            <img src="../img/ecoqube/water.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
+            <p class="icon-description">25 degrees</p>
+          </div>
+        </div>
+        <p class="product-name">ECOQUBE</p>
+        <p class="price">$ 4.99</p>
+      </div>
+
+      <div id="product-image-overlay">
+        <div class="product-image-conatiner">
+          <div class="product-image">
+            <div id="upper-overlay" class="overlay-section">
+              <h3>DESCRIPTION</h3>
+            </div>
+            <div id="lower-overlay" class="overlay-section">
+              <h3>ADD TO CART</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div><!-- #content-container -->
 
     <!-- Footer  -->

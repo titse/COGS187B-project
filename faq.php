@@ -75,7 +75,7 @@
                </header>
           </div><!-- #header-container -->
 
-<!-- Dot navigation -->
+<!-- Dot navigation --> <!-- E: I think we supposed to do all of the width and height in css?? -->
      <div id="dot-navigation-container">
           <ul>
                <li class="dot-navigation-icon">
