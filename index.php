@@ -90,18 +90,8 @@
                               <img src="img/ecoqube6.png" />
                          </div><!-- .index-slider-image -->
                     </a>
+                    <br /><br />
                </div><!-- .section-container #first-section-margin -->
-
-               <div class="section-container" id="last-section-margin">
-                    <div class="section-content">
-                         <center>
-                              <a href="ecoqube.php"><img src="img/index/ecoqube.png" /></a>
-                              <a href="shop/index.php"><img src="img/index/shop.png" /></a>
-                              <a href="services.php"><img src="img/index/services.png" /></a>
-                         </center>
-                    </div><!-- .section-content -->
-               </div><!-- .section-container #last-section-margin-->
-
           </div><!-- #content-container -->
 
 <!-- Footer  -->
