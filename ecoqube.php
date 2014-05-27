@@ -179,14 +179,14 @@
                          </div><!-- .section-content -->
                     </div><!-- .section-container -->
 
-               <!-- Blurb -->
+               <!-- Blurb 1 -->
                     <div class="section-container">
-                         <div class="ecoqube-blurb-overlay">
-                              The heart of the EcoQube is the aquaponics filter which <br />
-                              uses plants, the world's best and most natural filter, <br />
-                              to keep your aquarium clean.
-                         </div><!-- ecoqube-blurb-overlay -->
                          <div class="ecoqube-blurb">
+                              <div class="ecoqube-blurb-overlay-1">
+                                   The heart of the EcoQube is the aquaponics filter which <br />
+                                   uses plants, the world's best and most natural filter, <br />
+                                   to keep your aquarium clean.
+                              </div><!-- ecoqube-blurb-overlay-1 -->
                               <img src="img/ecoqube3.png" />
                          </div><!-- .ecoqube-blurb -->
                     </div><!-- .section-container -->
@@ -217,15 +217,15 @@
                          </div> <!-- .section-content -->
                     </div><!-- .section-container -->
 
-               <!-- Blurb -->
+               <!-- Blurb 2 -->
                     <div class="section-container">
-                         <div class="ecoqube-blurb-overlay">
-                              The EcoQube's patent-pending aquaponics filter allows <br />
-                              you to efficiently grow your house plants or <br />
-                              micro-greens with ease, while using the same <br />
-                              plants to keep your aquarium clean.
-                         </div><!-- ecoqube-blurb-overlay -->
                          <div class="ecoqube-blurb">
+                              <div class="ecoqube-blurb-overlay-2">
+                                   The EcoQube's patent-pending aquaponics filter allows <br />
+                                   you to efficiently grow your house plants or <br />
+                                   micro-greens with ease, while using the same <br />
+                                   plants to keep your aquarium clean.
+                              </div><!-- ecoqube-blurb-overlay-2 -->
                               <img src="img/ecoqube4.png" />
                          </div><!-- .ecoqube-blurb -->
                     </div><!-- .section-container -->
@@ -272,15 +272,15 @@
                          </div><!-- section-content -->
                     </div><!-- .section-container -->
 
-               <!-- Blurb -->
+               <!-- Blurb 3 -->
                     <div class="section-container">
-                         <div class="ecoqube-blurb-overlay">
-                              "We want to use the Ecoqube as a vehicle <br />
-                              to deliver the concept and beauty of aquaponics to as <br />
-                              many people's lives as possible."<br />
-                              -Kevin and Eric, ADI's Founders
-                         </div><!-- .ecoqube-blurb-overlay -->
                          <div class="ecoqube-blurb">
+                              <div class="ecoqube-blurb-overlay-3">
+                                   "We want to use the Ecoqube as a vehicle <br />
+                                   to deliver the concept and beauty of aquaponics to as <br />
+                                   many people's lives as possible."<br />
+                                   -Kevin and Eric, ADI's Founders
+                              </div><!-- .ecoqube-blurb-overlay-3 -->
                               <img src="img/ecoqube5.png" />
                          </div><!-- .ecoqube-blurb -->
                     </div><!-- .section-container -->
