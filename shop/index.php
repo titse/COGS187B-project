@@ -5,7 +5,7 @@
   <link type="text/css" rel="stylesheet" href="../css/global.css"/>
   <link type="text/css" rel="stylesheet" href="../css/shop.css"/>
   <link type="text/css" rel="stylesheet" href="../css/ecoqube.css"/>
-     <link rel="shortcut icon" href="../img/logos/favicon.png">
+  <link rel="shortcut icon" href="../img/logos/favicon.ico">
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
