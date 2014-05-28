@@ -1,0 +1,27 @@
+/*Shopping cart css
+Authors: Tiffany Tse, Hakon L'orange Elizabeth Stevens
+*/
+
+
+
+	.shopping-cart{
+		display: block;
+		width: 150px;
+		height: auto;
+	}
+	.shopping-cart  ul.shopping-cart-submenu  ul.shopping-header li{
+		float:left;
+		background-color: grey;
+		color: white; 
+	}
+	.shopping-cart-submenu{	
+	clear:both;
+	display: none;
+
+}	  
+
+/**click dropdown js **/
+.shopping-cart ul.shopping-cart-submenu: hover{
+	display:block;
+}
+	

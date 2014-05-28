@@ -1,0 +1,167 @@
+/*Content*/
+
+     /*Video*/
+          .ecoqube-video-overlay{
+               color:rgba(79,79,79,1);
+               font-size:2em;
+               height:450px;
+               padding-top:3.5em;
+               padding-left:2.5em;
+               position:absolute;
+               text-shadow: 1px 1px 2px rgba(255,255,255,.25);
+               width:100%;
+          }
+
+          .ecoqube-video-overlay img{
+               width:17em;
+          }
+
+          .ecoqube-play-icon{
+               color:rgba(255,255,255,.75);
+               font-family:"Fontello";
+               font-size:9em;
+               padding-top:1em;
+               /*overflow:hidden;*/
+               position:absolute;
+               text-align:center;
+               /*text-shadow: 1px 1px 2px rgba(0,0,0,.25);*/
+               width:100%;
+          }
+
+          .ecoqube-play-icon:hover{
+               /*background-color:rgba(255,255,255,.15);*/
+               color:rgba(0,108,184,.9);
+               height:450px;
+               width:100%;
+          }
+
+          .ecoqube-video-image{
+               /*height:450px;*/
+               /*overflow:hidden;*/
+               width:100%;
+          }
+
+          .ecoqube-video-image img{
+               height:450px;
+               width:100%;
+          }
+
+     /*How It Works*/
+          .howitworks-left{
+               display:inline-block;
+               float:left;
+               margin-right:2em;
+               margin-bottom:3em;
+               max-width:70%;
+          }
+
+          .howitworks-right{
+               display:inline-block;
+               float:right;
+               margin-left:2em;
+               margin-bottom:3em;
+               max-width:30%;
+          }
+
+     /*Key Features*/
+          .keyfeatures-left{
+               display:inline-block;
+               float:left;
+               margin-right:0em;
+               margin-bottom:3em;
+               max-width:50%;
+          }
+
+          .keyfeatures-left ul{
+               list-style-type:square;
+               margin:0 auto;
+               padding:0 auto;
+          }
+
+          .keyfeatures-right{
+               display:inline-block;
+               float:right;
+               margin-left:0em;
+               margin-bottom:3em;
+               max-width:50%;
+          }
+
+     /*Buy It Today*/
+          .ecoqube-items-section{
+          }
+
+          .ecoqube-items-section img{
+               padding-right:2em;
+          }
+
+     /*Blurbs*/
+          .ecoqube-blurb img{
+               height:300px;
+               overflow:hidden;
+               visibility:hidden;
+               width:100%;
+          }
+
+          .ecoqube-blurb-overlay-1{
+               /*background-color:rgba(0,0,0,.35);*/
+               /*color:rgba(255,255,255,.9);*/
+               color:rgba(0,81,137,1);
+               font-family:"Helvetica Neue LT Pro Light Extended";
+               font-size:2.5em;
+               height:300px;
+               overflow:hidden;
+               padding-top:1.85em;
+               position:absolute;
+               text-align:center;
+               /*text-shadow: 1px 1px 2px rgba(79,79,79,.75);*/
+               text-shadow: 1px 1px 2px rgba(79,79,79,.2);
+               width:100%;
+          }
+
+          .ecoqube-blurb-overlay-2{
+               /*background-color:rgba(0,0,0,.35);*/
+               /*color:rgba(255,255,255,.9);*/
+               color:rgba(0,81,137,1);
+               font-family:"Helvetica Neue LT Pro Light Extended";
+               font-size:2.5em;
+               height:300px;
+               overflow:hidden;
+               padding-top:1.3em;
+               position:absolute;
+               text-align:center;
+               /*text-shadow: 1px 1px 2px rgba(79,79,79,.75);*/
+               text-shadow: 1px 1px 2px rgba(79,79,79,.2);
+               width:100%;
+          }
+
+          .ecoqube-blurb-overlay-3{
+               /*background-color:rgba(0,0,0,.35);*/
+               /*color:rgba(255,255,255,.9);*/
+               color:rgba(0,81,137,1);
+               font-family:"Helvetica Neue LT Pro Light Extended";
+               font-size:2.5em;
+               height:300px;
+               overflow:hidden;
+               padding-top:1.4em;
+               position:absolute;
+               text-align:center;
+               /*text-shadow: 1px 1px 2px rgba(79,79,79,.75);*/
+               text-shadow: 1px 1px 2px rgba(79,79,79,.2);
+               width:100%;
+          }
+
+     /*Press*/
+          #press-container{
+               text-align:center;
+               width:100%;
+          }
+
+          .press-logos{
+               display:inline-block;
+               padding-right:2em;
+               padding-bottom:1.5em;
+          }
+
+          .press-logos:hover{
+               opacity:.75;
+          }
