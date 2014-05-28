@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Aqua Design Innovations - About</title>
+  <title>About</title>
   <link type="text/css" rel="stylesheet" href="css/global.css"/>
   <link type="text/css" rel="stylesheet" href="css/about.css"/>
 

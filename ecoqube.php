@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Aqua Design Innovations - EcoQube</title>
+  <title>EcoQube</title>
   <link type="text/css" rel="stylesheet" href="css/global.css"/>
   <link type="text/css" rel="stylesheet" href="css/ecoqube.css"/>
 

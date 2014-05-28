@@ -1,81 +1,99 @@
 <!DOCTYPE html>
 <html>
-     <head>
-          <title>Aqua Design Innovations - Ecosystems</title>
-          <link type="text/css" rel="stylesheet" href="../css/global.css"/>
-          <link type="text/css" rel="stylesheet" href="../css/learn.css"/>
+<head>
+  <title>Learn | Aquatic ecosystems</title>
+  <link type="text/css" rel="stylesheet" href="../css/global.css"/>
+  <link type="text/css" rel="stylesheet" href="../css/learn.css"/>
 
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-               
-     </head>
-     <body>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Header -->
-          <div id="header-container">
-               <header>
-                    <div id="header-logo">
-                         <a href="../index.php"><img src="../img/logos/header-logo.png" /></a>
-                    </div><!-- #header-logo -->
+  <!-- Modal window -->
+  <!-- Magnific Popup core CSS file -->
+  <link rel="stylesheet" href="../Magnific-Popup-master/dist/magnific-popup.css">
 
-                    <div id="header-navigation">
-                         <ul>
-                              <li><a href="../ecoqube.php" class="header-heading">EcoQube</a>
-                                   <ul class="sub_menu">
-                                        <li><a href="../ecoqube.php#howitworks">How It Works</a></li>
-                                        <li><a href="../ecoqube.php#keyfeatures">Key Features</a></li>
-                                        <li><a href="../ecoqube.php#buyittoday">Buy It Today</a></li>
-                                        <li><a href="../ecoqube.php#fishandplants">Fish & Plants</a></li>
-                                        <li><a href="../ecoqube.php#press">Press Releases</a></li>
-                                   </ul>
-                              </li>
-                              <li><a href="../shop/index.php" class="header-heading">Shop</a> 
-                                   <ul class="sub_menu">
-                                        <li><a href="../shop/ecoqube.php">EcoQube</a></li>
-                                        <li><a href="../shop/livestock.php">Livestock</a></li>
-                                        <li><a href="../shop/plants.php">Plants</a></li>
-                                        <li><a href="../shop/accessories.php">Accessories</a></li>
-                                     </ul>                           
-                              </li>
-                              <li><a href="../services.php" class="header-heading">Services</a>
-                                   <ul  class="sub_menu">
-                                        <li><a href="../services.php#contact">Contact</a></li>    
-                                        <li><a href="../services.php#installations">Installations</a></li>
-                                        <li><a href="../services.php#maintenance">Maintenance</a></li>
-                                        <li><a href="../services.php#gallery">Gallery</a></li>
-                                   </ul>
-                              </li>
-                              <li><a href="../about.php" class="header-heading">About</a>
-                                   <ul  class="sub_menu">
-                                        <li><a href="../about.php#ourstory">Our Story</a></li>
-                                        <li><a href="../about.php#values">Values</a></li>
-                                        <li><a href="../about.php#theteam">The Team</a></li>
-                                        <li><a href="../about.php#affiliates">Affiliates</a></li>
-                                   </ul>
-                              </li>
-                              <li><a href="index.php" class="header-heading" id="header-current">Learn</a>
-                                   <ul  class="sub_menu">
-                                        <li><a href="blog.php">Blog</a></li>
-                                        <li><a href="ecosystems.php">Ecosystems</a></li>
-                                   </ul>
-                              </li>
-                              <li><a href="../faq.php" class="header-heading">FAQ</a>
-                                   <ul class="sub_menu">
-                                        <li><a href="../faq.php#ecoqube">EcoQube</a></li>
-                                        <li><a href="../faq.php#shop">Shop</a></li>
-                                        <li><a href="../faq.php#services">Services</a></li>
-                                        <li><a href="../faq.php#shipping">Shipping</a></li>
-                                        <li><a href="../faq.php#warranty">Warranty</a></li>
-                                   </ul>
-                              </li>
-                              <li><a href="../index.php" id="header-icon-cart">&#xe811;</a>
-                              </li>
-                         </ul>
-                    </div><!-- #header-navigation -->
-               </header>
-          </div><!-- #header-container -->
+  <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-  <!-- Dot navigation -->
+  <!-- Magnific Popup core JS file -->
+  <script src="../Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+
+
+  <!-- JQuery visible library to detect which sections of the page is visible
+  at the users screen and sdjust the blue dot-->
+  <script src="../js/jquery.visible.js"></script>
+
+  <!-- Custom Javascript functions used across pages -->
+  <script src="../js/global.js"></script>
+
+</head>
+<body>
+
+  <!-- Header -->
+  <div id="header-container">
+    <header>
+      <div id="header-logo">
+        <a href="../index.php"><img src="../img/logos/header-logo.png" /></a>
+      </div><!-- #header-logo -->
+
+      <div id="header-navigation">
+        <ul>
+          <li><a href="../ecoqube.php" class="header-heading" id="header-current">EcoQube</a>
+            <ul class="sub_menu">
+              <li><a href="../ecoqube.php#howitworks" id="howitworksBtn" class="">How It Works</a></li>
+              <li><a href="../ecoqube.php#keyfeatures" id="keyfeaturesBtn" class="">Key Features</a></li>
+              <li><a href="../ecoqube.php#buyittoday" id="buyittodayBtn" class="">Buy It Today</a></li>
+              <li><a href="../ecoqube.php#fishandplants" id="fishandplantsBtn" class="">Fish & Plants</a></li>
+              <li><a href="../ecoqube.php#press" id="pressBtn" class="">Press Releases</a></li>
+            </ul>
+          </li>
+          <li><a href="../shop/index.php" class="header-heading">Shop</a>
+            <ul class="sub_menu">
+              <li><a href="../shop/ecoqube.php">EcoQube</a></li>
+              <li><a href="../shop/livestock.php">Livestock</a></li>
+              <li><a href="../shop/plants.php">Plants</a></li>
+              <li><a href="../shop/accessories.php">Accessories</a></li>
+            </ul>
+          </li>
+          <li><a href="../services.php" class="header-heading">Services</a>
+            <ul  class="sub_menu">
+              <li><a href="../services.php#contact">Contact</a></li>
+              <li><a href="../services.php#installations">Installations</a></li>
+              <li><a href="../services.php#maintenance">Maintenance</a></li>
+              <li><a href="../services.php#gallery">Gallery</a></li>
+            </ul>
+          </li>
+          <li><a href="../about.php" class="header-heading">About</a>
+            <ul  class="sub_menu">
+              <li><a href="../about.php#ourstory">Our Story</a></li>
+              <li><a href="../about.php#values">Values</a></li>
+              <li><a href="../about.php#theteam">The Team</a></li>
+              <li><a href="../about.php#affiliates">Affiliates</a></li>
+            </ul>
+          </li>
+          <li><a href="index.php" class="header-heading">Learn</a>
+            <ul  class="sub_menu">
+              <li><a href="blog.php">Blog</a></li>
+              <li><a href="ecosystems.php">Ecosystems</a></li>
+            </ul>
+          </li>
+          <li><a href="../faq.php" class="header-heading">FAQ</a>
+            <ul class="sub_menu">
+              <li><a href="../faq.php#ecoqube">EcoQube</a></li>
+              <li><a href="../faq.php#shop">Shop</a></li>
+              <li><a href="../faq.php#services">Services</a></li>
+              <li><a href="../faq.php#shipping">Shipping</a></li>
+              <li><a href="../faq.php#warranty">Warranty</a></li>
+            </ul>
+          </li>
+          <li><a href="../index.php" id="header-icon-cart">&#xe811;</a>
+          </li>
+        </ul>
+      </div><!-- #header-navigation -->
+    </header>
+  </div><!-- #header-container -->
+
+  <!-- Dot navigation --> <!-- E: I think we supposed to do all of the width and height in css?? -->
   <div id="dot-navigation-container">
     <ul>
       <li class="dot-navigation-icon">
@@ -250,104 +268,104 @@
 
   </div><!-- #content-container -->
 
-<!-- Footer  -->
-          <div id="footer-container">
-               <div id="footer-topbar">
-                    <form name="input" id="footer-subscribe-form">
-                         Sign up for weekly deals!
-                         <input type="text" placeholder="Example@Email.com" />
-                         <input type="submit" value="Subscribe"/>
-                    </form><!-- #footer-subscribe-form [this id tag is not yet in stylesheet.css]-->
-               </div><!-- #footer-topbar -->
+  <!-- Footer  -->
+  <div id="footer-container">
+    <div id="footer-topbar">
+      <form name="input" id="footer-subscribe-form">
+        Sign up for weekly deals!
+        <input type="text" placeholder="Example@Email.com" />
+        <input type="submit" value="Subscribe"/>
+      </form><!-- #footer-subscribe-form [this id tag is not yet in stylesheet.css]-->
+    </div><!-- #footer-topbar -->
 
-               <footer>
-                    <div id="footer-left-col">
-                         <div id="footer-logo">
-                              <a href="../index.php"><img src="../img/logos/footer-logo.png" /></a>
-                         </div><!-- #footer-logo -->
-                    </div><!-- #footer-left-col -->
+    <footer>
+      <div id="footer-left-col">
+        <div id="footer-logo">
+          <a href="../index.php"><img src="../img/logos/footer-logo.png" /></a>
+        </div><!-- #footer-logo -->
+      </div><!-- #footer-left-col -->
 
-                    <div id="footer-right-col">
-                         <div id="footer-contact">
-                              <div id="footer-phone-email">
-                                   <ul>
-                                        <li>
-                                             <a href="mailto:info@aquadesignainnovations.com"><span id="footer-icon-email">&#xe801;</span> info@aquadesignainnovations.com</a>
-                                        </li>
-                                        <li>
-                                             <a href="tel:8582243474"><span id="footer-icon-phone">&#xe800;</span>(888) 224-FISH</a>
-                                        </li>
-                                   </ul>
-                              </div>
-                              <div id="footer-social-media">
-                                   <ul>
-                                        <li>
-                                             <a href="https://www.facebook.com/AQUADESIGNINNOVATIONS"><span id="footer-icon-fb">&#xe81b;</span></a>
-                                        </li>
-                                        <li>
-                                             <a href="https://twitter.com/DesignADI"><span id="footer-icon-tw">&#xe81a;</span></a>
-                                        </li>
-                                   </ul>
-                              </div>
-                         </div><!-- #footer-contact -->
+      <div id="footer-right-col">
+        <div id="footer-contact">
+          <div id="footer-phone-email">
+            <ul>
+              <li>
+                <a href="mailto:info@aquadesignainnovations.com"><span id="footer-icon-email">&#xe801;</span> info@aquadesignainnovations.com</a>
+              </li>
+              <li>
+                <a href="tel:8582243474"><span id="footer-icon-phone">&#xe800;</span>(888) 224-FISH</a>
+              </li>
+            </ul>
+          </div>
+          <div id="footer-social-media">
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/AQUADESIGNINNOVATIONS"><span id="footer-icon-fb">&#xe81b;</span></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/DesignADI"><span id="footer-icon-tw">&#xe81a;</span></a>
+              </li>
+            </ul>
+          </div>
+        </div><!-- #footer-contact -->
 
-                         <div id="footer-sitemap-container">
-                              <div class="footer-heading-1">
-                              </div><!-- .footer-heading-1 -->
+        <div id="footer-sitemap-container">
+          <div class="footer-heading-1">
+          </div><!-- .footer-heading-1 -->
 
-                              <div id="footer-sitemap">
-                                   <ul>
-                                        <li><span class="footer-heading-2"><a href="../ecoqube.php">EcoQube</a></span></li>
-                                        <li><a href="../ecoqube.php#howitworks">How It Works</a></li>
-                                        <li><a href="../ecoqube.php#keyfeatures">Key Features</a></li>
-                                        <li><a href="../ecoqube.php#buyittoday">Buy It Today</a></li>
-                                        <li><a href="../ecoqube.php#fishandplants">Fish & Plants</a></li>
-                                        <li><a href="../ecoqube.php#press">Press Releases</a></li>
-                                   </ul>
-                                   <ul>
-                                        <li><span class="footer-heading-2"><a href="../shop/index.php">Shop</a></span></li>
-                                        <li><a href="../shop/ecoqube.php">EcoQube</a></li>
-                                        <li><a href="../shop/livestock.php">Livestock</a></li>
-                                        <li><a href="../shop/plants.php">Plants</a></li>
-                                        <li><a href="../shop/accessories.php">Accessories</a></li>
-                                   </ul>
-                                   <ul>
-                                        <li><span class="footer-heading-2"><a href="../services.php">Services</a></span></li>
-                                        <li><a href="../services.php#contact">Contact</a></li>    
-                                        <li><a href="../services.php#installations">Installations</a></li>
-                                        <li><a href="../services.php#maintenance">Maintenance</a></li>
-                                        <li><a href="../services.php#gallery">Gallery</a></li>
-                                   </ul>
-                                   <ul>
-                                        <li><span class="footer-heading-2"><a href="../about.php">About</a></span></li>
-                                        <li><a href="../about.php#ourstory">Our Story</a></li>
-                                        <li><a href="../about.php/#values">Values</a></li>
-                                        <li><a href="../about.php/#theteam">The Team</a></li>
-                                        <li><a href="../about.php/#affiliates">Affiliates</a></li>
-                                   </ul>
-                                   <ul>
-                                        <li><span class="footer-heading-2"><a href="index.php">Learn</a></span></li>
-                                        <li><a href="blog.php">Blog</a></li>
-                                        <li><a href="ecosystems.php">Ecosystems</a></li>
-                                   </ul>
-                                   <ul>
-                                        <li><span class="footer-heading-2"><a href="../faq.php">FAQ</a></span></li>
-                                        <li><a href="../faq.php#ecoqube">EcoQube</a></li>
-                                        <li><a href="../faq.php#shop">Shop</a></li>
-                                        <li><a href="../faq.php#services">Services</a></li>
-                                        <li><a href="../faq.php#shipping">Shipping</a></li>
-                                        <li><a href="../faq.php#warranty">Warranty</a></li>
-                                   </ul>
-                              </div><!-- #footer-sitemap -->
-                         </div><!-- #footer-sitemap-container -->
-                    </div><!-- #footer-right-col -->
+          <div id="footer-sitemap">
+            <ul>
+              <li><span class="footer-heading-2"><a href="../ecoqube.php">EcoQube</a></span></li>
+              <li><a href="../ecoqube.php#howitworks" id="howitworksBtn">How It Works</a></li>
+              <li><a href="../ecoqube.php#keyfeatures" id="keyfeaturesBtn">Key Features</a></li>
+              <li><a href="../ecoqube.php#buyittoday" id="buyittodayBtn">Buy It Today</a></li>
+              <li><a href="../ecoqube.php#fishandplants" id="fishandplantsBtn">Fish & Plants</a></li>
+              <li><a href="../ecoqube.php#press" id="pressBtn">Press Releases</a></li>
+            </ul>
+            <ul>
+              <li><span class="footer-heading-2"><a href="../shop/index.php">Shop</a></span></li>
+              <li><a href="../shop/ecoqube.php">EcoQube</a></li>
+              <li><a href="../shop/livestock.php">Livestock</a></li>
+              <li><a href="../shop/plants.php">Plants</a></li>
+              <li><a href="../../shop/accessories.php">Accessories</a></li>
+            </ul>
+            <ul>
+              <li><span class="footer-heading-2"><a href="../services.php">Services</a></span></li>
+              <li><a href="../services.php#contact">Contact</a></li>
+              <li><a href="../services.php#installations">Installations</a></li>
+              <li><a href="../services.php#maintenance">Maintenance</a></li>
+              <li><a href="../services.php#gallery">Gallery</a></li>
+            </ul>
+            <ul>
+              <li><span class="footer-heading-2"><a href="../about.php">About</a></span></li>
+              <li><a href="../about.php#ourstory">Our Story</a></li>
+              <li><a href="../about.php/#values">Values</a></li>
+              <li><a href="../about.php/#theteam">The Team</a></li>
+              <li><a href="../about.php/#affiliates">Affiliates</a></li>
+            </ul>
+            <ul>
+              <li><span class="footer-heading-2"><a href="index.php">Learn</a></span></li>
+              <li><a href="blog.php">Blog</a></li>
+              <li><a href="ecosystems.php">Ecosystems</a></li>
+            </ul>
+            <ul>
+              <li><span class="footer-heading-2"><a href="faq.php">FAQ</a></span></li>
+              <li><a href="../faq.php#ecoqube">EcoQube</a></li>
+              <li><a href="../faq.php#shop">Shop</a></li>
+              <li><a href="../faq.php#services">Services</a></li>
+              <li><a href="../../faq.php#shipping">Shipping</a></li>
+              <li><a href="../faq.php#warranty">Warranty</a></li>
+            </ul>
+          </div><!-- #footer-sitemap -->
+        </div><!-- #footer-sitemap-container -->
+      </div><!-- #footer-right-col -->
 
-                    <div id="footer-copyright">
-                         <p>Aqua Design Innovations 2014 - All Rights Reserved</p>
-                    </div><!-- #footer-copyright -->
+      <div id="footer-copyright">
+        <p>Aqua Design Innovations 2014 - All Rights Reserved</p>
+      </div><!-- #footer-copyright -->
 
-                    </footer>
-          </div><!-- #footer-container -->
+    </footer>
+  </div><!-- #footer-container -->
 
 
   <!-- Javascript code identifying which sections are visible on the screen -->

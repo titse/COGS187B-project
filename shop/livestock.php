@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Aqua Design Innovations - Shop</title>
+  <title>Shop | Livestock</title>
   <link type="text/css" rel="stylesheet" href="../css/global.css"/>
   <link type="text/css" rel="stylesheet" href="../css/shop.css"/>
 

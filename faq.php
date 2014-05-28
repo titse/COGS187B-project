@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Aqua Design Innovations - FAQ</title>
+  <title>FAQ</title>
   <link type="text/css" rel="stylesheet" href="css/global.css"/>
   <link type="text/css" rel="stylesheet" href="css/faq.css"/>
 
@@ -165,6 +165,8 @@
         <br /><br />
         · <a id="ecoqube-q2"></a>Why is the water in my EcoQube cloudy?<br />
         Answer answer answer answer answer answer answer answer answer answer answer answer answer.
+        <br><br><br>
+        <a href="#top">Back to top</a>
       </div> <!-- .section-content -->
     </div><!-- .section-container -->
 
@@ -179,6 +181,8 @@
         <br /><br />
         · <a id="shop-q2"></a>What does the product icons mean?<br />
         Answer answer answer answer answer answer answer answer answer answer answer answer answer.
+        <br><br><br>
+        <a href="#top">Back to top</a>
       </div> <!-- .section-content -->
     </div><!-- .section-container -->
 
@@ -193,6 +197,8 @@
         <br /><br />
         · <a id="services-q2"></a>Will my tank be easy to maintain?<br />
         Answer answer answer answer answer answer answer answer answer answer answer answer answer.
+        <br><br><br>
+        <a href="#top">Back to top</a>
       </div> <!-- .section-content -->
     </div><!-- .section-container -->
 
@@ -207,6 +213,8 @@
         <br /><br />
         · <a id="shipping-q2"></a>What kind of shipping services do we use?<br />
         Answer answer answer answer answer answer answer answer answer answer answer answer answer.
+        <br><br><br>
+        <a href="#top">Back to top</a>
       </div> <!-- .section-content -->
     </div><!-- .section-container -->
 
@@ -221,6 +229,8 @@
         <br /><br>
         · <a id="warranty-q2"></a>What if my EcoQube is defective when it arrives?<br />
         Answer answer answer answer answer answer answer answer answer answer answer answer answer.
+        <br><br><br>
+        <a href="#top">Back to top</a>
       </div><!-- section-content -->
     </div><!-- .section-container #last-section-margin -->
 
@@ -324,7 +334,7 @@
 
     </footer>
   </div><!-- #footer-container -->
-  
+
 </body>
 
 <!-- Javascript code identifying which sections are visible on the screen -->

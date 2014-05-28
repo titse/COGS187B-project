@@ -86,9 +86,8 @@
 
     <div class="shop-filter-container">
       <srtong>Filter by:</strong>
-        <a href="#" class="filterOptions">EcoQube</a>
-        <a href="#" class="filterOptions">Fish</a>
-        <a href="#" class="filterOptions">Invertebrates</a>
+        <a href="#" class="filterOptions">Terrestrial</a>
+        <a href="#" class="filterOptions">Aquatic</a>
       </div>
     </div>
 

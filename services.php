@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Aqua Design Innovations - Services</title>
+  <title>Services</title>
   <link type="text/css" rel="stylesheet" href="css/global.css"/>
   <link type="text/css" rel="stylesheet" href="css/services.css"/>
 
@@ -24,8 +24,8 @@
 
   <!-- Custom Javascript functions used across pages -->
   <script src="js/global.js"></script>
-  
-  
+
+
   	<!--- flexslider js  --->
 	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 	<script  src="js/jquery.flexslider.js"></script>
@@ -220,7 +220,7 @@
           <a id="gallery" class="anchor"></a>Gallery of Our Previous Installations
         </div><!-- .section-heading -->
         <br />
-                <script type="text/javascript"> 
+                <script type="text/javascript">
 		// Can also be used with $(document).ready()
 			$(window).load(function() {
 			  $('.flexslider').flexslider({
@@ -228,23 +228,20 @@
 				controlNav: "thumbnails"
 			  });
 			});
-		
+
 		</script>
 		<!-- Place somewhere in the <body> of your page -->
 		<div class="flexslider">
 		  <ul class="slides">
-            <li data-thumb="images/kitchen_adventurer_cheesecake_brownie.jpg">
-  	    	    <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+  	    		<li data-thumb="img/services/installations2-th.jpg">
+  	    	    <img src="img/services/installations2.jpg" />
   	    		</li>
-  	    		<li data-thumb="images/kitchen_adventurer_lemon.jpg">
-  	    	    <img src="images/kitchen_adventurer_lemon.jpg" />
-  	    		</li>
-  	    		<li data-thumb="images/kitchen_adventurer_donut.jpg">
-  	    	    <img src="images/kitchen_adventurer_donut.jpg" />
-  	    		</li>
-  	    		<li data-thumb="images/kitchen_adventurer_caramel.jpg">
-  	    	    <img src="images/kitchen_adventurer_caramel.jpg" />
-  	    		</li>
+  	    		<li data-thumb="img/services/installations3-th.jpg">
+              <img src="img/services/installations3.jpg" />
+            </li>
+  	    		<li data-thumb="img/services/installations4-th.jpg">
+              <img src="img/services/installations4.jpg" />
+            </li>
 		  </ul>
 		</div><!--.flexslider-->
       </div><!-- .section-content -->

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
      <head>
-          <title>Aqua Design Innovations</title>
+          <title>Home</title>
           <link type="text/css" rel="stylesheet" href="css/global.css"/>
           <link type="text/css" rel="stylesheet" href="css/index.css"/>
 
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1">
-               
+
      </head>
      <body>
 
@@ -29,17 +29,17 @@
                                         <li><a href="ecoqube.php#press">Press Releases</a></li>
                                    </ul>
                               </li>
-                              <li><a href="shop/index.php" class="header-heading">Shop</a> 
+                              <li><a href="shop/index.php" class="header-heading">Shop</a>
                                    <ul class="sub_menu">
                                         <li><a href="shop/ecoqube.php">EcoQube</a></li>
                                         <li><a href="shop/livestock.php">Livestock</a></li>
                                         <li><a href="shop/plants.php">Plants</a></li>
                                         <li><a href="shop/accessories.php">Accessories</a></li>
-                                     </ul>                           
+                                     </ul>
                               </li>
                               <li><a href="services.php" class="header-heading">Services</a>
                                    <ul  class="sub_menu">
-                                        <li><a href="services.php#contact">Contact</a></li>    
+                                        <li><a href="services.php#contact">Contact</a></li>
                                         <li><a href="services.php#installations">Installations</a></li>
                                         <li><a href="services.php#maintenance">Maintenance</a></li>
                                         <li><a href="services.php#gallery">Gallery</a></li>
@@ -78,7 +78,7 @@
 <!-- Content  -->
           <div id="content-container">
                <div class="section-container" id="first-section-margin">
-                    <a href="index.php">
+                    <a href="ecoqube.php">
                          <div class="index-slider-overlay">
                               <img src="img/logos/ecoqube-logo.png" /><br />
                               The most beautiful way to grow herbs, house <br />
@@ -157,7 +157,7 @@
                                    </ul>
                                    <ul>
                                         <li><span class="footer-heading-2"><a href="services.php">Services</a></span></li>
-                                        <li><a href="services.php#contact">Contact</a></li>    
+                                        <li><a href="services.php#contact">Contact</a></li>
                                         <li><a href="services.php#installations">Installations</a></li>
                                         <li><a href="services.php#maintenance">Maintenance</a></li>
                                         <li><a href="services.php#gallery">Gallery</a></li>
