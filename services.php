@@ -24,6 +24,13 @@
 
   <!-- Custom Javascript functions used across pages -->
   <script src="js/global.js"></script>
+  
+  
+  	<!--- flexslider js  --->
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<script  src="js/jquery.flexslider.js"></script>
+		<!-- Modernizr -->
+  <script src="js/modernizr.js"></script>
 
 </head>
 <body>
@@ -213,7 +220,33 @@
           <a id="gallery" class="anchor"></a>Gallery of Our Previous Installations
         </div><!-- .section-heading -->
         <br />
-        Slider goes here
+                <script type="text/javascript"> 
+		// Can also be used with $(document).ready()
+			$(window).load(function() {
+			  $('.flexslider').flexslider({
+				animation: "slide",
+				controlNav: "thumbnails"
+			  });
+			});
+		
+		</script>
+		<!-- Place somewhere in the <body> of your page -->
+		<div class="flexslider">
+		  <ul class="slides">
+            <li data-thumb="images/kitchen_adventurer_cheesecake_brownie.jpg">
+  	    	    <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+  	    		</li>
+  	    		<li data-thumb="images/kitchen_adventurer_lemon.jpg">
+  	    	    <img src="images/kitchen_adventurer_lemon.jpg" />
+  	    		</li>
+  	    		<li data-thumb="images/kitchen_adventurer_donut.jpg">
+  	    	    <img src="images/kitchen_adventurer_donut.jpg" />
+  	    		</li>
+  	    		<li data-thumb="images/kitchen_adventurer_caramel.jpg">
+  	    	    <img src="images/kitchen_adventurer_caramel.jpg" />
+  	    		</li>
+		  </ul>
+		</div><!--.flexslider-->
       </div><!-- .section-content -->
     </div><!-- .section-container #last-section-margin -->
 
