@@ -45,6 +45,10 @@
   font-family:"Helvetica Neue LT Pro Light";
 }
 
+.upper-margin{
+  margin-top:115px;
+}
+
 body{
   border:0;
   margin:0 auto;
