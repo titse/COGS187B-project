@@ -1,7 +1,7 @@
 <div class="modal-window-content">
      <style>
           .modal-video{
-               background-color:rgba(230,20,100,1);
+               background-color:rgba(0,0,0,1);
                height:480px;
                margin:115px auto;
                padding:0;

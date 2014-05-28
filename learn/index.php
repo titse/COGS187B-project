@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
      <head>
-          <title>Aqua Design Innovations - Learn</title>
+          <title>Learn | Home</title>
           <link type="text/css" rel="stylesheet" href="../css/global.css"/>
           <link type="text/css" rel="stylesheet" href="../css/learn.css"/>
+          <link rel="shortcut icon" href="img/logos/favicon.png">
 
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -75,28 +76,28 @@
                </header>
           </div><!-- #header-container -->
 
-  <!-- Content  -->
-  <div id="content-container">
-    <div class="section-container upper-margin">
-      <div class ="learn-message">
-        <h2>Our learning areas provide useful information about aquarium related topics We hope you will use this information to gain knowledge and improve your aquatic ecosystem </h2>
-      </div>
+     <!-- Content  -->
+          <div id="content-container">
+               <div class="section-container upper-margin">
+                    <div class ="learn-message">
+                         <h2>Our learning areas provide useful information about aquarium related topics We hope you will use this information to gain knowledge and improve your aquatic ecosystem </h2>
+                    </div>
 
-      <div class="learn-topic-container">
-        <div class="learn-ecosystems">
-          <a href="ecosystems.php"><img src="../img/learn/learn-ecosystems.png" /></a>
-          <p>Learn more about aquaponic ecosystems</p>
-        </div>
+                    <div class="learn-topic-container">
+                         <div class="learn-ecosystems">
+                              <a href="ecosystems.php"><img src="../img/learn/learn-ecosystems.png" /></a>
+                              <p>Learn more about aquaponic ecosystems</p>
+                         </div>
 
-        <div class="learn-blog">
-          <a href="blog.php"><img src="../img/learn/adi-blog-picture.png" /></a>
-          <p>Read our Blog</p>
-        </div> <!---end of learn blog-->
-      </div> <!-- end learn-topic-container-->
-    </div><!---end of section container-->
-  </div><!-- #content-container -->
+                         <div class="learn-blog">
+                              <a href="blog.php"><img src="../img/learn/adi-blog-picture.png" /></a>
+                              <p>Read our Blog</p>
+                         </div> <!---end of learn blog-->
+                    </div> <!-- end learn-topic-container-->
+               </div><!---end of section container-->
+          </div><!-- #content-container -->
 
-<!-- Footer  -->
+     <!-- Footer  -->
           <div id="footer-container">
                <div id="footer-topbar">
                     <form name="input" id="footer-subscribe-form">
@@ -194,6 +195,5 @@
 
                     </footer>
           </div><!-- #footer-container -->
-
 </body>
 </html>

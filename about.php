@@ -4,6 +4,7 @@
   <title>About</title>
   <link type="text/css" rel="stylesheet" href="css/global.css"/>
   <link type="text/css" rel="stylesheet" href="css/about.css"/>
+  <link rel="shortcut icon" href="img/logos/favicon.png">
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,8 +18,7 @@
   <!-- Magnific Popup core JS file -->
   <script src="Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
 
-  <!-- JQuery visible library to detect which sections of the page is visible
-  at the users screen and sdjust the blue dot-->
+  <!-- JQuery visible library to detect which sections of the page is visible on the users screen and sdjust the blue dot-->
   <script type="text/javascript" src="js/jquery.visible.js"></script>
 
   <!-- Custom Javascript functions used across pages -->

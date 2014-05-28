@@ -1,100 +1,98 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>EcoQube</title>
-  <link type="text/css" rel="stylesheet" href="css/global.css"/>
-  <link type="text/css" rel="stylesheet" href="css/ecoqube.css"/>
+     <title>EcoQube</title>
+     <link type="text/css" rel="stylesheet" href="css/global.css"/>
+     <link type="text/css" rel="stylesheet" href="css/ecoqube.css"/>
+     <link rel="shortcut icon" href="img/logos/favicon.png">
+
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <!-- Modal window -->
+          <!-- Magnific Popup core CSS file -->
+          <link rel="stylesheet" href="Magnific-Popup-master/dist/magnific-popup.css">
+
+          <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+          <!-- Magnific Popup core JS file -->
+          <script src="Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
 
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- JQuery visible library to detect which sections of the page is visible on the users screen and adjust the blue dot-->
+     <script src="js/jquery.visible.js"></script>
 
-  <!-- Modal window -->
-  <!-- Magnific Popup core CSS file -->
-  <link rel="stylesheet" href="Magnific-Popup-master/dist/magnific-popup.css">
-
-  <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-  <!-- Magnific Popup core JS file -->
-  <script src="Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
-
-
-  <!-- JQuery visible library to detect which sections of the page is visible
-  at the users screen and sdjust the blue dot-->
-  <script src="js/jquery.visible.js"></script>
-
-  <!-- Custom Javascript functions used across pages -->
-  <script src="js/global.js"></script>
-
+     <!-- Custom Javascript functions used across pages -->
+     <script src="js/global.js"></script>
 </head>
 <body>
+     <!-- Header -->
+          <div id="header-container">
+               <header>
+                    <div id="header-logo">
+                         <a href="index.php"><img src="img/logos/header-logo.png" /></a>
+                    </div><!-- #header-logo -->
 
-  <!-- Header -->
-  <div id="header-container">
-    <header>
-      <div id="header-logo">
-        <a href="index.php"><img src="img/logos/header-logo.png" /></a>
-      </div><!-- #header-logo -->
+                    <div id="header-navigation">
+                         <ul>
+                              <li><a href="ecoqube.php" class="header-heading" id="header-current">EcoQube</a>
+                                   <ul class="sub_menu">
+                                        <li><a href="ecoqube.php#howitworks" id="howitworksBtn" class="">How It Works</a></li>
+                                        <li><a href="ecoqube.php#keyfeatures" id="keyfeaturesBtn" class="">Key Features</a></li>
+                                        <li><a href="ecoqube.php#buyittoday" id="buyittodayBtn" class="">Buy It Today</a></li>
+                                        <li><a href="ecoqube.php#fishandplants" id="fishandplantsBtn" class="">Fish & Plants</a></li>
+                                        <li><a href="ecoqube.php#press" id="pressBtn" class="">Press Releases</a></li>
+                                   </ul>
+                              </li>
+                              <li><a href="shop/index.php" class="header-heading">Shop</a>
+                                   <ul class="sub_menu">
+                                        <li><a href="shop/ecoqube.php">EcoQube</a></li>
+                                        <li><a href="shop/livestock.php">Livestock</a></li>
+                                        <li><a href="shop/plants.php">Plants</a></li>
+                                        <li><a href="shop/accessories.php">Accessories</a></li>
+                                   </ul>
+                              </li>
+                              <li><a href="services.php" class="header-heading">Services</a>
+                                   <ul  class="sub_menu">
+                                        <li><a href="services.php#contact">Contact</a></li>
+                                        <li><a href="services.php#installations">Installations</a></li>
+                                        <li><a href="services.php#maintenance">Maintenance</a></li>
+                                        <li><a href="services.php#gallery">Gallery</a></li>
+                                   </ul>
+                              </li>
+                              <li><a href="about.php" class="header-heading">About</a>
+                                   <ul  class="sub_menu">
+                                        <li><a href="about.php#ourstory">Our Story</a></li>
+                                        <li><a href="about.php#values">Values</a></li>
+                                        <li><a href="about.php#theteam">The Team</a></li>
+                                        <li><a href="about.php#affiliates">Affiliates</a></li>
+                                   </ul>
+                              </li>
+                              <li><a href="learn/index.php" class="header-heading">Learn</a>
+                                   <ul  class="sub_menu">
+                                        <li><a href="learn/blog.php">Blog</a></li>
+                                        <li><a href="learn/ecosystems.php">Ecosystems</a></li>
+                                   </ul>
+                              </li>
+                              <li><a href="faq.php" class="header-heading">FAQ</a>
+                                   <ul class="sub_menu">
+                                        <li><a href="faq.php#ecoqube">EcoQube</a></li>
+                                        <li><a href="faq.php#shop">Shop</a></li>
+                                        <li><a href="faq.php#services">Services</a></li>
+                                        <li><a href="faq.php#shipping">Shipping</a></li>
+                                        <li><a href="faq.php#warranty">Warranty</a></li>
+                                   </ul>
+                              </li>
+                              <li>
+                                   <a href="index.php" id="header-icon-cart">&#xe811;</a>
+                              </li>
+                         </ul>
+                    </div><!-- #header-navigation -->
+               </header>
+     </div><!-- #header-container -->
 
-      <div id="header-navigation">
-        <ul>
-          <li><a href="ecoqube.php" class="header-heading" id="header-current">EcoQube</a>
-            <ul class="sub_menu">
-              <li><a href="ecoqube.php#howitworks" id="howitworksBtn" class="">How It Works</a></li>
-              <li><a href="ecoqube.php#keyfeatures" id="keyfeaturesBtn" class="">Key Features</a></li>
-              <li><a href="ecoqube.php#buyittoday" id="buyittodayBtn" class="">Buy It Today</a></li>
-              <li><a href="ecoqube.php#fishandplants" id="fishandplantsBtn" class="">Fish & Plants</a></li>
-              <li><a href="ecoqube.php#press" id="pressBtn" class="">Press Releases</a></li>
-            </ul>
-          </li>
-          <li><a href="shop/index.php" class="header-heading">Shop</a>
-            <ul class="sub_menu">
-              <li><a href="shop/ecoqube.php">EcoQube</a></li>
-              <li><a href="shop/livestock.php">Livestock</a></li>
-              <li><a href="shop/plants.php">Plants</a></li>
-              <li><a href="shop/accessories.php">Accessories</a></li>
-            </ul>
-          </li>
-          <li><a href="services.php" class="header-heading">Services</a>
-            <ul  class="sub_menu">
-              <li><a href="services.php#contact">Contact</a></li>
-              <li><a href="services.php#installations">Installations</a></li>
-              <li><a href="services.php#maintenance">Maintenance</a></li>
-              <li><a href="services.php#gallery">Gallery</a></li>
-            </ul>
-          </li>
-          <li><a href="about.php" class="header-heading">About</a>
-            <ul  class="sub_menu">
-              <li><a href="about.php#ourstory">Our Story</a></li>
-              <li><a href="about.php#values">Values</a></li>
-              <li><a href="about.php#theteam">The Team</a></li>
-              <li><a href="about.php#affiliates">Affiliates</a></li>
-            </ul>
-          </li>
-          <li><a href="learn/index.php" class="header-heading">Learn</a>
-            <ul  class="sub_menu">
-              <li><a href="learn/blog.php">Blog</a></li>
-              <li><a href="learn/ecosystems.php">Ecosystems</a></li>
-            </ul>
-          </li>
-          <li><a href="faq.php" class="header-heading">FAQ</a>
-            <ul class="sub_menu">
-              <li><a href="faq.php#ecoqube">EcoQube</a></li>
-              <li><a href="faq.php#shop">Shop</a></li>
-              <li><a href="faq.php#services">Services</a></li>
-              <li><a href="faq.php#shipping">Shipping</a></li>
-              <li><a href="faq.php#warranty">Warranty</a></li>
-            </ul>
-          </li>
-          <li><a href="index.php" id="header-icon-cart">&#xe811;</a>
-          </li>
-        </ul>
-      </div><!-- #header-navigation -->
-    </header>
-  </div><!-- #header-container -->
-
-  <!-- Dot navigation --> <!-- E: I think we supposed to do all of the width and height in css?? -->
+  <!-- Dot navigation -->
   <div id="dot-navigation-container">
     <ul>
       <li class="dot-navigation-icon">

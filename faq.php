@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>FAQ</title>
-  <link type="text/css" rel="stylesheet" href="css/global.css"/>
-  <link type="text/css" rel="stylesheet" href="css/faq.css"/>
+     <title>FAQ</title>
+     <link type="text/css" rel="stylesheet" href="css/global.css"/>
+     <link type="text/css" rel="stylesheet" href="css/faq.css"/>
+     <link rel="shortcut icon" href="img/logos/favicon.png">
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Modal window -->
-  <!-- Magnific Popup core CSS file -->
-  <link rel="stylesheet" href="Magnific-Popup-master/dist/magnific-popup.css">
+     <!-- Modal window -->
+          <!-- Magnific Popup core CSS file -->
+          <link rel="stylesheet" href="Magnific-Popup-master/dist/magnific-popup.css">
 
-  <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+          <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-  <!-- Magnific Popup core JS file -->
-  <script src="Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+          <!-- Magnific Popup core JS file -->
+          <script src="Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
 
-  <!-- JQuery visible library to detect which sections of the page is visible
-  at the users screen and sdjust the blue dot-->
-  <script type="text/javascript" src="js/jquery.visible.js"></script>
+     <!-- JQuery visible library to detect which sections of the page is visible on the users screen and adjust the blue dot-->
+     <script type="text/javascript" src="js/jquery.visible.js"></script>
 
-  <!-- Custom Javascript functions used across pages -->
-  <script type="text/javascript" src="js/global.js"></script>
-
+     <!-- Custom Javascript functions used across pages -->
+     <script type="text/javascript" src="js/global.js"></script>
 </head>
 <body>
-
   <!-- Header -->
   <div id="header-container">
     <header>
@@ -92,7 +90,7 @@
     </header>
   </div><!-- #header-container -->
 
-  <!-- Dot navigation --> <!-- E: I think we supposed to do all of the width and height in css?? -->
+  <!-- Dot navigation -->
   <div id="dot-navigation-container">
     <ul>
       <li class="dot-navigation-icon">

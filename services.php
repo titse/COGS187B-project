@@ -4,6 +4,7 @@
   <title>Services</title>
   <link type="text/css" rel="stylesheet" href="css/global.css"/>
   <link type="text/css" rel="stylesheet" href="css/services.css"/>
+  <link rel="shortcut icon" href="img/logos/favicon.png">
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,15 +19,14 @@
   <!-- Magnific Popup core JS file -->
   <script src="Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
 
-  <!-- JQuery visible library to detect which sections of the page is visible
-  at the users screen and sdjust the blue dot-->
+  <!-- JQuery visible library to detect which sections of the page is visible on the users screen and adjust the blue dot-->
   <script src="js/jquery.visible.js"></script>
 
   <!-- Custom Javascript functions used across pages -->
   <script src="js/global.js"></script>
 
 
-  	<!--- flexslider js  --->
+  	<!-- flexslider js  -->
 	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 	<script  src="js/jquery.flexslider.js"></script>
 		<!-- Modernizr -->
