@@ -79,6 +79,7 @@
     </header>
   </div><!-- #header-container -->
 
+  <div id="content-container">
   <!--Shop heading section -->
   <div class="shop-heading upper-margin left-margin">
     <h3 class="categories-heading">PLANTS</h3>
@@ -297,12 +298,12 @@
       <div id="product-image-overlay">
         <div class="product-image-conatiner">
           <div class="product-image">
-            <div id="upper-overlay" class="overlay-section">
+            <a href="#description"><div id="upper-overlay" class="overlay-section">
               <h3>DESCRIPTION</h3>
-            </div>
-            <div id="lower-overlay" class="overlay-section">
+            </div></a>
+            <a href="#addtocart"><div id="lower-overlay" class="overlay-section">
               <h3>ADD TO CART</h3>
-            </div>
+            </div></a>
           </div>
         </div>
       </div>

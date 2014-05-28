@@ -86,7 +86,7 @@
     </header>
   </div><!-- #header-container -->
 
-
+  <div id="content-container">
     <!-- Secondary-navigation  -->
     <div class="side-navbar">
       <div class="side-navbar-content">

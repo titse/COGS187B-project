@@ -8,7 +8,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
   <script type="text/javascript" src="../js/layerlib.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
@@ -79,6 +78,7 @@
     </header>
   </div><!-- #header-container -->
 
+  <div id="content-container">
   <!--Shop heading section -->
   <div class="shop-heading upper-margin left-margin">
     <h3 class="categories-heading">ECOQUBE</h3>
@@ -297,12 +297,12 @@
       <div id="product-image-overlay">
         <div class="product-image-conatiner">
           <div class="product-image">
-            <div id="upper-overlay" class="overlay-section">
+            <a href="#description"><div id="upper-overlay" class="overlay-section">
               <h3>DESCRIPTION</h3>
-            </div>
-            <div id="lower-overlay" class="overlay-section">
+            </div></a>
+            <a href="#addtocart"><div id="lower-overlay" class="overlay-section">
               <h3>ADD TO CART</h3>
-            </div>
+            </div></a>
           </div>
         </div>
       </div>
