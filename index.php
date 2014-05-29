@@ -14,8 +14,8 @@
 		<!--nerve slider--->
 			<script src="http://code.ryanbruzan.net/nerveSlider/jquery.nerveSlider.min.js"></script>
 			<link rel="stylesheet" href="http://code.ryanbruzan.net/nerveSlider/nerveSlider.min.css" />
-		
-	<!--activate the nerve slider-->	
+
+	<!--activate the nerve slider-->
 <script type="text/javascript">
 $(document).ready(function(){
 	$(".slider").nerveSlider({
@@ -95,15 +95,15 @@ $(document).ready(function(){
           </div><!-- #header-container -->
 
      <!-- Content  -->
-                        <div id="content-container">
-               <div class="section-container" id="first-section-margin">
-				<div class ="slider">
+        <div id="content-container">
+        <div class="section-container" id="first-section-margin">
+				<div class ="slider upper-margin lower-margin">
 				<div class="picture1">
 				 <img src="img/ecoqube6.png" />
-					
-						<div class ="ns_slideContent">
-						
-						
+
+						<a href="ecoqube.php"><div class ="ns_slideContent">
+
+
 						<div class="index-slider-overlay">
                               <img src="img/logos/ecoqube-logo.png" /><br />
 							  <div class="words">
@@ -113,8 +113,8 @@ $(document).ready(function(){
                               with ease.
 							  </div> <!--words-->
                          </div><!-- .index-slider-overlay -->
-						</div>
-				</div>	<!--end of .picture1 there is no css code for this-->	
+						</div></a>
+				</div>	<!--end of .picture1 there is no css code for this-->
 				</div> <!--end of .slider using nerveslider-->
                </div><!-- .section-container #first-section-margin -->
           </div><!-- #content-container -->

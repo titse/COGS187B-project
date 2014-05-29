@@ -112,6 +112,16 @@ header{
   width:450px;
 }
 
+.upper-margin{
+  margin-top:100px;
+}
+
+.lower-margin{
+  margin-bottom:114px;
+}
+
+
+
 /*#header-navigation{
 
 }
