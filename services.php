@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ho<!DOCTYPE html>
 <html>
 <head>
      <title>Services</title>
@@ -225,7 +225,7 @@
                <a id="gallery" class="anchor"></a>Gallery of Our Previous Installations
              </div><!-- .section-heading -->
              <br />
-             
+
         <br /><div id="ourstory-slide">
          <div id="main-slider" class="flexslider">
                <ul class="slides">
