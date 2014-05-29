@@ -87,11 +87,31 @@
           }
 
      /*Buy It Today*/
-          .ecoqube-items-section{
+          .ecoqube-product-section {
+            padding:0;
+            width:80%;
           }
 
-          .ecoqube-items-section img{
-               padding-right:2em;
+          .ecoqube-product-section .product {
+            width:22%;
+            margin-left:5%;
+          }
+
+          .ecoqube-product-section .icon-description {
+            margin:0;
+          }
+
+          .ecoqube-product-section .price {
+            margin:0;
+          }
+
+          .ecoqube-product-section .product-name {
+            margin:0;
+          }
+
+          .ecoqube-product-section #product-image-overlay {
+            width:19.8%;
+            border:none;
           }
 
      /*Blurbs*/
@@ -136,8 +156,6 @@
                font-size:2.5em;
                height:300px;
                overflow:hidden;
-               padding-left:2em;
-               padding-right:2em;
                padding-top:1.4em;
                position:absolute;
                text-align:center;

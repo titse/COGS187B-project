@@ -9,18 +9,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-       <!-- Modal window -->
-          <!-- Magnific Popup core CSS file -->
-          <link rel="stylesheet" href="../Magnific-Popup-master/dist/magnific-popup.css">
-
-          <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-          <!-- Magnific Popup core JS file -->
-          <script src="../Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
-
   <script type="text/javascript" src="../js/layerlib.js"></script>
-  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> --> <!-- E: I had to comment this out so that the modal window works. Nothing else in the page seems to have broken though. -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 </head>
 
@@ -143,7 +133,7 @@
     <!-- Content  -->
     <div class="shop-content-container left-margin">
 
-      <div class="product fish">
+      <div class="product fish ecoqube">
         <div class="product-image-conatiner">
           <div class="product-image">
             <img src="../img/products/test-product-image.png" alt="Product image">
@@ -166,11 +156,11 @@
             <p class="icon-description">25 degrees</p>
           </div>
         </div>
-        <p class="product-name">FISH</p>
+        <p class="product-name">Cloud Minnow</p>
         <p class="price">$ 4.99</p>
       </div>
 
-      <div class="product invertebrates">
+      <div class="product fish ecoqube">
         <div class="product-image-conatiner">
           <div class="product-image">
             <img src="../img/products/test-product-image.png" alt="Product image">
@@ -193,11 +183,11 @@
             <p class="icon-description">25 degrees</p>
           </div>
         </div>
-        <p class="product-name">INVERTEBRATE</p>
+        <p class="product-name">Zebrafish</p>
         <p class="price">$ 4.99</p>
       </div>
 
-      <div class="product ecoqube fish">
+      <div class="product fish ecoqube">
         <div class="product-image-conatiner">
           <div class="product-image">
             <img src="../img/products/test-product-image.png" alt="Product image">
@@ -220,11 +210,11 @@
             <p class="icon-description">25 degrees</p>
           </div>
         </div>
-        <p class="product-name">ECOQUBE FISH</p>
+        <p class="product-name">Guppy</p>
         <p class="price">$ 4.99</p>
       </div>
 
-      <div class="product ecoqube invertebrates">
+      <div class="product ecoqube plants aquatic">
         <div class="product-image-conatiner">
           <div class="product-image">
             <img src="../img/products/test-product-image.png" alt="Product image">
@@ -247,11 +237,11 @@
             <p class="icon-description">25 degrees</p>
           </div>
         </div>
-        <p class="product-name">ECOQUBE INVERTEBRATE</p>
+        <p class="product-name">Java Fern</p>
         <p class="price">$ 4.99</p>
       </div>
 
-      <div class="product invertebrates">
+      <div class="product plants terrestrial">
         <div class="product-image-conatiner">
           <div class="product-image">
             <img src="../img/products/test-product-image.png" alt="Product image">
@@ -274,11 +264,11 @@
             <p class="icon-description">25 degrees</p>
           </div>
         </div>
-        <p class="product-name">INVERTEBRATE</p>
+        <p class="product-name">Basil</p>
         <p class="price">$ 4.99</p>
       </div>
 
-      <div class="product ecoqube">
+      <div class="product ecoqube plants terrestrial">
         <div class="product-image-conatiner">
           <div class="product-image">
             <img src="../img/products/test-product-image.png" alt="Product image">
@@ -301,7 +291,7 @@
             <p class="icon-description">25 degrees</p>
           </div>
         </div>
-        <p class="product-name">ECOQUBE</p>
+        <p class="product-name">Mint</p>
         <p class="price">$ 4.99</p>
       </div>
 
@@ -309,9 +299,9 @@
         <div class="product-image-conatiner">
           <div class="product-image">
             <a href="#description"><div id="upper-overlay" class="overlay-section">
-              <a href="item-modal-1.php" class="item-modal"><h3>DESCRIPTION</h3></a>
+              <h3>DESCRIPTION</h3>
             </div></a>
-            <a href="#addtocart" ><div id="lower-overlay" class="overlay-section">
+            <a href="#addtocart"><div id="lower-overlay" class="overlay-section">
               <h3>ADD TO CART</h3>
             </div></a>
           </div>
@@ -419,7 +409,6 @@
       </footer>
     </div><!-- #footer-container -->
 
-
     <!-- JavaScript code  -->
     <script>
 
@@ -497,19 +486,6 @@
 
 
     </script>
-
-          <!-- Modal window -->
-               <script type="text/javascript">
-               $(document).ready(function($modalfn) {
-
-               $modalfn('.item-modal').magnificPopup({
-               type: 'ajax',
-               alignTop: true,
-               overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
-               });
-
-               });
-               </script>
 
 </body>
 </html>
