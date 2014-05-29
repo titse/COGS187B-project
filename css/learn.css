@@ -1,0 +1,130 @@
+/*---learn homepage----*/
+	.learn-message{
+		display:inline-block;
+		height: 2em;
+		text-align:center;
+		padding-bottom: 10%;
+	}
+	.learn-topic-container{
+		display:block;
+		float:left;
+		width: 100%;
+		padding-left: 15em;
+		padding-bottom: 10%
+	}
+	.learn-ecosystems{
+		float:left;
+		width:40%;
+		margin: 1em;
+	}
+	.learn-blog{
+		float:left;
+		width: 40%;
+		margin: 1em;
+
+	}
+
+/*--- Aquatic ecosystems ----*/
+.fullwidth-image{
+	width:100%;
+	/*background-color:blue;*/
+}
+
+.fullwidth-image img {
+	width:100%;
+	overflow:hidden;
+}
+
+#ecosystems-description {
+	font-size:2em;
+}
+
+.image-text-overlay {
+	background-color:rgba(255,255,255,.5);
+	color:rgba(0,0,0,1);
+	font-family:"Helvetica Neue LT Pro Light Italic";
+	font-size:2.5em;
+	height:450px;
+	overflow:hidden;
+	padding-top:4em;
+	position:absolute;
+	text-align:center;
+	text-shadow: 1px 1px 2px rgba(79,79,79,.75);
+	width:100%;
+}
+
+.emphasize {
+	font-size:1.2em;
+}
+
+#acuaponic-cycle-infographic{
+	width:100%;
+	text-align:center;
+	margin-top:2em;
+}
+
+#acuaponic-cycle-infographic img{
+	width:80%;
+}
+
+.component {
+	display:inline-block;
+	width:320px;
+	height:250px;
+	/*background-color:green;*/
+	float:left;
+	margin:1em 4em;
+}
+
+.component-top-section {
+	display:inline-block;
+	width:100%;
+	heigth:40%;
+	/*background-color:red;*/
+}
+
+.component-icon {
+	display:inline-block;
+	height:100px;
+	float:left;
+	/*background-color:black;*/
+}
+
+.component-icon img {
+	height:100%;
+}
+
+.component-heading {
+	display:inline-block;
+	float:left;
+	font-size:1.5em;
+/*	background-color:blue;*/
+	text-align:center;
+	margin-left:5%;
+	margin-top:12%;
+}
+
+#terrestrial-plants-heading{
+	margin-top:8%;
+}
+
+#woodandrocks-heading{
+	margin-top:8%;
+}
+
+.component-description {
+	display:inline-block;
+	float:left;
+	width:100%;
+	font-size:1.2em;
+/*	background-color:blue;*/
+	text-align:center;
+}
+
+#component-blurb {
+	margin-top:4%;
+	font-size:1.5em;
+	font-family:"Helvetica Neue LT Pro Light Italic";
+	font-style:italic;
+	text-align:left;
+}
