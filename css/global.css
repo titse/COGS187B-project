@@ -6,14 +6,29 @@
 -Gray (Light): #efefef, rgba(239,239,239,1)*/
 
 /*Fonts*/
-@font-face{ /*For all section headings and link headings + font-weight:bold;*/
+@font-face{
   font-family:"Helvetica Neue LT Pro Thin";
   src:url("../fonts/HelveticaNeueLTPro-Th.otf");
 }
 
-@font-face{ /*For all text/links*/
+@font-face{
+  font-family:"Helvetica Neue LT Pro Thin Extended";
+  src:url("../fonts/HelveticaNeueLTPro-ThEx.otf");
+}
+
+@font-face{
+  font-family:"Helvetica Neue LT Pro Thin Condensed";
+  src:url("../fonts/HelveticaNeueLTPro-ThCn.otf");
+}
+
+@font-face{
   font-family:"Helvetica Neue LT Pro Light";
   src:url("../fonts/HelveticaNeueLTPro-Lt.otf");
+}
+
+@font-face{
+  font-family:"Helvetica Neue LT Pro Light Extended";
+  src:url("../fonts/HelveticaNeueLTPro-LtEx.otf");
 }
 
 @font-face{
@@ -24,6 +39,16 @@
 @font-face{
   font-family:"Helvetica Neue LT Pro Medium";
   src:url("../fonts/HelveticaNeueLTPro-Md.otf");
+}
+
+@font-face{
+  font-family:"Helvetica Neue LT Pro Extended";
+  src:url("../fonts/HelveticaNeueLTPro-Ex.otf");
+}
+
+@font-face{
+  font-family:"Helvetica Neue LT Pro Extended";
+  src:url("../fonts/HelveticaNeueLTPro-Ex.otf");
 }
 
 @font-face {
@@ -45,10 +70,6 @@
   font-family:"Helvetica Neue LT Pro Light";
 }
 
-.upper-margin{
-  margin-top:115px;
-}
-
 .center {
   text-align:center;
 }
@@ -64,13 +85,13 @@ body{
 
 /*Header*/
 #header-container{
-  background-color:rgba(239,239,239,.95);
+  background-color:rgba(250,250,250,.98);
   box-shadow:2px 2px 2px rgba(0,0,0,.2);
-  height:115px;
+  height:100px;
   margin:0 auto;
   max-width:1600px;
   min-width:1280px;
-  padding:1em 1em 1em 1em;
+  padding:.5em .5em .5em 1em;
   position:fixed;
   width:100%;
   z-index:100;
@@ -103,7 +124,7 @@ list-style:none;
 
 #header-navigation{
   float:right;
-  padding-top:1em;
+  padding-top:2em;
   /*width:100%;*/
 }
 
@@ -176,46 +197,45 @@ width:auto;
 }
 
 #header-navigation li:hover ul {
-  background:rgba(239,239,239,.95);
+  background:rgba(250,250,250,.98);
   box-shadow:2px 2px 2px rgba(0,0,0,.1);
   display: block;
   left:0px;
   position:absolute;
-  top:34px;
+  top:45px;
+  /*width:100%;*/
 }
 
 #header-navigation li:hover li {
   float:none;
-  padding:10px 50px 10px 14px;
+  padding:10px 15px 10px 14px;
 }
 
 #header-navigation li:hover li:first-of-type{
-  border-top:5px solid rgba(74,74,74,1);
+  border-top:7px solid rgba(79,79,79,1);
 }
 
 /*Header Links*/
 header a:link{
-  color:rgba(74,74,74,1);
-  font-family:"Helvetica Neue LT Pro Light";
-  font-size:1.3em;
+  color:rgba(79,79,79,1);
+  font-family:"Helvetica Neue LT Pro Thin Condensed";
+  font-size:1.5em;
+  letter-spacing:.05em;
   text-decoration:none;
 }
 
 header a:visited{
-  color:rgba(74,74,74,1);
-  font-family:"Helvetica Neue LT Pro Light";
+  color:rgba(79,79,79,1);
   text-decoration:none;
 }
 
 header a:hover{
   color:rgba(0,108,184,1);
-  font-family:"Helvetica Neue LT Pro Light";
   text-decoration:none;
 }
 
 header a:active{
-  color:rgba(74,74,74,1);
-  font-family:"Helvetica Neue LT Pro Light";
+  color:rgba(79,79,79,1);
   text-decoration:none;
 }
 
@@ -252,20 +272,20 @@ header a:active{
 a.anchor{
   display:block;
   position:relative;
-  top:-115px;
+  top:-100px;
   visibility:hidden;
 }
 
 /*First section*/
 /*This id tag should only be used once per page*/
-#first-section-margin{
-  margin-top:115px;
+.first-section-margin{
+  margin-top:100px;
 }
 
 /*Last section*/
 /*This id tag should only be used once per page*/
-#last-section-margin{
-  margin-bottom:115px;
+.last-section-margin{
+  margin-bottom:100px;
 }
 
 /*All sections*/
@@ -277,20 +297,32 @@ a.anchor{
 }
 
 .section-content{
-  margin:3em 2em 3em 2em;
+  margin:4em 2em 4em 2em;
 }
 
 .section-heading{
   color:rgba(74,74,74,1);
-  font-family:"Helvetica Neue LT Pro Light";
-  font-size:2em;
-  font-weight:bold;
-  text-transform:uppercase;
+  font-family:"Helvetica Neue LT Pro Extended";
+  font-size:2.2em;
+  /*font-weight:bold;*/
+  /*text-transform:uppercase;*/
+}
+
+.section-heading-2{
+  color:rgba(74,74,74,1);
+  font-family:"Helvetica Neue LT Pro Light Extended";
+  font-size:1.9em;
+  /*font-weight:bold;*/
+  /*text-transform:uppercase;*/
+}
+
+.section-text{
+  font-size:1.1em;
 }
 
 /*Footer*/
 #footer-container{
-  background-color:rgba(239,239,239,1);
+  background-color:rgba(250,250,250,.98);
   margin:0 auto;
   max-width:1600px;
   min-width:1280px;

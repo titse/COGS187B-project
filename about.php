@@ -28,8 +28,8 @@
 </head>
 <body>
 
-  <!-- Header -->
-  <div id="header-container">
+<!-- Header -->
+    <div id="header-container">
     <header>
       <div id="header-logo">
         <a href="index.php"><img src="img/logos/header-logo.png" /></a>
@@ -90,11 +90,11 @@
         </ul>
       </div><!-- #header-navigation -->
     </header>
-  </div><!-- #header-container -->
+    </div><!-- #header-container -->
 
 
-  <!-- Dot navigation -->
-  <div id="dot-navigation-container">
+<!-- Dot navigation -->
+    <div id="dot-navigation-container">
     <ul>
       <li class="dot-navigation-icon">
         <a id="ourstoryBtn" class="" href="about.php#ourstory">
@@ -120,61 +120,61 @@
         </a>
       </li>
     </ul>
-  </div>
+    </div>
 
-  <!-- Content  -->
-  <div id="content-container">
-    <div class="section-container" id="first-section-margin">
+<!-- Content  -->
+    <div id="content-container">
+    <div class="section-container first-section-margin">
       <div class="about-founders-image">
         <img src="img/about/team-1.jpg" />
       </div><!-- .about-founders-image -->
-    </div><!-- .section-container #first-section-margin -->
+    </div><!-- .section-container .first-section-margin -->
 
     <!-- Our Story -->
     <div class="section-container">
       <div class="section-content">
         <div class="section-heading section-1">
-          <a id="ourstory" class="anchor"></a>Our names are Kevin and Eric.
+          <a id="ourstory" class="anchor"></a>We are Kevin and Eric.
         </div><!-- .section-heading -->
-        <br />
-        We are UC San Diego students and aquarium geeks who met in high school and instantly became intrigued by planted aquatic ecosystems.
-        <br />
-        As we got older, we realized the bigger challenges humanity as a whole faces in terms of food and water shortages, so we decided to use our knowledge of aquariums to deliver the concept of aquaponics to as many people as possible.
-        <br /><br />
-        <div id="about-ourstory-timeline">
-          <span class="about-ourstory-heading">The Beginning</span>
-          <br />
-          We started out working as operations managers, biology assistants, sales representatives, and installing aquariums at various locations.
-          <br /><br />
-          <div id="about-ourstory-thebeginning"><img src="img/about/aquaticcentral.png" /> <img src="img/about/californiaacademyofsciences.png" /> <img src="img/about/aquaforestaquarium.png" /></div>
-          <br />
-          <img src="img/about/ourstory-4.jpg" class="about-ourstory-timeline-images" /> <img src="img/about/ourstory-5.jpg" class="about-ourstory-timeline-images" /> <img src="img/about/ourstory-6.jpg" class="about-ourstory-timeline-images" /> <img src="img/about/ourstory-13.jpg" class="about-ourstory-timeline-images" /> <img src="img/about/ourstory-7.jpg" class="about-ourstory-timeline-images" /> <img src="img/about/ourstory-10.jpg" class="about-ourstory-timeline-images" />
-          <br />
-          With knowledge and experience, we established ADI with the fundamental goals to build a business around a solution for the aquarium industry and to raise environmental awareness.
-          <br />
-          Eventually, we decided to start our own online aquarium store while selling shrimp out of a garage in San Francisco.
-          <br />
-          <img src="img/about/ourstory-1.jpg" class="about-ourstory-timeline-images" /> <img src="img/about/ourstory-9.jpg" class="about-ourstory-timeline-images" /> <img src="img/about/ourstory-2.jpg" class="about-ourstory-timeline-images" /> <img src="img/about/ourstory-3.jpg" class="about-ourstory-timeline-images" /> <img src="img/about/ourstory-18.jpg" class="about-ourstory-timeline-images" /> <img src="img/about/ourstory-21.jpg" class="about-ourstory-timeline-images" />
-          <br />
-          We continued pursuing our passion for connecting people with nature through aquatic ecosystem installations.
-          <br /><br />
-          <span class="about-ourstory-heading">The Evolution</span>
-          <br />
-          We even brought our love of aquariums with us to college.
-          <br />
-          <img src="img/about/ourstory-11.jpg" class="about-ourstory-timeline-images" /> <img src="img/about/ourstory-12.jpg" class="about-ourstory-timeline-images" /> <img src="img/about/ourstory-8.jpg" class="about-ourstory-timeline-images" /> <img src="img/about/ourstory-14.jpg" class="about-ourstory-timeline-images" /> <img src="img/about/ourstory-15.jpg" class="about-ourstory-timeline-images" /> <img src="img/about/ourstory-17.jpg" class="about-ourstory-timeline-images" /> <img src="img/about/ourstory-16.jpg" class="about-ourstory-timeline-images" /> <img src="img/about/ourstory-19.jpg" class="about-ourstory-timeline-images" /> <img src="img/about/ourstory-20.jpg" class="about-ourstory-timeline-images" />
-          <br /><br />
-          <span class="about-ourstory-heading">The Company Today</span>
-          <br />
-          But now, we'd like to expand our reach to you through the EcoQube, a miniature aquatic ecosystem that we created to deliver the practical solution and beauty of aquaponics to households and offices around the world!
-          <br />
-          <img src="img/ecoqube2.jpg" class="about-ourstory-timeline-images" />
-          <br />
-          We know that we can’t solve the many problems in our world with a fish tank, no matter how beautiful it is, but we hope to connect people to our environment and influence the way they perceive the larger issues in our world today.
-          <br /><br />
-        </div><!-- about-ourstory-timeline -->
-        “Because the crazy ones who think they can change the world are the ones who do.” –Apple
-      </div><!-- section-content -->
+        <div class="about-ourstory section-text">
+             <br />
+             Currently, we attend UC San Diego and are aquarium geeks who met in high school and instantly became intrigued by planted aquatic ecosystems.
+        </div><!-- .about-ourstory -->
+             <br />
+             As we got older, we realized the bigger challenges humanity as a whole faces in terms of food and water shortages, so we decided to use our knowledge of aquariums to deliver the concept of aquaponics to as many people as possible.
+             <br /><br />
+             <span class="section-heading-2">The Beginning</span>
+             <br />
+             We started out working as operations managers, biology assistants, sales representatives, and installing aquariums at various locations.
+             <br /><br />
+             <div id="about-ourstory-thebeginning"><img src="img/about/aquaticcentral.png" /> <img src="img/about/californiaacademyofsciences.png" /> <img src="img/about/aquaforestaquarium.png" /></div>
+             <br />
+             <img src="img/about/ourstory-4.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-5.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-6.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-13.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-7.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-10.jpg" class="about-ourstory-images" />
+             <br />
+             With knowledge and experience, we established ADI with the fundamental goals to build a business around a solution for the aquarium industry and to raise environmental awareness.
+             <br />
+             Eventually, we decided to start our own online aquarium store while selling shrimp out of a garage in San Francisco.
+             <br />
+             <img src="img/about/ourstory-1.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-9.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-2.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-3.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-18.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-21.jpg" class="about-ourstory-images" />
+             <br />
+             We continued pursuing our passion for connecting people with nature through aquatic ecosystem installations.
+             <br /><br />
+             <span class="section-heading-2">The Evolution</span>
+             <br />
+             We even brought our love of aquariums with us to college.
+             <br />
+             <img src="img/about/ourstory-11.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-12.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-8.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-14.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-15.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-17.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-16.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-19.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-20.jpg" class="about-ourstory-images" />
+             <br /><br />
+             <span class="section-heading-2">The Company Today</span>
+             <br />
+             But now, we'd like to expand our reach to you through the EcoQube, a miniature aquatic ecosystem that we created to deliver the practical solution and beauty of aquaponics to households and offices around the world!
+             <br />
+             <img src="img/ecoqube2.jpg" class="about-ourstory-images" />
+             <br />
+             We know that we can’t solve the many problems in our world with a fish tank, no matter how beautiful it is, but we hope to connect people to our environment and influence the way they perceive the larger issues in our world today.
+             <br /><br />
+             “Because the crazy ones who think they can change the world are the ones who do.” –Apple
+      </div><!-- .section-content -->
     </div><!-- .section-container -->
 
     <!-- Values -->
@@ -222,7 +222,7 @@
     </div><!-- .section-container -->
 
     <!-- Affiliates -->
-    <div class="section-container" id="last-section-margin">
+    <div class="section-container last-section-margin">
       <div class="section-content">
         <div class="section-heading section-4">
           <a id="affiliates" class="anchor"></a>Affiliates, Sponsorships, and Philanthropy
@@ -276,12 +276,12 @@
         <br />
         A community dedicated to aquarium afficianados.
       </div><!-- section-content -->
-    </div><!-- .section-container #last-section-margin -->
+    </div><!-- .section-container .last-section-margin -->
 
-  </div><!-- #content-container -->
+    </div><!-- #content-container -->
 
-  <!-- Footer  -->
-  <div id="footer-container">
+<!-- Footer  -->
+    <div id="footer-container">
     <div id="footer-topbar">
       <form name="input" id="footer-subscribe-form">
         Sign up for weekly deals!
@@ -377,36 +377,32 @@
       </div><!-- #footer-copyright -->
 
     </footer>
-  </div><!-- #footer-container -->
-
+    </div><!-- #footer-container -->
 </body>
-
 <!-- Javascript code identifying which sections are visible on the screen -->
-<script type="text/javascript">
-var currSection = "";
-var DEBUG = true;
+     <script type="text/javascript">
+     var currSection = "";
+     var DEBUG = true;
 
-$(window).scroll(function() {
-  if ($(".section-1").visible()) {
-    updateDots("section-1");
-  } else if ($(".section-2").visible()) {
-    updateDots("section-2");
-  } else if ($(".section-3").visible()) {
-    updateDots("section-3");
-  } else if ($(".section-4").visible()) {
-    updateDots("section-4");
-  } else if ($(".section-5").visible()) {
-    updateDots("section-5");
-  }
-});
+     $(window).scroll(function() {
+       if ($(".section-1").visible()) {
+         updateDots("section-1");
+       } else if ($(".section-2").visible()) {
+         updateDots("section-2");
+       } else if ($(".section-3").visible()) {
+         updateDots("section-3");
+       } else if ($(".section-4").visible()) {
+         updateDots("section-4");
+       } else if ($(".section-5").visible()) {
+         updateDots("section-5");
+       }
+     });
 </script>
-
 <!-- Scroll js file -->
-<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
-<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-<script type="text/javascript" src="js/scrolld.js"></script>
-<script type="text/javascript">
-$("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
-</script>
-
+     <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+     <script type="text/javascript" src="js/scrolld.js"></script>
+     <script type="text/javascript">
+     $("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
+     </script>
 </html>

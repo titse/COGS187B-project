@@ -23,7 +23,7 @@
 </head>
 
 <body>
-  <!-- Header -->
+<!-- Header -->
   <div id="header-container">
     <header>
       <div id="header-logo">
@@ -88,7 +88,7 @@
   </div><!-- #header-container -->
 
   <div id="content-container">
-    <!-- Secondary-navigation  -->
+<!-- Secondary-navigation  -->
     <div class="side-navbar">
       <div class="side-navbar-content">
         <ul>
@@ -126,8 +126,8 @@
       </div><!-- #Side-navbar-content  -->
     </div><!-- #Side-navbar  -->
 
-    <!-- Content  -->
-    <div class="shop-content-container left-margin upper-margin">
+<!-- Content  -->
+    <div class="shop-content-container first-section-margin left-margin">
       <div class="shop-video">
            <a href="../ecoqube-modal-1.php" class="ecoqube-modal-1">
                 <div class="ecoqube-video-overlay">
@@ -156,7 +156,7 @@
       </div>
     </div><!-- #content-container -->
 
-    <!-- Footer  -->
+<!-- Footer  -->
     <div id="footer-container">
       <div id="footer-topbar">
         <form name="input" id="footer-subscribe-form">

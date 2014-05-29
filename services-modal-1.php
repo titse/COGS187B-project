@@ -2,7 +2,7 @@
      <style>
           .modal-video{
                height:480px;
-               margin:115px auto;
+               margin:100px auto;
                padding:0;
                text-align:center;
                width:853px;

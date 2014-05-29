@@ -78,7 +78,7 @@
 
      <!-- Content  -->
                <div id="content-container">
-                    <div class="section-container" id="first-section-margin">
+                    <div class="section-container first-section-margin">
                          <a href="ecoqube.php">
                               <div class="index-slider-overlay">
                                    <img src="img/logos/ecoqube-logo.png" /><br />
@@ -92,7 +92,7 @@
                               </div><!-- .index-slider-image -->
                          </a>
                          <br /><br />
-                    </div><!-- .section-container #first-section-margin -->
+                    </div><!-- .section-container .first-section-margin -->
                </div><!-- #content-container -->
 
      <!-- Footer  -->

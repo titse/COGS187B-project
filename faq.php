@@ -127,7 +127,7 @@
 
   <!-- Content  -->
   <div id="content-container">
-    <div class="section-container" id="first-section-margin">
+    <div class="section-container first-section-margin">
       <div class="section-content">
         <a href="#ecoqube" class="faq-title">EcoQube</a><br />
         · <a href="manual.pdf">Download full EcoQube instruction manual in a PDF format.</a><br />
@@ -150,7 +150,7 @@
         · <a href="#warranty-q1">What if my fish dies during the shipping?</a><br />
         · <a href="#warranty-q2">What if my EcoQube is defective when it arrives?</a>
       </div> <!-- .section-content -->
-    </div><!-- .section-container #first-section-margin -->
+    </div><!-- .section-container .first-section-margin -->
 
     <div class="section-container section-1">
       <div class="section-content">
@@ -216,7 +216,7 @@
       </div> <!-- .section-content -->
     </div><!-- .section-container -->
 
-    <div class="section-container section-5" id="last-section-margin">
+    <div class="section-container section-5 last-section-margin">
       <div class="section-content">
         <div class="section-heading">
           <a id="warranty" class="anchor"></a>Warranty
@@ -230,7 +230,7 @@
         <br><br><br>
         <a href="#top">Back to top</a>
       </div><!-- section-content -->
-    </div><!-- .section-container #last-section-margin -->
+    </div><!-- .section-container .last-section-margin -->
 
   </div><!-- #content-container -->
 

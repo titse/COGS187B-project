@@ -78,7 +78,7 @@
 
      <!-- Content  -->
           <div id="content-container">
-               <div class="section-container upper-margin">
+               <div class="section-container first-section-margin">
                     <div class ="learn-message">
                          <h2>Our learning areas provide useful information about aquarium related topics We hope you will use this information to gain knowledge and improve your aquatic ecosystem </h2>
                     </div>
@@ -94,7 +94,7 @@
                               <p>Read our Blog</p>
                          </div> <!---end of learn blog-->
                     </div> <!-- end learn-topic-container-->
-               </div><!---end of section container-->
+               </div><!---end of .section-container .first-section-margin-->
           </div><!-- #content-container -->
 
      <!-- Footer  -->

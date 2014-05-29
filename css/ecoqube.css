@@ -72,12 +72,26 @@
                max-width:50%;
           }
 
+          .keyfeatures-left ul{
+               list-style-type:square;
+               margin:0 auto;
+               padding:0 auto;
+          }
+
           .keyfeatures-right{
                display:inline-block;
                float:right;
                margin-left:0em;
                margin-bottom:3em;
                max-width:50%;
+          }
+
+     /*Buy It Today*/
+          .ecoqube-items-section{
+          }
+
+          .ecoqube-items-section img{
+               padding-right:2em;
           }
 
      /*Blurbs*/
@@ -88,44 +102,44 @@
           }
 
           .ecoqube-blurb-overlay-1{
-               background-color:rgba(0,0,0,.35);
+               background-color:rgba(0,0,0,.25);
                color:rgba(255,255,255,.9);
-               font-family:"Helvetica Neue LT Pro Light Italic";
+               font-family:"Helvetica Neue LT Pro Thin Extended";
                font-size:2.5em;
                height:300px;
                overflow:hidden;
                padding-top:1.85em;
                position:absolute;
                text-align:center;
-               text-shadow: 1px 1px 2px rgba(79,79,79,.75);
+               text-shadow: 1px 1px 2px rgba(38,160,47,.5);
                width:100%;
           }
 
           .ecoqube-blurb-overlay-2{
                background-color:rgba(0,0,0,.35);
                color:rgba(255,255,255,.9);
-               font-family:"Helvetica Neue LT Pro Light Italic";
+               font-family:"Helvetica Neue LT Pro Thin Extended";
                font-size:2.5em;
                height:300px;
                overflow:hidden;
                padding-top:1.3em;
                position:absolute;
                text-align:center;
-               text-shadow: 1px 1px 2px rgba(79,79,79,.75);
+               text-shadow: 1px 1px 2px rgba(38,160,47,.5);
                width:100%;
           }
 
           .ecoqube-blurb-overlay-3{
                background-color:rgba(0,0,0,.35);
                color:rgba(255,255,255,.9);
-               font-family:"Helvetica Neue LT Pro Light Italic";
+               font-family:"Helvetica Neue LT Pro Thin Extended";
                font-size:2.5em;
                height:300px;
                overflow:hidden;
                padding-top:1.4em;
                position:absolute;
                text-align:center;
-               text-shadow: 1px 1px 2px rgba(79,79,79,.75);
+               text-shadow: 1px 1px 2px rgba(38,160,47,.5);
                width:100%;
           }
 

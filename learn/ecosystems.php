@@ -120,11 +120,11 @@
   <div id="content-container">
 
     <!-- Video -->
-    <div class="section-container upper-margin">
+    <div class="section-container first-section-margin">
       <div class="fullwidth-image">
         <img src="../img/learn/ecosystem.jpg" alt="Aquatic ecosystem">
       </div>
-    </div><!-- .section-container #first-section-margin -->
+    </div><!-- .section-container .first-section-margin -->
 
     <!-- Aquatic ecosystems description -->
     <div class="section-container section-1">
@@ -165,7 +165,7 @@
     </div><!-- .section-container -->
 
     <!-- The components -->
-    <div class="section-container" id="last-section-margin">
+    <div class="section-container last-section-margin">
       <div class="section-content">
         <div class="section-heading center section-3">
           <a class="anchor" id="components"></a>The components of an aquatic ecosystem

@@ -3,7 +3,7 @@
           .modal-video{
                background-color:rgba(0,0,0,1);
                height:480px;
-               margin:115px auto;
+               margin:100px auto;
                padding:0;
                text-align:center;
                width:853px;

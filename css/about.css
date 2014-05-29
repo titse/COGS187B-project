@@ -1,5 +1,4 @@
 /*Content*/
-/*kk*/
      /*Video*/
           .about-video-overlay{
                color:rgba(0,0,0,.9);
@@ -46,19 +45,8 @@
                width:100%;
           }
 
-          #about-ourstory-timeline{
-               margin:1em 2em 1em 2em;
-          }
-
-          .about-ourstory-timeline-images{
+          .about-ourstory-images{
                height:200px;
-          }
-
-          .about-ourstory-heading{
-               color:rgba(74,74,74,1);
-               font-size:1.5em;
-               font-weight:bold;
-               text-transform:uppercase;
           }
 
           #about-ourstory-thebeginning{

@@ -81,7 +81,7 @@
 
   <div id="content-container">
   <!--Shop heading section -->
-  <div class="shop-heading upper-margin left-margin">
+  <div class="shop-heading first-section-margin left-margin">
     <h3 class="categories-heading">ECOQUBE</h3>
 
     <div class="shop-filter-container">
