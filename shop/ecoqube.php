@@ -20,7 +20,7 @@
           <script src="../Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
 
   <script type="text/javascript" src="../js/layerlib.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> --> <!-- E: I had to comment this out so that the modal window works. Nothing else in the page seems to have broken though. -->
 
 </head>
 
