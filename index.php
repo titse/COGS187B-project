@@ -19,8 +19,8 @@
 <script type="text/javascript">
 $(document).ready(function(){
 	$(".slider").nerveSlider({
-		sliderWidth: "1000px",
-		sliderHeight: "400px",
+		sliderWidth: "100%",
+		sliderHeight: "450px",
 		sliderResizable: true,
 		slidTransitionDelay: 7000
 		// More options below
@@ -95,22 +95,29 @@ $(document).ready(function(){
           </div><!-- #header-container -->
 
      <!-- Content  -->
-               <div id="content-container">
-                    <div class="section-container first-section-margin">
-						<div class ="slider">
-							<img src="img/ecoqube6.png" />
+                        <div id="content-container">
+               <div class="section-container" id="first-section-margin">
+				<div class ="slider">
+				<div class="picture1">
+				 <img src="img/ecoqube6.png" />
+					
+						<div class ="ns_slideContent">
 						
-							<div class ="ns_slideContent">
-							<img src="img/logos/ecoqube-logo.png" />
-									<br />
-								  The most beautiful way to grow herbs, house <br />
-								  plants, or flowers indoor while using the same <br />
-								  plants to clean aquarium water <br />
-								  with ease.
-							</div>
+						
+						<div class="index-slider-overlay">
+                              <img src="img/logos/ecoqube-logo.png" /><br />
+							  <div class="words">
+                              The most beautiful way to grow herbs, house <br />
+                              plants, or flowers indoor while using the same <br />
+                              plants to clean aquarium water <br />
+                              with ease.
+							  </div> <!--words-->
+                         </div><!-- .index-slider-overlay -->
 						</div>
-                    </div><!-- .section-container .first-section-margin -->
-               </div><!-- #content-container -->
+				</div>	<!--end of .picture1 there is no css code for this-->	
+				</div> <!--end of .slider using nerveslider-->
+               </div><!-- .section-container #first-section-margin -->
+          </div><!-- #content-container -->
 
      <!-- Footer  -->
                <div id="footer-container">
