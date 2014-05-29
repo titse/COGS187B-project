@@ -494,22 +494,26 @@
                     <a id="press" class="anchor"></a>Press Releases
                   </div><!-- .section-heading -->
                   <br />
-                  <div id="press-container">
-                    <a href="http://welldonestuff.com/ecoqube-bring-nature-life/"><img src="img/ecoqube/press-welldonestuff.png" class="press-logos" /></a>
-                    <a href="http://inventorspot.com/articles/ecoqube_minifarm_aquarium_combines_sustainability_beauty"><img src="img/ecoqube/press-inventorspot.png" class="press-logos" /></a>
-                    <a href="http://makobiscribe.com/ecoqube-coolest-gift-ever/"><img src="img/ecoqube/press-makobiscribe.png" class="press-logos" /></a>
-                    <a href="http://amedicsworld.com/2013/12/ecoqube-the-most-beautiful-way-to-grow-herbs-house-plants-or-flowers-indoor-while-using-the-same-plants-to-clean-aquarium-water-with-ease.html"><img src="img/ecoqube/press-amedicsworld.png" class="press-logos" /></a>
-                    <br />
-                    <a href="http://www.treehugger.com/gadgets/aquaponics-ecosystem-fits-your-desk.html"><img src="img/ecoqube/press-treehugger.png" class="press-logos" /></a>
-                    <a href="http://www.enn.com/sustainability/article/46713"><img src="img/ecoqube/press-enn.png" class="press-logos" /></a>
-                    <a href="http://www.crowdlifted.com/news/2013/12/ecoqube-a-desktop-aquaponic-ecosystem-to-bring-organic-life-to-your-cubicle"><img src="img/ecoqube/press-crowdlifted.png" class="press-logos" /></a>
-                    <a href="http://nextshark.com/ecoqube-how-this-startup-can-seriously-end-world-hunger/"><img src="img/ecoqube/press-nextshark.png" class="press-logos" /></a>
-                    <br />
-                    <a href="http://www.greenphillyblog.com/green-living/ecoqube-kickstarter/"><img src="img/ecoqube/press-greenphillyblog.png" class="press-logos" /></a>
-                    <a href="http://stagetecture.com/2013/11/ecoqube-kickstarter/"><img src="img/ecoqube/press-stagetecture.png" class="press-logos" /></a>
-                    <a href="http://www.homemaidsimple.com/2013/12/ecoqube-kickstarter-campaign.html"><img src="img/ecoqube/press-homemaidsimple.png" class="press-logos" /></a>
-                    <a href="http://stacysrandomthoughts.com/2013/12/ecoqube-bring-nature-to-life/"><img src="img/ecoqube/press-stacyuncorked.png" class="press-logos" /></a>
-                  </div><!-- #press-container -->
+                  <div id="ecoqube-press-container">
+                    <a href="http://www.treehugger.com/gadgets/aquaponics-ecosystem-fits-your-desk.html"><img src="img/ecoqube/press-treehugger.png" class="ecoqube-press-logos" /></a>
+                    <a href="http://inventorspot.com/articles/ecoqube_minifarm_aquarium_combines_sustainability_beauty"><img src="img/ecoqube/press-inventorspot.png" class="ecoqube-press-logos" /></a>
+                    <a href="http://nextshark.com/ecoqube-how-this-startup-can-seriously-end-world-hunger/"><img src="img/ecoqube/press-nextshark.png" class="ecoqube-press-logos" /></a>
+                    <!-- <br /> -->
+                    <img src="img/ecoqube/press-justify.png" id="press-force" />
+                    <a href="http://www.enn.com/sustainability/article/46713"><img src="img/ecoqube/press-enn.png" class="ecoqube-press-logos" /></a>
+                    <a href="http://welldonestuff.com/ecoqube-bring-nature-life/"><img src="img/ecoqube/press-welldonestuff.png" class="ecoqube-press-logos" /></a>
+                    <a href="http://www.crowdlifted.com/news/2013/12/ecoqube-a-desktop-aquaponic-ecosystem-to-bring-organic-life-to-your-cubicle"><img src="img/ecoqube/press-crowdlifted.png" class="ecoqube-press-logos" /></a>
+                    <a href="http://amedicsworld.com/2013/12/ecoqube-the-most-beautiful-way-to-grow-herbs-house-plants-or-flowers-indoor-while-using-the-same-plants-to-clean-aquarium-water-with-ease.html"><img src="img/ecoqube/press-amedicsworld.png" class="ecoqube-press-logos" /></a>
+                    <!-- <br /> -->
+                    <img src="img/ecoqube/press-justify.png" id="ecoqube-press-force" />
+                    <a href="http://www.greenphillyblog.com/green-living/ecoqube-kickstarter/"><img src="img/ecoqube/press-greenphillyblog.png" class="ecoqube-press-logos" /></a>
+                    <a href="http://makobiscribe.com/ecoqube-coolest-gift-ever/"><img src="img/ecoqube/press-makobiscribe.png" class="ecoqube-press-logos" /></a>
+                    <a href="http://stagetecture.com/2013/11/ecoqube-kickstarter/"><img src="img/ecoqube/press-stagetecture.png" class="ecoqube-press-logos" /></a>
+                    <a href="http://www.homemaidsimple.com/2013/12/ecoqube-kickstarter-campaign.html"><img src="img/ecoqube/press-homemaidsimple.png" class="ecoqube-press-logos" /></a>
+                    <a href="http://stacysrandomthoughts.com/2013/12/ecoqube-bring-nature-to-life/"><img src="img/ecoqube/press-stacyuncorked.png" class="ecoqube-press-logos" /></a>
+                    <!-- <br /> -->
+                    <img src="img/ecoqube/press-justify.png" id="ecoqube-press-force" />
+                  </div><!-- #ecoqube-press-container -->
                 </div><!-- section-content -->
               </div><!-- .section-container .last-section-margin -->
 

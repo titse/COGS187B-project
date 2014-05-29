@@ -164,17 +164,24 @@
           }
 
      /*Press*/
-          #press-container{
-               text-align:center;
-               width:100%;
+          #ecoqube-press-container{
+               margin-left:auto;
+               margin-right:auto;
+               text-align:justify;
+               width:1300px;
           }
 
-          .press-logos{
-               display:inline-block;
+          .ecoqube-press-logos{
+               /*display:inline-block;*/
                padding-right:2em;
                padding-bottom:1.5em;
           }
 
-          .press-logos:hover{
+          .ecoqube-press-logos:hover{
                opacity:.75;
+          }
+
+          #ecoqube-press-force{
+               height:0px;
+               width:100%;
           }
