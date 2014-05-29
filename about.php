@@ -26,7 +26,7 @@
 
      <!-- FlexSlider2 -->
           <link rel="stylesheet" href="flexslider2/flexslider-aboutpage.css" type="text/css">
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+          <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> -->
           <script src="flexslider2/jquery.flexslider.js"></script>
 </head>
 <body>
