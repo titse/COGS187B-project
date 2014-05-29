@@ -8,7 +8,25 @@
 
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1">
-
+		 <!--jquery library-->
+		 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+			<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+		<!--nerve slider--->
+			<script src="http://code.ryanbruzan.net/nerveSlider/jquery.nerveSlider.min.js"></script>
+			<link rel="stylesheet" href="http://code.ryanbruzan.net/nerveSlider/nerveSlider.min.css" />
+		
+	<!--activate the nerve slider-->	
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".slider").nerveSlider({
+		sliderWidth: "1000px",
+		sliderHeight: "400px",
+		sliderResizable: true,
+		slidTransitionDelay: 7000
+		// More options below
+		});
+});
+</script>
 </head>
 <body>
 
@@ -79,19 +97,18 @@
      <!-- Content  -->
                <div id="content-container">
                     <div class="section-container first-section-margin">
-                         <a href="ecoqube.php">
-                              <div class="index-slider-overlay">
-                                   <img src="img/logos/ecoqube-logo.png" /><br />
-                                   The most beautiful way to grow herbs, house <br />
-                                   plants, or flowers indoor while using the same <br />
-                                   plants to clean aquarium water <br />
-                                   with ease.
-                              </div><!-- .index-slider-overlay -->
-                              <div class="index-slider-image">
-                                   <img src="img/ecoqube6.png" />
-                              </div><!-- .index-slider-image -->
-                         </a>
-                         <br /><br />
+						<div class ="slider">
+							<img src="img/ecoqube6.png" />
+						
+							<div class ="ns_slideContent">
+							<img src="img/logos/ecoqube-logo.png" />
+									<br />
+								  The most beautiful way to grow herbs, house <br />
+								  plants, or flowers indoor while using the same <br />
+								  plants to clean aquarium water <br />
+								  with ease.
+							</div>
+						</div>
                     </div><!-- .section-container .first-section-margin -->
                </div><!-- #content-container -->
 
