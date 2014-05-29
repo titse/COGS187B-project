@@ -1,6 +1,6 @@
-ho<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
+<head><!-- .. -->
      <title>Services</title>
      <link type="text/css" rel="stylesheet" href="css/global.css"/>
      <link type="text/css" rel="stylesheet" href="css/services.css"/>
@@ -225,7 +225,7 @@ ho<!DOCTYPE html>
                <a id="gallery" class="anchor"></a>Gallery of Our Previous Installations
              </div><!-- .section-heading -->
              <br />
-
+             
         <br /><div id="ourstory-slide">
          <div id="main-slider" class="flexslider">
                <ul class="slides">
