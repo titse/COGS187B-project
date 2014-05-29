@@ -9,6 +9,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+       <!-- Modal window -->
+          <!-- Magnific Popup core CSS file -->
+          <link rel="stylesheet" href="../Magnific-Popup-master/dist/magnific-popup.css">
+
+          <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+          <!-- Magnific Popup core JS file -->
+          <script src="../Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+
   <script type="text/javascript" src="../js/layerlib.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
@@ -299,7 +309,7 @@
         <div class="product-image-conatiner">
           <div class="product-image">
             <a href="#description"><div id="upper-overlay" class="overlay-section">
-              <h3>DESCRIPTION</h3>
+              <a href="item-modal-1.php" class="item-modal"><h3>DESCRIPTION</h3></a>
             </div></a>
             <a href="#addtocart"><div id="lower-overlay" class="overlay-section">
               <h3>ADD TO CART</h3>
@@ -486,6 +496,19 @@
 
 
     </script>
+
+          <!-- Modal window -->
+               <script type="text/javascript">
+               $(document).ready(function($modalfn) {
+
+               $modalfn('.item-modal').magnificPopup({
+               type: 'ajax',
+               alignTop: true,
+               overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
+               });
+
+               });
+               </script>
 
 </body>
 </html>
