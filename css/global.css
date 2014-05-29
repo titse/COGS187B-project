@@ -86,7 +86,7 @@ body{
 /*Header*/
 #header-container{
   background-color:rgba(250,250,250,.98);
-  box-shadow:2px 2px 2px rgba(0,0,0,.2);
+  box-shadow:2px 2px 2px rgba(0,0,0,.08);
   height:100px;
   margin:0 auto;
   max-width:1600px;
@@ -111,6 +111,16 @@ header{
 #header-logo img{
   width:450px;
 }
+
+.upper-margin{
+  margin-top:100px;
+}
+
+.lower-margin{
+  margin-bottom:114px;
+}
+
+
 
 /*#header-navigation{
 
