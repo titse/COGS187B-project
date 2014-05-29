@@ -27,10 +27,15 @@
 
 
      	<!-- flexslider js  -->
-     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-     <script  src="js/jquery.flexslider.js"></script>
+     <!-- <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /> -->
+     <!-- // <script  src="js/jquery.flexslider.js"></script> -->
      	<!-- Modernizr -->
-     <script src="js/modernizr.js"></script>
+     <!-- // <script src="js/modernizr.js"></script> -->
+
+     <!-- FlexSlider2 -->
+          <link rel="stylesheet" href="flexslider2/flexslider-aboutpage.css" type="text/css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+          <script src="flexslider2/jquery.flexslider.js"></script>
 
 </head>
 <body>
@@ -220,30 +225,32 @@
                <a id="gallery" class="anchor"></a>Gallery of Our Previous Installations
              </div><!-- .section-heading -->
              <br />
-                     <script type="text/javascript">
-     		// Can also be used with $(document).ready()
-     			$(window).load(function() {
-     			  $('.flexslider').flexslider({
-     				animation: "slide",
-     				controlNav: "thumbnails"
-     			  });
-     			});
-
-     		</script>
-     		<!-- Place somewhere in the <body> of your page -->
-     		<div class="flexslider">
-     		  <ul class="slides">
-       	    		<li data-thumb="img/services/installations2-th.jpg">
-       	    	    <img src="img/services/installations2.jpg" />
-       	    		</li>
-       	    		<li data-thumb="img/services/installations3-th.jpg">
-                   <img src="img/services/installations3.jpg" />
-                 </li>
-       	    		<li data-thumb="img/services/installations4-th.jpg">
-                   <img src="img/services/installations4.jpg" />
-                 </li>
-     		  </ul>
-     		</div><!--.flexslider-->
+             
+        <br /><div id="ourstory-slide">
+         <div id="main-slider" class="flexslider">
+               <ul class="slides">
+                    <li><img src="img/about/ourstory-4.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-5.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-6.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-13.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-7.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-10.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-1.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-9.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-2.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-3.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-18.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-21.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-8.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-14.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-15.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-17.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-16.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-19.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-20.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/ecoqube2.jpg" class="about-ourstory-images" /></li>
+               </ul>
+          </div></div>
            </div><!-- .section-content -->
          </div><!-- .section-container .last-section-margin -->
 
@@ -377,5 +384,26 @@
 <script type="text/javascript">
   $("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
 </script>
+
+<!-- Flexslider -->
+          <script>
+          // Can also be used with $(document).ready()
+          $(window).load(function() {
+            $('#main-slider').flexslider({
+              animation: "slide",
+              animationSpeed:0,
+              controlNav: false,
+              maxItems:5,
+              minItems:4,
+              move:5,
+              itemWidth:275,
+              itemMargin:5,
+              slideshowSpeed: 7000,
+              pauseOnAction: true,
+              pauseOnHover: true,
+              touch: true
+            });
+          });
+          </script>
 
 </html>

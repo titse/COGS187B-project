@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>About</title>
-  <link type="text/css" rel="stylesheet" href="css/global.css"/>
-  <link type="text/css" rel="stylesheet" href="css/about.css"/>
-  <link rel="shortcut icon" href="img/logos/favicon.ico">
+     <title>About</title>
+     <link type="text/css" rel="stylesheet" href="css/global.css"/>
+     <link type="text/css" rel="stylesheet" href="css/about.css"/>
+     <link rel="shortcut icon" href="img/logos/favicon.ico">
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Modal window -->
-  <!-- Magnific Popup core CSS file -->
-  <link rel="stylesheet" href="Magnific-Popup-master/dist/magnific-popup.css">
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- Modal window -->
+          <!-- Magnific Popup core CSS file -->
+          <link rel="stylesheet" href="Magnific-Popup-master/dist/magnific-popup.css">
 
-  <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+          <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-  <!-- Magnific Popup core JS file -->
-  <script src="Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+          <!-- Magnific Popup core JS file -->
+          <script src="Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
 
-  <!-- JQuery visible library to detect which sections of the page is visible on the users screen and sdjust the blue dot-->
-  <script type="text/javascript" src="js/jquery.visible.js"></script>
+     <!-- JQuery visible library to detect which sections of the page is visible on the users screen and sdjust the blue dot-->
+     <script type="text/javascript" src="js/jquery.visible.js"></script>
 
-  <!-- Custom Javascript functions used across pages -->
-  <script type="text/javascript" src="js/global.js"></script>
+     <!-- Custom Javascript functions used across pages -->
+     <script type="text/javascript" src="js/global.js"></script>
 
-
+     <!-- FlexSlider2 -->
+          <link rel="stylesheet" href="flexslider2/flexslider-aboutpage.css" type="text/css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+          <script src="flexslider2/jquery.flexslider.js"></script>
 </head>
 <body>
 
@@ -139,41 +142,43 @@
         <div class="about-ourstory section-text">
              <br />
              Currently, we attend UC San Diego and are aquarium geeks who met in high school and instantly became intrigued by planted aquatic ecosystems.
-        </div><!-- .about-ourstory -->
-             <br />
+             <br /><br />
              As we got older, we realized the bigger challenges humanity as a whole faces in terms of food and water shortages, so we decided to use our knowledge of aquariums to deliver the concept of aquaponics to as many people as possible.
              <br /><br />
-             <span class="section-heading-2">The Beginning</span>
-             <br />
-             We started out working as operations managers, biology assistants, sales representatives, and installing aquariums at various locations.
-             <br /><br />
-             <div id="about-ourstory-thebeginning"><img src="img/about/aquaticcentral.png" /> <img src="img/about/californiaacademyofsciences.png" /> <img src="img/about/aquaforestaquarium.png" /></div>
-             <br />
-             <img src="img/about/ourstory-4.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-5.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-6.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-13.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-7.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-10.jpg" class="about-ourstory-images" />
-             <br />
              With knowledge and experience, we established ADI with the fundamental goals to build a business around a solution for the aquarium industry and to raise environmental awareness.
              <br />
-             Eventually, we decided to start our own online aquarium store while selling shrimp out of a garage in San Francisco.
-             <br />
-             <img src="img/about/ourstory-1.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-9.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-2.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-3.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-18.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-21.jpg" class="about-ourstory-images" />
-             <br />
-             We continued pursuing our passion for connecting people with nature through aquatic ecosystem installations.
-             <br /><br />
-             <span class="section-heading-2">The Evolution</span>
-             <br />
-             We even brought our love of aquariums with us to college.
-             <br />
-             <img src="img/about/ourstory-11.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-12.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-8.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-14.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-15.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-17.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-16.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-19.jpg" class="about-ourstory-images" /> <img src="img/about/ourstory-20.jpg" class="about-ourstory-images" />
-             <br /><br />
-             <span class="section-heading-2">The Company Today</span>
              <br />
              But now, we'd like to expand our reach to you through the EcoQube, a miniature aquatic ecosystem that we created to deliver the practical solution and beauty of aquaponics to households and offices around the world!
-             <br />
-             <img src="img/ecoqube2.jpg" class="about-ourstory-images" />
-             <br />
+             <br /><br />
              We know that we can’t solve the many problems in our world with a fish tank, no matter how beautiful it is, but we hope to connect people to our environment and influence the way they perceive the larger issues in our world today.
              <br /><br />
              “Because the crazy ones who think they can change the world are the ones who do.” –Apple
+        </div><!-- .about-ourstory -->
+        <br /><div id="ourstory-slide">
+         <div id="main-slider" class="flexslider">
+               <ul class="slides">
+                    <li><img src="img/about/ourstory-4.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-5.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-6.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-13.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-7.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-10.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-1.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-9.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-2.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-3.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-18.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-21.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-8.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-14.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-15.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-17.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-16.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-19.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/about/ourstory-20.jpg" class="about-ourstory-images" /></li>
+                    <li><img src="img/ecoqube2.jpg" class="about-ourstory-images" /></li>
+               </ul>
+          </div></div>
       </div><!-- .section-content -->
     </div><!-- .section-container -->
 
@@ -184,27 +189,15 @@
           <a id="values" class="anchor"></a>Vision and Values
         </div><!-- .section-heading -->
         <br />
-        Innovate with Nature.
-        <br />
-        We have a vision to be much more than an online vendor for aquarium goods and an installation company.
+        We have a vision to be much more than just an online vendor for aquarium goods and an installation company.
         <br /><br />
-        Revolutionize Aquarium Trade – by completely eliminating intermediate suppliers, distributors and aquarium retail shops. The livestock we sell comes directly from over 10 international farms. We will later advance into breeding our very own livestock and manufacturing our own line of products. The consolidation will benefit you, the environment, the economy and the aquarium industry in the following ways:
-        <br /><br />
-        Less Transport- Less time and resources spent on transporting livestock directly leads to unsurpassed quality and…
-        <br /><br />
-        Less Environmental Impact- Less fish are lost and less fossil fuel is burned. Resulting in more:
-        <br /><br />
-        Competitive Pricing- Savings are then passed onto you and higher profit margins allows for…
-        <br /><br />
-        Domestic Jobs- Happy local employees will then provide you with unmatchable…
-        <br /><br />
-        Quality and Service- Something all of our customers deserve!
-        <br /><br />
-        Innovate with Nature- Through using ADI’s compilation of innovative methods of sustainable Aquatic Ecosystem installations, ADI is determined to transform the way people typically view aquariums as an unnecessary fish tank to an essential component of every home, office, garden or roof. Utilizing the same methods, equipment and technology, ADI hopes to incorporate such technologies into food production, home gardening, landscaping and sustainable architecture.
-        <br /><br />
-        90%+ of the aquarium industry is salt water focused, where most livestock are brutally harvested from the wild. Freshwater isn’t much better. An estimated 30% of ALL freshwater aquarium livestock is lost due to deaths BEFORE they get to the end customer’s aquariums. With years of experience, ADI is well equipped with practicing the best methods and direct FARMED sources limiting deaths to less than 5% from farms all the way to our customer’s aquariums. This dramatically increases quality of livestock, reduces aquarists’ carbon footprint on the environment and minimizes cost of livestock, creating a triple win situation. Hence our motto, “Revolutionize Aquarium Trade.”
-        <br /><br />
-        Planted Aquatic Ecosystems are indisputably beautiful. ADI is set on challenging the status quo of the goldfish in a bowl for fresh water aquariums and the idea of advanced aquarium keeping being only limited to salt water aquariums. ADI believes that the artistic and aesthetic elements of an innovative 90% self-sustaining Aquatic Ecosystem installation will attract a large audience and has the power to convey the significance of a balanced, natural ecosystem. Hence our other motto, “Innovate with Nature.”  We have already started working with various environmental awareness groups at the University of California San Diego to begin this green campaign.
+        <ul class="about-values-list">
+        <li>Less Transport- Less time and resources spent on transporting livestock directly leads to unsurpassed quality.</li>
+        <li>Less Environmental Impact- Less fish are lost and less fossil fuel is burned. Resulting in more:</li>
+        <li>Competitive Pricing- Savings are then passed onto you and higher profit margins allows for.</li>
+        <li>Domestic Jobs- Happy local employees will then provide you with unmatchable.</li>
+        <li>Quality and Service- Something all of our customers deserve!</li>
+        </ul>
         <br /><br />
         When dealing with ADI, you are more than just a customer; you become part of the revolution.
       </div><!-- section-content -->
@@ -227,54 +220,94 @@
         <div class="section-heading section-4">
           <a id="affiliates" class="anchor"></a>Affiliates, Sponsorships, and Philanthropy
         </div><!-- .section-heading -->
-        <br />
-        <span class="about-affiliates-names">Chris E. Yin</span>
-        <br />
-        Chief Operating Officer at Bespoke Partners and founder of Pathways Ventures, an on-campus incubator at University of California, San Diego.
-        <br /><br />
-        <span class="about-affiliates-names">Marshall Kauf</span>
-        <br />
-        Senior Associate at Bespoke Partners as well as member of the Entrepreneur’s Organization in Los Angeles.
-        <br /><br />
-        <span class="about-affiliates-names">Chris Sims</span>
-        <br />
-        Owner of <a href="http://www.aquaticcentral.com">Aquatic Central</a>, one of the largest aquarium stores in Northern California.
-        <br /><br />
-        <span class="about-affiliates-names">San Francisco Bay Area Aquatic Plant Society</span>
-        <br />
-        A bay area aquarium community with over 1000 members. The most informative forum for freshwater aquariums in Northern California. <a href="http://www.sfbaaps.org">SFBAAPS</a>
-        <br /><br />
-        <span class="about-affiliates-names">Curtis Chinn</span>
-        <br />
-        Biology teacher at Galileo Academy of Sciences and Technology. Graduated with degree in biological sciences at University of California, Davis. Curtis was in charge of Galileo’s Aqua Culture Club and sought to introduce and teach students about aquatic ecosystems and the science behind them.
-        <br /><br />
-        <span class="about-affiliates-names">Patrick Carter</span>
-        <br />
-        Biologist at the California Academy of Sciences in San Francisco and former employee at Aqua Forest Aquarium. He’s also the founder of <a href="http://http://www.urban-aquatics.com/">Urban Aquatics</a>- an installation, maintenance, and consultation company for aquatic related hobbies.
-        <br /><br />
-        <span class="about-affiliates-names">Nick Xyong</span>
-        <br />
-        Active aquarium hobbyist with years of experience in aquatic plants and livestock. Founder of <a href="http://www.speedieaquatics.com">Speedie Aquatics</a>- currently one of the largest online retailers of plants and invertebrates.
-        <br /><br />
-        <span class="about-affiliates-names">David Kim</span>
-        <br />
-        BS in Biochem-Cellular Biology, BA in Art at University of California, San Diego. David aspires to use biological sciences to create sustainable ecosystems while presenting it as an art. At the University of California, San Diego, David installed <a href="http://vimeo.com/38627965">a unique aquatic ecosystem</a> for their Sixth College administrative offices.
-        <br /><br />
-        <span class="about-affiliates-names"><a href="https://www.abasd.org/home.php">Asian Business Association of San Diego</a></span>
-        <br />
-        A non-profit 501(c)(6) organization that provides a strong voice on business, cultural and political issues of interest to San Diego’s Asian and Pacific Islander community.
-        <br /><br />
-        <span class="about-affiliates-names"><a href="http://galileoweb.org/chinnc/old-pages/aquarium-club/">Galileo Academy Aquarium Club</a></span>
-        <br />
-        A student initiated community, sponsored by the Futurama After School program.
-        <br /><br />
-        <span class="about-affiliates-names"><a href="http://scapeclub.org/">SCAPE - Southern California Aquatic Plant Enthusiasts</a></span>
-        <br />
-        A local, non profit group formed of the most dedicated Aquatic Plant Enthusiasts in Southern California.
-        <br /><br />
-        <span class="about-affiliates-names"><a href="http://www.plantedtank.net/">The Planted Tank</a></span>
-        <br />
-        A community dedicated to aquarium afficianados.
+          <div id="secondary-slider" class="flexslider">
+               <ul class="slides">
+                    <li>
+                         <div class="about-inside">
+                         <span class="about-affiliates-names">Chris E. Yin</span>
+                         <br />
+                         <span class="about-flexslider2-text">Chief Operating Officer at Bespoke Partners and founder of Pathways Ventures, an on-campus incubator at University of California, San Diego.</span>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="about-inside">
+                         <span class="about-affiliates-names">Marshall Kauf</span>
+                         <br /></span>
+                         <span class="about-flexslider2-text">Senior Associate at Bespoke Partners as well as member of the Entrepreneur’s Organization in Los Angeles.</span>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="about-inside">
+                         <span class="about-affiliates-names">Chris Sims</span>
+                         <br />
+                         <span class="about-flexslider2-text">Owner of <a href="http://www.aquaticcentral.com">Aquatic Central</a>, one of the largest aquarium stores in Northern California.</span>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="about-inside">
+                         <span class="about-affiliates-names">San Francisco Bay Area Aquatic Plant Society</span>
+                         <br />
+                         <span class="about-flexslider2-text">A bay area aquarium community with over 1000 members. The most informative forum for freshwater aquariums in Northern California. <a href="http://www.sfbaaps.org">SFBAAPS</a></span>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="about-inside">
+                         <span class="about-affiliates-names">Curtis Chinn</span>
+                         <br />
+                         <span class="about-flexslider2-text">Biology teacher at Galileo Academy of Sciences and Technology. Graduated with degree in biological sciences at UC Davis. Curtis was in charge of Galileo’s Aqua Culture Club and sought to introduce and teach students about aquatic ecosystems and the science behind them.</span>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="about-inside">
+                         <span class="about-affiliates-names">Patrick Carter</span>
+                         <br />
+                         <span class="about-flexslider2-text">Biologist at the California Academy of Sciences in San Francisco and former employee at Aqua Forest Aquarium. He’s also the founder of <a href="http://http://www.urban-aquatics.com/">Urban Aquatics</a>- an installation, maintenance, and consultation company for aquatic related hobbies</span>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="about-inside">
+                         <span class="about-affiliates-names">Nick Xyong</span>
+                         <br />
+                         <span class="about-flexslider2-text">Active aquarium hobbyist with years of experience in aquatic plants and livestock. Founder of <a href="http://www.speedieaquatics.com">Speedie Aquatics</a>- currently one of the largest online retailers of plants and invertebrates.</span>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="about-inside">
+                         <span class="about-affiliates-names">David Kim</span>
+                         <br />
+                         <span class="about-flexslider2-text">BS in Biochem-Cellular Biology, BA in Art at UC San Diego. David aspires to use biological sciences to create sustainable ecosystems while presenting it as an art. At the UC San Diego, David installed <a href="http://vimeo.com/38627965">a unique aquatic ecosystem</a> for their Sixth College administrative offices.</span>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="about-inside">
+                         <span class="about-affiliates-names"><a href="https://www.abasd.org/home.php">Asian Business Association of San Diego</a></span>
+                         <br />
+                         <span class="about-flexslider2-text">A non-profit 501(c)(6) organization that provides a strong voice on business, cultural and political issues of interest to San Diego’s Asian and Pacific Islander community.</span>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="about-inside">
+                         <span class="about-affiliates-names"><a href="http://galileoweb.org/chinnc/old-pages/aquarium-club/">Galileo Academy Aquarium Club</a></span>
+                         <br />
+                         <span class="about-flexslider2-text">A student initiated community, sponsored by the Futurama After School program.</span>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="about-inside">
+                         <span class="about-affiliates-names"><a href="http://scapeclub.org/">SCAPE - Southern California Aquatic Plant Enthusiasts</a></span>
+                         <br />
+                         <span class="about-flexslider2-text">A local, non profit group formed of the most dedicated Aquatic Plant Enthusiasts in Southern California.</span>
+                         </div>
+                    </li>
+                    <li>
+                         <div class="about-inside">
+                         <span class="about-affiliates-names"><a href="http://www.plantedtank.net/">The Planted Tank</a></span>
+                         <br />
+                         <span class="about-flexslider2-text">A community dedicated to aquarium afficianados.</span>
+                         </div>
+                    </li>
+               </ul>
+          </div>
       </div><!-- section-content -->
     </div><!-- .section-container .last-section-margin -->
 
@@ -405,4 +438,35 @@
      <script type="text/javascript">
      $("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
      </script>
+
+<!-- Flexslider -->
+          <script>
+          // Can also be used with $(document).ready()
+          $(window).load(function() {
+            $('#main-slider').flexslider({
+              animation: "slide",
+              animationSpeed:0,
+              controlNav: false,
+              maxItems:5,
+              minItems:4,
+              move:5,
+              itemWidth:275,
+              itemMargin:5,
+              slideshowSpeed: 7000,
+              pauseOnAction: true,
+              pauseOnHover: true,
+              touch: true
+            });
+
+            $('#secondary-slider').flexslider({
+              // animation: "slide"
+              animation: "fade",
+              animationSpeed:0,
+              slideshowSpeed: 7000,
+              pauseOnAction: true,
+              pauseOnHover: true,
+              touch: true
+            });
+          });
+          </script>
 </html>

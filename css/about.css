@@ -45,6 +45,15 @@
                width:100%;
           }
 
+          #ourstory-slide img{
+               background:rgba(255,255,255,.08);
+               border-bottom:4px solid rgba(255,255,255,.08);
+               border-left:2px solid rgba(255,255,255,.08);
+               border-right:2px solid rgba(255,255,255,.08);
+               border-top:4px solid rgba(255,255,255,.08);
+               width:100%;
+          }
+
           .about-ourstory-images{
                height:200px;
           }
@@ -58,11 +67,26 @@
                /*padding:0em 2em;*/
           }
 
+          .about-values-list{
+               list-style-type:square;
+               margin:0 auto;
+               padding:0 auto;
+          }
+
           .about-team-members{
                width:100%;
           }
 
           .about-affiliates-names{
                color:rgba(74,74,74,1);
+               font-size:2em;
                font-weight:bold;
+          }
+
+          .about-inside{
+               padding:3.5em;
+          }
+
+          .about-flexslider2-text{
+               font-size:1.2em;
           }
