@@ -1,5 +1,19 @@
 /*Content*/
-
+	.quote-col-1-of-2{
+		float:left;
+		width: 50%; 
+		margin: 5em; 
+		display:inline-block;
+	}
+	.quote-col-2-of-2{
+		float:left;
+		width: 50%; 
+		margin: 5em; 
+	}
+	
+	.quote-col-1-of-2 form{
+		float:left;
+	}
      /*Video*/
           .services-video-overlay{
                color:rgba(255,255,255,.9);
