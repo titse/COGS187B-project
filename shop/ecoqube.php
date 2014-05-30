@@ -146,23 +146,23 @@
       <div class="product fish ecoqube">
         <div class="product-image-conatiner">
           <div class="product-image">
-            <img src="../img/products/test-product-image.png" alt="Product image">
+            <img src="../img/shop/clouded-minnow.jpg" alt="Product image">
           </div>
         </div>
 
         <div class="info-icons-wrapper">
           <div class="icon-description-field">
-            <img src="../img/ecoqube/leaf.png" class="icon" width="40" alt="EcoQube icon" title="EcoQube item"/>
+            <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon" title="EcoQube item"/>
             <p class="icon-description">EQ item</p>
           </div>
 
           <div class="icon-description-field">
-            <img src="../img/ecoqube/fish.png" class="icon" width="40" alt="Lifetime icon" title="Lifetime of item"/>
+            <img src="../img/learn/fish-icon.png" class="icon" width="40" alt="Lifetime icon" title="Lifetime of item"/>
             <p class="icon-description">4 months</p>
           </div>
 
           <div class="icon-description-field">
-            <img src="../img/ecoqube/water.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
+            <img src="../img/shop/water-temp-icon.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
             <p class="icon-description">25 degrees</p>
           </div>
         </div>
