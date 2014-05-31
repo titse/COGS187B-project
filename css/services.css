@@ -80,6 +80,15 @@
 	#submit:hover {
 	    opacity:.9;
 	}
+
+	.consult{
+		font-weight:bold;
+		font-size: 30px;
+	}
+	.call {
+		font-weight: 900;
+		font-size: 28px;
+	}
      /*Video*/
           .services-video-overlay{
                color:rgba(255,255,255,.9);

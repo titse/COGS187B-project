@@ -190,8 +190,11 @@
 					</div>
 				  </div>
 				  <div class ="quote-col-2-of-2"> 
-                  Free Consultation & Quote!<br /><br />
-                  Contact us today: (858) 224 - FISH<br /><br />
+				  <br/>
+				  <div class = "consult" >   Free Consultation & Quote!<br /><br /> </div>
+				  <div class = "call" >  Contact us today: (858) 224 - FISH<br /><br /></div>
+                
+                  
                   Aqua Design Innovations focuses on innovative methods of freshwater aquarium installations to create a unique aquatic ecosystem, one that has rarely been seen before.<br /><br />
                   With years of experience involved with nature aquatic ecosystems, ADI is well equipped with the best methods, products, and sources for livestock, plants, driftwood, and stones.<br /><br />
                   Whether it’s your business or your home, our freshwater aquariums will add beauty to where ever they are installed. If you want to talk to us about getting a free consultation, we’d love to hear from you!
