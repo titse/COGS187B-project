@@ -125,10 +125,16 @@ body a {
     text-align:center;
   }
 
-  .icon-description-field {
+  .icon-description-field-3 {
     width:30%;
     height:100%;
-    margin:0 1.5%;
+    /*background-color:rgba(74,74,74,1);*/
+    float:left;
+  }
+
+  .icon-description-field-4 {
+    width:25%;
+    height:100%;
     /*background-color:rgba(74,74,74,1);*/
     float:left;
   }
