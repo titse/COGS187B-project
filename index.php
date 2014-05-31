@@ -13,8 +13,8 @@
 		   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 		   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 		<!--nerve slider-->
-			<script src="http://code.ryanbruzan.net/nerveSlider/jquery.nerveSlider.min.js"></script>
-			<link rel="stylesheet" href="http://code.ryanbruzan.net/nerveSlider/nerveSlider.min.css" />
+			<script src="nerveSlider/jquery.nerveSlider.min.js"></script>
+			<link rel="stylesheet" href="nerveSlider/nerveSlider.min.css" />
 	    <!--activate the nerve slider-->
                <script type="text/javascript">
                $(document).ready(function(){
