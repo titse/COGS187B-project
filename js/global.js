@@ -123,3 +123,12 @@ function updateDotsChildDir(visibleSection){
     }
   }
 }
+
+//Highligting selected filters internal on shop-page
+function highlightFiltered(keyword){
+  console.log("Higlighting filters with class: " +keyword+"-filter");
+
+  $(".filterOptions").removeClass('current');
+
+  $("."+keyword+"-filter").addClass("current");
+}
