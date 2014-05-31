@@ -151,50 +151,61 @@
         </div>
 
         <div class="info-icons-wrapper">
-          <div class="icon-description-field">
-            <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon" title="EcoQube item"/>
+          <div class="icon-description-field-4">
+            <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon" title="Recommended for the EcoQube"/>
             <p class="icon-description">EQ item</p>
           </div>
 
-          <div class="icon-description-field">
-            <img src="../img/learn/fish-icon.png" class="icon" width="40" alt="Lifetime icon" title="Lifetime of item"/>
-            <p class="icon-description">4 months</p>
+          <div class="icon-description-field-4">
+            <img src="../img/shop/size-icon.png" class="icon" width="40" alt="Fish size icon" title="Max size of fish"/>
+            <p class="icon-description">1.5 inches </p>
           </div>
 
-          <div class="icon-description-field">
+          <div class="icon-description-field-4">
             <img src="../img/shop/water-temp-icon.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
-            <p class="icon-description">25 degrees</p>
+            <p class="icon-description">65-75° F</p>
+          </div>
+
+          <div class="icon-description-field-4">
+            <img src="../img/shop/swim-level-icon.png" class="icon" width="40" alt="Swimming level icon" title="Swimming level"/>
+            <p class="icon-description">Top</p>
           </div>
         </div>
         <p class="product-name">Cloud Minnow</p>
-        <p class="price">$ 4.99</p>
+        <p class="price">$ 1.99</p>
       </div>
 
       <div class="product fish ecoqube">
         <div class="product-image-conatiner">
           <div class="product-image">
-            <img src="../img/products/test-product-image.png" alt="Product image">
+            <img src="../img/shop/zebra-danio.jpg" alt="Product image">
           </div>
         </div>
 
         <div class="info-icons-wrapper">
-          <div class="icon-description-field">
-            <img src="../img/ecoqube/leaf.png" class="icon" width="40" alt="EcoQube icon" title="EcoQube item"/>
+          <div class="icon-description-field-4">
+            <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon" title="Recommended for the EcoQube"/>
             <p class="icon-description">EQ item</p>
           </div>
 
-          <div class="icon-description-field">
-            <img src="../img/ecoqube/fish.png" class="icon" width="40" alt="Lifetime icon" title="Lifetime of item"/>
-            <p class="icon-description">4 months</p>
+          <div class="icon-description-field-4">
+            <img src="../img/shop/size-icon.png" class="icon" width="40" alt="Fish size icon" title="Max size of fish"/>
+            <p class="icon-description">2 inches </p>
           </div>
 
-          <div class="icon-description-field">
-            <img src="../img/ecoqube/water.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
-            <p class="icon-description">25 degrees</p>
+          <div class="icon-description-field-4">
+            <img src="../img/shop/water-temp-icon.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
+            <p class="icon-description">70-82° F</p>
           </div>
+
+          <div class="icon-description-field-4">
+            <img src="../img/shop/swim-level-icon.png" class="icon" width="40" alt="Swimming level icon" title="Swimming level"/>
+            <p class="icon-description">Top</p>
+          </div>
+
         </div>
         <p class="product-name">Zebrafish</p>
-        <p class="price">$ 4.99</p>
+        <p class="price">$ 1.99</p>
       </div>
 
       <div class="product fish ecoqube">
