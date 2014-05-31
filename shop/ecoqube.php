@@ -153,7 +153,7 @@
       <div class="product fish ecoqube">
         <div class="product-image-conatiner">
           <div class="product-image">
-            <img src="../img/shop/clouded-minnow.jpg" alt="Product image">
+            <img src="../img/shop/clouded-minnow.jpg" class="horizontal" alt="Product image">
           </div>
         </div>
 
@@ -179,13 +179,13 @@
           </div>
         </div>
         <p class="product-name">Cloud Minnow</p>
-        <p class="price">$ 1.99</p>
+        <p class="price">$ 1.49</p>
       </div>
 
       <div class="product fish ecoqube">
         <div class="product-image-conatiner">
           <div class="product-image">
-            <img src="../img/shop/zebra-danio.jpg" alt="Product image">
+            <img src="../img/shop/zebra-danio.jpg" class="horizontal" alt="Product image">
           </div>
         </div>
 
@@ -215,114 +215,120 @@
         <p class="price">$ 1.99</p>
       </div>
 
+
       <div class="product fish ecoqube">
         <div class="product-image-conatiner">
           <div class="product-image">
-            <img src="../img/products/test-product-image.png" alt="Product image">
+            <img src="../img/shop/guppy.jpg" class="horizontal" alt="Guppy">
           </div>
         </div>
 
         <div class="info-icons-wrapper">
-          <div class="icon-description-field">
-            <img src="../img/ecoqube/leaf.png" class="icon" width="40" alt="EcoQube icon" title="EcoQube item"/>
+          <div class="icon-description-field-4 key-info" data-title="Recommended for the EcoQube">
+            <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon"/></a>
             <p class="icon-description">EQ item</p>
           </div>
 
-          <div class="icon-description-field">
-            <img src="../img/ecoqube/fish.png" class="icon" width="40" alt="Lifetime icon" title="Lifetime of item"/>
-            <p class="icon-description">4 months</p>
+          <div class="icon-description-field-4 key-info" data-title="Max size of the fish">
+            <img src="../img/shop/size-icon.png" class="icon" width="40" alt="Fish size icon"/>
+            <p class="icon-description">1.5 inches </p>
           </div>
 
-          <div class="icon-description-field">
-            <img src="../img/ecoqube/water.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
-            <p class="icon-description">25 degrees</p>
+          <div class="icon-description-field-4 key-info" data-title="Reqired water tempreature">
+            <img src="../img/shop/water-temp-icon.png" class="icon" width="40" alt="Water temperature icon"/>
+            <p class="icon-description">70-82° F</p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Swimming level">
+            <img src="../img/shop/swim-level-icon.png" class="icon" width="40" alt="Swimming level icon"/>
+            <p class="icon-description">Top</p>
           </div>
         </div>
         <p class="product-name">Guppy</p>
-        <p class="price">$ 4.99</p>
+        <p class="price">$ 3.19</p>
       </div>
 
-      <div class="product ecoqube plants aquatic">
+      <div class="product plants aquatic ecoqube">
         <div class="product-image-conatiner">
           <div class="product-image">
-            <img src="../img/products/test-product-image.png" alt="Product image">
+            <img src="../img/shop/java-fern.jpg" class="horizontal" alt="Product image">
           </div>
         </div>
 
         <div class="info-icons-wrapper">
-          <div class="icon-description-field">
-            <img src="../img/ecoqube/leaf.png" class="icon" width="40" alt="EcoQube icon" title="EcoQube item"/>
+          <div class="icon-description-field key-info" data-title="Recommended for the EcoQube">
+            <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon" title="Recommended for the EcoQube"/>
             <p class="icon-description">EQ item</p>
           </div>
 
-          <div class="icon-description-field">
-            <img src="../img/ecoqube/fish.png" class="icon" width="40" alt="Lifetime icon" title="Lifetime of item"/>
-            <p class="icon-description">4 months</p>
-          </div>
-
-          <div class="icon-description-field">
-            <img src="../img/ecoqube/water.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
-            <p class="icon-description">25 degrees</p>
-          </div>
         </div>
-        <p class="product-name">Java Fern</p>
-        <p class="price">$ 4.99</p>
+        <p class="product-name">Java fern</p>
+        <p class="price">$ 7.39</p>
       </div>
 
-      <div class="product plants terrestrial">
+      <div class="product fish ecoqube">
         <div class="product-image-conatiner">
           <div class="product-image">
-            <img src="../img/products/test-product-image.png" alt="Product image">
+            <img src="../img/shop/basil.jpg" class="vertical" alt="Product image">
           </div>
         </div>
 
         <div class="info-icons-wrapper">
-          <div class="icon-description-field">
-            <img src="../img/ecoqube/leaf.png" class="icon" width="40" alt="EcoQube icon" title="EcoQube item"/>
+          <div class="icon-description-field-4 key-info" data-title="Recommended for the EcoQube">
+            <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon"/></a>
             <p class="icon-description">EQ item</p>
           </div>
 
-          <div class="icon-description-field">
-            <img src="../img/ecoqube/fish.png" class="icon" width="40" alt="Lifetime icon" title="Lifetime of item"/>
-            <p class="icon-description">4 months</p>
+          <div class="icon-description-field-4 key-info" data-title="Sprout time">
+            <img src="../img/shop/plant-sprout-icon.png" class="icon" width="40" alt="Sprout time icon"/>
+            <p class="icon-description">5-10 days</p>
           </div>
 
-          <div class="icon-description-field">
-            <img src="../img/ecoqube/water.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
-            <p class="icon-description">25 degrees</p>
+          <div class="icon-description-field-4 key-info" data-title="Growing time to full size">
+            <img src="../img/shop/plant-fullsize-icon.png" class="icon" width="40" alt="Growing time to full size icon"/>
+            <p class="icon-description">2-4 months</p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Life time">
+            <img src="../img/shop/enjoy-plant-icon.png" class="icon" width="40" alt="enjoying time icon"/>
+            <p class="icon-description">4-6 months</p>
           </div>
         </div>
         <p class="product-name">Basil</p>
-        <p class="price">$ 4.99</p>
+        <p class="price">$ 6.95</p>
       </div>
 
-      <div class="product ecoqube plants terrestrial">
+      <div class="product fish ecoqube">
         <div class="product-image-conatiner">
           <div class="product-image">
-            <img src="../img/products/test-product-image.png" alt="Product image">
+            <img src="../img/shop/stock-photo-mint-mint-leaves-herb-127932548.jpg" class="horizontal" alt="Product image">
           </div>
         </div>
 
         <div class="info-icons-wrapper">
-          <div class="icon-description-field">
-            <img src="../img/ecoqube/leaf.png" class="icon" width="40" alt="EcoQube icon" title="EcoQube item"/>
+          <div class="icon-description-field-4 key-info" data-title="Recommended for the EcoQube">
+            <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon"/></a>
             <p class="icon-description">EQ item</p>
           </div>
 
-          <div class="icon-description-field">
-            <img src="../img/ecoqube/fish.png" class="icon" width="40" alt="Lifetime icon" title="Lifetime of item"/>
-            <p class="icon-description">4 months</p>
+          <div class="icon-description-field-4 key-info" data-title="Sprout time">
+            <img src="../img/shop/plant-sprout-icon.png" class="icon" width="40" alt="Sprout time icon"/>
+            <p class="icon-description">5-10 days</p>
           </div>
 
-          <div class="icon-description-field">
-            <img src="../img/ecoqube/water.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
-            <p class="icon-description">25 degrees</p>
+          <div class="icon-description-field-4 key-info" data-title="Growing time to full size">
+            <img src="../img/shop/plant-fullsize-icon.png" class="icon" width="40" alt="Growing time to full size icon"/>
+            <p class="icon-description">2-4 months</p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Life time">
+            <img src="../img/shop/enjoy-plant-icon.png" class="icon" width="40" alt="enjoying time icon"/>
+            <p class="icon-description">4-6 months</p>
           </div>
         </div>
         <p class="product-name">Mint</p>
-        <p class="price">$ 4.99</p>
+        <p class="price">$ 1.99</p>
       </div>
-
     <!--  <div id="product-image-overlay">
         <div class="product-image-conatiner">
           <div class="product-image">
