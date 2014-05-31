@@ -98,7 +98,9 @@
     <div class="shop-filter-container">
       <srtong>Filter by:</strong>
         <a href="#" class="filterOptions">EcoQube</a>
+        |
         <a href="#" class="filterOptions">Fish</a>
+        |
         <a href="#" class="filterOptions">Invertebrates</a>
       </div>
     </div>
@@ -106,6 +108,9 @@
     <!-- Secondary-navigation  -->
     <div class="side-navbar">
   <div class="side-navbar-content">
+    <div class="shop-heading">
+      <a href="index.php"><h1>SHOP</h1></a>
+    </div>
     <ul>
       <li class="categories-heading">
         <h3> CATEGORIES </h3>
@@ -306,7 +311,7 @@
         <p class="price">$ 4.99</p>
       </div>
 
-      <div id="product-image-overlay">
+      <!--<div id="product-image-overlay">
         <div class="product-image-conatiner">
           <div class="product-image">
             <a href="#description"><div id="upper-overlay" class="overlay-section">
@@ -317,7 +322,7 @@
             </div></a>
           </div>
         </div>
-      </div>
+      </div>-->
 
     </div><!-- #content-container -->
 
@@ -491,8 +496,11 @@
       console.log("Hiding products");
     }
 
-    $(document).ready(function() {
-
+    //Highlighting the current filtering option
+    $(".filterOptions").click(function(){
+      console.log("Higlighting");
+      $(".filterOptions").removeClass('current');
+      $(this).addClass('current');
     });
 
 

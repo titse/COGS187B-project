@@ -104,6 +104,9 @@
     <!-- Secondary-navigation  -->
     <div class="side-navbar">
   <div class="side-navbar-content">
+    <div class="shop-heading">
+      <a href="index.php"><h1>SHOP</h1></a>
+    </div>
     <ul>
       <li class="categories-heading">
         <h3> CATEGORIES </h3>
@@ -142,7 +145,72 @@
     <!-- Content  -->
     <div class="shop-content-container left-margin">
 
-      <div class="product fish">
+      <div class="product fish ecoqube">
+        <div class="product-image-conatiner">
+          <div class="product-image">
+            <img src="../img/shop/clouded-minnow.jpg" alt="Product image">
+          </div>
+        </div>
+
+        <div class="info-icons-wrapper">
+          <div class="icon-description-field-4 key-info" data-title="Recommended for the EcoQube">
+            <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon"/></a>
+            <p class="icon-description">EQ item</p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Max size of the fish">
+            <img src="../img/shop/size-icon.png" class="icon" width="40" alt="Fish size icon"/>
+            <p class="icon-description">1.5 inches </p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Reqired water tempreature">
+            <img src="../img/shop/water-temp-icon.png" class="icon" width="40" alt="Water temperature icon"/>
+            <p class="icon-description">65-75° F</p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Swimming level">
+            <img src="../img/shop/swim-level-icon.png" class="icon" width="40" alt="Swimming level icon"/>
+            <p class="icon-description">Top</p>
+          </div>
+        </div>
+        <p class="product-name">Cloud Minnow</p>
+        <p class="price">$ 1.99</p>
+      </div>
+
+      <div class="product fish ecoqube">
+        <div class="product-image-conatiner">
+          <div class="product-image">
+            <img src="../img/shop/zebra-danio.jpg" alt="Product image">
+          </div>
+        </div>
+
+        <div class="info-icons-wrapper">
+          <div class="icon-description-field-4 key-info" data-title="Recommended for the EcoQube">
+            <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon" title="Recommended for the EcoQube"/>
+            <p class="icon-description">EQ item</p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Max size of the fish">
+            <img src="../img/shop/size-icon.png" class="icon" width="40" alt="Fish size icon" title="Max size of fish"/>
+            <p class="icon-description">2 inches </p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Reqired water tempreature">
+            <img src="../img/shop/water-temp-icon.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
+            <p class="icon-description">70-82° F</p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Swimming level">
+            <img src="../img/shop/swim-level-icon.png" class="icon" width="40" alt="Swimming level icon" title="Swimming level"/>
+            <p class="icon-description">Top</p>
+          </div>
+
+        </div>
+        <p class="product-name">Zebrafish</p>
+        <p class="price">$ 1.99</p>
+      </div>
+
+      <div class="product fish ecoqube">
         <div class="product-image-conatiner">
           <div class="product-image">
             <img src="../img/products/test-product-image.png" alt="Product image">
@@ -165,11 +233,11 @@
             <p class="icon-description">25 degrees</p>
           </div>
         </div>
-        <p class="product-name">FISH</p>
+        <p class="product-name">Guppy</p>
         <p class="price">$ 4.99</p>
       </div>
 
-      <div class="product invertebrates">
+      <div class="product ecoqube plants aquatic">
         <div class="product-image-conatiner">
           <div class="product-image">
             <img src="../img/products/test-product-image.png" alt="Product image">
@@ -192,11 +260,11 @@
             <p class="icon-description">25 degrees</p>
           </div>
         </div>
-        <p class="product-name">INVERTEBRATE</p>
+        <p class="product-name">Java Fern</p>
         <p class="price">$ 4.99</p>
       </div>
 
-      <div class="product ecoqube fish">
+      <div class="product plants terrestrial">
         <div class="product-image-conatiner">
           <div class="product-image">
             <img src="../img/products/test-product-image.png" alt="Product image">
@@ -219,11 +287,11 @@
             <p class="icon-description">25 degrees</p>
           </div>
         </div>
-        <p class="product-name">ECOQUBE FISH</p>
+        <p class="product-name">Basil</p>
         <p class="price">$ 4.99</p>
       </div>
 
-      <div class="product ecoqube invertebrates">
+      <div class="product ecoqube plants terrestrial">
         <div class="product-image-conatiner">
           <div class="product-image">
             <img src="../img/products/test-product-image.png" alt="Product image">
@@ -246,65 +314,11 @@
             <p class="icon-description">25 degrees</p>
           </div>
         </div>
-        <p class="product-name">ECOQUBE INVERTEBRATE</p>
+        <p class="product-name">Mint</p>
         <p class="price">$ 4.99</p>
       </div>
 
-      <div class="product invertebrates">
-        <div class="product-image-conatiner">
-          <div class="product-image">
-            <img src="../img/products/test-product-image.png" alt="Product image">
-          </div>
-        </div>
-
-        <div class="info-icons-wrapper">
-          <div class="icon-description-field">
-            <img src="../img/ecoqube/leaf.png" class="icon" width="40" alt="EcoQube icon" title="EcoQube item"/>
-            <p class="icon-description">EQ item</p>
-          </div>
-
-          <div class="icon-description-field">
-            <img src="../img/ecoqube/fish.png" class="icon" width="40" alt="Lifetime icon" title="Lifetime of item"/>
-            <p class="icon-description">4 months</p>
-          </div>
-
-          <div class="icon-description-field">
-            <img src="../img/ecoqube/water.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
-            <p class="icon-description">25 degrees</p>
-          </div>
-        </div>
-        <p class="product-name">INVERTEBRATE</p>
-        <p class="price">$ 4.99</p>
-      </div>
-
-      <div class="product ecoqube">
-        <div class="product-image-conatiner">
-          <div class="product-image">
-            <img src="../img/products/test-product-image.png" alt="Product image">
-          </div>
-        </div>
-
-        <div class="info-icons-wrapper">
-          <div class="icon-description-field">
-            <img src="../img/ecoqube/leaf.png" class="icon" width="40" alt="EcoQube icon" title="EcoQube item"/>
-            <p class="icon-description">EQ item</p>
-          </div>
-
-          <div class="icon-description-field">
-            <img src="../img/ecoqube/fish.png" class="icon" width="40" alt="Lifetime icon" title="Lifetime of item"/>
-            <p class="icon-description">4 months</p>
-          </div>
-
-          <div class="icon-description-field">
-            <img src="../img/ecoqube/water.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
-            <p class="icon-description">25 degrees</p>
-          </div>
-        </div>
-        <p class="product-name">ECOQUBE</p>
-        <p class="price">$ 4.99</p>
-      </div>
-
-      <div id="product-image-overlay">
+    <!--  <div id="product-image-overlay">
         <div class="product-image-conatiner">
           <div class="product-image">
             <a href="#description"><div id="upper-overlay" class="overlay-section">
@@ -315,7 +329,7 @@
             </div></a>
           </div>
         </div>
-      </div>
+      </div>-->
 
     </div><!-- #content-container -->
 
@@ -489,8 +503,11 @@
       console.log("Hiding products");
     }
 
-    $(document).ready(function() {
-
+    //Highlighting the current filtering option
+    $(".filterOptions").click(function(){
+      console.log("Higlighting");
+      $(".filterOptions").removeClass('current');
+      $(this).addClass('current');
     });
 
 

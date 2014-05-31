@@ -91,6 +91,9 @@
 <!-- Secondary-navigation  -->
     <div class="side-navbar">
       <div class="side-navbar-content">
+        <div class="shop-heading">
+          <a href="index.php"><h1>SHOP</h1></a>
+        </div>
         <ul>
           <li class="categories-heading">
             <h3> CATEGORIES </h3>
@@ -130,17 +133,17 @@
     <div class="shop-content-container first-section-margin left-margin">
       <div class="shop-video">
                <a href="shop-home-modal-1.php" class="splash-modal">
-                <div class="ecoqube-video-overlay">
+                <!--<div class="ecoqube-video-overlay">
                      Introducing the<br />
                      <img src="../img/logos/ecoqube-logo.png" /><br />
                      a beautiful, compact, all-in-one<br />
                      aquatic ecosystem for your home or office.
                 </div><!-- .ecoqube-video-overlay -->
-                <div class="ecoqube-play-icon">
+                <div class="shop-ecoqube-play-icon">
                      &#xe817;
                 </div><!-- .ecoqube-play-icon -->
 
-                <img src="../img/ecoqube1.jpg" class="video-thumbnail"/>
+                <img src="../img/ecoqube/ecoqube-banner-white-shop.png" class="video-thumbnail"/>
            </a>
                <script type="text/javascript">
                     $(document).ready(function($modalfn) {

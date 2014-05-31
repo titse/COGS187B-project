@@ -7,6 +7,10 @@ body a {
   color:#4a4a4a;
 }
 
+body a:hover {
+  color:#006cb8;
+}
+
   /*Shop heading section*/
   .shop-heading{
     display:inline-block;
@@ -29,12 +33,16 @@ body a {
     max-width:20%;
     height:50%;
     /*background-color:#efefef;*/
-    top:25%
+    top:12%
   }
 
   .side-navbar-content {
     display:inline-block;
     margin-left:10%;
+  }
+
+  .shop-heading{
+    font-size:1.5em;
   }
 
   .categories-heading {
@@ -68,6 +76,25 @@ body a {
     margin-top:6%;
     margin-bottom:115px;
     margin-left:-5%;
+  }
+
+  .shop-ecoqube-play-icon{
+       color:rgba(0,81,137,0.25);
+       font-family:"Fontello";
+       max-width:80%;
+       font-size:9em;
+       padding-top:1em;
+       overflow:hidden;
+       position:absolute;
+       text-align:center;
+       /*text-shadow: 1px 1px 2px rgba(0,0,0,.25);*/
+       width:100%;
+  }
+
+  .shop-ecoqube-play-icon:hover{
+       /*background-color:rgba(255,255,255,.15);*/
+       color:rgba(0,81,137,1);
+       width:100%;
   }
 
   /*Shop content*/
@@ -137,6 +164,20 @@ body a {
     height:100%;
     /*background-color:rgba(74,74,74,1);*/
     float:left;
+  }
+
+  .key-info:hover:after{
+    background: rgba(0,0,0,.5);
+    border-radius: 2px;
+    color: #fff;
+    content: attr(data-title);
+    bottom:7em;
+    padding: 5px 5px;
+    position: relative;
+    z-index: 98;
+    white-space: nowrap;
+    color:#efefef;
+    font-size:0.8em;
   }
 
   .icon {

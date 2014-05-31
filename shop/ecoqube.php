@@ -22,6 +22,7 @@
   <script type="text/javascript" src="../js/layerlib.js"></script>
   <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> --> <!-- E: I had to comment this out so that the modal window works. Nothing else in the page seems to have broken though. -->
 
+  <script type="text/javascript" src="../js/global.js"></script>
 </head>
 
 <body>
@@ -90,6 +91,7 @@
   </div><!-- #header-container -->
 
   <div id="content-container">
+
   <!--Shop heading section -->
   <div class="shop-heading first-section-margin left-margin">
     <h3 class="categories-heading">ECOQUBE</h3>
@@ -97,14 +99,19 @@
     <div class="shop-filter-container">
       <srtong>Filter by:</strong>
       <a href="#" class="filterOptions">Fish</a>
-      <a href="#" class="filterOptions">Plants</a>
-      <a href="#" class="filterOptions">Invertebrates</a>
+      |
+      <a href="#" class="filterOptions" onclick="setCurrent(this);">Plants</a>
+      |
+      <a href="#" class="filterOptions" onclick="setCurrent(this);">Invertebrates</a>
     </div>
   </div>
 
     <!-- Secondary-navigation  -->
     <div class="side-navbar">
   <div class="side-navbar-content">
+    <div class="shop-heading">
+      <a href="index.php"><h1>SHOP</h1></a>
+    </div>
     <ul>
       <li class="categories-heading">
         <h3> CATEGORIES </h3>
@@ -151,23 +158,23 @@
         </div>
 
         <div class="info-icons-wrapper">
-          <div class="icon-description-field-4">
-            <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon" title="Recommended for the EcoQube"/>
+          <div class="icon-description-field-4 key-info" data-title="Recommended for the EcoQube">
+            <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon"/></a>
             <p class="icon-description">EQ item</p>
           </div>
 
-          <div class="icon-description-field-4">
-            <img src="../img/shop/size-icon.png" class="icon" width="40" alt="Fish size icon" title="Max size of fish"/>
+          <div class="icon-description-field-4 key-info" data-title="Max size of the fish">
+            <img src="../img/shop/size-icon.png" class="icon" width="40" alt="Fish size icon"/>
             <p class="icon-description">1.5 inches </p>
           </div>
 
-          <div class="icon-description-field-4">
-            <img src="../img/shop/water-temp-icon.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
+          <div class="icon-description-field-4 key-info" data-title="Reqired water tempreature">
+            <img src="../img/shop/water-temp-icon.png" class="icon" width="40" alt="Water temperature icon"/>
             <p class="icon-description">65-75° F</p>
           </div>
 
-          <div class="icon-description-field-4">
-            <img src="../img/shop/swim-level-icon.png" class="icon" width="40" alt="Swimming level icon" title="Swimming level"/>
+          <div class="icon-description-field-4 key-info" data-title="Swimming level">
+            <img src="../img/shop/swim-level-icon.png" class="icon" width="40" alt="Swimming level icon"/>
             <p class="icon-description">Top</p>
           </div>
         </div>
@@ -183,22 +190,22 @@
         </div>
 
         <div class="info-icons-wrapper">
-          <div class="icon-description-field-4">
+          <div class="icon-description-field-4 key-info" data-title="Recommended for the EcoQube">
             <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon" title="Recommended for the EcoQube"/>
             <p class="icon-description">EQ item</p>
           </div>
 
-          <div class="icon-description-field-4">
+          <div class="icon-description-field-4 key-info" data-title="Max size of the fish">
             <img src="../img/shop/size-icon.png" class="icon" width="40" alt="Fish size icon" title="Max size of fish"/>
             <p class="icon-description">2 inches </p>
           </div>
 
-          <div class="icon-description-field-4">
+          <div class="icon-description-field-4 key-info" data-title="Reqired water tempreature">
             <img src="../img/shop/water-temp-icon.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
             <p class="icon-description">70-82° F</p>
           </div>
 
-          <div class="icon-description-field-4">
+          <div class="icon-description-field-4 key-info" data-title="Swimming level">
             <img src="../img/shop/swim-level-icon.png" class="icon" width="40" alt="Swimming level icon" title="Swimming level"/>
             <p class="icon-description">Top</p>
           </div>
@@ -316,7 +323,7 @@
         <p class="price">$ 4.99</p>
       </div>
 
-      <div id="product-image-overlay">
+    <!--  <div id="product-image-overlay">
         <div class="product-image-conatiner">
           <div class="product-image">
             <a href="#description"><div id="upper-overlay" class="overlay-section">
@@ -327,7 +334,7 @@
             </div></a>
           </div>
         </div>
-      </div>
+      </div>-->
 
     </div><!-- #content-container -->
 
@@ -505,21 +512,29 @@
 
     });
 
+    //Highlighting the current filtering option
+    $(".filterOptions").click(function(){
+      console.log("Higlighting");
+      $(".filterOptions").removeClass('current');
+      $(this).addClass('current');
+    });
 
     </script>
 
-          <!-- Modal window -->
-               <script type="text/javascript">
-               $(document).ready(function($modalfn) {
 
-               $modalfn('.item-modal').magnificPopup({
-               type: 'ajax',
-               alignTop: true,
-               overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
-               });
 
-               });
-               </script>
+    <!-- Modal window -->
+    <script type="text/javascript">
+         $(document).ready(function($modalfn) {
+
+         $modalfn('.item-modal').magnificPopup({
+         type: 'ajax',
+         alignTop: true,
+         overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
+         });
+
+         });
+    </script>
 
 </body>
 </html>
