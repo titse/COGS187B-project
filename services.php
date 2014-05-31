@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head><!-- .. -->
+<head>
      <title>Services</title>
      <link type="text/css" rel="stylesheet" href="css/global.css"/>
      <link type="text/css" rel="stylesheet" href="css/services.css"/>
@@ -170,15 +170,24 @@
                   <div class="section-heading">
                     <a id="contact" class="anchor"></a>Get a FREE QUOTE today!
                   </div><!-- .section-heading -->
-                               <div class="quote-col-1-of-2"> 
-					<form> 
-						<p> Full Name </p> <input type = "text" name="fullname" placeholder="Ernest Smithh"/> <br/>
-						<p> Email </p> <input type = "email" name="email" placeholder="yourEmail@domain.com"/> <br/>
-						<p> Subject </p> <input type = "text" name="subject" placeholder="Installation Question" /> <br/>
-						
-						<p> Message </p> <input type = "textbox" name="message" /> <br/>
-						<input type ="submit" value ="submit" />
-					</form>
+                  <div class="quote-col-1-of-2"> 
+				  <div class="contact-form">
+						<form>
+								
+							<label class = "mandatory">Name </label>
+							<input name="name" placeholder="Ernest Smith (your name)" required/ >
+									
+							<label class = "mandatory">Email</label>
+							<input name="email" type="email" placeholder="youremail@domain.com" required />
+							<label class = "mandatory">Subject </label>
+							<input name="subject" type="email" placeholder="Ecoqube Order information" required / >		
+							<label class = "mandatory">Message</label>
+							<textarea name="message" placeholder="Message here about your question"required ></textarea>
+									
+							<input id="submit" name="submit" type="submit" value="Submit">
+								
+						</form>
+					</div>
 				  </div>
 				  <div class ="quote-col-2-of-2"> 
                   Free Consultation & Quote!<br /><br />

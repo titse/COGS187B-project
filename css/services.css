@@ -1,18 +1,84 @@
 /*Content*/
 	.quote-col-1-of-2{
 		float:left;
-		width: 50%; 
-		margin: 5em; 
+		width: 23%; 
+		margin: 50px;
 		display:inline-block;
+		
 	}
 	.quote-col-2-of-2{
 		float:left;
-		width: 50%; 
-		margin: 5em; 
+		width: 60%; 
+		margin: 50px;
 	}
 	
 	.quote-col-1-of-2 form{
 		float:left;
+	}
+	
+	/* ---form----*/
+		label {
+			display:block;
+			margin-top:10px;
+			letter-spacing: 3px;
+		}
+		form{
+			margin: 0, auto; 
+			width: 500px;	
+			padding-bottom: 10px;
+		}
+		
+		/* Style the text boxes */
+			input, textarea {
+				width:300px;
+				height:30px;
+				
+				border:1px solid #dedede;
+			}
+			textarea {
+			height:213px;
+			
+			}	
+	.mandatory:before { 
+	content: "  *";
+	vertical-align: top;
+    margin-right: 4px;
+    font-size: 20px;
+    color: #d35400;
+	display:inline;
+	}
+	
+	.mandatory :after{
+		/* Empty content, but required for pseudo element to display */
+   content: " *";
+	display:inline;
+   /* Size of star within sprite */
+    vertical-align: top;
+    margin-right: 4px;
+    font-size: 20px;
+	color: #d35400;
+	}
+	
+	input:focus, textarea:focus {
+    border:2px solid #5f3a09;
+}
+
+#submit {
+    width:75px;
+    height:50px;
+    background-image: url("../img/services/submit.png");
+	background-repeat: no-repeat;
+    text-indent:-9999px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+	display: block;
+	margin-left: 240px;
+	
+}
+
+	#submit:hover {
+	    opacity:.9;
 	}
      /*Video*/
           .services-video-overlay{
