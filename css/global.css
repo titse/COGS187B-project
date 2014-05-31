@@ -156,6 +156,9 @@ width:auto;
 
 #header-current{
   color:rgba(0,108,184,1);
+  background-image: url(../img/underline-bar.png);
+  background-repeat: repeat-x;
+  background-position: 100% 100%;
 }
 
 #header-icon-cart{
