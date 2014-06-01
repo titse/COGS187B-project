@@ -22,20 +22,24 @@
 
 
      <!-- JQuery visible library to detect which sections of the page is visible on the users screen and adjust the blue dot-->
-     <script src="js/jquery.visible.js"></script>
-
-     <!-- Custom Javascript functions used across pages -->
-     <script src="js/global.js"></script>
+          <script src="js/jquery.visible.js"></script>
 
      <!-- Javascript library to easily hide, show and move stuff around -->
-     <script type="text/javascript" src="js/layerlib.js"></script>
+          <script type="text/javascript" src="js/layerlib.js"></script>
+
+     <!-- Custom Javascript functions used across pages -->
+          <script type="text/javascript" src="js/global.js"></script>
+
+     <!-- Fixed header + horizontal scroll -->
+          <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> -->
+          <script type="text/javascript" src="ScrollToFixed-master/jquery-scrolltofixed.js"></script>
 </head>
 <body>
      <!-- Header -->
           <div id="header-container">
                <header>
                     <div id="header-logo">
-                         <a href="index.php"><img src="img/logos/header-logo.png" /></a>
+                         <a href="index.php"><img src="img/logos/header-logo.png" alt="Aqua Design Innovations" /></a>
                     </div><!-- #header-logo -->
 
                     <div id="header-navigation">
@@ -94,8 +98,8 @@
                          </ul>
                     </div><!-- #header-navigation -->
                </header>
-     </div><!-- #header-container -->
-
+          </div><!-- #header-container -->
+     
      <!-- Dot navigation -->
           <div id="dot-navigation-container">
           <ul>
@@ -130,37 +134,26 @@
           </li>
           </ul>
           </div>
-
+     
      <!-- Content  -->
           <div id="content-container">
 
           <!-- Video -->
                <div class="section-container first-section-margin">
-               <a href="ecoqube-modal-1.php" class="ecoqube-modal-1">
-               <div class="ecoqube-video-overlay">
-               Introducing the<br />
-               <img src="img/logos/ecoqube-logo.png" /><br />
-               a beautiful, compact, all-in-one<br />
-               aquatic ecosystem for your home or office.
-               </div><!-- .ecoqube-video-overlay -->
-               <div class="ecoqube-play-icon">
-               &#xe817;
-               </div><!-- .ecoqube-play-icon -->
-               <div class="ecoqube-video-image">
-               <img src="img/ecoqube1.jpg" />
-               </div><!-- .ecoqube-video-image -->
-               </a>
-               <script type="text/javascript">
-               $(document).ready(function() {
-
-               $('.ecoqube-modal-1').magnificPopup({
-               type: 'ajax',
-               alignTop: true,
-               overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
-               });
-
-               });
-               </script>
+                    <a href="ecoqube-modal-1.php" class="ecoqube-modal-1">
+                         <div class="ecoqube-video-overlay">
+                              Introducing the<br />
+                              <img src="img/logos/ecoqube-logo.png" /><br />
+                              a beautiful, compact, all-in-one<br />
+                              aquatic ecosystem for your home or office.
+                         </div><!-- .ecoqube-video-overlay -->
+                         <div class="ecoqube-play-icon">
+                              &#xe817;
+                         </div><!-- .ecoqube-play-icon -->
+                         <div class="ecoqube-video-image">
+                              <img src="img/ecoqube1.jpg" />
+                         </div><!-- .ecoqube-video-image -->
+                    </a>
                </div><!-- .section-container .first-section-margin -->
 
           <!-- How It Works -->
@@ -169,7 +162,7 @@
                          <div class="section-heading">
                               <a id="howitworks" class="anchor"></a>How does the EcoQube work?
                          </div><!-- .section-heading -->
-                         <div class="howitworks-left section-text">
+                         <div class="howitworks-left">
                               <br />
                               <img src="img/ecoqube/fish.png" />
                               Fish excrete waste into the water.<br>
@@ -190,7 +183,7 @@
 
           <!-- Blurb 1 -->
                <div class="section-container">
-                    <div class="ecoqube-blurb">
+                    <div class="section-blurb">
                          <div class="ecoqube-blurb-overlay-1">
                               The heart of the EcoQube is the aquaponics filter which <br />
                               uses plants, the world's best and most natural filter, <br />
@@ -227,15 +220,15 @@
 
           <!-- Blurb 2 -->
                <div class="section-container">
-                <div class="ecoqube-blurb">
-                  <div class="ecoqube-blurb-overlay-2">
-                    The EcoQube's patent-pending aquaponics filter allows <br />
-                    you to efficiently grow your house plants or <br />
-                    micro-greens with ease, while using the same <br />
-                    plants to keep your aquarium clean.
-                  </div><!-- ecoqube-blurb-overlay-2 -->
-                  <img src="img/ecoqube4.png" />
-                </div><!-- .ecoqube-blurb -->
+                    <div class="section-blurb">
+                         <div class="ecoqube-blurb-overlay-2">
+                              The EcoQube's patent-pending aquaponics filter allows <br />
+                              you to efficiently grow your house plants or <br />
+                              micro-greens with ease, while using the same <br />
+                              plants to keep your aquarium clean.
+                         </div><!-- ecoqube-blurb-overlay-2 -->
+                         <img src="img/ecoqube4.png" />
+                    </div><!-- .section-blurb -->
                </div><!-- .section-container -->
 
           <!-- Buy It Today -->
@@ -474,9 +467,9 @@
                     </div><!-- .section-content -->
                </div><!-- .section-container -->
 
-         <!-- Blurb 3 -->
+          <!-- Blurb 3 -->
               <div class="section-container">
-                <div class="ecoqube-blurb">
+                <div class="section-blurb">
                   <div class="ecoqube-blurb-overlay-3">
                     "We want to use the Ecoqube as a vehicle <br />
                     to deliver the concept and beauty of aquaponics to as <br />
@@ -487,7 +480,7 @@
                 </div><!-- .ecoqube-blurb -->
               </div><!-- .section-container -->
 
-         <!-- Press Releases -->
+          <!-- Press Releases -->
               <div class="section-container section-5 last-section-margin">
                 <div class="section-content">
                   <div class="section-heading">
@@ -498,27 +491,21 @@
                     <a href="http://www.treehugger.com/gadgets/aquaponics-ecosystem-fits-your-desk.html"><img src="img/ecoqube/press-treehugger.png" class="ecoqube-press-logos" /></a>
                     <a href="http://inventorspot.com/articles/ecoqube_minifarm_aquarium_combines_sustainability_beauty"><img src="img/ecoqube/press-inventorspot.png" class="ecoqube-press-logos" /></a>
                     <a href="http://nextshark.com/ecoqube-how-this-startup-can-seriously-end-world-hunger/"><img src="img/ecoqube/press-nextshark.png" class="ecoqube-press-logos" /></a>
-                    <!-- <br /> -->
-                    <img src="img/ecoqube/press-justify.png" id="press-force" />
                     <a href="http://www.enn.com/sustainability/article/46713"><img src="img/ecoqube/press-enn.png" class="ecoqube-press-logos" /></a>
                     <a href="http://welldonestuff.com/ecoqube-bring-nature-life/"><img src="img/ecoqube/press-welldonestuff.png" class="ecoqube-press-logos" /></a>
                     <a href="http://www.crowdlifted.com/news/2013/12/ecoqube-a-desktop-aquaponic-ecosystem-to-bring-organic-life-to-your-cubicle"><img src="img/ecoqube/press-crowdlifted.png" class="ecoqube-press-logos" /></a>
                     <a href="http://amedicsworld.com/2013/12/ecoqube-the-most-beautiful-way-to-grow-herbs-house-plants-or-flowers-indoor-while-using-the-same-plants-to-clean-aquarium-water-with-ease.html"><img src="img/ecoqube/press-amedicsworld.png" class="ecoqube-press-logos" /></a>
-                    <!-- <br /> -->
-                    <img src="img/ecoqube/press-justify.png" id="ecoqube-press-force" />
                     <a href="http://www.greenphillyblog.com/green-living/ecoqube-kickstarter/"><img src="img/ecoqube/press-greenphillyblog.png" class="ecoqube-press-logos" /></a>
                     <a href="http://makobiscribe.com/ecoqube-coolest-gift-ever/"><img src="img/ecoqube/press-makobiscribe.png" class="ecoqube-press-logos" /></a>
                     <a href="http://stagetecture.com/2013/11/ecoqube-kickstarter/"><img src="img/ecoqube/press-stagetecture.png" class="ecoqube-press-logos" /></a>
                     <a href="http://www.homemaidsimple.com/2013/12/ecoqube-kickstarter-campaign.html"><img src="img/ecoqube/press-homemaidsimple.png" class="ecoqube-press-logos" /></a>
                     <a href="http://stacysrandomthoughts.com/2013/12/ecoqube-bring-nature-to-life/"><img src="img/ecoqube/press-stacyuncorked.png" class="ecoqube-press-logos" /></a>
-                    <!-- <br /> -->
-                    <img src="img/ecoqube/press-justify.png" id="ecoqube-press-force" />
                   </div><!-- #ecoqube-press-container -->
                 </div><!-- section-content -->
               </div><!-- .section-container .last-section-margin -->
 
-  </div><!-- #content-container -->
-
+          </div><!-- #content-container -->
+     
      <!-- Footer  -->
             <div id="footer-container">
               <div id="footer-topbar">
@@ -612,119 +599,130 @@
                 </div><!-- #footer-right-col -->
 
                 <div id="footer-copyright">
-                  <p>Aqua Design Innovations 2014 - All Rights Reserved</p>
+                    Aqua Design Innovations 2014 - All Rights Reserved
                 </div><!-- #footer-copyright -->
 
               </footer>
             </div><!-- #footer-container -->
+     
+     <!-- Scripts -->
+          <!-- Javascript code identifying which sections are visible on the screen -->
+               <script type="text/javascript">
+               var currSection = "";
+               var DEBUG = false;
+
+               $(window).scroll(function() {
+               if ($(".section-1").visible()) {
+                updateDots("section-1");
+               } else if ($(".section-2").visible()) {
+                updateDots("section-2");
+               } else if ($(".section-3").visible()) {
+                updateDots("section-3");
+               } else if ($(".section-4").visible()) {
+                updateDots("section-4");
+               } else if ($(".section-5").visible()) {
+                updateDots("section-5");
+               }
+               });
+               </script>
+
+          <!-- Scroll js file -->
+               <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+               <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+               <script type="text/javascript" src="js/scrolld.js"></script>
+               <script type="text/javascript">
+               $("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
+               </script>
+
+          <!-- JavaScript code  -->
+               <script>
+
+               var DEBUG = false;
+
+               var productOverlay = $("#product-image-overlay");
 
 
-  <!-- Javascript code identifying which sections are visible on the screen -->
-  <script type="text/javascript">
-  var currSection = "";
-  var DEBUG = false;
+               //Registers hover over product and calls showOverlay
+               $("div.product").mouseover(function() {
+               var o = $(this);
+               var x = o.offset().left;
+               var y = o.offset().top;
 
-  $(window).scroll(function() {
-    if ($(".section-1").visible()) {
-      updateDots("section-1");
-    } else if ($(".section-2").visible()) {
-      updateDots("section-2");
-    } else if ($(".section-3").visible()) {
-      updateDots("section-3");
-    } else if ($(".section-4").visible()) {
-      updateDots("section-4");
-    } else if ($(".section-5").visible()) {
-      updateDots("section-5");
-    }
-  });
-  </script>
+               if (DEBUG) {
+                console.log("Mouse over product with ID: " + this.id);
+                console.log("X: " + x + ", Y: " + y);
+               };
+               showOverlay(x, y);
+               });
 
-  <!-- Scroll js file -->
-  <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
-  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-  <script type="text/javascript" src="js/scrolld.js"></script>
-  <script type="text/javascript">
-    $("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
-  </script>
-
-  <!-- JavaScript code  -->
-  <script>
-
-  var DEBUG = false;
-
-  var productOverlay = $("#product-image-overlay");
+               //WHY ISN'T THIS WORKING?????
+               /*$("div.product").mouseout(function() {
+               console.log("Mouseout");
+               //productOverlay.css("display", "none");
+               });*/
 
 
-  //Registers hover over product and calls showOverlay
-  $("div.product").mouseover(function() {
-    var o = $(this);
-    var x = o.offset().left;
-    var y = o.offset().top;
+               //Shows product overlay
+               function showOverlay(x, y) {
+               if (DEBUG) { console.log("Showing overlay at X: " + x + ", Y: " + y); };
 
-    if (DEBUG) {
-      console.log("Mouse over product with ID: " + this.id);
-      console.log("X: " + x + ", Y: " + y);
-    };
-    showOverlay(x, y);
-  });
+               setX("product-image-overlay", x);
+               setY("product-image-overlay", y);
+               productOverlay.css("display", "inline-block");
+               }
 
-  //WHY ISN'T THIS WORKING?????
-  /*$("div.product").mouseout(function() {
-  console.log("Mouseout");
-  //productOverlay.css("display", "none");
-  });*/
+               //Showing products matching selected filtering option
+               $(".filterOptions").click(function() {
+               console.log("Filtering products by " + this.text);
 
+               var keyword = this.text.toLowerCase();
+               console.log(keyword);
 
-  //Shows product overlay
-  function showOverlay(x, y) {
-    if (DEBUG) { console.log("Showing overlay at X: " + x + ", Y: " + y); };
+               var products = $(".product").map(function(index) {
+                var o = $(this);
 
-    setX("product-image-overlay", x);
-    setY("product-image-overlay", y);
-    productOverlay.css("display", "inline-block");
-  }
+                console.log(o.hasClass(keyword));
 
-  //Showing products matching selected filtering option
-  $(".filterOptions").click(function() {
-    console.log("Filtering products by " + this.text);
+                if(o.hasClass(keyword)) {
+                  o.show();
+                } else {
+                  o.hide();
+                }
 
-    var keyword = this.text.toLowerCase();
-    console.log(keyword);
+               });
 
-    var products = $(".product").map(function(index) {
-      var o = $(this);
+               /*
+               for (var i = 0; i < products.length; i++) {
+                console.log(.hasClass(keyword));
+               }
+               */
 
-      console.log(o.hasClass(keyword));
+               });
 
-      if(o.hasClass(keyword)) {
-        o.show();
-      } else {
-        o.hide();
-      }
+               function hideProductGroup() {
+               console.log("Hiding products");
+               }
 
-    });
+               $(document).ready(function() {
+               });
+               </script>
 
-/*
-    for (var i = 0; i < products.length; i++) {
-      console.log(.hasClass(keyword));
-    }
-    */
+          <!-- Modal window -->
+               <script type="text/javascript">
+                    $(document).ready(function() {
+                         $('.ecoqube-modal-1').magnificPopup({
+                              type: 'ajax',
+                              alignTop: true,
+                              overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
+                         });
+                    });
+               </script>
 
-  });
-
-
-
-  function hideProductGroup() {
-    console.log("Hiding products");
-  }
-
-  $(document).ready(function() {
-
-  });
-
-
-  </script>
-
+          <!-- Enable horizontal scroll with fixed header -->
+               <script>
+                    $(document).ready(function() {
+                         $('#header-container').scrollToFixed();
+                    });
+               </script>
 </body>
-
 </html>

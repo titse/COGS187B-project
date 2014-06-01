@@ -22,8 +22,8 @@ body a:hover {
   .side-navbar ul{
     padding:0;
     margin:0;
-    line-height:1em;
-    font-size:1em;
+    line-height:16px;
+    font-size:16px;
   }
 
   .side-navbar {
@@ -42,21 +42,21 @@ body a:hover {
   }
 
   .shop-heading{
-    font-size:1.5em;
+    font-size:24px;
   }
 
   .categories-heading {
-    font-size:1.2em;
+    font-size:20px;
   }
 
   .shop-category {
     display:block;
-    margin-top:2em;
+    margin-top:32px;
   }
 
   .shop-category-heading {
     font-family:"Helvetica Neue LT Pro Medium";
-    font-size:1.2em;
+    font-size:20px;
   }
 
   .shop-category-item {
@@ -73,27 +73,25 @@ body a:hover {
     display:inline-block;
     max-width:100%;
     max-height:100%;
-    margin-top:6%;
-    margin-bottom:115px;
-    margin-left:-5%;
+    /*margin-top:6%;*/
+    /*margin-bottom:115px;*/
+    /*margin-left:-5%;*/
   }
 
   .shop-ecoqube-play-icon{
-       color:rgba(0,81,137,0.25);
+       color:rgba(0,0,0,0.5);
        font-family:"Fontello";
        max-width:80%;
-       font-size:9em;
-       padding-top:1em;
+       font-size:125px;
+       padding-top:150px;
        overflow:hidden;
        position:absolute;
        text-align:center;
-       /*text-shadow: 1px 1px 2px rgba(0,0,0,.25);*/
        width:100%;
   }
 
   .shop-ecoqube-play-icon:hover{
-       /*background-color:rgba(255,255,255,.15);*/
-       color:rgba(0,81,137,1);
+       color:rgba(0,108,184,1);
        width:100%;
   }
 
@@ -102,7 +100,7 @@ body a:hover {
     display:inline-block;
     width:80%;
     /*background-color:blue;*/
-    margin-bottom:115px;
+    margin-bottom:100px;
   }
 
   .shop-content-container p {
@@ -116,8 +114,8 @@ body a:hover {
     width:25%;
     height:400px;
     /*background-color:white;*/
-    margin-top:4em;
-    margin-right:4em;
+    margin-top:64px;
+    margin-right:64px;
     border:1px solid black;
   }
 
@@ -186,15 +184,15 @@ body a:hover {
     z-index: 98;
     white-space: nowrap;
     color:#efefef;
-    font-size:0.8em;
+    font-size:12px;
   }
 
   .icon {
-    margin-top:0.25em;
+    margin-top:4px;
   }
 
   .icon-description {
-    font-size:0.8em;
+    font-size:12px;
     /*background-color:rgba(74,74,74,0.5);*/
   }
 
@@ -212,10 +210,10 @@ body a:hover {
     float:left;
     width:100%;
     height:5%;
-    line-height:0.5em;
+    line-height:8px;
     /*background-color:rgba(74,74,74,0.1);*/
     text-align:center;
-    font-size:1.2em;
+    font-size:20px;
   }
 
 

@@ -1,37 +1,35 @@
 /*Content*/
-
      /*Video*/
           .ecoqube-video-overlay{
                color:rgba(79,79,79,1);
-               font-size:2em;
+               font-size:32px;
                height:450px;
-               padding-top:3.5em;
-               padding-left:2.5em;
+               padding-top:115px;
+               padding-left:75px;
                position:absolute;
-               text-shadow: 1px 1px 2px rgba(255,255,255,.25);
+               text-shadow:1px 1px 2px rgba(255,255,255,.25);
                width:100%;
           }
 
           .ecoqube-video-overlay img{
-               width:17em;
+               padding-top:10px;
+               width:375px;
           }
 
           .ecoqube-play-icon{
                color:rgba(255,255,255,.75);
                font-family:"Fontello";
-               font-size:9em;
-               padding-top:1em;
-               /*overflow:hidden;*/
+               font-size:125px;
+               min-width:1280px;
+               padding-top:150px;
                position:absolute;
                text-align:center;
-               /*text-shadow: 1px 1px 2px rgba(0,0,0,.25);*/
                width:100%;
           }
 
           .ecoqube-play-icon:hover{
-               /*background-color:rgba(255,255,255,.15);*/
                color:rgba(0,108,184,.9);
-               height:450px;
+               /*min-height:450px;*/
                width:100%;
           }
 
@@ -50,26 +48,24 @@
           .howitworks-left{
                display:inline-block;
                float:left;
-               margin-right:2em;
-               margin-bottom:3em;
                max-width:70%;
+               padding-bottom:75px;
           }
 
           .howitworks-right{
                display:inline-block;
                float:right;
-               margin-left:2em;
-               margin-bottom:3em;
                max-width:30%;
+               padding-bottom:75px;
           }
 
      /*Key Features*/
           .keyfeatures-left{
                display:inline-block;
                float:left;
-               margin-right:0em;
-               margin-bottom:3em;
+               margin-right:0;
                max-width:50%;
+               padding-bottom:75px;
           }
 
           .keyfeatures-left ul{
@@ -81,9 +77,9 @@
           .keyfeatures-right{
                display:inline-block;
                float:right;
-               margin-left:0em;
-               margin-bottom:3em;
+               margin-left:0;
                max-width:50%;
+               padding-bottom:75px;
           }
 
      /*Buy It Today*/
@@ -115,73 +111,53 @@
           }
 
      /*Blurbs*/
-          .ecoqube-blurb img{
-               height:300px;
-               overflow:hidden;
-               width:100%;
-          }
-
           .ecoqube-blurb-overlay-1{
-               background-color:rgba(0,0,0,.25);
                color:rgba(255,255,255,.9);
                font-family:"Helvetica Neue LT Pro Thin Extended";
-               font-size:2.5em;
-               height:300px;
+               height:350px;
                overflow:hidden;
-               padding-top:1.85em;
                position:absolute;
                text-align:center;
-               text-shadow: 1px 1px 2px rgba(38,160,47,.5);
+               text-shadow:1px 1px 2px rgba(0,0,0,.5);
                width:100%;
           }
 
           .ecoqube-blurb-overlay-2{
-               background-color:rgba(0,0,0,.35);
                color:rgba(255,255,255,.9);
                font-family:"Helvetica Neue LT Pro Thin Extended";
-               font-size:2.5em;
-               height:300px;
+               height:350px;
                overflow:hidden;
-               padding-top:1.3em;
                position:absolute;
                text-align:center;
-               text-shadow: 1px 1px 2px rgba(38,160,47,.5);
+               text-shadow:1px 1px 2px rgba(0,0,0,.5);
                width:100%;
           }
 
           .ecoqube-blurb-overlay-3{
-               background-color:rgba(0,0,0,.35);
                color:rgba(255,255,255,.9);
                font-family:"Helvetica Neue LT Pro Thin Extended";
-               font-size:2.5em;
-               height:300px;
+               height:350px;
                overflow:hidden;
-               padding-top:1.4em;
                position:absolute;
                text-align:center;
-               text-shadow: 1px 1px 2px rgba(38,160,47,.5);
+               text-shadow:1px 1px 2px rgba(0,0,0,.5);
                width:100%;
           }
 
      /*Press*/
           #ecoqube-press-container{
-               margin-left:auto;
-               margin-right:auto;
-               text-align:justify;
-               width:1300px;
+               /*margin-left:auto;*/
+               /*margin-right:auto;*/
+               /*text-align:left;*/
+               /*width:1300px;*/
           }
 
           .ecoqube-press-logos{
                /*display:inline-block;*/
-               padding-right:2em;
-               padding-bottom:1.5em;
+               /*padding-right:2em;*/
+               /*padding-bottom:1.5em;*/
           }
 
           .ecoqube-press-logos:hover{
                opacity:.75;
-          }
-
-          #ecoqube-press-force{
-               height:0px;
-               width:100%;
           }

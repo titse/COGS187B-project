@@ -1,36 +1,31 @@
 <!DOCTYPE html>
 <html>
-     <head>
-          <title>Aqua Design Innovations</title>
-          <link type="text/css" rel="stylesheet" href="css/global.css"/>
-          <link type="text/css" rel="stylesheet" href="css/index.css"/>
-		
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+     <title>Aqua Design Innovations</title>
+     <link type="text/css" rel="stylesheet" href="css/global.css"/>
+     <link type="text/css" rel="stylesheet" href="css/index.css"/>
+	
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-		<!--jquery library-->
-		   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-		   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-		<!--nerve slider-->
-			<script src="nerveSlider/jquery.nerveSlider.min.js"></script>
-			<link rel="stylesheet" href="nerveSlider/nerveSlider.min.css" />
-	    <!--activate the nerve slider-->
-               <script type="text/javascript">
-               $(document).ready(function(){
-               	$(".slider").nerveSlider({
-               		sliderWidth: "100%",
-               		sliderHeight: "450px",
-               		sliderResizable: true,
-               		slidTransitionDelay: 7000
-               		// More options below
-               		});
-               });
-               </script>
+	<!--Jquery library-->
+          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+          <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+	<!--Nerve slider-->
+		<script src="nerveSlider/jquery.nerveSlider.min.js"></script>
+		<link rel="stylesheet" href="nerveSlider/nerveSlider.min.css" />
+
+     <!-- Custom Javascript functions used across pages -->
+          <script type="text/javascript" src="js/global.js"></script>
+
+     <!--Fixed header + horizontal scroll -->
+          <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> -->
+          <script type="text/javascript" src="ScrollToFixed-master/jquery-scrolltofixed.js"></script>
 </head>
 <body>
-
-<!-- Header -->
+     <!-- Header -->
           <div id="header-container">
                <header>
                     <div id="header-logo">
@@ -93,34 +88,32 @@
                     </div><!-- #header-navigation -->
                </header>
           </div><!-- #header-container -->
-
-
-     <!-- Content  -->
-        <div id="content-container">
-        <div class="section-container" id="first-section-margin">
-				<div class="slider upper-margin lower-margin">
-				      <div class="picture1">
-     				      <img src="img/ecoqube6.png" />
-     					 <a href="ecoqube.php">
-                                    <div class ="ns_slideContent">
+     
+     <!-- Content -->
+          <div id="content-container">
+               <div class="section-container" >
+				<div class="slider">
+                         <div class="picture1">
+     				     <img src="img/ecoqube6.png" />
+     					<a href="ecoqube.php">
+                                   <div class="ns_slideContent">
           						<div class="index-slider-overlay">
-                                        <img src="img/logos/ecoqube-logo.png" /><br />
-          	          				<div class="words">
+                                             <img src="img/logos/ecoqube-logo.png" /><br /><br />
+               	          			<!-- <div class="index-words"> -->
                                                   The most beautiful way to grow herbs, house <br />
-                                                  plants, or flowers indoor while using the same <br />
-                                                  plants to clean aquarium water <br />
-                                                  with ease.
-          							</div> <!--words-->
+                                                  plants, or flowers indoor while using the <br />
+                                                  same plants to clean aquarium <br />
+                                                  water with ease.
+               						<!-- </div> --><!-- .index-words -->
                                         </div><!-- .index-slider-overlay -->
-          					 </div>
-                               </a>
-				      </div><!--end of .picture1 there is no css code for this-->
-
-				</div> <!--end of .slider using nerveslider-->
+          					</div><!-- ns_slideContent -->
+                              </a>
+				     </div><!-- .picture1 ~~~~~> there is no css code for this -->
+				</div><!-- .slider -->
                </div><!-- .section-container #first-section-margin -->
           </div><!-- #content-container -->
-
-<!-- Footer  -->
+     
+     <!-- Footer -->
           <div id="footer-container">
                <div id="footer-topbar">
                     <form name="input" id="footer-subscribe-form">
@@ -213,16 +206,32 @@
                     </div><!-- #footer-right-col -->
 
                     <div id="footer-copyright">
-                         <p>Aqua Design Innovations 2014 - All Rights Reserved</p>
+                         Aqua Design Innovations 2014 - All Rights Reserved
                     </div><!-- #footer-copyright -->
 
                     </footer>
           </div><!-- #footer-container -->
+     
+     <!-- Scripts -->
 
-<<<<<<< HEAD
-     </body>
-</html>
-=======
+          <!-- Activate the nerve slider -->
+               <script type="text/javascript">
+               $(document).ready(function(){
+                    $(".slider").nerveSlider({
+                         sliderWidth: "100%",
+                         sliderHeight: "450px",
+                         sliderResizable: true,
+                         slidTransitionDelay: 7000
+                         // More options below
+                    });
+               });
+               </script>
+
+          <!-- Enable horizontal scroll with fixed header -->
+               <script>
+                    $(document).ready(function() {
+                         $('#header-container').scrollToFixed();
+                    });
+               </script>
 </body>
 </html>
->>>>>>> 7e1fc0165312144dc8735974b0f9517951795702

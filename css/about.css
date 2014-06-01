@@ -2,35 +2,33 @@
      /*Video*/
           .about-video-overlay{
                color:rgba(0,0,0,.9);
-               font-size:2em;
+               font-size:32px;
                height:450px;
-               padding-top:3.5em;
-               padding-left:2.5em;
+               padding-top:115px;
+               padding-left:75px;
                position:absolute;
-               text-shadow: 1px 1px 2px rgba(255,255,255,.25);
+               text-shadow:1px 1px 2px rgba(255,255,255,.25);
                width:100%;
           }
 
           .about-video-overlay img{
-               width:17em;
+               width:375px;
           }
 
           .about-play-icon{
-               color:rgba(150,10,0,.5);
+               color:rgba(255,255,255,.75);
                font-family:"Fontello";
-               font-size:9em;
-               padding-top:1em;
-               /*overflow:hidden;*/
+               font-size:125px;
+               min-width:1280px;
+               padding-top:150px;
                position:absolute;
                text-align:center;
-               /*text-shadow: 1px 1px 2px rgba(79,79,79,.25);*/
                width:100%;
           }
 
           .about-play-icon:hover{
-               /*background-color:rgba(255,255,255,.15);*/
                color:rgba(0,108,184,.9);
-               height:450px;
+               /*height:450px;*/
                width:100%;
           }
 
@@ -79,14 +77,14 @@
 
           .about-affiliates-names{
                color:rgba(74,74,74,1);
-               font-size:2em;
+               font-size:32px;
                font-weight:bold;
           }
 
           .about-inside{
-               padding:3.5em;
+               padding:55px;
           }
 
           .about-flexslider2-text{
-               font-size:1.2em;
+               font-size:20px;
           }
