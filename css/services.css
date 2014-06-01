@@ -22,14 +22,14 @@
 			margin-top:10px;
 			letter-spacing: 3px;
 		}
-		form{
+		.contact{
 			margin: 0, auto; 
 			width: 500px;	
 			padding-bottom: 10px;
 		}
 		
 		/* Style the text boxes */
-			input, textarea {
+			.contact_input, textarea {
 				width:300px;
 				height:30px;
 				
@@ -37,6 +37,7 @@
 			}
 			textarea {
 			height:213px;
+			width: 340px;
 			
 			}	
 	.mandatory:before { 
@@ -58,6 +59,13 @@
     font-size: 20px;
 	color: #d35400;
 	}
+	.star::before{
+	content: "  *";
+	vertical-align: top;
+    margin-right: 4px;
+    font-size: 20px;
+    color: #d35400;
+	display:inline;}
 	
 	input:focus, textarea:focus {
     border:2px solid #5f3a09;
@@ -73,7 +81,7 @@
     margin-top:20px;
     cursor:pointer;
 	display: block;
-	margin-left: 240px;
+	margin-left: 270px;
 	
 }
 

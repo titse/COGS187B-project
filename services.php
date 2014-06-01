@@ -172,20 +172,20 @@
                   </div><!-- .section-heading -->
                   <div class="quote-col-1-of-2"> 
 				  <div class="contact-form">
-						<form>
+						<form class=".contact">
 								
 							<label class = "mandatory">Name </label>
-							<input name="name" placeholder="Ernest Smith (your name)" required/ >
+							<input  class ="contact_input"name="name" placeholder="Ernest Smith (your name)" required/ >
 									
 							<label class = "mandatory">Email</label>
-							<input name="email" type="email" placeholder="youremail@domain.com" required />
+							<input class ="contact_input" name="email" type="email" placeholder="Example@email.com" required />
 							<label class = "mandatory">Subject </label>
-							<input name="subject" type="email" placeholder="Ecoqube Order information" required / >		
+							<input class ="contact_input" name="subject" type="email" placeholder="Terms of inquiry" required / >		
 							<label class = "mandatory">Message</label>
-							<textarea name="message" placeholder="Message here about your question"required ></textarea>
+							<textarea  name="message" placeholder="Message here about your question"required ></textarea>
 									
-							<input id="submit" name="submit" type="submit" value="Submit">
-								
+							<input class ="contact_input" id="submit" name="submit" type="submit" value="Submit">
+								<div class ="star"> Required Field</div> 
 						</form>
 					</div>
 				  </div>
