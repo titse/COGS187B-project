@@ -92,259 +92,268 @@
 
   <div id="content-container">
 
+    <!-- Shop notification bar -->
+    <div id="shop-notification-bar">
+      <p id="shop-notification-text">30% OFF FISH STORE PRICES ON QUANTITIES OF 12 OR MORE</p>
+    </div>
+
     <!--Shop heading section -->
     <div class="shop-heading first-section-margin left-margin">
       <h3 class="categories-heading">ECOQUBE</h3>
 
       <div class="shop-filter-container">
-        <srtong>Filter by:</strong>
-          <a href="#" class="filterOptions fish-filter">Fish</a>
-          |
-          <a href="#" class="filterOptions plants-filter">Plants</a>
-          |
-          <a href="#" class="filterOptions accessories-filter">Accessories</a>
-          |
-          <a href="ecoqube.php" class="filterOptions all-filter current">All</a>
+        <srtong class="text">Filter by:</strong>
+        <a href="#" class="filterOptions fish-filter text">Fish</a>
+        |
+        <a href="#" class="filterOptions plants-filter text">Plants</a>
+        |
+        <a href="#" class="filterOptions accessories-filter text">Accessories</a>
+        |
+        <a href="ecoqube.php" class="filterOptions all-filter current text">All</a>
+      </div>
+    </div>
+
+    <!-- Secondary-navigation  -->
+    <div class="side-navbar">
+      <div class="side-navbar-content">
+        <div class="shop-header">
+          <a href="index.php"><h1>SHOP</h1></a>
         </div>
+        <ul>
+          <li class="shop-category">
+            <ul id="shop-category-ecoqube">
+              <li><a href="ecoqube.php" id="category-subheading-ecoqube" class="shop-category-heading current"> EcoQube </a></li>
+              <li><a href="#" class="shop-category-item filterOptions fish-filter">Fish</a></li>
+              <li><a href="#" class="shop-category-item filterOptions plants-filter">Plants</a></li>
+              <li><a href="#" class="shop-category-item filterOptions accessories-filter">Accessories</a></li>
+            </ul>
+          </li>
+          <li class="shop-category">
+            <ul id="shop-category-livestock">
+              <li><a href="livestock.php" id="category-subheading-livestock" class="shop-category-heading"> Livestock </a></li>
+              <li><a href="#" class="shop-category-item"> Fish </a></li>
+              <li><a href="#" class="shop-category-item"> Invertebrates </a></li>
+            </ul>
+          </li>
+          <li class="shop-category">
+            <ul id="shop-category-livestock">
+              <li><a href="plants.php" id="category-subheading-livestock" class="shop-category-heading"> Plants </a></li>
+              <li><a href="#" class="shop-category-item"> Terrestrial </a></li>
+              <li><a href="#" class="shop-category-item"> Aquatic </a></li>
+            </ul>
+          </li>
+          <li class="shop-category">
+            <ul id="shop-category-livestock">
+              <li><a href="accessories.php" id="category-subheading-livestock" class="shop-category-heading"> Accessories </a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- #Side-navbar-content  -->
+    </div><!-- #Side-navbar  -->
+
+    <!-- Content  -->
+    <div class="shop-content-container left-margin">
+
+      <div class="product fish ecoqube">
+        <div class="product-image-conatiner">
+          <div class="product-image">
+            <img src="../img/shop/clouded-minnow.jpg" class="horizontal" alt="Product image">
+          </div>
+        </div>
+
+        <div class="info-icons-wrapper">
+          <div class="icon-description-field-4 key-info" data-title="Recommended for the EcoQube">
+            <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon"/></a>
+            <p class="icon-description">EQ item</p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Max size of the fish">
+            <img src="../img/shop/size-icon.png" class="icon" width="40" alt="Fish size icon"/>
+            <p class="icon-description">1.5 inches </p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Reqired water tempreature">
+            <img src="../img/shop/water-temp-icon.png" class="icon" width="40" alt="Water temperature icon"/>
+            <p class="icon-description">65-75° F</p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Swimming level">
+            <img src="../img/shop/swim-level-icon.png" class="icon" width="40" alt="Swimming level icon"/>
+            <p class="icon-description">Top</p>
+          </div>
+        </div>
+        <p class="product-name">Cloud Minnow</p>
+        <p class="price">$ 1.49</p>
+      </div> <!-- Cloud minnow done -->
+
+      <div class="product fish ecoqube">
+        <div class="product-image-conatiner">
+          <div class="product-image">
+            <img src="../img/shop/zebra-danio.jpg" class="horizontal" alt="Product image">
+          </div>
+        </div>
+
+        <div class="info-icons-wrapper">
+          <div class="icon-description-field-4 key-info" data-title="Recommended for the EcoQube">
+            <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon" title="Recommended for the EcoQube"/>
+            <p class="icon-description">EQ item</p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Max size of the fish">
+            <img src="../img/shop/size-icon.png" class="icon" width="40" alt="Fish size icon" title="Max size of fish"/>
+            <p class="icon-description">2 inches </p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Reqired water tempreature">
+            <img src="../img/shop/water-temp-icon.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
+            <p class="icon-description">70-82° F</p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Swimming level">
+            <img src="../img/shop/swim-level-icon.png" class="icon" width="40" alt="Swimming level icon" title="Swimming level"/>
+            <p class="icon-description">Top</p>
+          </div>
+
+        </div>
+        <p class="product-name">Zebrafish</p>
+        <p class="price">$ 1.99</p>
       </div>
 
-      <!-- Secondary-navigation  -->
-      <div class="side-navbar">
-        <div class="side-navbar-content">
-          <div class="shop-heading">
-            <a href="index.php"><h1>SHOP</h1></a>
-          </div>
-          <ul>
-            <li class="categories-heading">
-              <h3> CATEGORIES </h3>
-            </li>
-            <li class="shop-category">
-              <ul id="shop-category-ecoqube">
-                <li><a href="ecoqube.php" id="category-subheading-ecoqube" class="shop-category-heading current"> EcoQube </a></li>
-                <li><a href="#" class="shop-category-item filterOptions fish-filter">Fish</a></li>
-                <li><a href="#" class="shop-category-item filterOptions plants-filter">Plants</a></li>
-                <li><a href="#" class="shop-category-item filterOptions accessories-filter">Accessories</a></li>
-              </ul>
-            </li>
-            <li class="shop-category">
-              <ul id="shop-category-livestock">
-                <li><a href="livestock.php" id="category-subheading-livestock" class="shop-category-heading"> Livestock </a></li>
-                <li><a href="#" class="shop-category-item"> Fish </a></li>
-                <li><a href="#" class="shop-category-item"> Invertebrates </a></li>
-              </ul>
-            </li>
-            <li class="shop-category">
-              <ul id="shop-category-livestock">
-                <li><a href="plants.php" id="category-subheading-livestock" class="shop-category-heading"> Plants </a></li>
-                <li><a href="#" class="shop-category-item"> Terrestrial </a></li>
-                <li><a href="#" class="shop-category-item"> Aquatic </a></li>
-              </ul>
-            </li>
-            <li class="shop-category">
-              <ul id="shop-category-livestock">
-                <li><a href="accessories.php" id="category-subheading-livestock" class="shop-category-heading"> Accessories </a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!-- #Side-navbar-content  -->
-      </div><!-- #Side-navbar  -->
-
-      <!-- Content  -->
-      <div class="shop-content-container left-margin">
-
-        <div class="product fish ecoqube">
-          <div class="product-image-conatiner">
-            <div class="product-image">
-              <img src="../img/shop/clouded-minnow.jpg" class="horizontal" alt="Product image">
-            </div>
-          </div>
-
-          <div class="info-icons-wrapper">
-            <div class="icon-description-field-4 key-info" data-title="Recommended for the EcoQube">
-              <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon"/></a>
-              <p class="icon-description">EQ item</p>
-            </div>
-
-            <div class="icon-description-field-4 key-info" data-title="Max size of the fish">
-              <img src="../img/shop/size-icon.png" class="icon" width="40" alt="Fish size icon"/>
-              <p class="icon-description">1.5 inches </p>
-            </div>
-
-            <div class="icon-description-field-4 key-info" data-title="Reqired water tempreature">
-              <img src="../img/shop/water-temp-icon.png" class="icon" width="40" alt="Water temperature icon"/>
-              <p class="icon-description">65-75° F</p>
-            </div>
-
-            <div class="icon-description-field-4 key-info" data-title="Swimming level">
-              <img src="../img/shop/swim-level-icon.png" class="icon" width="40" alt="Swimming level icon"/>
-              <p class="icon-description">Top</p>
-            </div>
-          </div>
-          <p class="product-name">Cloud Minnow</p>
-          <p class="price">$ 1.49</p>
-        </div>
-
-        <div class="product fish ecoqube">
-          <div class="product-image-conatiner">
-            <div class="product-image">
-              <img src="../img/shop/zebra-danio.jpg" class="horizontal" alt="Product image">
-            </div>
-          </div>
-
-          <div class="info-icons-wrapper">
-            <div class="icon-description-field-4 key-info" data-title="Recommended for the EcoQube">
-              <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon" title="Recommended for the EcoQube"/>
-              <p class="icon-description">EQ item</p>
-            </div>
-
-            <div class="icon-description-field-4 key-info" data-title="Max size of the fish">
-              <img src="../img/shop/size-icon.png" class="icon" width="40" alt="Fish size icon" title="Max size of fish"/>
-              <p class="icon-description">2 inches </p>
-            </div>
-
-            <div class="icon-description-field-4 key-info" data-title="Reqired water tempreature">
-              <img src="../img/shop/water-temp-icon.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
-              <p class="icon-description">70-82° F</p>
-            </div>
-
-            <div class="icon-description-field-4 key-info" data-title="Swimming level">
-              <img src="../img/shop/swim-level-icon.png" class="icon" width="40" alt="Swimming level icon" title="Swimming level"/>
-              <p class="icon-description">Top</p>
-            </div>
-
-          </div>
-          <p class="product-name">Zebrafish</p>
-          <p class="price">$ 1.99</p>
-        </div>
-
-
-        <div class="product fish ecoqube">
-          <div class="product-image-conatiner">
-            <div class="product-image">
-              <img src="../img/shop/guppy.jpg" class="horizontal" alt="Guppy">
-            </div>
-          </div>
-
-          <div class="info-icons-wrapper">
-            <div class="icon-description-field-4 key-info" data-title="Recommended for the EcoQube">
-              <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon"/></a>
-              <p class="icon-description">EQ item</p>
-            </div>
-
-            <div class="icon-description-field-4 key-info" data-title="Max size of the fish">
-              <img src="../img/shop/size-icon.png" class="icon" width="40" alt="Fish size icon"/>
-              <p class="icon-description">1.5 inches </p>
-            </div>
-
-            <div class="icon-description-field-4 key-info" data-title="Reqired water tempreature">
-              <img src="../img/shop/water-temp-icon.png" class="icon" width="40" alt="Water temperature icon"/>
-              <p class="icon-description">70-82° F</p>
-            </div>
-
-            <div class="icon-description-field-4 key-info" data-title="Swimming level">
-              <img src="../img/shop/swim-level-icon.png" class="icon" width="40" alt="Swimming level icon"/>
-              <p class="icon-description">Top</p>
-            </div>
-          </div>
-          <p class="product-name">Guppy</p>
-          <p class="price">$ 3.19</p>
-        </div>
-
-        <div class="product plants aquatic ecoqube">
-          <div class="product-image-conatiner">
-            <div class="product-image">
-              <img src="../img/shop/java-fern.jpg" class="horizontal" alt="Product image">
-            </div>
-          </div>
-
-          <div class="info-icons-wrapper">
-            <div class="icon-description-field key-info" data-title="Recommended for the EcoQube">
-              <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon" title="Recommended for the EcoQube"/>
-              <p class="icon-description">EQ item</p>
-            </div>
-
-          </div>
-          <p class="product-name">Java fern</p>
-          <p class="price">$ 7.39</p>
-        </div>
-
-        <div class="product plants terrestrial ecoqube">
-          <div class="product-image-conatiner">
-            <div class="product-image">
-              <img src="../img/shop/basil.jpg" class="vertical" alt="Product image">
-            </div>
-          </div>
-
-          <div class="info-icons-wrapper">
-            <div class="icon-description-field-4 key-info" data-title="Recommended for the EcoQube">
-              <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon"/></a>
-              <p class="icon-description">EQ item</p>
-            </div>
-
-            <div class="icon-description-field-4 key-info" data-title="Sprout time">
-              <img src="../img/shop/plant-sprout-icon.png" class="icon" width="40" alt="Sprout time icon"/>
-              <p class="icon-description">5-10 days</p>
-            </div>
-
-            <div class="icon-description-field-4 key-info" data-title="Growing time to full size">
-              <img src="../img/shop/plant-fullsize-icon.png" class="icon" width="40" alt="Growing time to full size icon"/>
-              <p class="icon-description">2-4 months</p>
-            </div>
-
-            <div class="icon-description-field-4 key-info" data-title="Life time">
-              <img src="../img/shop/enjoy-plant-icon.png" class="icon" width="40" alt="enjoying time icon"/>
-              <p class="icon-description">4-6 months</p>
-            </div>
-          </div>
-          <p class="product-name">Basil</p>
-          <p class="price">$ 6.95</p>
-        </div>
-
-        <div class="product plants terrestrial ecoqube">
-          <div class="product-image-conatiner">
-            <div class="product-image">
-              <img src="../img/shop/stock-photo-mint-mint-leaves-herb-127932548.jpg" class="horizontal" alt="Product image">
-            </div>
-          </div>
-
-          <div class="info-icons-wrapper">
-            <div class="icon-description-field-4 key-info" data-title="Recommended for the EcoQube">
-              <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon"/></a>
-              <p class="icon-description">EQ item</p>
-            </div>
-
-            <div class="icon-description-field-4 key-info" data-title="Sprout time">
-              <img src="../img/shop/plant-sprout-icon.png" class="icon" width="40" alt="Sprout time icon"/>
-              <p class="icon-description">5-10 days</p>
-            </div>
-
-            <div class="icon-description-field-4 key-info" data-title="Growing time to full size">
-              <img src="../img/shop/plant-fullsize-icon.png" class="icon" width="40" alt="Growing time to full size icon"/>
-              <p class="icon-description">2-4 months</p>
-            </div>
-
-            <div class="icon-description-field-4 key-info" data-title="Life time">
-              <img src="../img/shop/enjoy-plant-icon.png" class="icon" width="40" alt="enjoying time icon"/>
-              <p class="icon-description">4-6 months</p>
-            </div>
-          </div>
-          <p class="product-name">Mint</p>
-          <p class="price">$ 1.99</p>
-        </div>
-        <!--  <div id="product-image-overlay">
+      <div class="product fish ecoqube">
         <div class="product-image-conatiner">
-        <div class="product-image">
-        <a href="#description"><div id="upper-overlay" class="overlay-section">
-        <a href="item-modal-1.php" class="item-modal"><h3>DESCRIPTION</h3></a>
-      </div></a>
-      <a href="#addtocart"><div id="lower-overlay" class="overlay-section">
-      <h3>ADD TO CART</h3>
-    </div></a>
-  </div>
-</div>
-</div>-->
+          <div class="product-image">
+            <img src="../img/shop/guppy.jpg" class="horizontal" alt="Guppy">
+          </div>
+        </div>
 
-</div><!-- #content-container -->
+        <div class="info-icons-wrapper">
+          <div class="icon-description-field-4 key-info" data-title="Recommended for the EcoQube">
+            <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon"/></a>
+            <p class="icon-description">EQ item</p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Max size of the fish">
+            <img src="../img/shop/size-icon.png" class="icon" width="40" alt="Fish size icon"/>
+            <p class="icon-description">1.5 inches </p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Reqired water tempreature">
+            <img src="../img/shop/water-temp-icon.png" class="icon" width="40" alt="Water temperature icon"/>
+            <p class="icon-description">70-82° F</p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Swimming level">
+            <img src="../img/shop/swim-level-icon.png" class="icon" width="40" alt="Swimming level icon"/>
+            <p class="icon-description">Top</p>
+          </div>
+        </div>
+        <p class="product-name">Guppy</p>
+        <p class="price">$ 3.19</p>
+      </div>
+
+      <div class="product plants aquatic ecoqube">
+        <div class="product-image-conatiner">
+          <div class="product-image">
+            <img src="../img/shop/java-fern.jpg" class="horizontal" alt="Product image">
+          </div>
+        </div>
+
+        <div class="info-icons-wrapper">
+          <div class="icon-description-field key-info" data-title="Recommended for the EcoQube">
+            <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon" title="Recommended for the EcoQube"/>
+            <p class="icon-description">EQ item</p>
+          </div>
+
+        </div>
+        <p class="product-name">Java fern</p>
+        <p class="price">$ 7.39</p>
+      </div>
+
+      <div class="product plants terrestrial ecoqube">
+        <div class="product-image-conatiner">
+          <div class="product-image">
+            <img src="../img/shop/basil.jpg" class="vertical" alt="Product image">
+          </div>
+        </div>
+
+        <div class="info-icons-wrapper">
+          <div class="icon-description-field-4 key-info" data-title="Recommended for the EcoQube">
+            <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon"/></a>
+            <p class="icon-description">EQ item</p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Sprout time">
+            <img src="../img/shop/plant-sprout-icon.png" class="icon" width="40" alt="Sprout time icon"/>
+            <p class="icon-description">5-10 days</p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Growing time to full size">
+            <img src="../img/shop/plant-fullsize-icon.png" class="icon" width="40" alt="Growing time to full size icon"/>
+            <p class="icon-description">2-4 months</p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Life time">
+            <img src="../img/shop/enjoy-plant-icon.png" class="icon" width="40" alt="enjoying time icon"/>
+            <p class="icon-description">4-6 months</p>
+          </div>
+        </div>
+        <p class="product-name">Basil</p>
+        <p class="price">$ 6.95</p>
+      </div>
+
+      <div class="product plants terrestrial ecoqube">
+        <div class="product-image-conatiner">
+          <div class="product-image">
+            <img src="../img/shop/stock-photo-mint-mint-leaves-herb-127932548.jpg" class="horizontal" alt="Product image">
+          </div>
+        </div>
+
+        <div class="info-icons-wrapper">
+          <div class="icon-description-field-4 key-info" data-title="Recommended for the EcoQube">
+            <img src="../img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon"/></a>
+            <p class="icon-description">EQ item</p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Sprout time">
+            <img src="../img/shop/plant-sprout-icon.png" class="icon" width="40" alt="Sprout time icon"/>
+            <p class="icon-description">5-10 days</p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Growing time to full size">
+            <img src="../img/shop/plant-fullsize-icon.png" class="icon" width="40" alt="Growing time to full size icon"/>
+            <p class="icon-description">2-4 months</p>
+          </div>
+
+          <div class="icon-description-field-4 key-info" data-title="Life time">
+            <img src="../img/shop/enjoy-plant-icon.png" class="icon" width="40" alt="enjoying time icon"/>
+            <p class="icon-description">4-6 months</p>
+          </div>
+        </div>
+        <p class="product-name">Mint</p>
+        <p class="price">$ 1.99</p>
+      </div>
+      <!--  <div id="product-image-overlay">
+      <div class="product-image-conatiner">
+      <div class="product-image">
+
+      <a href="#description">
+      <div id="upper-overlay" class="overlay-section">
+      <a href="item-modal-1.php" class="item-modal"><h3>DESCRIPTION</h3></a>
+      </div>
+      </a>
+
+      <a href="#addtocart">
+      <div id="lower-overlay" class="overlay-section">
+      <h3>ADD TO CART</h3>
+      </div>
+      </a>
+      </div>
+      </div>
+      </div>-->
+
+    </div><!-- .shop-content-container -->
+
+  </div><!-- #content-container -->
 
 <!-- Footer  -->
 <div id="footer-container">

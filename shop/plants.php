@@ -92,30 +92,32 @@
   </div><!-- #header-container -->
 
   <div id="content-container">
+  <!-- Shop notification bar -->
+  <div id="shop-notification-bar">
+    <p id="shop-notification-text">30% OFF FISH STORE PRICES ON QUANTITIES OF 12 OR MORE</p>
+  </div>
+
   <!--Shop heading section -->
   <div class="shop-heading first-section-margin left-margin">
     <h3 class="categories-heading">PLANTS</h3>
 
     <div class="shop-filter-container">
-      <srtong>Filter by:</strong>
-        <a href="#" class="filterOptions terrestrial-filter">Terrestrial</a>
+      <srtong class="text">Filter by:</strong>
+        <a href="#" class="filterOptions terrestrial-filter text">Terrestrial</a>
         |
-        <a href="#" class="filterOptions aquatic-filter">Aquatic</a>
+        <a href="#" class="filterOptions aquatic-filter text">Aquatic</a>
         |
-        <a href="plants.php" class="filterOptions all-filter current">All</a>
+        <a href="plants.php" class="filterOptions all-filter current text">All</a>
       </div>
     </div>
 
     <!-- Secondary-navigation  -->
     <div class="side-navbar">
   <div class="side-navbar-content">
-    <div class="shop-heading">
+    <div class="shop-header">
       <a href="index.php"><h1>SHOP</h1></a>
     </div>
     <ul>
-      <li class="categories-heading">
-        <h3> CATEGORIES </h3>
-      </li>
       <li class="shop-category">
         <ul id="shop-category-ecoqube">
           <li><a href="ecoqube.php" id="category-subheading-ecoqube" class="shop-category-heading"> EcoQube </a></li>

@@ -92,32 +92,35 @@
   </div><!-- #header-container -->
 
   <div id="content-container">
+  <!-- Shop notification bar -->
+  <div id="shop-notification-bar">
+    <p id="shop-notification-text">30% OFF FISH STORE PRICES ON QUANTITIES OF 12 OR MORE</p>
+  </div>
+
+
   <!--Shop heading section -->
   <div class="shop-heading first-section-margin left-margin">
     <h3 class="categories-heading">LIVESTOCK</h3>
 
     <div class="shop-filter-container">
-      <srtong>Filter by:</strong>
-        <a href="#" class="filterOptions ecoqube-filter">EcoQube</a>
+      <srtong class="text">Filter by:</strong>
+        <a href="#" class="filterOptions ecoqube-filter text">EcoQube</a>
         |
-        <a href="#" class="filterOptions fish-filter">Fish</a>
+        <a href="#" class="filterOptions fish-filter text">Fish</a>
         |
-        <a href="#" class="filterOptions invertebrates-filter">Invertebrates</a>
+        <a href="#" class="filterOptions invertebrates-filter text">Invertebrates</a>
         |
-        <a href="livestock.php" class="filterOptions all-filter current">All</a>
+        <a href="livestock.php" class="filterOptions all-filter current text">All</a>
       </div>
     </div>
 
     <!-- Secondary-navigation  -->
     <div class="side-navbar">
   <div class="side-navbar-content">
-    <div class="shop-heading">
+    <div class="shop-header">
       <a href="index.php"><h1>SHOP</h1></a>
     </div>
     <ul>
-      <li class="categories-heading">
-        <h3> CATEGORIES </h3>
-      </li>
       <li class="shop-category">
         <ul id="shop-category-ecoqube">
           <li><a href="ecoqube.php" id="category-subheading-ecoqube" class="shop-category-heading"> EcoQube </a></li>
