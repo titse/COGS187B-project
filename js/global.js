@@ -8,13 +8,22 @@ function updateDots(visibleSection){
     return;
   }
 
+  $("#img-section-0-dot").attr('src','img/dots/dot.gif' );
   $("#img-section-1-dot").attr('src','img/dots/dot.gif' );
   $("#img-section-2-dot").attr('src','img/dots/dot.gif' );
   $("#img-section-3-dot").attr('src','img/dots/dot.gif' );
   $("#img-section-4-dot").attr('src','img/dots/dot.gif' );
   $("#img-section-5-dot").attr('src','img/dots/dot.gif' );
 
-  if (visibleSection == "section-1") {
+  if (visibleSection == "section-0") {
+    $("#img-section-0-dot").attr('src','img/dots/dot-current.gif' );
+    currSection = "section-0";
+
+    if (DEBUG) {
+      console.log("Section 0 is visible");
+      console.log("Setting currSection to " + currSection);
+    }
+  } else if (visibleSection == "section-1") {
     $("#img-section-1-dot").attr('src','img/dots/dot-current.gif' );
     currSection = "section-1";
 
@@ -71,13 +80,22 @@ function updateDotsChildDir(visibleSection){
     return;
   }
 
+  $("#img-section-0-dot").attr('src','../img/dots/dot.gif' );
   $("#img-section-1-dot").attr('src','../img/dots/dot.gif' );
   $("#img-section-2-dot").attr('src','../img/dots/dot.gif' );
   $("#img-section-3-dot").attr('src','../img/dots/dot.gif' );
   $("#img-section-4-dot").attr('src','../img/dots/dot.gif' );
   $("#img-section-5-dot").attr('src','../img/dots/dot.gif' );
 
-  if (visibleSection == "section-1") {
+  if (visibleSection == "section-0") {
+    $("#img-section-0-dot").attr('src','../img/dots/dot-current.gif' );
+    currSection = "section-0";
+
+    if (DEBUG) {
+      console.log("Section 0 is visible");
+      console.log("Setting currSection to " + currSection);
+    }
+  } else if (visibleSection == "section-1") {
     $("#img-section-1-dot").attr('src','../img/dots/dot-current.gif' );
     currSection = "section-1";
 

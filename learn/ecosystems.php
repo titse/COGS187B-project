@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-     <title>Learn | Aquatic Ecosystems</title>
-     <link type="text/css" rel="stylesheet" href="../css/global.css"/>
-     <link type="text/css" rel="stylesheet" href="../css/learn.css"/>
-     <link rel="shortcut icon" href="img/logos/favicon.ico">
+  <title>Learn | Aquatic Ecosystems</title>
+  <link type="text/css" rel="stylesheet" href="../css/global.css"/>
+  <link type="text/css" rel="stylesheet" href="../css/learn.css"/>
+  <link rel="shortcut icon" href="img/logos/favicon.ico">
 
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-     <!-- Modal window -->
-          <!-- Magnific Popup core CSS file -->
-          <link rel="stylesheet" href="../Magnific-Popup-master/dist/magnific-popup.css">
+  <!-- Modal window -->
+  <!-- Magnific Popup core CSS file -->
+  <link rel="stylesheet" href="../Magnific-Popup-master/dist/magnific-popup.css">
 
-          <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-          <!-- Magnific Popup core JS file -->
-          <script src="../Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+  <!-- Magnific Popup core JS file -->
+  <script src="../Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
 
-     <!-- JQuery visible library to detect which sections of the page is visible on the users screen and sdjust the blue dot-->
-     <script src="../js/jquery.visible.js"></script>
+  <!-- JQuery visible library to detect which sections of the page is visible on the users screen and sdjust the blue dot-->
+  <script src="../js/jquery.visible.js"></script>
 
-     <!-- Custom Javascript functions used across pages -->
-     <script src="../js/global.js"></script>
+  <!-- Custom Javascript functions used across pages -->
+  <script src="../js/global.js"></script>
 
 </head>
 <body>
@@ -96,8 +96,14 @@
   <div id="dot-navigation-container">
     <ul>
       <li class="dot-navigation-icon">
+        <a id="topBtn" class="section-0-dot" href="ecoqube.php#top">
+          <img class="navigation-dot" id="img-section-0-dot" src="../img/dots/dot-current.gif" width="25" height="25" alt="Top Navigation Dot" title="Top" />
+        </a>
+      </li>
+
+      <li class="dot-navigation-icon">
         <a id="ecosystemsBtn" class="section-1-dot" href="ecosystems.php#ecosystems">
-          <img class="navigation-dot" id="img-section-1-dot" src="../img/dots/dot-current.gif" width="25" height="25" alt="Aquatic ecosystems" title="Aquatic ecosystems" />
+          <img class="navigation-dot" id="img-section-1-dot" src="../img/dots/dot.gif" width="25" height="25" alt="Aquatic ecosystems" title="Aquatic ecosystems" />
         </a>
       </li>
 
@@ -119,8 +125,8 @@
   <!-- Content  -->
   <div id="content-container">
 
-    <!-- Video -->
-    <div class="section-container first-section-margin">
+    <!-- Top image -->
+    <div id="top" class="section-container first-section-margin section-0">
       <div class="fullwidth-image">
         <img src="../img/learn/ecosystem.jpg" alt="Aquatic ecosystem">
       </div>
@@ -373,7 +379,9 @@
   var DEBUG = false;
 
   $(window).scroll(function() {
-    if ($(".section-1").visible()) {
+    if ($(".section-0").visible()) {
+      updateDotsChildDir("section-0");
+    } else if ($(".section-1").visible()) {
       updateDotsChildDir("section-1");
     } else if ($(".section-2").visible()) {
       updateDotsChildDir("section-2");
@@ -392,7 +400,7 @@
   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
   <script type="text/javascript" src="../js/scrolld.js"></script>
   <script type="text/javascript">
-    $("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
+  $("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
   </script>
 
 </body>
