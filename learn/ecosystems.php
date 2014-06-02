@@ -370,7 +370,7 @@
       </div><!-- #footer-right-col -->
 
       <div id="footer-copyright">
-        <p>Aqua Design Innovations 2014 - All Rights Reserved</p>
+        Aqua Design Innovations 2014 - All Rights Reserved
       </div><!-- #footer-copyright -->
 
     </footer>
