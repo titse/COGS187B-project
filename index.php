@@ -2,8 +2,9 @@
 <html>
 <head>
      <title>Aqua Design Innovations</title>
-     <link type="text/css" rel="stylesheet" href="css/global.css"/>
-     <link type="text/css" rel="stylesheet" href="css/index.css"/>
+     <link type="text/css" rel="stylesheet" href="css/global.css" />
+     <link type="text/css" rel="stylesheet" href="css/index.css" />
+     <link type="image/png" rel="shortcut icon" href="img/logos/favicon.ico" />
 	
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -155,12 +156,9 @@
                          </div><!-- #footer-contact -->
 
                          <div id="footer-sitemap-container">
-                              <div class="footer-heading-1">
-                              </div><!-- .footer-heading-1 -->
-
                               <div id="footer-sitemap">
                                    <ul>
-                                        <li><span class="footer-heading-2"><a href="ecoqube.php">EcoQube</a></span></li>
+                                        <li><a href="ecoqube.php">EcoQube</a></li>
                                         <li><a href="ecoqube.php#howitworks">How It Works</a></li>
                                         <li><a href="ecoqube.php#keyfeatures">Key Features</a></li>
                                         <li><a href="ecoqube.php#buyittoday">Buy It Today</a></li>
@@ -168,33 +166,33 @@
                                         <li><a href="ecoqube.php#press">Press Releases</a></li>
                                    </ul>
                                    <ul>
-                                        <li><span class="footer-heading-2"><a href="shop/index.php">Shop</a></span></li>
+                                        <li><a href="shop/index.php">Shop</a></li>
                                         <li><a href="shop/ecoqube.php">EcoQube</a></li>
                                         <li><a href="shop/livestock.php">Livestock</a></li>
                                         <li><a href="shop/plants.php">Plants</a></li>
                                         <li><a href="shop/accessories.php">Accessories</a></li>
                                    </ul>
                                    <ul>
-                                        <li><span class="footer-heading-2"><a href="services.php">Services</a></span></li>
+                                        <li><a href="services.php">Services</a></li>
                                         <li><a href="services.php#contact">Contact</a></li>    
                                         <li><a href="services.php#installations">Installations</a></li>
                                         <li><a href="services.php#maintenance">Maintenance</a></li>
                                         <li><a href="services.php#gallery">Gallery</a></li>
                                    </ul>
                                    <ul>
-                                        <li><span class="footer-heading-2"><a href="about.php">About</a></span></li>
+                                        <li><a href="about.php">About</a></li>
                                         <li><a href="about.php#ourstory">Our Story</a></li>
                                         <li><a href="about.php/#values">Values</a></li>
                                         <li><a href="about.php/#theteam">The Team</a></li>
                                         <li><a href="about.php/#affiliates">Affiliates</a></li>
                                    </ul>
                                    <ul>
-                                        <li><span class="footer-heading-2"><a href="learn/index.php">Learn</a></span></li>
+                                        <li><a href="learn/index.php">Learn</a></li>
                                         <li><a href="learn/blog.php">Blog</a></li>
                                         <li><a href="learn/ecosystems.php">Ecosystems</a></li>
                                    </ul>
                                    <ul>
-                                        <li><span class="footer-heading-2"><a href="faq.php">FAQ</a></span></li>
+                                        <li><a href="faq.php">FAQ</a></li>
                                         <li><a href="faq.php#ecoqube">EcoQube</a></li>
                                         <li><a href="faq.php#shop">Shop</a></li>
                                         <li><a href="faq.php#services">Services</a></li>

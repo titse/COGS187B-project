@@ -2,28 +2,34 @@
 <html>
 <head>
   <title>Shop | Plants</title>
-  <link type="text/css" rel="stylesheet" href="../css/global.css"/>
-  <link type="text/css" rel="stylesheet" href="../css/shop.css"/>
-  <link rel="shortcut icon" href="../img/logos/favicon.ico">
+     <link type="text/css" rel="stylesheet" href="../css/global.css"/>
+     <link type="text/css" rel="stylesheet" href="../css/shop.css"/>
+     <link type="text/css" rel="stylesheet" href="../css/ecoqube.css"/>
+     <link type="image/png" rel="shortcut icon" href="../img/logos/favicon.ico" />
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-       <!-- Modal window -->
-          <!-- Magnific Popup core CSS file -->
-          <link rel="stylesheet" href="../Magnific-Popup-master/dist/magnific-popup.css">
+     <!-- Modal window -->
+       <!-- Magnific Popup core CSS file -->
+       <link rel="stylesheet" href="../Magnific-Popup-master/dist/magnific-popup.css">
 
-          <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+       <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-          <!-- Magnific Popup core JS file -->
-          <script src="../Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+       <!-- Magnific Popup core JS file -->
+       <script src="../Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+
+     <!-- Custom Javascript functions used across pages -->
+          <script type="text/javascript" src="js/global.js"></script>
+
+     <!-- Fixed header + horizontal scroll -->
+          <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> -->
+          <script type="text/javascript" src="../ScrollToFixed-master/jquery-scrolltofixed.js"></script>
 
   <script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
   <script type="text/javascript" src="../js/layerlib.js"></script>
   <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> --> <!-- E: I had to comment this out so that the modal window works. Nothing else in the page seems to have broken though. -->
-
-  <script type="text/javascript" src="../js/global.js"></script>
 </head>
 
 <body>
@@ -90,6 +96,7 @@
       </div><!-- #header-navigation -->
     </header>
   </div><!-- #header-container -->
+
 
   <div id="content-container">
   <!-- Shop notification bar -->
@@ -248,104 +255,104 @@
 
 </div><!-- #content-container -->
 
-<!-- Footer  -->
-<div id="footer-container">
-<div id="footer-topbar">
-<form name="input" id="footer-subscribe-form">
-Sign up for weekly deals!
-<input type="text" placeholder="Example@Email.com" />
-<input type="submit" value="Subscribe"/>
-</form><!-- #footer-subscribe-form [this id tag is not yet in stylesheet.css]-->
-</div><!-- #footer-topbar -->
+          <!-- Footer  -->
+              <div id="footer-container">
+                <div id="footer-topbar">
+                  <form name="input" id="footer-subscribe-form">
+                    Sign up for weekly deals!
+                    <input type="text" placeholder="Example@Email.com" />
+                    <input type="submit" value="Subscribe"/>
+                  </form><!-- #footer-subscribe-form [this id tag is not yet in stylesheet.css]-->
+                </div><!-- #footer-topbar -->
 
-<footer>
-<div id="footer-left-col">
-<div id="footer-logo">
-  <a href="../index.php"><img src="../img/logos/footer-logo.png" /></a>
-</div><!-- #footer-logo -->
-</div><!-- #footer-left-col -->
+                <footer>
+                  <div id="footer-left-col">
+                    <div id="footer-logo">
+                      <a href="../index.php"><img src="../img/logos/footer-logo.png" /></a>
+                    </div><!-- #footer-logo -->
+                  </div><!-- #footer-left-col -->
 
-<div id="footer-right-col">
-<div id="footer-contact">
-  <div id="footer-phone-email">
-    <ul>
-      <li>
-        <a href="mailto:info@aquadesignainnovations.com"><span id="footer-icon-email">&#xe801;</span> info@aquadesignainnovations.com</a>
-      </li>
-      <li>
-        <a href="tel:8582243474"><span id="footer-icon-phone">&#xe800;</span>(888) 224-FISH</a>
-      </li>
-    </ul>
-  </div>
-  <div id="footer-social-media">
-    <ul>
-      <li>
-        <a href="https://www.facebook.com/AQUADESIGNINNOVATIONS"><span id="footer-icon-fb">&#xe81b;</span></a>
-      </li>
-      <li>
-        <a href="https://twitter.com/DesignADI"><span id="footer-icon-tw">&#xe81a;</span></a>
-      </li>
-    </ul>
-  </div>
-</div><!-- #footer-contact -->
+                  <div id="footer-right-col">
+                    <div id="footer-contact">
+                      <div id="footer-phone-email">
+                        <ul>
+                          <li>
+                            <a href="mailto:info@aquadesignainnovations.com"><span id="footer-icon-email">&#xe801;</span> info@aquadesignainnovations.com</a>
+                          </li>
+                          <li>
+                            <a href="tel:8582243474"><span id="footer-icon-phone">&#xe800;</span>(888) 224-FISH</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div id="footer-social-media">
+                        <ul>
+                          <li>
+                            <a href="https://www.facebook.com/AQUADESIGNINNOVATIONS"><span id="footer-icon-fb">&#xe81b;</span></a>
+                          </li>
+                          <li>
+                            <a href="https://twitter.com/DesignADI"><span id="footer-icon-tw">&#xe81a;</span></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div><!-- #footer-contact -->
 
-<div id="footer-sitemap-container">
-  <div class="footer-heading-1">
-  </div><!-- .footer-heading-1 -->
+                    <div id="footer-sitemap-container">
+                      <div class="footer-heading-1">
+                      </div><!-- .footer-heading-1 -->
 
-  <div id="footer-sitemap">
-    <ul>
-      <li><span class="footer-heading-2"><a href="../ecoqube.php">EcoQube</a></span></li>
-      <li><a href="../ecoqube.php#howitworks">How It Works</a></li>
-      <li><a href="../ecoqube.php#keyfeatures">Key Features</a></li>
-      <li><a href="../ecoqube.php#buyittoday">Buy It Today</a></li>
-      <li><a href="../ecoqube.php#fishandplants">Fish & Plants</a></li>
-      <li><a href="../ecoqube.php#press">Press Releases</a></li>
-    </ul>
-    <ul>
-      <li><span class="footer-heading-2"><a href="index.php">Shop</a></span></li>
-      <li><a href="ecoqube.php">EcoQube</a></li>
-      <li><a href="livestock.php">Livestock</a></li>
-      <li><a href="plants.php">Plants</a></li>
-      <li><a href="accessories.php">Accessories</a></li>
-    </ul>
-    <ul>
-      <li><span class="footer-heading-2"><a href="../services.php">Services</a></span></li>
-      <li><a href="../services.php#contact">Contact</a></li>
-      <li><a href="../services.php#installations">Installations</a></li>
-      <li><a href="../services.php#maintenance">Maintenance</a></li>
-      <li><a href="../services.php#gallery">Gallery</a></li>
-    </ul>
-    <ul>
-      <li><span class="footer-heading-2"><a href="../about.php">About</a></span></li>
-      <li><a href="../about.php#ourstory">Our Story</a></li>
-      <li><a href="../about.php/#values">Values</a></li>
-      <li><a href="../about.php/#theteam">The Team</a></li>
-      <li><a href="../about.php/#affiliates">Affiliates</a></li>
-    </ul>
-    <ul>
-      <li><span class="footer-heading-2"><a href="../learn/index.php">Learn</a></span></li>
-      <li><a href="../blog.php">Blog</a></li>
-      <li><a href="../learn/ecosystems.php">Ecosystems</a></li>
-    </ul>
-    <ul>
-      <li><span class="footer-heading-2"><a href="../faq.php">FAQ</a></span></li>
-      <li><a href="../faq.php#ecoqube">EcoQube</a></li>
-      <li><a href="../faq.php#shop">Shop</a></li>
-      <li><a href="../faq.php#services">Services</a></li>
-      <li><a href="../faq.php#shipping">Shipping</a></li>
-      <li><a href="../faq.php#warranty">Warranty</a></li>
-    </ul>
-  </div><!-- #footer-sitemap -->
-</div><!-- #footer-sitemap-container -->
-</div><!-- #footer-right-col -->
+                      <div id="footer-sitemap">
+                        <ul>
+                          <li><a href="../ecoqube.php">EcoQube</a></li>
+                          <li><a href="../ecoqube.php#howitworks">How It Works</a></li>
+                          <li><a href="../ecoqube.php#keyfeatures">Key Features</a></li>
+                          <li><a href="../ecoqube.php#buyittoday">Buy It Today</a></li>
+                          <li><a href="../ecoqube.php#fishandplants">Fish & Plants</a></li>
+                          <li><a href="../ecoqube.php#press">Press Releases</a></li>
+                        </ul>
+                        <ul>
+                          <li><a href="index.php">Shop</a></li>
+                          <li><a href="ecoqube.php">EcoQube</a></li>
+                          <li><a href="livestock.php">Livestock</a></li>
+                          <li><a href="plants.php">Plants</a></li>
+                          <li><a href="accessories.php">Accessories</a></li>
+                        </ul>
+                        <ul>
+                          <li><a href="../services.php">Services</a></li>
+                          <li><a href="../services.php#contact">Contact</a></li>
+                          <li><a href="../services.php#installations">Installations</a></li>
+                          <li><a href="../services.php#maintenance">Maintenance</a></li>
+                          <li><a href="../services.php#gallery">Gallery</a></li>
+                        </ul>
+                        <ul>
+                          <li><a href="../about.php">About</a></li>
+                          <li><a href="../about.php#ourstory">Our Story</a></li>
+                          <li><a href="../about.php/#values">Values</a></li>
+                          <li><a href="../about.php/#theteam">The Team</a></li>
+                          <li><a href="../about.php/#affiliates">Affiliates</a></li>
+                        </ul>
+                        <ul>
+                          <li><a href="../learn/index.php">Learn</a></li>
+                          <li><a href="../blog.php">Blog</a></li>
+                          <li><a href="../learn/ecosystems.php">Ecosystems</a></li>
+                        </ul>
+                        <ul>
+                          <li><a href="../faq.php">FAQ</a></li>
+                          <li><a href="../faq.php#ecoqube">EcoQube</a></li>
+                          <li><a href="../faq.php#shop">Shop</a></li>
+                          <li><a href="../faq.php#services">Services</a></li>
+                          <li><a href="../faq.php#shipping">Shipping</a></li>
+                          <li><a href="../faq.php#warranty">Warranty</a></li>
+                        </ul>
+                      </div><!-- #footer-sitemap -->
+                    </div><!-- #footer-sitemap-container -->
+                  </div><!-- #footer-right-col -->
 
-<div id="footer-copyright">
-<p>Aqua Design Innovations 2014 - All Rights Reserved</p>
-</div><!-- #footer-copyright -->
+                  <div id="footer-copyright">
+                    Aqua Design Innovations 2014 - All Rights Reserved
+                  </div><!-- #footer-copyright -->
+                </footer>
+              </div><!-- #footer-container -->
 
-</footer>
-</div><!-- #footer-container -->
 
     <!-- JavaScript code  -->
     <script>
@@ -421,6 +428,17 @@ Sign up for weekly deals!
 
                });
                </script>
+               
+          <!-- Enable horizontal scroll with fixed header -->
+          <script type="text/javascript">
+               $(document).ready(function() {
+                    $('#header-container').scrollToFixed();
+               });
+               $(window).scroll();
+               $(window).resize();
+
+               $('.side-navbar').scrollToFixed( { limit: 200 } );
+          </script>
 
 </body>
 </html>

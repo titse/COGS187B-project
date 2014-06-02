@@ -46,11 +46,6 @@
           src:url("../fonts/HelveticaNeueLTPro-Ex.otf");
      }
 
-     @font-face{
-          font-family:"Helvetica Neue LT Pro Extended";
-          src:url("../fonts/HelveticaNeueLTPro-Ex.otf");
-     }
-
      @font-face {
           font-family:"Fontello";
           src: url('../fonts/fontello.eot?');
@@ -80,11 +75,10 @@ html{
 body{
      border:0;
      margin:0;
-     max-width:1920px;
+     max-width:1600px;
      min-width:1280px;
      padding:0;
 }
-
 
 .center {
      text-align:center;
@@ -94,19 +88,46 @@ p, a, h1, h2, h3, h4, h5, h6 {
   color:#4a4a4a;
 }
 
+.current{
+     color:rgba(0,108,184,1);
+}
+
+.upper-margin{
+     margin-top:100px;
+}
+
+.lower-margin{
+     margin-bottom:114px;
+}
+
+a {
+     /*color:#4a4a4a;*/ /*E: I think the links should be blue...*/
+     color:rgba(0,108,184,1);
+     text-decoration:none;
+}
+
+ul {
+     list-style:none;
+}
+
+/*** shopping cart ***/
+.shopping-cart{
+     display: block;
+     width: 220px;
+}
+
+.shopping-cart  ul.shopping-cart-submenu  ul.shopping-header li{
+     background-color: grey;
+     color: white;
+     float:left;
+}
+
+.shopping-cart-submenu{
+     clear:both;
+     display: none;
+}
+
 /*Header*/
-     .current{
-          color:rgba(0,108,184,1);
-     }
-
-     .upper-margin{
-          margin-top:100px;
-     }
-
-     .lower-margin{
-          margin-bottom:114px;
-     }
-
      #header-container{
           background-color:rgba(250,250,250,.98);
           box-shadow:2px 2px 2px rgba(0,0,0,.08);
@@ -253,104 +274,102 @@ p, a, h1, h2, h3, h4, h5, h6 {
                     font-size:24px;
                }
 
-    /*Shoppingcart dropdown*/
+     /*Shoppingcart dropdown*/
+          #shoppingcart-dropdown{
+          display:inline-block;
+          width:250px;
+          height:300px;
+          background-color:#efefef;
+          position:absolute;
+          z-index:1000;
+          top:45px;
+          right:10px;
+          box-shadow:2px 2px 2px rgba(0,0,0,.25);
+          }
 
-    #shoppingcart-dropdown{
-      display:inline-block;
-      width:250px;
-      height:300px;
-      background-color:#efefef;
-      position:absolute;
-      z-index:1000;
-      top:45px;
-      right:10px;
-      box-shadow:2px 2px 2px rgba(0,0,0,.25);
-    }
 
+          #shoppingcart-header{
+          display:inline-block;
+          background-color:rgba(74,74,74,1);
+          width:100%;
+          height:10%;
 
-    #shoppingcart-header{
-      display:inline-block;
-      background-color:rgba(74,74,74,1);
-      width:100%;
-      height:10%;
+          }
 
-    }
+          #shoppingcart-header p {
+          font-family:"Helvetica Neue LT Pro Light";
+          font-size:18px;
+          margin:8px 0px 3px 8px;
+          color:#efefef;
+          }
 
-    #shoppingcart-header p {
-      font-family:"Helvetica Neue LT Pro Light";
-      font-size:18px;
-      margin:8px 0px 3px 8px;
-      color:#efefef;
-    }
+          #shoppingcart-product-field{
+          overflow:auto;
+          display:inline-block;
+          /*background-color:green;*/
+          width:100%;
+          height:70%;
+          float:left;
+          }
 
-    #shoppingcart-product-field{
-      overflow:auto;
-      display:inline-block;
-      /*background-color:green;*/
-      width:100%;
-      height:70%;
-      float:left;
-    }
+          .shoppingcart-product{
+          display:inline-block;
+          /*background-color:blue;*/
+          width:95%;
+          height:30%;
+          margin:2% 2.5% 0% 2.5%;
+          border:0.5px black solid;
+          }
 
-    .shoppingcart-product{
-      display:inline-block;
-      /*background-color:blue;*/
-      width:95%;
-      height:30%;
-      margin:2% 2.5% 0% 2.5%;
-      border:0.5px black solid;
-    }
+          #shoppingcart-footer{
+          display:inline-block;
+          background-color:rgba(74,74,74,1);
+          text-align:center;
+          width:100%;
+          height:20%;
+          }
 
-    #shoppingcart-footer{
-      display:inline-block;
-      background-color:rgba(74,74,74,1);
-      text-align:center;
-      width:100%;
-      height:20%;
-    }
+          #shoppingcart-summary{
+          width:100%;
+          height:70%;
+          float:left;
+          display:inline-block;
+          text-align:left;
+          }
 
-    #shoppingcart-summary{
-      width:100%;
-      height:70%;
-      float:left;
-      display:inline-block;
-      text-align:left;
-    }
+          #shoppingcart-summary p{
+          color:#efefef;
+          margin:0;
+          }
 
-    #shoppingcart-summary p{
-      color:#efefef;
-      margin:0;
-    }
+          #totals{
+          margin-top:5px;
+          display:inline-block;
+          float:left;
+          height:100%;
+          width:40%;
+          }
+          #total-values{
+          margin-top:5px;
+          display:inline-block;
+          float:left;
+          height:10%;
+          width:30%;
+          }
 
-    #totals{
-      margin-top:5px;
-      display:inline-block;
-      float:left;
-      height:100%;
-      width:40%;
-    }
-    #total-values{
-      margin-top:5px;
-      display:inline-block;
-      float:left;
-      height:10%;
-      width:30%;
-    }
+          #shoppingcart-notification{
+          width:100%;
+          height:30%;
+          background-color:rgba(38,160,47,1);
+          display:inline-block;
+          }
 
-    #shoppingcart-notification{
-      width:100%;
-      height:30%;
-      background-color:rgba(38,160,47,1);
-      display:inline-block;
-    }
-
-    #shoppingcart-notification p {
-      font-family:"Helvetica Neue LT Pro Medium";
-      font-size:8px;
-      margin:5px 0 0 2px;
-      color:black;
-    }
-
+          #shoppingcart-notification p {
+          font-family:"Helvetica Neue LT Pro Medium";
+          font-size:8px;
+          margin:5px 0 0 2px;
+          color:black;
+          }
 
      /*Dot navigation*/
           #dot-navigation-container{
@@ -398,7 +417,7 @@ p, a, h1, h2, h3, h4, h5, h6 {
 /*Content*/
      #content-container{
           background:url("../img/green-cup.png") repeat;
-          padding-top:114px;
+          padding-top:100px;
           padding-bottom:75px;
           width:100%;
      }
@@ -421,8 +440,7 @@ p, a, h1, h2, h3, h4, h5, h6 {
 
           .section-content{
                margin:0 auto;
-               width:90%;
-               max-width:1400px;
+               max-width:1080px;
                padding-bottom:50px;
                padding-top:50px;
           }
@@ -546,15 +564,6 @@ p, a, h1, h2, h3, h4, h5, h6 {
                          width:100%;
                     }
 
-                    /*.footer-heading-1{
-                         display:block;
-                         padding-top:16px;
-                         padding-bottom:16px;
-                         text-transform:uppercase;
-                         text-align:center;
-                         width:100%;
-                    }*/
-
                     #footer-sitemap{
                          /*display:inline-block;*/
                          float:right;
@@ -572,7 +581,7 @@ p, a, h1, h2, h3, h4, h5, h6 {
                          padding:0px 35px 0px 35px;
                     }
 
-                    .footer-heading-2{
+                    #footer-sitemap ul li:first-child{
                          font-weight:bold;
                          text-transform:uppercase;
                     }
@@ -610,39 +619,3 @@ p, a, h1, h2, h3, h4, h5, h6 {
                     font-family:"Helvetica Neue LT Pro Light";
                     text-decoration:none;
                }
-
-
-
-
-
-
-
-
-/*----- E: I'm not sure what the follow is for?? So, I do not know which section to put it in like above -----*/
-
-     a {
-          /*color:#4a4a4a;*/ /*E: I think the links should be blue...*/
-          color:rgba(0,108,184,1);
-          text-decoration:none;
-     }
-
-     ul {
-          list-style:none;
-     }
-
-     /*** shopping cart ***/
-     .shopping-cart{
-          display: block;
-          width: 220px;
-     }
-
-     .shopping-cart  ul.shopping-cart-submenu  ul.shopping-header li{
-          background-color: grey;
-          color: white;
-          float:left;
-     }
-
-     .shopping-cart-submenu{
-          clear:both;
-          display: none;
-     }
