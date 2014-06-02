@@ -104,38 +104,38 @@
   <div id="dot-navigation-container">
     <ul>
       <li class="dot-navigation-icon">
-        <a id="topBtn" class="section-0-dot" href="ecoqube.php#top">
-          <img class="navigation-dot" id="img-section-0-dot" src="img/dots/dot-current.gif" width="25" height="25" alt="Top Navigation Dot" title="Top" />
+        <a id="topBtn" class="section-0-dot dot-hover" href="ecoqube.php#top" data-title="Top">
+          <img class="navigation-dot" id="img-section-0-dot" src="img/dots/dot-current.gif" width="25" height="25" alt="Top Navigation Dot"/>
         </a>
       </li>
 
       <li class="dot-navigation-icon">
-        <a id="howitworksBtn" class="section-1-dot" href="ecoqube.php#howitworks">
-          <img class="navigation-dot" id="img-section-1-dot" src="img/dots/dot.gif" width="25" height="25" alt="How It Works Navigation Dot" title="How It Works" />
+        <a id="howitworksBtn" class="section-1-dot dot-hover" href="ecoqube.php#howitworks" data-title="How does the EcoQube work">
+          <img class="navigation-dot" id="img-section-1-dot" src="img/dots/dot.gif" width="25" height="25" alt="How It Works Navigation Dot" />
         </a>
       </li>
 
       <li class="dot-navigation-icon">
-        <a id="keyfeaturesBtn" class="section-2-dot" href="ecoqube.php#keyfeatures">
-          <img class="navigation-dot" id="img-section-2-dot" src="img/dots/dot.gif" width="25" height="25" alt="Key Features Navigation Dot" title="Key Features" />
+        <a id="keyfeaturesBtn" class="section-2-dot dot-hover" href="ecoqube.php#keyfeatures" data-title="Key features">
+          <img class="navigation-dot" id="img-section-2-dot" src="img/dots/dot.gif" width="25" height="25" alt="Key Features Navigation Dot" />
         </a>
       </li>
 
       <li class="dot-navigation-icon">
-        <a id="buyittodayBtn" class="section-3-dot" href="ecoqube.php#buyittoday">
-          <img class="navigation-dot" id="img-section-3-dot" src="img/dots/dot.gif" width="25" height="25" alt="Buy It Today Navigation Dot" title="Buy It Today" />
+        <a id="buyittodayBtn" class="section-3-dot dot-hover" href="ecoqube.php#buyittoday" data-title="Buy the EcoQube today">
+          <img class="navigation-dot" id="img-section-3-dot" src="img/dots/dot.gif" width="25" height="25" alt="Buy the EcoQube today Navigation Dot" />
         </a>
       </li>
 
       <li class="dot-navigation-icon">
-        <a id="fishandplantsBtn" class="section-4-dot" href="ecoqube.php#fishandplants">
-          <img class="navigation-dot" id="img-section-4-dot" src="img/dots/dot.gif" width="25" height="25" alt="Fish and Plants Navigation Dot" title="Fish and Plants" />
+        <a id="fishandplantsBtn" class="section-4-dot dot-hover" href="ecoqube.php#fishandplants" data-title="Compatible fish and plants">
+          <img class="navigation-dot" id="img-section-4-dot" src="img/dots/dot.gif" width="25" height="25" alt="Fish and Plants Navigation Dot" />
         </a>
       </li>
 
       <li class="dot-navigation-icon">
-        <a id="pressBtn" class="section-5-dot" href="ecoqube.php#press">
-          <img class="navigation-dot" id="img-section-5-dot" src="img/dots/dot.gif" width="25" height="25" alt="Press Releases Navigation Dot" title="Press Releases" />
+        <a id="pressBtn" class="section-5-dot dot-hover" href="ecoqube.php#press" data-title="Press deleases">
+          <img class="navigation-dot" id="img-section-5-dot" src="img/dots/dot.gif" width="25" height="25" alt="Press releases navigation dot"/>
         </a>
       </li>
     </ul>

@@ -263,6 +263,7 @@ body{
 
           .dot-navigation-icon {
                margin:2px;
+               /*background-color:green;*/
           }
 
           a.anchor{
@@ -270,6 +271,21 @@ body{
                position:relative;
                top:-100px;
                visibility:hidden;
+          }
+
+          .dot-hover:hover:after{
+            background: rgba(0,0,0,.75);
+            border-radius: 2px;
+            color: #fff;
+            content: attr(data-title);
+            right:35px;
+            padding: 5px 5px 2px 5px;
+            position: absolute;
+            z-index: 98;
+            white-space: nowrap;
+            color:#efefef;
+            font-size:16px;
+            line-height:14px;
           }
 
 /*Content*/

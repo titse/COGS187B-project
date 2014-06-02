@@ -109,32 +109,32 @@
   <div id="dot-navigation-container">
     <ul>
       <li class="dot-navigation-icon">
-        <a id="topBtn" class="section-0-dot" href="ecoqube.php#top">
-          <img class="navigation-dot" id="img-section-0-dot" src="img/dots/dot-current.gif" width="25" height="25" alt="Top Navigation Dot" title="Top" />
+        <a id="topBtn" class="dot-hover" href="ecoqube.php#top" data-title="Top">
+          <img class="navigation-dot" id="img-section-0-dot" src="img/dots/dot-current.gif" width="25" height="25" alt="Top Navigation Dot" >
         </a>
       </li>
 
       <li class="dot-navigation-icon">
-        <a id="contactBtn"  class="" href="services.php#contact">
-          <img class="navigation-dot" id="img-section-1-dot" src="img/dots/dot.gif" width="25" height="25" alt="Contact Navigation Dot" title="Contact">
+        <a id="contactBtn"  class="dot-hover" href="services.php#contact" data-title="Contact">
+          <img class="navigation-dot" id="img-section-1-dot" src="img/dots/dot.gif" width="25" height="25" alt="Contact Navigation Dot" >
         </a>
       </li>
 
       <li class="dot-navigation-icon">
-        <a id ="installationsBtn"  class="" href="services.php#installations">
-          <img class="navigation-dot" id="img-section-2-dot" src="img/dots/dot.gif" width="25" height="25" alt="Installations Navigation Dot" title="Installations">
+        <a id ="installationsBtn"  class="dot-hover" href="services.php#installations" data-title="Installations">
+          <img class="navigation-dot" id="img-section-2-dot" src="img/dots/dot.gif" width="25" height="25" alt="Installations Navigation Dot" >
         </a>
       </li>
 
       <li class="dot-navigation-icon">
-        <a id ="maintenanceBtn" class="" href="services.php#maintenance">
-          <img class="navigation-dot" id="img-section-3-dot" src="img/dots/dot.gif" width="25" height="25" alt="Maintenance Navigation Dot" title="Maintenance">
+        <a id ="maintenanceBtn" class="dot-hover" href="services.php#maintenance" data-title="Maintenance">
+          <img class="navigation-dot" id="img-section-3-dot" src="img/dots/dot.gif" width="25" height="25" alt="Maintenance Navigation Dot" >
         </a>
       </li>
 
       <li class="dot-navigation-icon">
-        <a id ="galleryBtn" class="" href="services.php#gallery">
-          <img class="navigation-dot" id="img-section-4-dot" src="img/dots/dot.gif" width="25" height="25" alt="Gallery Navigation Dot" title="Gallery">
+        <a id ="galleryBtn" class="dot-hover" href="services.php#gallery" data-title="Gallery">
+          <img class="navigation-dot" id="img-section-4-dot" src="img/dots/dot.gif" width="25" height="25" alt="Gallery Navigation Dot">
         </a>
       </li>
     </ul>

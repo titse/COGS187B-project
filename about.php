@@ -103,32 +103,32 @@
   <div id="dot-navigation-container">
     <ul>
       <li class="dot-navigation-icon">
-        <a id="topBtn" class="section-0-dot" href="ecoqube.php#top">
-          <img class="navigation-dot" id="img-section-0-dot" src="img/dots/dot-current.gif" width="25" height="25" alt="Top Navigation Dot" title="Top" />
+        <a id="topBtn" class="dot-hover" href="ecoqube.php#top" data-title="Top">
+          <img class="navigation-dot" id="img-section-0-dot" src="img/dots/dot-current.gif" width="25" height="25" alt="Top Navigation Dot"/>
         </a>
       </li>
 
       <li class="dot-navigation-icon">
-        <a id="ourstoryBtn" class="" href="about.php#ourstory">
-          <img class="navigation-dot" id="img-section-1-dot" src="img/dots/dot.gif" width="25" height="25" alt="Our Story Navigation Dot" title="Our Story" />
+        <a id="ourstoryBtn" class="dot-hover" href="about.php#ourstory" data-title="Our Story">
+          <img class="navigation-dot" id="img-section-1-dot" src="img/dots/dot.gif" width="25" height="25" alt="Our Story Navigation Dot" />
         </a>
       </li>
 
       <li class="dot-navigation-icon">
-        <a id="valuesBtn" class="" href="about.php#values">
-          <img class="navigation-dot" id="img-section-2-dot" src="img/dots/dot.gif" width="25" height="25" alt="Values Navigation Dot" title="Values" />
+        <a id="valuesBtn" class="dot-hover" href="about.php#values" data-title="Vision and values">
+          <img class="navigation-dot" id="img-section-2-dot" src="img/dots/dot.gif" width="25" height="25" alt="Values Navigation Dot"  />
         </a>
       </li>
 
       <li class="dot-navigation-icon">
-        <a id="theteamBtn" class="" href="about.php#theteam">
-          <img class="navigation-dot" id="img-section-3-dot" src="img/dots/dot.gif" width="25" height="25" alt="The Team Navigation Dot" title="The Team" />
+        <a id="theteamBtn" class="dot-hover" href="about.php#theteam" data-title="The Team">
+          <img class="navigation-dot" id="img-section-3-dot" src="img/dots/dot.gif" width="25" height="25" alt="The Team Navigation Dot" />
         </a>
       </li>
 
       <li class="dot-navigation-icon">
-        <a id="affiliatesBtn" class="" href="about.php#affiliates">
-          <img class="navigation-dot" id="img-section-4-dot" src="img/dots/dot.gif" width="25" height="25" alt="Affiliates Navigation Dot" title="Affiliates" />
+        <a id="affiliatesBtn" class="dot-hover" href="about.php#affiliates" data-title="Affiliates and sposorships">
+          <img class="navigation-dot" id="img-section-4-dot" src="img/dots/dot.gif" width="25" height="25" alt="Affiliates Navigation Dot"/>
         </a>
       </li>
     </ul>
