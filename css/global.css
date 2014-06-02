@@ -275,7 +275,7 @@ body{
 /*Content*/
      #content-container{
           background:url("../img/green-cup.png") repeat;
-          padding-top:100px;
+          padding-top:114px;
           padding-bottom:75px;
           width:100%;
      }
@@ -298,7 +298,8 @@ body{
 
           .section-content{
                margin:0 auto;
-               max-width:1080px;
+               width:90%;
+               max-width:1400px;
                padding-bottom:50px;
                padding-top:50px;
           }
