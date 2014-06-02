@@ -94,11 +94,80 @@
           </li>
           <li>
             <a href="index.php" id="header-icon-cart">&#xe811;</a>
+
+            <div id="shoppingcart-dropdown">
+
+              <div id="shoppingcart-header">
+                <p>SHOPPING CART</p>
+              </div>
+
+              <div id="shoppingcart-product-field">
+                <div class="shoppingcart-product">
+
+                </div>
+
+                <div class="shoppingcart-product">
+
+                </div>
+
+                <div class="shoppingcart-product">
+
+                </div>
+
+                <div class="shoppingcart-product">
+
+                </div>
+              </div>
+
+              <div id="shoppingcart-footer">
+                <div id="shoppingcart-summary">
+                  
+                </div>
+
+                <div id="shoppingcart-notification">
+                  <p>30% OFF FISH STORE PRICES ON QUANTITIES OF 12 OR MORE</p>
+                </div>
+
+              </div>
+
+            </div>
           </li>
         </ul>
       </div><!-- #header-navigation -->
     </header>
   </div><!-- #header-container -->
+
+  <!-- Shoppingcart drop down -->
+  <!--<div id="shoppingcart-dropdown">
+    <div id="shoppingcart-header">
+      <p>SHOPPING CART</p>
+    </div>
+
+    <div id="shoppingcart-product-field">
+      <div class="shoppingcart-product">
+
+      </div>
+
+      <div class="shoppingcart-product">
+
+      </div>
+
+      <div class="shoppingcart-product">
+
+      </div>
+
+      <div class="shoppingcart-product">
+
+      </div>
+    </div>
+
+    <div id="shoppingcart-footer">
+      <div id="shoppingcart-notification">
+        <p>30% OFF FISH STORE PRICES ON QUANTITIES OF 12 OR MORE</p>
+      </div>
+    </div>
+
+  </div>-->
 
   <!-- Dot navigation -->
   <div id="dot-navigation-container">
