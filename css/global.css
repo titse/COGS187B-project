@@ -271,7 +271,6 @@ p, a, h1, h2, h3, h4, h5, h6 {
     #shoppingcart-header{
       display:inline-block;
       background-color:rgba(74,74,74,1);
-      text-align:center;
       width:100%;
       height:10%;
 
@@ -280,7 +279,7 @@ p, a, h1, h2, h3, h4, h5, h6 {
     #shoppingcart-header p {
       font-family:"Helvetica Neue LT Pro Light";
       font-size:18px;
-      margin:8px 0px 3px 0px;
+      margin:8px 0px 3px 8px;
       color:#efefef;
     }
 
@@ -315,6 +314,27 @@ p, a, h1, h2, h3, h4, h5, h6 {
       height:70%;
       float:left;
       display:inline-block;
+      text-align:left;
+    }
+
+    #shoppingcart-summary p{
+      color:#efefef;
+      margin:0;
+    }
+
+    #totals{
+      margin-top:5px;
+      display:inline-block;
+      float:left;
+      height:100%;
+      width:40%;
+    }
+    #total-values{
+      margin-top:5px;
+      display:inline-block;
+      float:left;
+      height:10%;
+      width:30%;
     }
 
     #shoppingcart-notification{

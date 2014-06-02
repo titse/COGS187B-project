@@ -121,7 +121,23 @@
 
               <div id="shoppingcart-footer">
                 <div id="shoppingcart-summary">
-                  
+                  <div id="totals">
+                    <p>
+                      <strong>Total qty: </strong><br>
+                      <strong>Total price: </strong>
+                    </p>
+                  </div>
+
+                  <div id="total-values">
+                    <p>
+                      4 <br>
+                      $ 9.99
+                    </p>
+                  </div>
+
+                  <div id="checkout">
+
+                  </div>
                 </div>
 
                 <div id="shoppingcart-notification">
