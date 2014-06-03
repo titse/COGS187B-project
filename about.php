@@ -382,7 +382,7 @@
                                    </ul>
                                    <ul>
                                         <li><a href="services.php">Services</a></li>
-                                        <li><a href="services.php#contact">Contact</a></li>    
+                                        <li><a href="services.php#contact">Contact</a></li>
                                         <li><a href="services.php#installations">Installations</a></li>
                                         <li><a href="services.php#maintenance">Maintenance</a></li>
                                         <li><a href="services.php#gallery">Gallery</a></li>
@@ -417,7 +417,7 @@
 
                     </footer>
           </div><!-- #footer-container -->
-     
+
      <!-- Script -->
                <!-- Javascript code identifying which sections are visible on the screen -->
                     <script type="text/javascript">
@@ -425,7 +425,9 @@
                     var DEBUG = true;
 
                     $(window).scroll(function() {
-                      if ($(".section-1").visible()) {
+                      if ($(".section-0").visible()) {
+                        updateDots("section-0");
+                      } else if ($(".section-1").visible()) {
                         updateDots("section-1");
                       } else if ($(".section-2").visible()) {
                         updateDots("section-2");
@@ -438,7 +440,7 @@
                       }
                     });
                     </script>
-                    
+
                <!-- Scroll js file -->
                     <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
                     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>

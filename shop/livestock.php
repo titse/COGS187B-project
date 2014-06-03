@@ -21,7 +21,8 @@
        <script src="../Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
 
      <!-- Custom Javascript functions used across pages -->
-          <script type="text/javascript" src="js/global.js"></script>
+          <script type="text/javascript" src="../js/layerlib.js"></script>
+          <script type="text/javascript" src="../js/global.js"></script>
 
      <!-- Fixed header + horizontal scroll -->
           <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> -->

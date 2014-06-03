@@ -279,39 +279,33 @@
                showOverlay(x, y);
                });
 
-               //WHY ISN'T THIS WORKING?????
-               /*$("div.product").mouseout(function() {
-               console.log("Mouseout");
-               //productOverlay.css("display", "none");
-               });*/
-
 
                //Shows product overlay
                function showOverlay(x, y) {
-               if (DEBUG) { console.log("Showing overlay at X: " + x + ", Y: " + y); };
+                 if (DEBUG) { console.log("Showing overlay at X: " + x + ", Y: " + y); };
 
-               setX("product-image-overlay", x);
-               setY("product-image-overlay", y);
-               productOverlay.css("display", "inline-block");
-               }
+                 setX("product-image-overlay", x);
+                 setY("product-image-overlay", y);
+                 productOverlay.css("display", "inline-block");
+                 }
 
-               //Showing products matching selected filtering option
-               $(".filterOptions").click(function() {
-               console.log("Filtering products by " + this.text);
+                 //Showing products matching selected filtering option
+                 $(".filterOptions").click(function() {
+                 console.log("Filtering products by " + this.text);
 
-               var keyword = this.text.toLowerCase();
-               console.log(keyword);
+                 var keyword = this.text.toLowerCase();
+                 console.log(keyword);
 
-               var products = $(".product").map(function(index) {
-               var o = $(this);
+                 var products = $(".product").map(function(index) {
+                 var o = $(this);
 
-               console.log(o.hasClass(keyword));
+                 console.log(o.hasClass(keyword));
 
-               if(o.hasClass(keyword)) {
-               o.show();
-               } else {
-               o.hide();
-               }
+                 if(o.hasClass(keyword)) {
+                 o.show();
+                 } else {
+                 o.hide();
+                 }
 
                });
 
@@ -324,25 +318,25 @@
                });
 
                function hideProductGroup() {
-               console.log("Hiding products");
-               }
+                 console.log("Hiding products");
+                 }
 
-               $(document).ready(function() {
+                 $(document).ready(function() {
 
                });
                </script>
 
           <!-- Modal window -->
                <script type="text/javascript">
-                    $(document).ready(function($modalfn) {
+                $(document).ready(function($modalfn) {
 
-                    $modalfn('.splash-modal').magnificPopup({
-                    type: 'ajax',
-                    alignTop: true,
-                    overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
-                    });
+                  $modalfn('.splash-modal').magnificPopup({
+                  type: 'ajax',
+                  alignTop: true,
+                  overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
+                  });
 
-                    });
+                });
                </script>
 
           <!-- Enable horizontal scroll with fixed header -->

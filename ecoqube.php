@@ -227,7 +227,7 @@
            </li>
           </ul>
           </div>
-     
+
      <!-- Content  -->
           <div id="content-container">
 
@@ -602,7 +602,7 @@
               </div><!-- .section-container .last-section-margin -->
 
           </div><!-- #content-container -->
-     
+
      <!-- Footer  -->
             <div id="footer-container">
               <div id="footer-topbar">
@@ -698,7 +698,7 @@
 
               </footer>
             </div><!-- #footer-container -->
-     
+
      <!-- Scripts -->
           <!-- Javascript code identifying which sections are visible on the screen -->
                <script type="text/javascript">
@@ -706,7 +706,9 @@
                var DEBUG = false;
 
                $(window).scroll(function() {
-               if ($(".section-1").visible()) {
+               if ($(".section-0").visible()) {
+                 updateDots("section-0");
+               } else if ($(".section-1").visible()) {
                 updateDots("section-1");
                } else if ($(".section-2").visible()) {
                 updateDots("section-2");
