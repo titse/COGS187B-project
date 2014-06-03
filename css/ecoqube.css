@@ -85,12 +85,13 @@
      /*Buy It Today*/
           .ecoqube-product-section {
             padding:0;
-            width:80%;
+            width:100%;
+            text-align:center;
           }
 
           .ecoqube-product-section .product {
-            width:22%;
-            margin-left:5%;
+            float:left;
+            margin:3%;
           }
 
           .ecoqube-product-section .icon-description {
