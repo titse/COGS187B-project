@@ -16,7 +16,7 @@
 
   <!--Nerve slider-->
   <script src="../nerveSlider/jquery.nerveSlider.min.js"></script>
-  <link rel="stylesheet" href="../nerveSlider/nerveSlider.min.css" />
+  <link rel="stylesheet" href="../nerveSlider/nerveSlider.css" />
 
   <!-- Custom Javascript functions used across pages -->
   <script type="text/javascript" src="js/global.js"></script>
