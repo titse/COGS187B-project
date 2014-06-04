@@ -208,9 +208,9 @@
         a beautiful, compact, all-in-one<br />
         aquatic ecosystem for your home or office.
       </div><!-- .ecoqube-video-overlay -->
-      <!-- <div class="ecoqube-play-icon">
+      <div class="ecoqube-play-icon">
         &#xe817;
-      </div> --><!-- .ecoqube-play-icon -->
+      </div><!-- .ecoqube-play-icon -->
       <div class="ecoqube-video-image">
         <img src="img/ecoqube1.jpg" />
       </div><!-- .ecoqube-video-image -->

@@ -143,7 +143,7 @@
      <!-- Content  -->
              <div id="content-container">
               <div class="section-container section-0">
-                <a href="services-modal-1.php" class="services-modal-1">
+                <a href="https://www.youtube.com/watch?v=OlDcqS_9MW0" class="services-video">
                   <div class="services-video-overlay">
                     Innovative Design<br />
                     Professional Installations<br />
@@ -425,15 +425,20 @@
 
                <!-- Modal window -->
                     <script type="text/javascript">
-                    $(document).ready(function() {
+                         $(document).ready(function() {
+                           $('.services-video').magnificPopup({
+                              disableOn: 700,
+                              type: 'iframe',
+                              removalDelay: 160,
+                              preloader: false,
+                              closeOnBgClick: true,
+                              showCloseBtn: true,
+                              enableEscapeKey: true,
+                              fixedBgPos:false,
 
-                    $('.services-modal-1').magnificPopup({
-                    type: 'ajax',
-                    alignTop: true,
-                    overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
-                    });
-
-                    });
+                              fixedContentPos: false
+                           });
+                         });
                     </script>
 
                <!-- Enable horizontal scroll with fixed header -->
