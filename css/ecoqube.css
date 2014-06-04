@@ -114,7 +114,7 @@
      /*Blurbs*/
           .ecoqube-blurb-overlay-1{
                color:rgba(255,255,255,.9);
-               font-family:"Helvetica Neue LT Pro Thin Extended";
+               font-family:"Helvetica Neue LT Pro Light Extended";
                font-size:32px;
                letter-spacing:2px;
                line-height:135%;
@@ -129,7 +129,7 @@
 
           .ecoqube-blurb-overlay-2{
                color:rgba(255,255,255,.9);
-               font-family:"Helvetica Neue LT Pro Thin Extended";
+               font-family:"Helvetica Neue LT Pro Light Extended";
                font-size:28px;
                letter-spacing:2px;
                line-height:135%;
@@ -145,8 +145,8 @@
 
           .ecoqube-blurb-overlay-3{
                color:rgba(255,255,255,.9);
-               font-family:"Helvetica Neue LT Pro Thin Extended";
-               font-size:30px;
+               font-family:"Helvetica Neue LT Pro Light Extended";
+               font-size:26px;
                letter-spacing:2px;
                line-height:135%;
                max-width:1600px;
