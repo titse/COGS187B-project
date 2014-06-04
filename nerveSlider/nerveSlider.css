@@ -405,8 +405,8 @@
 	}
 	 
 .ns_nerveSlider .ns_dots .ns_dot {
-	width:12px;
-	height:12px;
+	width:8px;
+	height:8px;
 	border-radius:50%;
 	-moz-border-radius:50%;
 	float:left;
@@ -418,20 +418,6 @@
 	-o-transition:all 0.5s ease;
 	transition:all 0.5s ease;
 	}
-
-/* OVERWRITE SETTINGS FOR DOTS*/	
-	.ns_nerveSlider .ns_dots {
-	top:auto;
-	right:auto;
-	bottom: 20px;
-	width:100%;
-	text-align:center;
-	padding:0;
-	}
-	.ns_nerveSlider .ns_dots .ns_dot {
-	float:none;
-	display:inline-block;
-	}	
 	
 .ns_nerveSlider .ns_dots .ns_dot:first-child {
 	margin-left:0;
@@ -474,15 +460,14 @@
 .ns_nerveSlider.light .ns_timer {
 	background:transparent url("icons/swatches/255,255,255,40.png") repeat;
 	}
-
-/* CHANGE COLOR HERE*/	
+	
 .ns_nerveSlider.light .ns_dots .ns_dot {
-	border:1px solid blue;
+	border:1px solid #fff;
 	}
 	
 .ns_nerveSlider.light .ns_dots .ns_dot.ns_selected {
-	border:1px solid blue;
-	background:blue;
+	border:1px solid #fff;
+	background:#fff;
 	}
 	
 	
