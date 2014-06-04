@@ -9,7 +9,8 @@
   position: fixed;
   background: #0b0b0b;
   opacity: 0.8;
-  filter: alpha(opacity=80); }
+  filter: alpha(opacity=80); 
+z-index:100000;}
 
 .mfp-wrap {
   top: 0;
@@ -19,7 +20,8 @@
   z-index: 1043;
   position: fixed;
   outline: none !important;
-  -webkit-backface-visibility: hidden; }
+  -webkit-backface-visibility: hidden; 
+z-index:100000;}
 
 .mfp-container {
   text-align: center;

@@ -138,7 +138,7 @@ ul {
           padding:8px 8px 8px 16px;/*Inner content padding*/
           position:fixed;/*Fixed header*/
           width:100%;/*Keep the header running the length of the screen*/
-          z-index:100000;/*Keep the header always topmost*/
+          z-index:10000;/*Keep the header always topmost*/
      }
 
      /*Logo*/
