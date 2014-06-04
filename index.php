@@ -97,7 +97,7 @@
                          <div class="picture1">
      				     <img src="img/ecoqube6.png" />
      					<a href="ecoqube.php">
-                                   <div class="ns_slideContent">
+                             <div class="ns_slideContent">
           						<div class="index-slider-overlay">
                                              <img src="img/logos/ecoqube-logo.png" /><br /><br />
                	          			<!-- <div class="index-words"> -->
@@ -106,10 +106,13 @@
                                                   same plants to clean aquarium <br />
                                                   water with ease.
                						<!-- </div> --><!-- .index-words -->
+									
                                         </div><!-- .index-slider-overlay -->
+									
           					</div><!-- ns_slideContent -->
                               </a>
 				     </div><!-- .picture1 ~~~~~> there is no css code for this -->
+						<img src = "img/ecoqube3.png"/>
 				</div><!-- .slider -->
                </div><!-- .section-container #first-section-margin -->
           </div><!-- #content-container -->
