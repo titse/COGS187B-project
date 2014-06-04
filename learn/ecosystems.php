@@ -153,7 +153,7 @@
 
     <div class="section-container">
       <div class="image-text-overlay">
-        Plants and fish live symbioticaliy in harmony, aiding <br>
+        Plants and fish live symbiotically in harmony, aiding <br>
         one another within the ecosystem. <br>
         <span class="emphasize">Balance is the key!</span>
       </div><!-- .image-text-overlay -->
@@ -200,7 +200,7 @@
         <div class="component">
           <div class="component-top-section">
             <div class="component-icon">
-              <img src="../img/learn/fish-icon.png" alt="Fish icon">
+              <img src="../img/learn/invertebrates-icon.png" alt="Fish icon">
             </div>
             <div class="component-heading" id="invertebrates-heading">
               INVERTEBRATES
@@ -250,7 +250,7 @@
         <div class="component">
           <div class="component-top-section">
             <div class="component-icon">
-              <img src="../img/learn/wood-icon.png" alt="Wood icon">
+              <img src="../img/learn/rocks-icon.png" alt="Wood icon">
             </div>
             <div class="component-heading" id="woodandrocks-heading">
               WOOD AND <br> ROCKS
