@@ -246,9 +246,9 @@
   <div class="section-container">
     <div class="section-blurb">
       <div class="ecoqube-blurb-overlay-1">
-        The heart of the EcoQube is the aquaponics filter which <br />
-        uses plants, the world's best and most natural filter, <br />
-        to keep your aquarium clean.
+        The heart of the EcoQube is the aquaponics <br />
+        filter which uses plants, the world's best and most <br />
+        natural filter, to keep your aquarium clean.
       </div><!-- ecoqube-blurb-overlay-1 -->
       <img src="img/ecoqube3.png" />
     </div><!-- .ecoqube-blurb -->
@@ -283,8 +283,7 @@
   <div class="section-container">
     <div class="section-blurb">
       <div class="ecoqube-blurb-overlay-2">
-        The EcoQube's patent-pending aquaponics filter allows <br />
-        you to efficiently grow your house plants or <br />
+        Efficiently grow your house plants or <br />
         micro-greens with ease, while using the same <br />
         plants to keep your aquarium clean.
       </div><!-- ecoqube-blurb-overlay-2 -->
@@ -535,9 +534,9 @@
   <div class="section-container">
     <div class="section-blurb">
       <div class="ecoqube-blurb-overlay-3">
-        "We want to use the Ecoqube as a vehicle <br />
-        to deliver the concept and beauty of aquaponics to as <br />
-        many people's lives as possible."<br />
+        "We want to use the Ecoqube as <br />
+        a vehicle to deliver the concept and beauty of <br />
+        aquaponics to as many people's lives as possible."<br /><br />
         -Kevin and Eric, ADI's Founders
       </div><!-- .ecoqube-blurb-overlay-3 -->
       <img src="img/ecoqube5.png" />
