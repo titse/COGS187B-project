@@ -608,15 +608,14 @@
 
 </div><!-- #content-container -->
 
-<!-- Footer  -->
-<div id="footer-container">
-  <div id="footer-topbar">
-    <form name="input" id="footer-subscribe-form">
-      Sign up for weekly deals!
-      <input type="text" placeholder="Example@Email.com" />
-      <input type="submit" value="Subscribe"/>
-    </form><!-- #footer-subscribe-form ~~~> this id tag not yet in any css file -->
-  </div><!-- #footer-topbar -->
+     <!-- Footer -->
+          <div id="footer-container">
+               <div id="footer-topbar">
+                    <form name="input" id="footer-subscribe-form">
+                         <input class="footer-input" type="email" placeholder="Sign up for weekly deals!" required />
+                         <input id="footer-submit" type="submit" value="Subscribe"/>
+                    </form><!-- #footer-subscribe-form [this id tag is not yet in stylesheet.css]-->
+               </div><!-- #footer-topbar -->
 
   <footer>
     <div id="footer-left-col">

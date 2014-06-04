@@ -276,9 +276,8 @@
           <div id="footer-container">
                <div id="footer-topbar">
                     <form name="input" id="footer-subscribe-form">
-                         Sign up for weekly deals!
-                         <input type="text" placeholder="Example@Email.com" />
-                         <input type="submit" value="Subscribe"/>
+                         <input class="footer-input" type="email" placeholder="Sign up for weekly deals!" required />
+                         <input id="footer-submit" type="submit" value="Subscribe"/>
                     </form><!-- #footer-subscribe-form [this id tag is not yet in stylesheet.css]-->
                </div><!-- #footer-topbar -->
 
