@@ -144,7 +144,8 @@
           <!-- Splash video -->
                <div class="shop-content-container left-margin">
                 <div class="shop-video">
-                  <a href="shop-home-modal-1.php" class="splash-modal">
+                  <a href="https://www.youtube.com/watch?v=OXQsZMiu7Sw" class="shop-home-video">
+                  <!-- <a href="shop-home-modal-1.php" class="splash-modal"> -->
                     <!--<div class="ecoqube-video-overlay">
                     Introducing the<br />
                     <img src="../img/logos/ecoqube-logo.png" /><br />
@@ -325,18 +326,23 @@
                });
                </script>
 
-          <!-- Modal window -->
-               <script type="text/javascript">
-                $(document).ready(function($modalfn) {
+               <!-- Modal window -->
+                    <script type="text/javascript">
+                    $(document).ready(function() {
+                      $('.shop-home-video').magnificPopup({
+                    disableOn: 700,
+                    type: 'iframe',
+                    removalDelay: 160,
+                    preloader: false,
+                    closeOnBgClick: true,
+                    showCloseBtn: true,
+                    enableEscapeKey: true,
+                    fixedBgPos:false,
 
-                  $modalfn('.splash-modal').magnificPopup({
-                  type: 'ajax',
-                  alignTop: true,
-                  overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
-                  });
-
-                });
-               </script>
+                    fixedContentPos: false
+                      });
+                    });
+                    </script>
 
           <!-- Enable horizontal scroll with fixed header -->
           <script type="text/javascript">
