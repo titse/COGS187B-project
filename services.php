@@ -25,8 +25,14 @@
      <!-- Custom Javascript functions used across pages -->
           <script type="text/javascript" src="js/global.js"></script>
 
+     <!-- flexslider js  -->
+          <!-- <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /> -->
+          <!-- // <script  src="js/jquery.flexslider.js"></script> -->
+     <!-- Modernizr -->
+          <!-- // <script src="js/modernizr.js"></script> -->
+
      <!-- FlexSlider2 -->
-          <link rel="stylesheet" href="flexslider2/flexslider-services.css" type="text/css">
+          <link rel="stylesheet" href="flexslider2/flexslider-aboutpage.css" type="text/css">
           <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> -->
           <script src="flexslider2/jquery.flexslider.js"></script>
 
@@ -100,39 +106,39 @@
          </div><!-- #header-container -->
 
      <!-- Dot navigation -->
-               <div id="dot-navigation-container">
-               <ul>
-                <li class="dot-navigation-icon">
-                  <a id="topBtn" class="dot-hover" href="ecoqube.php#top" data-title="Top">
-                    <img class="navigation-dot" id="img-section-0-dot" src="img/dots/dot-current.gif" width="25" height="25" alt="Top Navigation Dot" >
-                  </a>
-                </li>
+          <div id="dot-navigation-container">
+          <ul>
+           <li class="dot-navigation-icon">
+             <a id="topBtn" class="dot-hover" href="ecoqube.php#top" data-title="Top">
+               <img class="navigation-dot" id="img-section-0-dot" src="img/dots/dot-current.gif" width="25" height="25" alt="Top Navigation Dot" >
+             </a>
+           </li>
 
-                <li class="dot-navigation-icon">
-                  <a id="contactBtn"  class="dot-hover" href="services.php#contact" data-title="Contact">
-                    <img class="navigation-dot" id="img-section-1-dot" src="img/dots/dot.gif" width="25" height="25" alt="Contact Navigation Dot" >
-                  </a>
-                </li>
+           <li class="dot-navigation-icon">
+             <a id="contactBtn"  class="dot-hover" href="services.php#contact" data-title="Contact">
+               <img class="navigation-dot" id="img-section-1-dot" src="img/dots/dot.gif" width="25" height="25" alt="Contact Navigation Dot" >
+             </a>
+           </li>
 
-                <li class="dot-navigation-icon">
-                  <a id ="installationsBtn"  class="dot-hover" href="services.php#installations" data-title="Installations">
-                    <img class="navigation-dot" id="img-section-2-dot" src="img/dots/dot.gif" width="25" height="25" alt="Installations Navigation Dot" >
-                  </a>
-                </li>
+           <li class="dot-navigation-icon">
+             <a id ="installationsBtn"  class="dot-hover" href="services.php#installations" data-title="Installations">
+               <img class="navigation-dot" id="img-section-2-dot" src="img/dots/dot.gif" width="25" height="25" alt="Installations Navigation Dot" >
+             </a>
+           </li>
 
-                <li class="dot-navigation-icon">
-                  <a id ="maintenanceBtn" class="dot-hover" href="services.php#maintenance" data-title="Maintenance">
-                    <img class="navigation-dot" id="img-section-3-dot" src="img/dots/dot.gif" width="25" height="25" alt="Maintenance Navigation Dot" >
-                  </a>
-                </li>
+           <li class="dot-navigation-icon">
+             <a id ="maintenanceBtn" class="dot-hover" href="services.php#maintenance" data-title="Maintenance">
+               <img class="navigation-dot" id="img-section-3-dot" src="img/dots/dot.gif" width="25" height="25" alt="Maintenance Navigation Dot" >
+             </a>
+           </li>
 
-                <li class="dot-navigation-icon">
-                  <a id ="galleryBtn" class="dot-hover" href="services.php#gallery" data-title="Gallery">
-                    <img class="navigation-dot" id="img-section-4-dot" src="img/dots/dot.gif" width="25" height="25" alt="Gallery Navigation Dot">
-                  </a>
-                </li>
-               </ul>
-               </div>
+           <li class="dot-navigation-icon">
+             <a id ="galleryBtn" class="dot-hover" href="services.php#gallery" data-title="Gallery">
+               <img class="navigation-dot" id="img-section-4-dot" src="img/dots/dot.gif" width="25" height="25" alt="Gallery Navigation Dot">
+             </a>
+           </li>
+          </ul>
+          </div>
 
      <!-- Content  -->
              <div id="content-container">
@@ -141,7 +147,9 @@
                   <div class="services-video-overlay">
                     Innovative Design<br />
                     Professional Installations<br />
-                    Carefree Maintenance
+                    Carefree Maintenance<br /><br />
+                    When dealing with ADI, you are more than <br />
+                    just a customer; you become part of the revolution.
                   </div><!-- .services-video-overlay -->
                   <div class="services-play-icon">
                     &#xe817;
@@ -156,43 +164,38 @@
                    <div class="section-container">
                      <div class="section-content">
                        <div class="section-heading">
-                         <a id="contact" class="anchor section-1"></a>Get A Free Quote Today!
+                         <a id="contact" class="anchor section-1"></a>Get a FREE QUOTE today!
                        </div><!-- .section-heading -->
-                       <div class="services-column-1"> 
+                       <div class="quote-col-1-of-2"> 
      				  <div class="contact-form">
-     						<form class="contact">
+     						<form class=".contact">
      								
-     							<label class="mandatory">Name</label>
-     							<input class="contact-input" name="name" placeholder="FirstName LastName" required />
-
-     							<label class="mandatory">E-mail</label>
-     							<input class="contact-input" name="email" placeholder="Example@Email.com" type="email" required />
-
-     							<label class="mandatory">Subject</label>
-     							<input class="contact-input contact-subject" name="subject" placeholder="Message Subject" type="subject" required />	
-
-     							<label class="mandatory">Message</label>
-     							<textarea class="contact-input" name="message" placeholder="Type your message here." required /></textarea>
-     							
-     							<input id="submit" name="submit" type="submit" value="Send Message" />
-
-     							<div class="star">Required Field</div>
+     							<label class = "mandatory">Name </label>
+     							<input  class ="contact_input"name="name" placeholder="Ernest Smith (your name)" required/ >
+     									
+     							<label class = "mandatory">Email</label>
+     							<input class ="contact_input" name="email" type="email" placeholder="Example@email.com" required />
+     							<label class = "mandatory">Subject </label>
+     							<input class ="contact_input" name="subject" type="email" placeholder="Terms of inquiry" required / >		
+     							<label class = "mandatory">Message</label>
+     							<textarea  name="message" placeholder="Message here about your question"required ></textarea>
+     									
+     							<input class ="contact_input" id="submit" name="submit" type="submit" value="Submit">
+     								<div class ="star"> Required Field</div> 
      						</form>
-     					</div> <!-- .contact-form -->
-     				  </div> <!-- services-column-1 -->
-     				  <div class ="services-column-2"> 
-     				      <br/>
-     				      <div class="services-heading-2">
-                                   Free Consultation & Quote!
-                                   <br />
-                                   Contact us today: (858) 224 - FISH
-                               </div>
-                               <br />
-                               Aqua Design Innovations focuses on innovative methods of freshwater aquarium installations to create a unique aquatic ecosystem, one that has rarely been seen before.<br /><br />
-                               With years of experience involved with nature aquatic ecosystems, ADI is well equipped with the best methods, products, and sources for livestock, plants, driftwood, and stones.<br /><br />
-                               Whether it’s your business or your home, our freshwater aquariums will add beauty to where ever they are installed. If you want to talk to us about getting a free consultation, we’d love to hear from you!
-     				  </div> <!-- .services-column-2-->
-     				<br style="clear:both" />
+     					</div>
+     				  </div>
+     				  <div class ="quote-col-2-of-2"> 
+     				  <br/>
+     				  <div class = "consult" >   Free Consultation & Quote!<br /><br /> </div>
+     				  <div class = "call" >  Contact us today: (858) 224 - FISH<br /><br /></div>
+                     
+                       
+                       Aqua Design Innovations focuses on innovative methods of freshwater aquarium installations to create a unique aquatic ecosystem, one that has rarely been seen before.<br /><br />
+                       With years of experience involved with nature aquatic ecosystems, ADI is well equipped with the best methods, products, and sources for livestock, plants, driftwood, and stones.<br /><br />
+                       Whether it’s your business or your home, our freshwater aquariums will add beauty to where ever they are installed. If you want to talk to us about getting a free consultation, we’d love to hear from you!
+     				  </div> <!--.col2-->
+     				  <br style="clear:both" />
                      </div><!-- .section-content -->
                    </div><!-- .section-container -->
 
@@ -242,29 +245,29 @@
                     <a id="gallery" class="anchor"></a>Gallery of Our Previous Installations
                   </div><!-- .section-heading -->
                   <br /><br />
-             <div class="services-slide">
+             <div id="ourstory-slide">
               <div id="main-slider" class="flexslider">
                     <ul class="slides">
-                         <li><a href="img/about/ourstory-4.jpg" title=""><img src="img/about/ourstory-4.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-5.jpg" title=""><img src="img/about/ourstory-5.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-6.jpg" title=""><img src="img/about/ourstory-6.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-13.jpg" title=""><img src="img/about/ourstory-13.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-7.jpg" title=""><img src="img/about/ourstory-7.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-10.jpg" title=""><img src="img/about/ourstory-10.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-1.jpg" title=""><img src="img/about/ourstory-1.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-9.jpg" title=""><img src="img/about/ourstory-9.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-2.jpg" title=""><img src="img/about/ourstory-2.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-3.jpg" title=""><img src="img/about/ourstory-3.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-18.jpg" title=""><img src="img/about/ourstory-18.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-21.jpg" title=""><img src="img/about/ourstory-21.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-8.jpg" title=""><img src="img/about/ourstory-8.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-14.jpg" title=""><img src="img/about/ourstory-14.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-15.jpg" title=""><img src="img/about/ourstory-15.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-16.jpg" title=""><img src="img/about/ourstory-17.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-17.jpg" title=""><img src="img/about/ourstory-16.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-19.jpg" title=""><img src="img/about/ourstory-19.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-20.jpg" title=""><img src="img/about/ourstory-20.jpg" /></a></li>
-                         <li><a href="img/about/ecoqube-2.jpg" title=""><img src="img/ecoqube2.jpg" /></a></li>
+                         <li><img src="img/about/ourstory-4.jpg" class="about-ourstory-images" /></li>
+                         <li><img src="img/about/ourstory-5.jpg" class="about-ourstory-images" /></li>
+                         <li><img src="img/about/ourstory-6.jpg" class="about-ourstory-images" /></li>
+                         <li><img src="img/about/ourstory-13.jpg" class="about-ourstory-images" /></li>
+                         <li><img src="img/about/ourstory-7.jpg" class="about-ourstory-images" /></li>
+                         <li><img src="img/about/ourstory-10.jpg" class="about-ourstory-images" /></li>
+                         <li><img src="img/about/ourstory-1.jpg" class="about-ourstory-images" /></li>
+                         <li><img src="img/about/ourstory-9.jpg" class="about-ourstory-images" /></li>
+                         <li><img src="img/about/ourstory-2.jpg" class="about-ourstory-images" /></li>
+                         <li><img src="img/about/ourstory-3.jpg" class="about-ourstory-images" /></li>
+                         <li><img src="img/about/ourstory-18.jpg" class="about-ourstory-images" /></li>
+                         <li><img src="img/about/ourstory-21.jpg" class="about-ourstory-images" /></li>
+                         <li><img src="img/about/ourstory-8.jpg" class="about-ourstory-images" /></li>
+                         <li><img src="img/about/ourstory-14.jpg" class="about-ourstory-images" /></li>
+                         <li><img src="img/about/ourstory-15.jpg" class="about-ourstory-images" /></li>
+                         <li><img src="img/about/ourstory-17.jpg" class="about-ourstory-images" /></li>
+                         <li><img src="img/about/ourstory-16.jpg" class="about-ourstory-images" /></li>
+                         <li><img src="img/about/ourstory-19.jpg" class="about-ourstory-images" /></li>
+                         <li><img src="img/about/ourstory-20.jpg" class="about-ourstory-images" /></li>
+                         <li><img src="img/ecoqube2.jpg" class="about-ourstory-images" /></li>
                     </ul>
                </div></div>
                 </div><!-- .section-content -->
@@ -368,96 +371,81 @@
                     </footer>
           </div><!-- #footer-container -->
             
-     <!-- Scripts -->
-          <!-- Javascript code identifying which sections are visible on the screen -->
-               <script type="text/javascript">
-               var currSection = "";
-               var DEBUG = true;
+          <!-- Scripts -->
+               <!-- Javascript code identifying which sections are visible on the screen -->
+                    <script type="text/javascript">
+                    var currSection = "";
+                    var DEBUG = true;
 
-               $(window).scroll(function() {
-                 if ($(".section-0").visible()) {
-                   updateDots("section-0");
-                 } else if ($(".section-1").visible()) {
-                   updateDots("section-1");
-                 } else if ($(".section-2").visible()) {
-                   updateDots("section-2");
-                 } else if ($(".section-3").visible()) {
-                   updateDots("section-3");
-                 } else if ($(".section-4").visible()) {
-                   updateDots("section-4");
-                 } else if ($(".section-5").visible()) {
-                   updateDots("section-5");
-                 }
-               });
-               </script>
-
-          <!-- Scroll js file -->
-               <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
-               <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-               <script type="text/javascript" src="js/scrolld.js"></script>
-               <script type="text/javascript">
-                 $("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
-               </script>
-
-          <!-- Flexslider -->
-                    <script>
-                    // Can also be used with $(document).ready()
-                    $(window).load(function() {
-                      $('#main-slider').flexslider({
-                        animation: "slide",
-                        animationSpeed:0,
-                        controlNav: true,
-                        maxItems:3,
-                        minItems:2,
-                        move:1,
-                        itemWidth:275,
-                        itemMargin:5,
-                        slideshow:false,
-                        pauseOnAction: true,
-                        pauseOnHover: true,
-                        touch: true
-                      });
+                    $(window).scroll(function() {
+                      if ($(".section-0").visible()) {
+                        updateDots("section-0");
+                      } else if ($(".section-1").visible()) {
+                        updateDots("section-1");
+                      } else if ($(".section-2").visible()) {
+                        updateDots("section-2");
+                      } else if ($(".section-3").visible()) {
+                        updateDots("section-3");
+                      } else if ($(".section-4").visible()) {
+                        updateDots("section-4");
+                      } else if ($(".section-5").visible()) {
+                        updateDots("section-5");
+                      }
                     });
                     </script>
 
-          <!-- Modal window -->
-               <script type="text/javascript">
-                    $(document).ready(function() {
-                      $('.services-video').magnificPopup({
-                         disableOn: 700,
-                         type: 'iframe',
-                         removalDelay: 160,
-                         preloader: false,
-                         closeOnBgClick: true,
-                         showCloseBtn: true,
-                         enableEscapeKey: true,
-                         fixedBgPos:false,
-                         enableEscapeKey:true,
-                         fixedContentPos: false
-                      });
+               <!-- Scroll js file -->
+                    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+                    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+                    <script type="text/javascript" src="js/scrolld.js"></script>
+                    <script type="text/javascript">
+                      $("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
+                    </script>
 
-                      $('.services-slide').magnificPopup({
-                         delegate: 'a',
-                         type: 'image',
-                         tLoading: 'Loading image #%curr%...',
-                         gallery: {
-                           enabled: true,
-                           navigateByImgClick: true,
-                           closeOnContentClick:true,
-                           closeOnBgClick:true,
-                           showCloseBtn:true,
-                           enableEscapeKey:true,
-                           preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-                         },
-                      });
-                    });
-               </script>
+               <!-- Flexslider -->
+                         <script>
+                         // Can also be used with $(document).ready()
+                         $(window).load(function() {
+                           $('#main-slider').flexslider({
+                             animation: "slide",
+                             animationSpeed:0,
+                             controlNav: false,
+                             maxItems:5,
+                             minItems:4,
+                             move:5,
+                             itemWidth:275,
+                             itemMargin:5,
+                             slideshowSpeed: 7000,
+                             pauseOnAction: true,
+                             pauseOnHover: true,
+                             touch: true
+                           });
+                         });
+                         </script>
 
-          <!-- Enable horizontal scroll with fixed header -->
-               <script>
-                    $(document).ready(function() {
-                         $('#header-container').scrollToFixed();
-                    });
-               </script>
+               <!-- Modal window -->
+                    <script type="text/javascript">
+                         $(document).ready(function() {
+                           $('.services-video').magnificPopup({
+                              disableOn: 700,
+                              type: 'iframe',
+                              removalDelay: 160,
+                              preloader: false,
+                              closeOnBgClick: true,
+                              showCloseBtn: true,
+                              enableEscapeKey: true,
+                              fixedBgPos:false,
+
+                              fixedContentPos: false
+                           });
+                         });
+                    </script>
+
+               <!-- Enable horizontal scroll with fixed header -->
+                    <script>
+                         $(document).ready(function() {
+                              $('#header-container').scrollToFixed();
+                         });
+                    </script>
 </html>
 </body>
