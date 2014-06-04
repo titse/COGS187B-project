@@ -144,14 +144,12 @@ ul {
      /*Logo*/
           #header-logo{
                float:left;
-               height:35%;
                /*min-width:350px;*/
-               /*width:35%;*/
+               width:35%;
           }
 
           #header-logo img{
-               height:100%;
-               /*width:100%;*/
+               width:100%;
           }
 
      /*Navigation*/
