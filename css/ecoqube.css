@@ -154,6 +154,9 @@
           }
 
           .ecoqube-press-logos{
+               display:inline;
+               margin:0 auto;
+               vertical-align:top;
                /*display:inline-block;*/
                /*padding-right:2em;*/
                /*padding-bottom:1.5em;*/
@@ -161,4 +164,10 @@
 
           .ecoqube-press-logos:hover{
                opacity:.75;
+          }
+
+          .ecoqube-inside{
+               font-size:32px;
+               padding:45px 90px;
+               text-align:center;
           }

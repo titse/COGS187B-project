@@ -26,7 +26,7 @@
           <script type="text/javascript" src="js/global.js"></script>
 
      <!-- FlexSlider2 -->
-          <link rel="stylesheet" href="flexslider2/flexslider-aboutpage.css" type="text/css">
+          <link rel="stylesheet" href="flexslider2/flexslider-about.css" type="text/css">
           <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> -->
           <script src="flexslider2/jquery.flexslider.js"></script>
 
@@ -227,7 +227,7 @@
               <div class="section-container">
                 <div class="section-content">
                   <div class="section-heading section-4">
-                    <a id="affiliates" class="anchor"></a>Affiliates, Sponsorships, and Philanthropy
+                    <a id="affiliates" class="anchor"></a>Affiliates and Sponsorships
                   </div><!-- .section-heading -->
                   <br />
                     <div id="secondary-slider" class="flexslider">
@@ -469,9 +469,8 @@
                       });
 
                       $('#secondary-slider').flexslider({
-                        // animation: "slide"
                         animation: "fade",
-                        animationSpeed:0,
+                        animationSpeed:500,
                         slideshowSpeed: 7000,
                         pauseOnAction: true,
                         pauseOnHover: true,

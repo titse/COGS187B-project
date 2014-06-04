@@ -245,26 +245,26 @@
              <div class="services-slide">
               <div id="main-slider" class="flexslider">
                     <ul class="slides">
-                         <li><a href="img/about/ourstory-4.jpg" title=""><img src="img/about/ourstory-4.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-5.jpg" title=""><img src="img/about/ourstory-5.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-6.jpg" title=""><img src="img/about/ourstory-6.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-13.jpg" title=""><img src="img/about/ourstory-13.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-7.jpg" title=""><img src="img/about/ourstory-7.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-10.jpg" title=""><img src="img/about/ourstory-10.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-1.jpg" title=""><img src="img/about/ourstory-1.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-9.jpg" title=""><img src="img/about/ourstory-9.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-2.jpg" title=""><img src="img/about/ourstory-2.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-3.jpg" title=""><img src="img/about/ourstory-3.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-18.jpg" title=""><img src="img/about/ourstory-18.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-21.jpg" title=""><img src="img/about/ourstory-21.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-8.jpg" title=""><img src="img/about/ourstory-8.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-14.jpg" title=""><img src="img/about/ourstory-14.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-15.jpg" title=""><img src="img/about/ourstory-15.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-16.jpg" title=""><img src="img/about/ourstory-17.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-17.jpg" title=""><img src="img/about/ourstory-16.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-19.jpg" title=""><img src="img/about/ourstory-19.jpg" /></a></li>
-                         <li><a href="img/about/ourstory-20.jpg" title=""><img src="img/about/ourstory-20.jpg" /></a></li>
-                         <li><a href="img/about/ecoqube-2.jpg" title=""><img src="img/ecoqube2.jpg" /></a></li>
+                         <li><a class="gal" href="img/about/ourstory-4.jpg" title=""><img src="img/about/ourstory-4.jpg" /></a></li>
+                         <li><a class="gal" href="img/about/ourstory-5.jpg" title=""><img src="img/about/ourstory-5.jpg" /></a></li>
+                         <li><a class="gal" href="img/about/ourstory-6.jpg" title=""><img src="img/about/ourstory-6.jpg" /></a></li>
+                         <li><a class="gal" href="img/about/ourstory-13.jpg" title=""><img src="img/about/ourstory-13.jpg" /></a></li>
+                         <li><a class="gal" href="img/about/ourstory-7.jpg" title=""><img src="img/about/ourstory-7.jpg" /></a></li>
+                         <li><a class="gal" href="img/about/ourstory-10.jpg" title=""><img src="img/about/ourstory-10.jpg" /></a></li>
+                         <li><a class="gal" href="img/about/ourstory-1.jpg" title=""><img src="img/about/ourstory-1.jpg" /></a></li>
+                         <li><a class="gal" href="img/about/ourstory-9.jpg" title=""><img src="img/about/ourstory-9.jpg" /></a></li>
+                         <li><a class="gal" href="img/about/ourstory-2.jpg" title=""><img src="img/about/ourstory-2.jpg" /></a></li>
+                         <li><a class="gal" href="img/about/ourstory-3.jpg" title=""><img src="img/about/ourstory-3.jpg" /></a></li>
+                         <li><a class="gal" href="img/about/ourstory-18.jpg" title=""><img src="img/about/ourstory-18.jpg" /></a></li>
+                         <li><a class="gal" href="img/about/ourstory-21.jpg" title=""><img src="img/about/ourstory-21.jpg" /></a></li>
+                         <li><a class="gal" href="img/about/ourstory-8.jpg" title=""><img src="img/about/ourstory-8.jpg" /></a></li>
+                         <li><a class="gal" href="img/about/ourstory-14.jpg" title=""><img src="img/about/ourstory-14.jpg" /></a></li>
+                         <li><a class="gal" href="img/about/ourstory-15.jpg" title=""><img src="img/about/ourstory-15.jpg" /></a></li>
+                         <li><a class="gal" href="img/about/ourstory-16.jpg" title=""><img src="img/about/ourstory-17.jpg" /></a></li>
+                         <li><a class="gal" href="img/about/ourstory-17.jpg" title=""><img src="img/about/ourstory-16.jpg" /></a></li>
+                         <li><a class="gal" href="img/about/ourstory-19.jpg" title=""><img src="img/about/ourstory-19.jpg" /></a></li>
+                         <li><a class="gal" href="img/about/ourstory-20.jpg" title=""><img src="img/about/ourstory-20.jpg" /></a></li>
+                         <li><a class="gal" href="img/about/ecoqube-2.jpg" title=""><img src="img/ecoqube2.jpg" /></a></li>
                     </ul>
                </div></div>
                 </div><!-- .section-content -->
@@ -437,13 +437,12 @@
                       });
 
                       $('.services-slide').magnificPopup({
-                         delegate: 'a',
+                         delegate: '.gal',
                          type: 'image',
                          tLoading: 'Loading image #%curr%...',
                          gallery: {
                            enabled: true,
                            navigateByImgClick: true,
-                           closeOnContentClick:true,
                            closeOnBgClick:true,
                            showCloseBtn:true,
                            enableEscapeKey:true,
