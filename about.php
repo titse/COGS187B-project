@@ -155,45 +155,64 @@
           <a id="ourstory" class="anchor"></a>We are Kevin and Eric.
         </div><!-- .section-heading -->
         <div class="about-ourstory">
-          <br />
-          Currently, we attend UC San Diego and are aquarium geeks who met in high school and instantly became intrigued by planted aquatic ecosystems.
-          <br /><br />
-          As we got older, we realized the bigger challenges humanity as a whole faces in terms of food and water shortages, so we decided to use our knowledge of aquariums to deliver the concept of aquaponics to as many people as possible.
-          <br /><br />
-          With knowledge and experience, we established ADI with the fundamental goals to build a business around a solution for the aquarium industry and to raise environmental awareness.
-          <br />
-          <br />
-          But now, we'd like to expand our reach to you through the EcoQube, a miniature aquatic ecosystem that we created to deliver the practical solution and beauty of aquaponics to households and offices around the world!
-          <br /><br />
-          We know that we can’t solve the many problems in our world with a fish tank, no matter how beautiful it is, but we hope to connect people to our environment and influence the way they perceive the larger issues in our world today.
-          <br /><br />
-          “Because the crazy ones who think they can change the world are the ones who do.” –Apple
-        </div><!-- .about-ourstory -->
-        <br /><div id="ourstory-slide">
-          <div id="main-slider" class="flexslider">
-            <ul class="slides">
-              <li><img src="img/about/ourstory-4.jpg" class="about-ourstory-images" /></li>
-              <li><img src="img/about/ourstory-5.jpg" class="about-ourstory-images" /></li>
-              <li><img src="img/about/ourstory-6.jpg" class="about-ourstory-images" /></li>
-              <li><img src="img/about/ourstory-13.jpg" class="about-ourstory-images" /></li>
-              <li><img src="img/about/ourstory-7.jpg" class="about-ourstory-images" /></li>
-              <li><img src="img/about/ourstory-10.jpg" class="about-ourstory-images" /></li>
-              <li><img src="img/about/ourstory-1.jpg" class="about-ourstory-images" /></li>
-              <li><img src="img/about/ourstory-9.jpg" class="about-ourstory-images" /></li>
-              <li><img src="img/about/ourstory-2.jpg" class="about-ourstory-images" /></li>
-              <li><img src="img/about/ourstory-3.jpg" class="about-ourstory-images" /></li>
-              <li><img src="img/about/ourstory-18.jpg" class="about-ourstory-images" /></li>
-              <li><img src="img/about/ourstory-21.jpg" class="about-ourstory-images" /></li>
-              <li><img src="img/about/ourstory-8.jpg" class="about-ourstory-images" /></li>
-              <li><img src="img/about/ourstory-14.jpg" class="about-ourstory-images" /></li>
-              <li><img src="img/about/ourstory-15.jpg" class="about-ourstory-images" /></li>
-              <li><img src="img/about/ourstory-17.jpg" class="about-ourstory-images" /></li>
-              <li><img src="img/about/ourstory-16.jpg" class="about-ourstory-images" /></li>
-              <li><img src="img/about/ourstory-19.jpg" class="about-ourstory-images" /></li>
-              <li><img src="img/about/ourstory-20.jpg" class="about-ourstory-images" /></li>
-              <li><img src="img/ecoqube2.jpg" class="about-ourstory-images" /></li>
-            </ul>
-          </div></div>
+        We are UC San Diego students and aquarium geeks who met in high school and instantly became intrigued by planted aquatic ecosystems.
+        <br />
+        As we got older, we realized the bigger challenges humanity as a whole faces in terms of food and water shortages, so we decided to use our knowledge of aquariums to deliver the concept of aquaponics to as many people as possible.
+
+
+<div class="about-timeline">
+<ul>
+  <li class="left">
+    The Beginning
+    <br />
+    We started out working as operations managers, biology assistants, sales representatives, and installing aquariums at various locations.
+  </li>
+  <li class="left about-timeline-logos">
+    <img src="img/about/aquaticcentral.png" />
+    <img src="img/about/californiaacademyofsciences.png" />
+    <img src="img/about/aquaforestaquarium.png" />
+  </li>
+  <li class="right about-timeline-images">
+    <img src="img/about/ourstory-4.jpg" />
+  </li>
+   <li class="left">
+    With knowledge and experience, we established ADI with the fundamental goals to build a business around a solution for the aquarium industry and to raise environmental awareness.
+  </li>
+  <li class="left">
+    Eventually, we decided to start our own online aquarium store while selling shrimp out of a garage in San Francisco
+  </li>
+  <li class="left about-timeline-images">
+     <img src="img/about/ourstory-1.jpg" />
+ </li>
+  <li class="right">
+    The Evolution
+    <br />
+    We continued pursuing our passion for connecting people with nature through aquatic ecosystem installations.
+  </li>
+  <li class="right">
+    We even brought our love of aquariums with us to college.
+  </li>
+  <li class="right about-timeline-images">
+     <img src="img/about/ourstory-8.jpg" class="about-ourstory-timeline-images" />
+  </li>
+  <li class="right about-timeline-images">
+     <img src="img/about/kickstarter.png" />
+  </li>
+  <li class="left">
+    The Company Today
+    <br />
+    But now, we'd like to expand our reach to you through the EcoQube, a miniature aquatic ecosystem that we created to deliver the practical solution and beauty of aquaponics to households and offices around the world!
+  </li>
+  <li class="highlight about-timeline-highlight">
+     <img src="img/ecoqube2.jpg" />
+  </li>
+  <li class="left">
+    We know that we can’t solve the many problems in our world with a fish tank, no matter how beautiful it is, but we hope to connect people to our environment and influence the way they perceive the larger issues in our world today.
+</li>
+</ul>
+</div>
+
+         </div><!-- .about-ourstory -->
         </div><!-- .section-content -->
       </div><!-- .section-container -->
 
