@@ -273,6 +273,7 @@
      }
 
      .about-vision-quote{
+          color:rgba(0,0,0,.8);
           display:block;
           font-family:"Helvetica Neue LT Pro Light Extended";
           font-size:28px;
