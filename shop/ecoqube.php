@@ -100,8 +100,15 @@
                   <div class="delete-prod">
                     x
                   </div>
-                  <p>Clouded minnow</p>
-                  <p>$ 1.49  - Qty:  3</p>
+                  <p class="prod-name">Clouded minnow</p>
+                  <div class="qty-adjust">
+                    <p>&#xe864;</p>
+                    <p>&#xe862;</p>
+                  </div>
+                  <p class="total-values">
+                    2  <br>
+                    $ 2.98</p>
+                  <p class="total">Qty: <br> Price:</p>
                 </div>
 
                 <div class="shoppingcart-product">
@@ -110,8 +117,15 @@
                   <div class="delete-prod">
                     x
                   </div>
-                  <p>Clouded minnow</p>
-                  <p>$ 1.49  - Qty:  3</p>
+                  <p class="prod-name">Clouded minnow</p>
+                  <div class="qty-adjust">
+                    <p>&#xe864;</p>
+                    <p>&#xe862;</p>
+                  </div>
+                  <p class="total-values">
+                    2  <br>
+                    $ 2.98</p>
+                  <p class="total">Qty: <br> Price:</p>
                 </div>
 
                 <div class="shoppingcart-product">
@@ -120,27 +134,25 @@
                   <div class="delete-prod">
                     x
                   </div>
-                  <p>Clouded minnow</p>
-                  <p>$ 1.49  - Qty:  3</p>
-                </div>
-
-                <div class="shoppingcart-product">
-                  <img src="../img/shop/clouded-minnow.jpg" class="horizontal" alt="Product image">
-
-                  <div class="delete-prod">
-                    x
+                  <p class="prod-name">Clouded minnow</p>
+                  <div class="qty-adjust">
+                    <p>&#xe864;</p>
+                    <p>&#xe862;</p>
                   </div>
-                  <p>Clouded minnow</p>
-                  <p>$ 1.49  - Qty:  3</p>
+                  <p class="total-values">
+                    2  <br>
+                    $ 2.98</p>
+                  <p class="total">Qty: <br> Price:</p>
                 </div>
+                
               </div>
 
               <div id="shoppingcart-footer">
                 <div id="shoppingcart-summary">
                   <div id="totals">
                     <p>
-                      <strong>Total qty: </strong><br>
-                      <strong>Total price: </strong>
+                      Total qty: <br>
+                      Total price:
                     </p>
                   </div>
 
@@ -152,7 +164,7 @@
                   </div>
 
                   <div id="checkout">
-
+                    <input id="checkout-btn" type="submit" value="Checkout"/>
                   </div>
                 </div>
 

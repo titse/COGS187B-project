@@ -12,16 +12,15 @@ Authors: Tiffany Tse, Hakon L'orange Elizabeth Stevens
 	.shopping-cart  ul.shopping-cart-submenu  ul.shopping-header li{
 		float:left;
 		background-color: grey;
-		color: white; 
+		color: white;
 	}
-	.shopping-cart-submenu{	
+	.shopping-cart-submenu{
 	clear:both;
 	display: none;
 
-}	  
+}
 
 /**click dropdown js **/
 .shopping-cart ul.shopping-cart-submenu: hover{
 	display:block;
 }
-	
