@@ -93,42 +93,47 @@
                 </div><!-- #header-navigation -->
               </header>
             </div><!-- #header-container -->
-     
+
      <!-- Dot navigation -->
             <div id="dot-navigation-container">
               <ul>
                 <li class="dot-navigation-icon">
                   <a id="ecoqubeBtn" class="" href="faq.php#ecoqube">
-                    <img class="navigation-dot"  id="img-section-1-dot" src="img/dots/dot-current.gif" width="25" height="25" alt="EcoQube Navigation Dot" title="EcoQube" />
+                    <img class="navigation-dot"  id="img-section-1-dot" src="img/dots/dot-current.png" width="25" height="25" alt="EcoQube Navigation Dot" title="EcoQube" />
+                    <img class="navigation-dot hover"  id="img-section-1-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="EcoQube Navigation Dot" title="EcoQube" />
                   </a>
                 </li>
 
                 <li class="dot-navigation-icon">
                   <a id="shopBtn" class="" href="faq.php#shop">
-                    <img class="navigation-dot" id="img-section-2-dot" src="img/dots/dot.gif" width="25" height="25" alt="Shop Navigation Dot" title="Shop" />
+                    <img class="navigation-dot" id="img-section-2-dot" src="img/dots/dot.png" width="25" height="25" alt="Shop Navigation Dot" title="Shop" />
+                    <img class="navigation-dot hover" id="img-section-2-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Shop Navigation Dot" title="Shop" />
                   </a>
                 </li>
 
                 <li class="dot-navigation-icon">
                   <a id="servicesBtn" class="" href="faq.php#services">
-                    <img class="navigation-dot" id="img-section-3-dot" src="img/dots/dot.gif" width="25" height="25" alt="Services Navigation Dot" title="Services" />
+                    <img class="navigation-dot" id="img-section-3-dot" src="img/dots/dot.png" width="25" height="25" alt="Services Navigation Dot" title="Services" />
+                    <img class="navigation-dot hover" id="img-section-3-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Services Navigation Dot" title="Services" />
                   </a>
                 </li>
 
                 <li class="dot-navigation-icon">
                   <a id="shippingBtn" class="" href="faq.php#shipping">
-                    <img class="navigation-dot" id="img-section-4-dot" src="img/dots/dot.gif" width="25" height="25" alt="Shipping Navigation Dot" title="Shipping" />
+                    <img class="navigation-dot" id="img-section-4-dot" src="img/dots/dot.png" width="25" height="25" alt="Shipping Navigation Dot" title="Shipping" />
+                    <img class="navigation-dot hover" id="img-section-4-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Shipping Navigation Dot" title="Shipping" />
                   </a>
                 </li>
 
                 <li class="dot-navigation-icon">
                   <a id="warrantyBtn" class="" href="faq.php#warranty">
-                    <img class="navigation-dot" id="img-section-5-dot" src="img/dots/dot.gif" width="25" height="25" alt="Warranty Navigation Dot" title="Warranty" />
+                    <img class="navigation-dot" id="img-section-5-dot" src="img/dots/dot.png" width="25" height="25" alt="Warranty Navigation Dot" title="Warranty" />
+                    <img class="navigation-dot hover" id="img-section-5-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Warranty Navigation Dot" title="Warranty" />
                   </a>
                 </li>
               </ul>
             </div>
-     
+
      <!-- Content  -->
             <div id="content-container">
               <div class="section-container">
@@ -236,7 +241,7 @@
                 </div><!-- section-content -->
               </div><!-- .section-container -->
                </div><!-- #content-container -->
-     
+
      <!-- Footer -->
           <div id="footer-container">
                <div id="footer-topbar">
@@ -333,7 +338,7 @@
                 </div><!-- #footer-copyright -->
               </footer>
             </div><!-- #footer-container -->
-     
+
      <!-- Scripts -->
           <!-- Javascript code identifying which sections are visible on the screen -->
                <script type="text/javascript">

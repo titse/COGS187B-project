@@ -8,15 +8,15 @@ function updateDots(visibleSection){
     return;
   }
 
-  $("#img-section-0-dot").attr('src','img/dots/dot.gif' );
-  $("#img-section-1-dot").attr('src','img/dots/dot.gif' );
-  $("#img-section-2-dot").attr('src','img/dots/dot.gif' );
-  $("#img-section-3-dot").attr('src','img/dots/dot.gif' );
-  $("#img-section-4-dot").attr('src','img/dots/dot.gif' );
-  $("#img-section-5-dot").attr('src','img/dots/dot.gif' );
+  $("#img-section-0-dot").attr('src','img/dots/dot.png' );
+  $("#img-section-1-dot").attr('src','img/dots/dot.png' );
+  $("#img-section-2-dot").attr('src','img/dots/dot.png' );
+  $("#img-section-3-dot").attr('src','img/dots/dot.png' );
+  $("#img-section-4-dot").attr('src','img/dots/dot.png' );
+  $("#img-section-5-dot").attr('src','img/dots/dot.png' );
 
   if (visibleSection == "section-0") {
-    $("#img-section-0-dot").attr('src','img/dots/dot-current.gif' );
+    $("#img-section-0-dot").attr('src','img/dots/dot-current.png' );
     currSection = "section-0";
 
     if (DEBUG) {
@@ -24,7 +24,7 @@ function updateDots(visibleSection){
       console.log("Setting currSection to " + currSection);
     }
   } else if (visibleSection == "section-1") {
-    $("#img-section-1-dot").attr('src','img/dots/dot-current.gif' );
+    $("#img-section-1-dot").attr('src','img/dots/dot-current.png' );
     currSection = "section-1";
 
     if (DEBUG) {
@@ -33,7 +33,7 @@ function updateDots(visibleSection){
     }
   } else if (visibleSection == "section-2") {
 
-    $("#img-section-2-dot").attr('src','img/dots/dot-current.gif' );
+    $("#img-section-2-dot").attr('src','img/dots/dot-current.png' );
     currSection = "section-2";
 
     if (DEBUG) {
@@ -42,7 +42,7 @@ function updateDots(visibleSection){
     }
   } else if (visibleSection == "section-3") {
 
-    $("#img-section-3-dot").attr('src','img/dots/dot-current.gif' );
+    $("#img-section-3-dot").attr('src','img/dots/dot-current.png' );
     currSection = "section-3";
 
     if (DEBUG) {
@@ -51,7 +51,7 @@ function updateDots(visibleSection){
     }
   } else if (visibleSection == "section-4") {
 
-    $("#img-section-4-dot").attr('src','img/dots/dot-current.gif' );
+    $("#img-section-4-dot").attr('src','img/dots/dot-current.png' );
     currSection = "section-4";
 
     if (DEBUG) {
@@ -60,7 +60,7 @@ function updateDots(visibleSection){
     }
   } else if (visibleSection == "section-5") {
 
-    $("#img-section-5-dot").attr('src','img/dots/dot-current.gif' );
+    $("#img-section-5-dot").attr('src','img/dots/dot-current.png' );
     currSection = "section-5";
 
     if (DEBUG) {
@@ -80,15 +80,15 @@ function updateDotsChildDir(visibleSection){
     return;
   }
 
-  $("#img-section-0-dot").attr('src','../img/dots/dot.gif' );
-  $("#img-section-1-dot").attr('src','../img/dots/dot.gif' );
-  $("#img-section-2-dot").attr('src','../img/dots/dot.gif' );
-  $("#img-section-3-dot").attr('src','../img/dots/dot.gif' );
-  $("#img-section-4-dot").attr('src','../img/dots/dot.gif' );
-  $("#img-section-5-dot").attr('src','../img/dots/dot.gif' );
+  $("#img-section-0-dot").attr('src','../img/dots/dot.png' );
+  $("#img-section-1-dot").attr('src','../img/dots/dot.png' );
+  $("#img-section-2-dot").attr('src','../img/dots/dot.png' );
+  $("#img-section-3-dot").attr('src','../img/dots/dot.png' );
+  $("#img-section-4-dot").attr('src','../img/dots/dot.png' );
+  $("#img-section-5-dot").attr('src','../img/dots/dot.png' );
 
   if (visibleSection == "section-0") {
-    $("#img-section-0-dot").attr('src','../img/dots/dot-current.gif' );
+    $("#img-section-0-dot").attr('src','../img/dots/dot-current.png' );
     currSection = "section-0";
 
     if (DEBUG) {
@@ -96,7 +96,7 @@ function updateDotsChildDir(visibleSection){
       console.log("Setting currSection to " + currSection);
     }
   } else if (visibleSection == "section-1") {
-    $("#img-section-1-dot").attr('src','../img/dots/dot-current.gif' );
+    $("#img-section-1-dot").attr('src','../img/dots/dot-current.png' );
     currSection = "section-1";
 
     if (DEBUG) {
@@ -105,7 +105,7 @@ function updateDotsChildDir(visibleSection){
     }
   } else if (visibleSection == "section-2") {
 
-    $("#img-section-2-dot").attr('src','../img/dots/dot-current.gif' );
+    $("#img-section-2-dot").attr('src','../img/dots/dot-current.png' );
     currSection = "section-2";
 
     if (DEBUG) {
@@ -114,7 +114,7 @@ function updateDotsChildDir(visibleSection){
     }
   } else if (visibleSection == "section-3") {
 
-    $("#img-section-3-dot").attr('src','../img/dots/dot-current.gif' );
+    $("#img-section-3-dot").attr('src','../img/dots/dot-current.png' );
     currSection = "section-3";
 
     if (DEBUG) {
@@ -123,7 +123,7 @@ function updateDotsChildDir(visibleSection){
     }
   } else if (visibleSection == "section-4") {
 
-    $("#img-section-4-dot").attr('src','../img/dots/dot-current.gif' );
+    $("#img-section-4-dot").attr('src','../img/dots/dot-current.png' );
     currSection = "section-4";
 
     if (DEBUG) {
@@ -132,7 +132,7 @@ function updateDotsChildDir(visibleSection){
     }
   } else if (visibleSection == "section-5") {
 
-    $("#img-section-5-dot").attr('src','../img/dots/dot-current.gif' );
+    $("#img-section-5-dot").attr('src','../img/dots/dot-current.png' );
     currSection = "section-5";
 
     if (DEBUG) {

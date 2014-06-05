@@ -101,25 +101,29 @@
     <ul>
       <li class="dot-navigation-icon">
         <a id="topBtn" class="section-0-dot dot-hover" href="ecoqube.php#top" data-title="Top">
-          <img class="navigation-dot" id="img-section-0-dot" src="../img/dots/dot-current.gif" width="25" height="25" alt="Top Navigation Dot" />
+          <img class="navigation-dot" id="img-section-0-dot" src="../img/dots/dot-current.png" width="25" height="25" alt="Top Navigation Dot" />
+          <img class="navigation-dot hover" id="img-section-0-dot" src="../img/dots/dot-hover.png" width="25" height="25" alt="Top Navigation Dot" />
         </a>
       </li>
 
       <li class="dot-navigation-icon">
         <a id="ecosystemsBtn" class="section-1-dot dot-hover" href="ecosystems.php#ecosystems" data-title="Aquatic ecosystems">
-          <img class="navigation-dot" id="img-section-1-dot" src="../img/dots/dot.gif" width="25" height="25" alt="Aquatic ecosystems"/>
+          <img class="navigation-dot" id="img-section-1-dot" src="../img/dots/dot.png" width="25" height="25" alt="Aquatic ecosystems"/>
+          <img class="navigation-dot hover" id="img-section-1-dot" src="../img/dots/dot-hover.png" width="25" height="25" alt="Aquatic ecosystems"/>
         </a>
       </li>
 
       <li class="dot-navigation-icon">
         <a id="aquaponicBtn" class="section-2-dot dot-hover" href="ecosystems.php#aquaponic" data-title="The aquaponics cycle" >
-          <img class="navigation-dot" id="img-section-2-dot" src="../img/dots/dot.gif" width="25" height="25" alt="The aquaponics cycle"/>
+          <img class="navigation-dot" id="img-section-2-dot" src="../img/dots/dot.png" width="25" height="25" alt="The aquaponics cycle"/>
+          <img class="navigation-dot hover" id="img-section-2-dot" src="../img/dots/dot-hover.png" width="25" height="25" alt="The aquaponics cycle"/>
         </a>
       </li>
 
       <li class="dot-navigation-icon">
         <a id="componentsBtn" class="section-3-dot dot-hover" href="ecosystems.php#components" data-title="The compnents of an aquatic ecosystem">
-          <img class="navigation-dot" id="img-section-3-dot" src="../img/dots/dot.gif" width="25" height="25" alt="Buy It Today Navigation Dot"/>
+          <img class="navigation-dot" id="img-section-3-dot" src="../img/dots/dot.png" width="25" height="25" alt="Buy It Today Navigation Dot"/>
+          <img class="navigation-dot hover" id="img-section-3-dot" src="../img/dots/dot-hover.png" width="25" height="25" alt="Buy It Today Navigation Dot"/>
         </a>
       </li>
 
