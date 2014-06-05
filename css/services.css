@@ -92,6 +92,11 @@
                letter-spacing:1px;
                padding:5px;
                width:75%;
+               box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+               -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+               -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+               -o-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+               border: 3px solid rgba(239,239,239,1); 
                }
 
                input.contact-subject{
@@ -105,6 +110,11 @@
                letter-spacing:1px;
                padding:5px;
                width:325px;
+               box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+               -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+               -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+               -o-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+               border: 3px solid rgba(239,239,239,1); 
                }
 
                .mandatory:before {
@@ -149,6 +159,9 @@
                background-color:rgba(38,160,47,1);
                border:none;
                box-shadow:2px 2px 2px rgba(0,0,0,.08);
+               -webkit-box-shadow:2px 2px 2px rgba(0,0,0,.08);
+               -moz-box-shadow:2px 2px 2px rgba(0,0,0,.08);
+               -o-box-shadow:2px 2px 2px rgba(0,0,0,.08);
                color:rgba(255,255,255,1);
                /*cursor:pointer;*/
                display:inline-block;

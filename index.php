@@ -106,13 +106,28 @@
                                                   same plants to clean aquarium <br />
                                                   water with ease.
                						<!-- </div> --><!-- .index-words -->
-									
                                         </div><!-- .index-slider-overlay -->
 									
           					</div><!-- ns_slideContent -->
                               </a>
 				     </div><!-- .picture1 ~~~~~> there is no css code for this -->
-						<img src = "img/ecoqube3.png"/>
+                         <div class="picture2">
+                              <img src="img/ecoqube3.png" />
+                              <!-- <a href="ecoqube.php"> -->
+                             <div class="ns_slideContent">
+                                        <div class="index-slider-overlay">
+                                             <!-- <img src="img/index/kickstarter.png" /><br /><br /> -->
+                                             <!-- <div class="index-words"> -->
+                                                  <!-- The most beautiful way to grow herbs, house <br />
+                                                  plants, or flowers indoor while using the <br />
+                                                  same plants to clean aquarium <br />
+                                                  water with ease. -->
+                                             <!-- </div> --><!-- .index-words -->
+                                        </div><!-- .index-slider-overlay -->
+                                   </div><!-- ns_slideContent -->
+                              <!-- </a> -->
+                         </div><!-- .picture2 ~~~~~> there is no css code for this -->
+						<!-- <img src = "img/ecoqube3.png"/> -->
 				</div><!-- .slider -->
                </div><!-- .section-container #first-section-margin -->
           </div><!-- #content-container -->

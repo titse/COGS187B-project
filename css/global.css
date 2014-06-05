@@ -500,7 +500,9 @@ ul {
      }
 
      input.footer-input{
-          border:0;
+          /*border:0;*/
+          border: 3px solid rgba(239,239,239,1);
+          font-size:14px;
           letter-spacing:1px;
           margin:0;
           padding:5px;
@@ -509,12 +511,13 @@ ul {
 
      #footer-submit {
           background-color:rgba(38,160,47,1);
-          border:none;
-          box-shadow:2px 2px 2px rgba(0,0,0,.08);
+          border:2px solid rgba(38,160,47,1);
           color:rgba(255,255,255,1);
           display:inline-block;
-          padding:6px 20px;
+          font-size:14px;
+          letter-spacing:1px;
           margin:0;
+          padding:6px 20px;
           text-shadow:1px 1px 5px rgba(0,0,0,.75);
           text-transform:uppercase;
           }
