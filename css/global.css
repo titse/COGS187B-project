@@ -322,6 +322,34 @@ ul {
           border:0.5px black solid;
           }
 
+          .shoppingcart-product img{
+          display:inline-block;
+          /*background-color:blue;*/
+          width:30%;
+          height:100%;
+          float:left;
+          }
+
+          .shoppingcart-product p{
+          display:inline-block;
+          /*background-color:blue;*/
+          width:70%;
+          height:30%;
+          float:left;
+          text-align:left;
+          padding:2px;
+          }
+
+          .delete-prod {
+            display:inline-block;
+            /*background-color:blue;*/
+            width:70%;
+            height:30%;
+            float:left;
+            text-align:right;
+            padding:2px;
+          }
+
           #shoppingcart-footer{
           display:inline-block;
           background-color:rgba(74,74,74,1);

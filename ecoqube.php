@@ -106,7 +106,13 @@
 
               <div id="shoppingcart-product-field">
                 <div class="shoppingcart-product">
+                  <img src="img/shop/clouded-minnow.jpg" class="horizontal" alt="Product image">
 
+                  <div class="delete-prod">
+                    x
+                  </div>
+                  <p>Clouded minnow</p>
+                  <p>$ 1.49  - Qty:  3</p>
                 </div>
 
                 <div class="shoppingcart-product">

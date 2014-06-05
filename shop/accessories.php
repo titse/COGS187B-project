@@ -88,6 +88,62 @@
             </ul>
           </li>
           <li><a href="../index.php" id="header-icon-cart">&#xe811;</a>
+            <div id="shoppingcart-dropdown">
+              <div id="shoppingcart-header">
+                <p>SHOPPING CART</p>
+              </div>
+
+              <div id="shoppingcart-product-field">
+                <div class="shoppingcart-product">
+                  <img src="../img/shop/clouded-minnow.jpg" class="horizontal" alt="Product image">
+
+                  <div class="delete-prod">
+                    x
+                  </div>
+                  <p>Clouded minnow</p>
+                  <p>$ 1.49  - Qty:  3</p>
+                </div>
+
+                <div class="shoppingcart-product">
+
+                </div>
+
+                <div class="shoppingcart-product">
+
+                </div>
+
+                <div class="shoppingcart-product">
+
+                </div>
+              </div>
+
+              <div id="shoppingcart-footer">
+                <div id="shoppingcart-summary">
+                  <div id="totals">
+                    <p>
+                      <strong>Total qty: </strong><br>
+                      <strong>Total price: </strong>
+                    </p>
+                  </div>
+
+                  <div id="total-values">
+                    <p>
+                      4 <br>
+                      $ 9.99
+                    </p>
+                  </div>
+
+                  <div id="checkout">
+
+                  </div>
+                </div>
+
+                <div id="shoppingcart-notification">
+                  <p>30% OFF FISH STORE PRICES ON QUANTITIES OF 12 OR MORE</p>
+                </div>
+
+              </div>
+            </div>
           </li>
         </ul>
       </div><!-- #header-navigation -->
