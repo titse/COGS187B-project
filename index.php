@@ -5,7 +5,7 @@
      <link type="text/css" rel="stylesheet" href="css/global.css" />
      <link type="text/css" rel="stylesheet" href="css/index.css" />
      <link type="image/png" rel="shortcut icon" href="img/logos/favicon.ico" />
-	
+
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -44,17 +44,17 @@
                                         <li><a href="ecoqube.php#press">Press Releases</a></li>
                                    </ul>
                               </li>
-                              <li><a href="shop/index.php" class="header-heading">Shop</a> 
+                              <li><a href="shop/index.php" class="header-heading">Shop</a>
                                    <ul class="sub_menu">
                                         <li><a href="shop/ecoqube.php">EcoQube</a></li>
                                         <li><a href="shop/livestock.php">Livestock</a></li>
                                         <li><a href="shop/plants.php">Plants</a></li>
                                         <li><a href="shop/accessories.php">Accessories</a></li>
-                                     </ul>                           
+                                     </ul>
                               </li>
                               <li><a href="services.php" class="header-heading">Services</a>
                                    <ul  class="sub_menu">
-                                        <li><a href="services.php#contact">Contact</a></li>    
+                                        <li><a href="services.php#contact">Contact</a></li>
                                         <li><a href="services.php#installations">Installations</a></li>
                                         <li><a href="services.php#maintenance">Maintenance</a></li>
                                         <li><a href="services.php#gallery">Gallery</a></li>
@@ -89,7 +89,7 @@
                     </div><!-- #header-navigation -->
                </header>
           </div><!-- #header-container -->
-     
+
      <!-- Content -->
           <div id="content-container">
                <div class="section-container" >
@@ -99,7 +99,7 @@
      					<a href="ecoqube.php">
                              <div class="ns_slideContent">
           						<div class="index-slider-overlay">
-                                             <img src="img/logos/ecoqube-logo.png" /><br /><br />
+                                             <img src="img/logos/ecoqube-logo.png" width="1400"/><br /><br />
                	          			<!-- <div class="index-words"> -->
                                                   The most beautiful way to grow herbs, house <br />
                                                   plants, or flowers indoor while using the <br />
@@ -107,12 +107,12 @@
                                                   water with ease.
                						<!-- </div> --><!-- .index-words -->
                                         </div><!-- .index-slider-overlay -->
-									
+
           					</div><!-- ns_slideContent -->
                               </a>
 				     </div><!-- .picture1 ~~~~~> there is no css code for this -->
                          <div class="picture2">
-                              <img src="img/ecoqube3.png" />
+                              <img src="img/ecoqube3.png" width="1400"/>
                               <!-- <a href="ecoqube.php"> -->
                              <div class="ns_slideContent">
                                         <div class="index-slider-overlay">
@@ -131,7 +131,7 @@
 				</div><!-- .slider -->
                </div><!-- .section-container #first-section-margin -->
           </div><!-- #content-container -->
-     
+
      <!-- Footer -->
           <div id="footer-container">
                <div id="footer-topbar">
@@ -191,7 +191,7 @@
                                    </ul>
                                    <ul>
                                         <li><a href="services.php">Services</a></li>
-                                        <li><a href="services.php#contact">Contact</a></li>    
+                                        <li><a href="services.php#contact">Contact</a></li>
                                         <li><a href="services.php#installations">Installations</a></li>
                                         <li><a href="services.php#maintenance">Maintenance</a></li>
                                         <li><a href="services.php#gallery">Gallery</a></li>
@@ -226,7 +226,7 @@
 
                     </footer>
           </div><!-- #footer-container -->
-     
+
      <!-- Scripts -->
 
           <!-- Activate the nerve slider -->
@@ -236,8 +236,8 @@
                          sliderWidth: "100%",
                          sliderHeight: "450px",
                          sliderResizable: true,
-                      
-					
+
+
                          // More options below
                     });
                });
