@@ -270,9 +270,12 @@ body a:hover {
   #product-image-overlay a {
     display:inline-block;
     /*background-color:grey;*/
+    /*font-family:"Helvetica Neue LT Pro Medium";*/
     margin-top:10%;
     width:60%;
     color:#efefef;
+    text-transform:uppercase;
+    text-shadow:0 0 2px rgba(0,0,0,.75);
   }
 
   .overlay-icon{
@@ -280,14 +283,17 @@ body a:hover {
     font-size:60px;
     padding:5px;
     color:#efefef;
+    text-shadow:0 0 2px rgba(0,0,0,.75);
   }
 
   #product-image-overlay a:hover {
     color:#006cb8;
+    text-shadow:0 0 2px rgba(255,255,255,0);
   }
 
   #product-image-overlay a:hover .overlay-icon {
     color:#006cb8;
+    text-shadow:0 0 2px rgba(255,255,255,0);
   }
 
   /*
