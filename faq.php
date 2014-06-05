@@ -98,37 +98,44 @@
             <div id="dot-navigation-container">
               <ul>
                 <li class="dot-navigation-icon">
-                  <a id="ecoqubeBtn" class="" href="faq.php#ecoqube">
-                    <img class="navigation-dot"  id="img-section-1-dot" src="img/dots/dot-current.png" width="25" height="25" alt="EcoQube Navigation Dot" title="EcoQube" />
-                    <img class="navigation-dot hover"  id="img-section-1-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="EcoQube Navigation Dot" title="EcoQube" />
+                  <a id="topBtn" class="section-0-dot dot-hover" href="ecoqube.php#top" data-title="Top">
+                    <img class="navigation-dot" id="img-section-0-dot" src="img/dots/dot-current.png" width="25" height="25" alt="Top Navigation Dot"/>
+                    <img class="navigation-dot hover" id="img-section-0-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Top Navigation Dot"/>
                   </a>
                 </li>
 
                 <li class="dot-navigation-icon">
-                  <a id="shopBtn" class="" href="faq.php#shop">
-                    <img class="navigation-dot" id="img-section-2-dot" src="img/dots/dot.png" width="25" height="25" alt="Shop Navigation Dot" title="Shop" />
-                    <img class="navigation-dot hover" id="img-section-2-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Shop Navigation Dot" title="Shop" />
+                  <a id="ecoqubeBtn" class="section-1-dot dot-hover" href="faq.php#ecoqube" data-title="EcoQube">
+                    <img class="navigation-dot"  id="img-section-1-dot" src="img/dots/dot.png" width="25" height="25" alt="EcoQube Navigation Dot"/>
+                    <img class="navigation-dot hover"  id="img-section-1-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="EcoQube Navigation Dot"/>
                   </a>
                 </li>
 
                 <li class="dot-navigation-icon">
-                  <a id="servicesBtn" class="" href="faq.php#services">
-                    <img class="navigation-dot" id="img-section-3-dot" src="img/dots/dot.png" width="25" height="25" alt="Services Navigation Dot" title="Services" />
-                    <img class="navigation-dot hover" id="img-section-3-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Services Navigation Dot" title="Services" />
+                  <a id="shopBtn" class="section-2-dot dot-hover"  href="faq.php#shop" data-title="Shop">
+                    <img class="navigation-dot" id="img-section-2-dot" src="img/dots/dot.png" width="25" height="25" alt="Shop Navigation Dot"/>
+                    <img class="navigation-dot hover" id="img-section-2-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Shop Navigation Dot"/>
                   </a>
                 </li>
 
                 <li class="dot-navigation-icon">
-                  <a id="shippingBtn" class="" href="faq.php#shipping">
-                    <img class="navigation-dot" id="img-section-4-dot" src="img/dots/dot.png" width="25" height="25" alt="Shipping Navigation Dot" title="Shipping" />
-                    <img class="navigation-dot hover" id="img-section-4-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Shipping Navigation Dot" title="Shipping" />
+                  <a id="servicesBtn" class="section-3-dot dot-hover" href="faq.php#services" data-title="Services">
+                    <img class="navigation-dot" id="img-section-3-dot" src="img/dots/dot.png" width="25" height="25" alt="Services Navigation Dot"/>
+                    <img class="navigation-dot hover" id="img-section-3-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Services Navigation Dot"/>
                   </a>
                 </li>
 
                 <li class="dot-navigation-icon">
-                  <a id="warrantyBtn" class="" href="faq.php#warranty">
-                    <img class="navigation-dot" id="img-section-5-dot" src="img/dots/dot.png" width="25" height="25" alt="Warranty Navigation Dot" title="Warranty" />
-                    <img class="navigation-dot hover" id="img-section-5-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Warranty Navigation Dot" title="Warranty" />
+                  <a id="shippingBtn" class="section-4-dot dot-hover" href="faq.php#shipping" data-title="Shipping">
+                    <img class="navigation-dot" id="img-section-4-dot" src="img/dots/dot.png" width="25" height="25" alt="Shipping Navigation Dot"/>
+                    <img class="navigation-dot hover" id="img-section-4-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Shipping Navigation Dot"/>
+                  </a>
+                </li>
+
+                <li class="dot-navigation-icon">
+                  <a id="warrantyBtn" class="section-4-dot dot-hover"  href="faq.php#warranty" data-title="Shipping">
+                    <img class="navigation-dot" id="img-section-5-dot" src="img/dots/dot.png" width="25" height="25" alt="Warranty Navigation Dot" />
+                    <img class="navigation-dot hover" id="img-section-5-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Warranty Navigation Dot"/>
                   </a>
                 </li>
               </ul>
@@ -136,7 +143,7 @@
 
      <!-- Content  -->
             <div id="content-container">
-              <div class="section-container">
+              <div id="top" class="section-container section-0">
                 <div class="section-content">
                   <a href="#ecoqube" class="faq-title">EcoQube</a><br />
                   · <a href="manual.pdf">Download full EcoQube instruction manual in a PDF format.</a><br />
@@ -346,7 +353,9 @@
                var DEBUG = true;
 
                $(window).scroll(function() {
-                 if ($(".section-1").visible()) {
+                 if ($(".section-0").visible()) {
+                   updateDots("section-0");
+                 } else if ($(".section-1").visible()) {
                    updateDots("section-1");
                  } else if ($(".section-2").visible()) {
                    updateDots("section-2");
