@@ -272,7 +272,7 @@
         <div class="section-heading">
           <a id="keyfeatures" class="anchor"></a>Key Features
         </div><!-- .section-heading -->
-        <div class="keyfeatures-left section-text">
+        <div class="keyfeatures-left">
           <br>
           The aquarium kit provides you with the easiest and
           most sustainable way to keep fish and grow plants!
@@ -309,18 +309,14 @@
         <div class="section-heading">
           <a id="buyittoday" class="anchor"></a>Buy an EcoQube Today
         </div><!-- .section-heading -->
-        <br />
-        The aquarium kit provides you with the easiest and most sustainable way to keep fish and grow plants!
-        <br />
-        The complete EcoQube includes the following:
-        <br />
-        LED Light
-        <br />
-        LED UV Sterilizer
-        <br />
-        Aquaponics filter
-        <br />
-        Aquarium
+        <br /><div class="bloop-left">
+          The EcoQube includes the following:
+          <ul>
+            <li>High Clarity A-Grade 2 gallon acrylic aquarium</li>
+            <li>Aquaponics filter with Basil</li>
+            <li>Full Spectrum LED light</li>
+            <li>iltration Media</li>
+          </ul></div>
         <br /><br />
         
 
