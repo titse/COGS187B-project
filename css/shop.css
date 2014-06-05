@@ -12,7 +12,8 @@ body a {
 body a:hover {
   color:#006cb8;
 }
-  /* Shop notification bar */
+
+/* Shop notification bar */
   #shop-notification-bar{
     display:inline-block;
     position:fixed;
@@ -42,7 +43,7 @@ body a:hover {
     font-size:20px;
   }
 
-  /*Secondary navigation*/
+/*Secondary navigation*/
   .shop-header{
     display:inline-block;
     margin-bottom:2%;
@@ -185,8 +186,6 @@ body a:hover {
     width:100%;
   }
 
-
-
   .info-icons-wrapper {
     display:inline-block;
     float:left;
@@ -237,7 +236,7 @@ body a:hover {
     display:inline-block;
     width:100%;
     height:5%;
-  /*  background-color:rgba(74,74,74,0.7);*/
+    /*background-color:rgba(74,74,74,0.7);*/
     text-align:center;
     font-family:"Helvetica Neue LT Pro Medium";
   }
@@ -253,18 +252,52 @@ body a:hover {
     font-size:20px;
   }
 
-
   /*Product overlay*/
 
   #product-image-overlay {
     position:absolute;
-    display:none;
+    display:inline-block;
     float:left;
-    width:20%;
-    height:400px;
-    /*background-color:white;*/
+    width:280px;
+    height:280px;
+    background-color:rgba(0,0,0,.5);
     border:1px solid black;
     z-index:10;
+    top:50%;
+    left:30%;
+    text-align:center;
+  }
+
+  #product-image-overlay a {
+    display:inline-block;
+    /*background-color:grey;*/
+    margin-top:10%;
+    width:60%;
+    color:#efefef;
+  }
+
+  .overlay-icon{
+    font-family:"Fontello";
+    font-size:60px;
+    padding:5px;
+    color:#efefef;
+  }
+
+  #product-image-overlay a:hover {
+    color:#006cb8;
+  }
+
+  #product-image-overlay a:hover .overlay-icon {
+    color:#006cb8;
+  }
+
+  /*
+  #upper-overlay {
+    background-color:rgba(256,256,256,0.5);
+  }
+
+  #lower-overlay {
+    background-color:rgba(38,160,47,0.5);
   }
 
   .overlay-section {
@@ -276,11 +309,4 @@ body a:hover {
     margin:0;
     padding:0;
   }
-
-  #upper-overlay {
-    background-color:rgba(256,256,256,0.5);
-  }
-
-  #lower-overlay {
-    background-color:rgba(38,160,47,0.5);
-  }
+  */

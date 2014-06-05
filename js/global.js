@@ -1,4 +1,6 @@
 
+//------------- UPDATING DOTS ON SCROLL ------------------//
+
 //Updateing the blue dot corresponding to the visible section
 function updateDots(visibleSection){
   if (visibleSection == currSection) {
@@ -141,6 +143,9 @@ function updateDotsChildDir(visibleSection){
     }
   }
 }
+
+
+//------------- SHOP FILTERING ------------------//
 
 //Highligting selected filters internal on shop-page
 function highlightFiltered(keyword){
