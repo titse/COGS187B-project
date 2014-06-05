@@ -194,7 +194,7 @@
       </li>
 
       <li class="dot-navigation-icon">
-        <a id="pressBtn" class="section-5-dot dot-hover" href="ecoqube.php#press" data-title="Press deleases">
+        <a id="pressBtn" class="section-5-dot dot-hover" href="ecoqube.php#press" data-title="Press releases">
           <img class="navigation-dot" id="img-section-5-dot" src="img/dots/dot.png" width="25" height="25" alt="Press releases navigation dot"/>
           <img class="navigation-dot hover" id="img-section-5-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Press releases navigation dot"/>
         </a>
