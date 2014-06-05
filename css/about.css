@@ -169,12 +169,15 @@
             border: 3px solid rgba(239,239,239,1);
             border-radius: 100%;
             background-color: rgba(255,255,255,1);
-            transition: .2s;
+            transition: .7s;
+            -webkit-transition: .7s;
           }
 
 
           .about-timeline li:hover {
             border: 5px solid rgba(0,108,184,1);
+            transition: .7s;
+            -webkit-transition: .7s;
           }
 
           .about-timeline li:hover:after {
@@ -282,4 +285,9 @@
           text-align:center;
           text-transform:uppercase;
           width:75%;
+     }
+
+     .about-team{
+          font-size:20px;
+          text-align:center;
      }

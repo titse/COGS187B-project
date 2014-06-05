@@ -247,13 +247,13 @@
           <div class="section-heading">
             <a id="theteam" class="anchor"></a>The Team
           </div><!-- .section-heading -->
+          <div class="about-team">
           <br />
           <img src="img/about/team-2.jpg" class="about-team-members" />
           <br />
           <br />
-          We are Kevin and Eric, UC San Diego students and aquarium geeks who met in high school and instantly became intrigued by planted aquatic ecosystems.
-          <br />
-          As we got older, we realized the bigger challenges humanity as a whole faces in terms of food and water shortages, so we decided to use our knowledge of aquariums to deliver the concept of aquaponics to as many people as possible.
+          We are Kevin and Eric- UC San Diego students and aquarium geeks who met in high school and instantly became intrigued by planted aquatic ecosystems. As we got older, we realized the bigger challenges humanity as a whole faces in terms of food and water shortages, so we decided to use our knowledge of aquariums to deliver the concept of aquaponics to as many people as possible.
+          </div>
         </div><!-- section-content -->
       </div><!-- .section-container -->
 
