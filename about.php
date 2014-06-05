@@ -152,88 +152,92 @@
     <div class="section-container">
       <div class="section-content">
         <div class="section-heading section-1">
-          <a id="ourstory" class="anchor"></a>We are Kevin and Eric.
+          <a id="ourstory" class="anchor"></a>Our Story
         </div><!-- .section-heading -->
         <div class="about-ourstory">
-        We are UC San Diego students and aquarium geeks who met in high school and instantly became intrigued by planted aquatic ecosystems.
-        <br />
-        As we got older, we realized the bigger challenges humanity as a whole faces in terms of food and water shortages, so we decided to use our knowledge of aquariums to deliver the concept of aquaponics to as many people as possible.
-
-
-<div class="about-timeline">
-<ul>
-  <li class="left">
-    The Beginning
-    <br />
-    We started out working as operations managers, biology assistants, sales representatives, and installing aquariums at various locations.
-  </li>
-  <li class="left about-timeline-logos">
-    <img src="img/about/aquaticcentral.png" />
-    <img src="img/about/californiaacademyofsciences.png" />
-    <img src="img/about/aquaforestaquarium.png" />
-  </li>
-  <li class="right about-timeline-images">
-    <img src="img/about/ourstory-4.jpg" />
-  </li>
-   <li class="left">
-    With knowledge and experience, we established ADI with the fundamental goals to build a business around a solution for the aquarium industry and to raise environmental awareness.
-  </li>
-  <li class="left">
-    Eventually, we decided to start our own online aquarium store while selling shrimp out of a garage in San Francisco
-  </li>
-  <li class="left about-timeline-images">
-     <img src="img/about/ourstory-1.jpg" />
- </li>
-  <li class="right">
-    The Evolution
-    <br />
-    We continued pursuing our passion for connecting people with nature through aquatic ecosystem installations.
-  </li>
-  <li class="right">
-    We even brought our love of aquariums with us to college.
-  </li>
-  <li class="right about-timeline-images">
-     <img src="img/about/ourstory-8.jpg" class="about-ourstory-timeline-images" />
-  </li>
-  <li class="right about-timeline-images">
-     <img src="img/about/kickstarter.png" />
-  </li>
-  <li class="left">
-    The Company Today
-    <br />
-    But now, we'd like to expand our reach to you through the EcoQube, a miniature aquatic ecosystem that we created to deliver the practical solution and beauty of aquaponics to households and offices around the world!
-  </li>
-  <li class="highlight about-timeline-highlight">
-     <img src="img/ecoqube2.jpg" />
-  </li>
-  <li class="left">
-    We know that we can’t solve the many problems in our world with a fish tank, no matter how beautiful it is, but we hope to connect people to our environment and influence the way they perceive the larger issues in our world today.
-</li>
-</ul>
-</div>
+               <div class="about-timeline">
+               <ul class="about-outer-list">
+                 <li class="left">
+                   <span class="about-timeline-heading">The Beginning</span>
+                   <br />
+                   <br />
+                   We started out working as operations managers, biology assistants, sales representatives, and installing aquariums at various locations.
+                 </li>
+                 <li class="left about-timeline-logos">
+                   <img src="img/about/aquaticcentral.png" />
+                   <img src="img/about/californiaacademyofsciences.png" />
+                   <img src="img/about/aquaforestaquarium.png" />
+                 </li>
+                 <li class="right about-timeline-images">
+                         <!-- <div id="main-slider" class="flexslider"> -->
+                           <!-- <ul class="slides"> -->
+                             <!-- <li> --><img src="img/about/ourstory-4.jpg" /><!-- </li> -->
+                             <!-- <li><img src="img/about/ourstory-5.jpg" /></li> -->
+                           <!-- </ul> -->
+                         <!-- </div> -->
+                 </li>
+                  <li class="left">
+                   With knowledge and experience, we established ADI with the fundamental goals to build a business around a solution for the aquarium industry and to raise environmental awareness.
+                 </li>
+                 <li class="left">
+                   Eventually, we decided to start our own online aquarium store while selling shrimp out of a garage in San Francisco
+                 </li>
+                 <li class="left about-timeline-images">
+                    <img src="img/about/ourstory-1.jpg" />
+                </li>
+                 <li class="right">
+                   <span class="about-timeline-heading">The Evolution</span>
+                   <br />
+                   <br />
+                   We continued pursuing our passion for connecting people with nature through aquatic ecosystem installations.
+                 </li>
+                 <li class="right">
+                   We even brought our love of aquariums with us to college.
+                 </li>
+                 <li class="right about-timeline-images">
+                    <img src="img/about/ourstory-8.jpg" class="about-ourstory-timeline-images" />
+                 </li>
+                 <li class="right about-timeline-images">
+                    <a href="https://www.kickstarter.com/projects/kevinzl/ecoqube-desktop-ecosystem-that-grow-flowers-and-he"><img src="img/about/kickstarter.png" /></a>
+                 </li>
+                 <li class="left">
+                   <span class="about-timeline-heading">The Company Today</span>
+                   <br />
+                   <br />
+                   But now, we'd like to expand our reach to you through the EcoQube, a miniature aquatic ecosystem that we created to deliver the practical solution and beauty of aquaponics to households and offices around the world!
+                 </li>
+                 <li class="highlight about-timeline-highlight">
+                    <a href="ecoqube.php"><img src="img/ecoqube2.jpg" /></a>
+                 </li>
+                 <li class="left">
+                   We know that we can’t solve the many problems in our world with a fish tank, no matter how beautiful it is, but we hope to connect people to our environment and influence the way they perceive the larger issues in our world today.
+               </li>
+               </ul>
+               </div>
 
          </div><!-- .about-ourstory -->
         </div><!-- .section-content -->
       </div><!-- .section-container -->
 
-      <!-- Values -->
+      <!-- Vision and Values -->
       <div class="section-container">
         <div class="section-content">
           <div class="section-heading section-2">
             <a id="values" class="anchor"></a>Vision and Values
           </div><!-- .section-heading -->
-          <br />
-          We have a vision to be much more than just an online vendor for aquarium goods and an installation company.
           <br /><br />
-          <ul class="about-values-list">
-            <li>Less Transport- Less time and resources spent on transporting livestock directly leads to unsurpassed quality.</li>
-            <li>Less Environmental Impact- Less fish are lost and less fossil fuel is burned. Resulting in more:</li>
-            <li>Competitive Pricing- Savings are then passed onto you and higher profit margins allows for.</li>
-            <li>Domestic Jobs- Happy local employees will then provide you with unmatchable.</li>
-            <li>Quality and Service- Something all of our customers deserve!</li>
-          </ul>
-          <br /><br />
-          When dealing with ADI, you are more than just a customer; you become part of the revolution.
+          <div class="about-vision">
+            <div class="about-vision-blurb"><span class="about-vision-heading">Less Environmental Impact</span><br />Less fish are lost and less fossil fuel is burned. Resulting in more:</div>
+            <div class="about-vision-blurb"><span class="about-vision-heading">Domestic Jobs</span><br />Happy local employees will then provide you with unmatchable.</div>
+
+            <div class="about-vision-blurb"><span class="about-vision-heading">Competitive Pricing</span><br />Savings are then passed onto you and higher profit margins allows for.</div>
+            <br />
+            <div class="about-vision-blurb"><span class="about-vision-heading">Less Transport</span><br />Less time and resources spent on transporting livestock directly leads to unsurpassed quality.</div>
+            <div class="about-vision-blurb"><span class="about-vision-heading">Quality and Service</span><br />Something all of our customers deserve!</div>
+            <div class="about-vision-blurb"><span class="about-vision-blurb-2">We have a vision to be much more than just an online vendor for aquarium goods and an installation company.</span></div>
+            <br /><br />
+            <div class="about-vision-quote">When dealing with ADI, you are more than just a customer; you become part of the revolution.</div>
+          </div><!-- about-vision -->
         </div><!-- section-content -->
       </div><!-- .section-container -->
 
@@ -245,6 +249,11 @@
           </div><!-- .section-heading -->
           <br />
           <img src="img/about/team-2.jpg" class="about-team-members" />
+          <br />
+          <br />
+          We are Kevin and Eric, UC San Diego students and aquarium geeks who met in high school and instantly became intrigued by planted aquatic ecosystems.
+          <br />
+          As we got older, we realized the bigger challenges humanity as a whole faces in terms of food and water shortages, so we decided to use our knowledge of aquariums to deliver the concept of aquaponics to as many people as possible.
         </div><!-- section-content -->
       </div><!-- .section-container -->
 

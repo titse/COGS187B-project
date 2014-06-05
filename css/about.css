@@ -69,176 +69,216 @@
                font-size:20px;
           }
 
+     /*Timeline*/
+          .about-timeline ul {
+            position: relative;
+            overflow: hidden;
+            list-style: none;
+            width: 100%;
+            margin: 30px auto;
+            padding: 0;
+          }
+
+          .about-timeline ul:after {
+            content:"";
+            z-index: 1;
+            position: absolute;
+            left: 50%;
+            top:0px;
+            width: 3px;
+            margin-left: -2px;
+            min-height: 100%;
+            background-color: rgba(0,108,184,1);
+          }
+
+          .about-timeline li {
+            z-index: 2;
+            position: relative;
+            /*width: 380px;*/
+            width:46%;
+            padding: 20px;
+            float: left;
+            margin-bottom: 30px;
+            background-color: rgba(255,255,255,1);
+            border: 5px solid rgba(239,239,239,1);
+          }
+
+          .about-timeline li.left {
+            float: left;
+            clear: left;
+          }
+
+          .about-timeline li.right {
+            top:100px;
+            float: right;
+            clear: right;
+          }
+
+          .about-timeline li.highlight {
+            margin-bottom:125px;
+            top:100px;
+            float: none;
+            clear: both;
+            width: auto;
+            border: 5px solid rgba(239,239,239,1);
+          }
+
+          /* arrow */
+
+          .about-timeline li:before {
+            content:"";
+            z-index: 1;
+            position: absolute;
+            top: 12px;
+            right: -6px;
+            left: -6px;
+            width: 15px;
+            height: 12px;
+            background-color: rgba(255,255,255,1);
+            transform: rotate(45deg);
+            -ms-transform:rotate(45deg);
+           -webkit-transform:rotate(45deg);
+          }
+
+          .about-timeline li.left:before {
+            left: auto;
+          }
+
+          .about-timeline li.right + .about-timeline li.left:before,
+          .about-timeline li.left + .about-timeline li.right:before {
+            top: 36px;
+          }
+
+          .about-timeline li.highlight:before {
+            left: 50%;
+            margin-left: -7px;
+            right: auto;
+            top: -6px;
+          }
+
+          /* dot */
+          .about-timeline li:after {
+            content:"";
+            z-index: 1;
+            position: absolute;
+            top: 10px;
+            right: -58px;
+            left: -58px;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(239,239,239,1);
+            border-radius: 100%;
+            background-color: rgba(255,255,255,1);
+            transition: .2s;
+          }
 
 
+          .about-timeline li:hover {
+            border: 5px solid rgba(0,108,184,1);
+          }
 
+          .about-timeline li:hover:after {
+            background-color: rgba(0,108,184,1);
+            top: 10px;
+            right: -58px;
+            left: -58px;
+            width: 20px;
+            height: 20px;
+          }
 
-/** {
-  box-sizing: border-box;   
-}*/
+          .about-timeline li.left:after {
+            left: auto;
+            top:10px;
+          }
 
-.about-timeline ul {
-  position: relative;
-  overflow: hidden;
-  list-style: none;
-  width: 100%;
-  margin: 30px auto;
-  padding: 0;
-}
+          .about-timeline li.right + .about-timeline li.left:after,
+          .about-timeline li.left + .about-timeline li.right:after {
+            top: 56px;
+          }
 
-.about-timeline ul:after {
-  content:"";
-  z-index: 1;
-  position: absolute;
-  left: 50%;
-  top:20px;
-  width: 3px;
-  margin-left: -2px;
-  min-height: 100%;
-  background-color: rgba(0,108,184,1);
-}
+          .about-timeline li.right + .about-timeline li.left:hover:after,
+          .about-timeline li.left + .about-timeline li.right:hover:after {
+            top: 34px;
+          }
 
-.about-timeline li {
-  z-index: 2;
-  position: relative;
-  /*width: 380px;*/
-  width:46%;
-  padding: 20px;
-  float: left;
-  margin-bottom: 30px;
-  background-color: rgba(255,255,255,1);
-  border: 5px solid rgba(239,239,239,1);
-}
+          .about-timeline li.right:after {
+            right: auto;
+          }
 
-.about-timeline li.left {
-  float: left;
-  clear: left;
-}
+          .about-timeline li.highlight:after {
+            left: 50%;
+            margin-left: -10px;
+            right: auto;
+            top: -40px;
+          }
 
-.about-timeline li.right {
-  top:100px;
-  float: right;
-  clear: right;
-}
+          .about-timeline li.highlight:hover:after {
+            margin-left: -10px;
+            top: -40px;
+          }
 
-.about-timeline li.highlight {
-  margin-bottom:125px;
-  top:100px;
-  float: none;
-  clear: both;
-  width: auto;
-  border: 5px solid rgba(239,239,239,1);
-}
+          /*Images and text formatting*/
+          .about-timeline-images{
+               margin:0 auto;
+               text-align:center;
+          }
 
-/* arrow */
+          .about-timeline-images img{
+               height:200px;
+          }
 
-.about-timeline li:before {
-  content:"";
-  z-index: 1;
-  position: absolute;
-  top: 12px;
-  right: -6px;
-  left: -6px;
-  width: 15px;
-  height: 12px;
-  background-color: rgba(255,255,255,1);
-  transform: rotate(45deg);
-  -ms-transform:rotate(45deg);
- -webkit-transform:rotate(45deg);
-}
+          .about-timeline-logos img{
+               margin:0 auto;
+               width:32.7%;
+          }
 
-.about-timeline li.left:before {
-  left: auto;
-}
+          .about-timeline-highlight img{
+               /*height:400px;*/
+               width:100%;
+          }
 
-.about-timeline li.right + .about-timeline li.left:before,
-.about-timeline li.left + .about-timeline li.right:before {
-  top: 36px;
-}
+          .about-timeline-heading{
+               font-size:24px;
+               font-weight:bold;
+               text-transform:uppercase;
+          }
 
-.about-timeline li.highlight:before {
-  left: 50%;
-  margin-left: -7px;
-  right: auto;
-  top: -6px;
-}
+     /*Vision and Values*/
+     .about-vision{
+          display:block;
+          margin:0 auto;
+          width:100%;
+     }
 
-/* dot */
-.about-timeline li:after {
-  content:"";
-  z-index: 1;
-  position: absolute;
-  top: 10px;
-  right: -58px;
-  left: -58px;
-  width: 20px;
-  height: 20px;
-  border: 3px solid rgba(239,239,239,1);
-  border-radius: 100%;
-  background-color: rgba(255,255,255,1);
-  transition: .2s;
-}
+     .about-vision-blurb{
+          float:left;
+          font-size:18px;
+          height:150px;
+          margin:0 auto;
+          overflow:hidden;
+          padding:0 15px 60px 15px;
+          text-align:center;
+          width:33.3%;
+     }
 
+     .about-vision-heading{
+          font-size:22px;
+          font-style:italic;
+          text-transform:uppercase;
+     }
 
-.about-timeline li:hover {
-  border: 5px solid rgba(0,108,184,1);
-}
+     .about-vision-blurb-2{
+          font-size:21px;
+          font-style:italic;
+     }
 
-.about-timeline li:hover:after {
-  background-color: rgba(0,108,184,1);
-  top: 10px;
-  right: -58px;
-  left: -58px;
-  width: 20px;
-  height: 20px;
-}
-
-.about-timeline li.left:after {
-  left: auto;
-  top:10px;
-}
-
-.about-timeline li.right + .about-timeline li.left:after,
-.about-timeline li.left + .about-timeline li.right:after {
-  top: 56px;
-}
-
-.about-timeline li.right + .about-timeline li.left:hover:after,
-.about-timeline li.left + .about-timeline li.right:hover:after {
-  top: 34px;
-}
-
-.about-timeline li.right:after {
-  right: auto;
-}
-
-.about-timeline li.highlight:after {
-  left: 50%;
-  margin-left: -10px;
-  right: auto;
-  top: -40px;
-}
-
-.about-timeline li.highlight:hover:after {
-  margin-left: -10px;
-  top: -40px;
-}
-
-.about-timeline-images{
-     margin:0 auto;
-     text-align:center;
-}
-
-.about-timeline-images img{
-     height:200px;
-}
-
-.about-timeline-logos img{
-     margin:0 auto;
-     width:32.7%;
-}
-
-.about-timeline-highlight img{
-     /*height:400px;*/
-     width:100%;
-}
+     .about-vision-quote{
+          display:block;
+          font-family:"Helvetica Neue LT Pro Light Extended";
+          font-size:28px;
+          /*font-style:italic;*/
+          margin:0 auto;
+          text-align:center;
+          text-transform:uppercase;
+          width:75%;
+     }
