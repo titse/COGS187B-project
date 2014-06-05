@@ -345,30 +345,11 @@
               </a>
 
               <a href="#addtocart">
-                <p id="add-to-cart-icon" class="overlay-icon"> &#xe811;</p>
+                <p id="add-to-cart-icon" class="overlay-icon">&#xe811;</p>
                 Add to cart
               </a>
 
         </div>
-
-        <!--<div id="product-image-overlay">
-          <div class="product-image-conatiner">
-            <div class="product-image">
-
-              <a href="#description">
-                <div id="upper-overlay" class="overlay-section">
-                  <a href="item-modal-1.php" class="item-modal"><h3>DESCRIPTION</h3></a>
-                </div>
-              </a>
-
-              <a href="#addtocart">
-                <div id="lower-overlay" class="overlay-section">
-                  <h3>ADD TO CART</h3>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>-->
 
       </div><!-- .shop-content-container -->
 
@@ -491,17 +472,20 @@
         console.log("Mouse over product with ID: " + this.id);
         console.log("X: " + x + ", Y: " + y);
       };
+
       showOverlay(x, y);
     });
 
-    //Shows product overlay
-    function showOverlay(x, y) {
-      if (DEBUG) { console.log("Showing overlay at X: " + x + ", Y: " + y); };
+    //Registers when the mouse leaves the product overlay and calls hideOverlay
+    $("div#product-image-overlay").mouseleave(function() {
+      if (DEBUG) {
+        console.log("Mouse goes off product overlay: ");
 
-      setX("product-image-overlay", x);
-      setY("product-image-overlay", y);
-      productOverlay.css("display", "inline-block");
-    }
+      };
+
+      hideOverlay();
+
+    });
 
 
     //---------------- FILTERING ----------------//

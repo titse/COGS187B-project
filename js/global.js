@@ -155,3 +155,21 @@ function highlightFiltered(keyword){
 
   $("."+keyword+"-filter").addClass("current");
 }
+
+//------------- SHOP OVERLAY------------------//
+
+//Shows product overlay
+function showOverlay(x, y) {
+  if (DEBUG) { console.log("Showing overlay at X: " + x + ", Y: " + y); };
+
+  setX("product-image-overlay", x);
+  setY("product-image-overlay", y);
+  productOverlay.css("display", "inline-block");
+}
+
+//Hides product overlay
+function hideOverlay() {
+  if (DEBUG) { console.log("Hiding product overlay"); };
+
+  productOverlay.css("display", "none");
+}

@@ -3,8 +3,8 @@
 <head>
   <title>EcoQube</title>
   <link type="text/css" rel="stylesheet" href="css/global.css"/>
-  <link type="text/css" rel="stylesheet" href="css/ecoqube.css"/>
   <link type="text/css" rel="stylesheet" href="css/shop.css"/>
+  <link type="text/css" rel="stylesheet" href="css/ecoqube.css"/>
   <link type="image/png" rel="shortcut icon" href="img/logos/favicon.ico">
 
   <meta charset="UTF-8">
@@ -530,6 +530,20 @@
               <p class="price">$ 1.99</p>
             </div>
 
+            <div id="product-image-overlay">
+
+                  <a href="#description">
+                    <p id="description-icon" class="overlay-icon">&#xe820;</p>
+                    Details
+                  </a>
+
+                  <a href="#addtocart">
+                    <p id="add-to-cart-icon" class="overlay-icon">&#xe811;</p>
+                    Add to cart
+                  </a>
+
+            </div>
+
           </div> <!-- .ecoqube-products -->
 
         </div><!-- .ecoqube-items-section -->
@@ -710,11 +724,12 @@
   </div><!-- #footer-container -->
 
   <!-- Scripts -->
-  <!-- Javascript code identifying which sections are visible on the screen -->
   <script type="text/javascript">
   var currSection = "";
   var DEBUG = false;
+  var productOverlay = $("#product-image-overlay");
 
+  //-- Identifying which sections are visible on the screen and updating dots --//
   $(window).scroll(function() {
     if ($(".section-0").visible()) {
       updateDots("section-0");
@@ -730,6 +745,36 @@
       updateDots("section-5");
     }
   });
+
+  //-------------- PRODUCT OVERLAY ---------------//
+  //Registers hover over product and calls showOverlay
+  $("div.product").mouseover(function() {
+    var o = $(this);
+    var x = o.offset().left;
+    var y = o.offset().top;
+
+    if (DEBUG) {
+      console.log("Mouse over product with ID: " + this.id);
+      console.log("X: " + x + ", Y: " + y);
+    };
+
+    showOverlay(x, y);
+  });
+
+  //Registers when the mouse leaves the product overlay and calls hideOverlay
+  $("div#product-image-overlay").mouseleave(function() {
+    if (DEBUG) {
+      console.log("Mouse goes off product overlay: ");
+
+    };
+
+    hideOverlay();
+
+  });
+
+
+
+
   </script>
 
 
@@ -742,119 +787,47 @@
   $("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
   </script>
 
-  <!-- JavaScript code  -->
+
+  <!-- Modal window -->
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $('.ecoqube-video').magnificPopup({
+      disableOn: 700,
+      type: 'iframe',
+      removalDelay: 160,
+      preloader: false,
+      closeOnBgClick: true,
+      showCloseBtn: true,
+      enableEscapeKey: true,
+      fixedBgPos:false,
+
+      fixedContentPos: false
+    });
+  });
+  </script>
+
+  <!-- Enable horizontal scroll with fixed header -->
   <script>
-
-  var DEBUG = false;
-
-  var productOverlay = $("#product-image-overlay");
-
-
-  //Registers hover over product and calls showOverlay
-  $("div.product").mouseover(function() {
-    var o = $(this);
-    var x = o.offset().left;
-    var y = o.offset().top;
-
-    if (DEBUG) {
-      console.log("Mouse over product with ID: " + this.id);
-      console.log("X: " + x + ", Y: " + y);
-    };
-    showOverlay(x, y);
+  $(document).ready(function() {
+    $('#header-container').scrollToFixed();
   });
+  $(window).scroll();
+  $(window).resize();
+  </script>
 
-  //WHY ISN'T THIS WORKING?????
-  /*$("div.product").mouseout(function() {
-  console.log("Mouseout");
-  //productOverlay.css("display", "none");
-});*/
-
-
-//Shows product overlay
-function showOverlay(x, y) {
-  if (DEBUG) { console.log("Showing overlay at X: " + x + ", Y: " + y); };
-
-  setX("product-image-overlay", x);
-  setY("product-image-overlay", y);
-  productOverlay.css("display", "inline-block");
-}
-
-//Showing products matching selected filtering option
-$(".filterOptions").click(function() {
-  console.log("Filtering products by " + this.text);
-
-  var keyword = this.text.toLowerCase();
-  console.log(keyword);
-
-  var products = $(".product").map(function(index) {
-    var o = $(this);
-
-    console.log(o.hasClass(keyword));
-
-    if(o.hasClass(keyword)) {
-      o.show();
-    } else {
-      o.hide();
-    }
-
+  <!-- Flexslider -->
+  <script>
+  // Can also be used with $(document).ready()
+  $(window).load(function() {
+    $('#main-slider').flexslider({
+      animation: "fade",
+      animationSpeed:500,
+      slideshowSpeed: 7000,
+      pauseOnAction: true,
+      pauseOnHover: true,
+      touch: true
+    });
   });
-
-  /*
-  for (var i = 0; i < products.length; i++) {
-  console.log(.hasClass(keyword));
-}
-*/
-
-});
-
-function hideProductGroup() {
-  console.log("Hiding products");
-}
-
-$(document).ready(function() {
-});
-</script>
-
-<!-- Modal window -->
-<script type="text/javascript">
-$(document).ready(function() {
-  $('.ecoqube-video').magnificPopup({
-    disableOn: 700,
-    type: 'iframe',
-    removalDelay: 160,
-    preloader: false,
-    closeOnBgClick: true,
-    showCloseBtn: true,
-    enableEscapeKey: true,
-    fixedBgPos:false,
-
-    fixedContentPos: false
-  });
-});
-</script>
-
-<!-- Enable horizontal scroll with fixed header -->
-<script>
-$(document).ready(function() {
-  $('#header-container').scrollToFixed();
-});
-$(window).scroll();
-$(window).resize();
-</script>
-
-<!-- Flexslider -->
-<script>
-// Can also be used with $(document).ready()
-$(window).load(function() {
-  $('#main-slider').flexslider({
-    animation: "fade",
-    animationSpeed:500,
-    slideshowSpeed: 7000,
-    pauseOnAction: true,
-    pauseOnHover: true,
-    touch: true
-  });
-});
-</script>
+  </script>
 </body>
 </html>
