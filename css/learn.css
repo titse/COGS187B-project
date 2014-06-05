@@ -153,9 +153,11 @@
 }
 
 #component-blurb {
+	padding-top:20px;
+	padding-left:10px;
 	margin-top:4%;
-	font-size:1.5em;
+	font-size:20px;
 	font-family:"Helvetica Neue LT Pro Light Italic";
 	font-style:italic;
-	text-align:left;
+	text-align:center;
 }

@@ -267,8 +267,8 @@
             </div>
 
             <div class="component-description">
-              <p>Decsription of what fish does and how they
-                affect the aquatic ecosystems goes here
+              <p>Fish produce ammonia rich waste, that bacteria naturally turns
+                into nitrates.
               </p>
             </div>
           </div>
@@ -283,8 +283,8 @@
             </div>
 
             <div class="component-description">
-              <p>Decsription of what invertebrates does and how they
-                affect the aquatic ecosystems goes here
+              <p>Invertebrates are very functional. They are feeding on detritus and
+                algae so they help maintaining the visual appeal of your ecosystem.
               </p>
             </div>
           </div>
@@ -300,8 +300,9 @@
             </div>
 
             <div class="component-description">
-              <p>Decsription of what aquatic plants does and how they
-                affect the aquatic ecosystems goes here
+              <p>Aquatic plants plays a vital role to the aesthetics, but also the
+                health of the ecosystem. They soak up excess nutrients and
+                combat algae outbreaks
               </p>
             </div>
           </div>
@@ -317,8 +318,9 @@
             </div>
 
             <div class="component-description">
-              <p>Decsription of what terrestrial plants does and how they
-                affect the aquatic ecosystems goes here
+              <p>Plants absorb the nitrates from bacteria as neutrients.
+                Together with the aquaponics filter they clean the water and
+                improves the underwater environment
               </p>
             </div>
           </div>
@@ -333,16 +335,17 @@
             </div>
 
             <div class="component-description">
-              <p>Decsription of what wood and rocks do and how they
-                affect the aquatic ecosystems goes here
+              <p>Drift wood, rocks and aquatic mosses are used to add a
+                certain feeling and make a nice composition to your aquatic
+                ecosystem
               </p>
             </div>
           </div>
         </div>
 
         <div class="component">
-          <div class="component-description" id="component-blurb">
-            <p>"If the aquatic ecosystem is established correctly, it is
+          <div class="component-description">
+            <p id="component-blurb">"If the components of the aquatic ecosystem is established correctly, it is
               self-sustaining and requires little to no maintenance to
               upkeep its health and beauty"
             </p>
