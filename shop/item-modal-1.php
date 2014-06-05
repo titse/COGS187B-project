@@ -25,7 +25,7 @@ includeTitle:false,
      <style>
           .modal-video{
                background-color:rgba(255,255,255,1);
-               height:500px;
+               height:550px;
                font-size:1.1em;
                margin:50px auto;
                padding:2em;
@@ -42,10 +42,20 @@ includeTitle:false,
           }
 
           .left img{
-               border:1px solid black;
-               padding:.5em;
-               height:auto;
-               width:75%;
+               border: 5px solid rgba(239,239,239,1);
+            box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+            -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+            -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+            -o-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+               /*padding:.5em;*/
+               height:350px;
+               width:350px;
+          }
+
+          .left-bot img{
+            border: 5px solid rgba(239,239,239,1);
+            height:100px;
+            width:100px;
           }
 
           .right{
@@ -89,12 +99,11 @@ a.button > span {
 
 .left-bot{
      padding-top:2em;
+     margin:0 auto;
+     width:350px;
+     text-align:center;
 }
 
-.left-bot img{
-width:100px;
-border:1px solid black;
-}
 
 .left-bot img:hover{
      opacity:.5;
@@ -106,11 +115,11 @@ border:1px solid black;
      
      <div class="modal-video">
           <div class="left">
-               <img src="../img/products/test-product-image.png" />
+               <img src="../img/shop/clouded-minnow.jpg" />
                <div class="left-bot">
-               <img src="../img/products/test-product-image.png" />
-               <img src="../img/products/test-product-image.png" />
-               <img src="../img/products/test-product-image.png" />
+               <img src="../img/shop/clouded-minnow.jpg" />
+               <img src="../img/shop/clouded-minnow.jpg" />
+               <img src="../img/shop/clouded-minnow.jpg" />
           </div></div>
           <div class="right">
                <div class="item-name">Cloud Minnow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$4.99</div>

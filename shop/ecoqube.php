@@ -413,7 +413,7 @@
 
         <div id="product-image-overlay">
 
-              <a href="#description">
+              <a href="item-modal-1.php" class="item-modal">
                 <p id="description-icon" class="overlay-icon">&#xe820;</p>
                 Details
               </a>
