@@ -538,7 +538,7 @@
 
             <div id="product-image-overlay">
 
-                  <a href="#description">
+                  <a href="shop/item-modal-2.php" class="item-modal">
                     <p id="description-icon" class="overlay-icon">&#xe820;</p>
                     Details
                   </a>
@@ -809,6 +809,13 @@
 
       fixedContentPos: false
     });
+
+      $('.item-modal').magnificPopup({
+        type: 'ajax',
+        alignTop: true,
+        overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
+      });
+
   });
   </script>
 
