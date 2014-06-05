@@ -63,8 +63,18 @@
 	overflow:hidden;
 }
 
-#ecosystems-description {
-	font-size:2em;
+.component.ecosystems-description {
+	height:160px;
+	margin-bottom:5%;
+	padding:10px;
+	background-color: rgba(255,255,255,1);
+	border: 5px solid rgba(239,239,239,1);
+	box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+	-o-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+	font-size:18px;
+	color:black;
 }
 
 .image-text-overlay {
@@ -104,7 +114,7 @@
 	height:250px;
 	/*background-color:green;*/
 	float:left;
-	margin:1% 1%;
+	margin:3% 3% 0% 3%;
 }
 
 .component-top-section {

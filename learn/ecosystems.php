@@ -200,7 +200,7 @@
 
                 </div>
               </div>
-            
+
 
           </li>
         </ul>
@@ -248,7 +248,7 @@
     <!-- Top image -->
     <div id="top" class="section-container first-section-margin section-0">
       <div class="fullwidth-image">
-        <img src="../img/learn/ecosystem.jpg" alt="Aquatic ecosystem">
+        <img src="../img/learn/ecosystem-2.jpg" width="1400" alt="Aquatic ecosystem">
       </div>
     </div><!-- .section-container .first-section-margin -->
 
@@ -259,11 +259,23 @@
           <a class="anchor" id="ecosystems"></a>Aquatic ecosystems
         </div><!-- .section-heading -->
 
-        <p class="center" id="ecosystems-description">
-          Freshwater aquatic ecosystems is the concept of a planted aquarium that <br>
-          combines elements of landscaping and natural ecosystems in the confined <br>
+        <p class="component ecosystems-description">
+          Freshwater aquatic ecosystems is the concept of a planted aquarium that
+          combines elements of landscaping and natural ecosystems in the confined
           space of an aquarium.
         </p>
+
+        <p class="component ecosystems-description">
+          With so many vibrant colors and different possibilities for layout
+          compositions,  aquatic ecosystems are definitely more aesthetically
+          pleasing than the regular freshwater aquarium.
+        </p>
+
+        <p class="component ecosystems-description">
+          Aquatic ecosystems hold cleaner water and healthier aquatic life than any other aquarium.
+          The more plants there are growing in an aquarium, the less likely you will see algae growing in that aquarium.
+        </p>
+
       </div><!-- .section-content -->
     </div><!-- .section-container -->
 
