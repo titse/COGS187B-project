@@ -161,7 +161,7 @@
     <div class="section-container">
       <div class="section-content">
         <div class="section-heading">
-          <a id="contact" class="anchor section-1"></a>Get A Free Quote Today!
+          <a id="contact" class="anchor section-1"></a>Get A Free Consultation & Quote!
         </div><!-- .section-heading -->
         <div class="services-column-1">
           <div class="contact-form">
@@ -181,21 +181,20 @@
 
               <input id="submit" name="submit" type="submit" value="Send Message" />
 
-              <div class="star">Required Field</div>
+              <!-- <div class="star">Required Field</div> -->
             </form>
           </div> <!-- .contact-form -->
         </div> <!-- services-column-1 -->
         <div class ="services-column-2">
-          <br/>
           <div class="services-heading-2">
-            Free Consultation & Quote!
-            <br />
             Contact us today: (858) 224 - FISH
           </div>
+          <div class="services-text">
           <br />
           Aqua Design Innovations focuses on innovative methods of freshwater aquarium installations to create a unique aquatic ecosystem, one that has rarely been seen before.<br /><br />
           With years of experience involved with nature aquatic ecosystems, ADI is well equipped with the best methods, products, and sources for livestock, plants, driftwood, and stones.<br /><br />
           Whether it’s your business or your home, our freshwater aquariums will add beauty to where ever they are installed. If you want to talk to us about getting a free consultation, we’d love to hear from you!
+          </div>
         </div> <!-- .services-column-2-->
         <br style="clear:both" />
       </div><!-- .section-content -->
@@ -205,13 +204,13 @@
     <div class="section-container">
       <div class="section-blurb">
         <div class="services-blurb-overlay">
-          “I’ve never had an aquarium with so many fish that is so easy <br />
+          <!-- “I’ve never had an aquarium with so many fish that is so easy <br />
           to maintain! Thanks ADI for such an easy install <br />
           process! Everything was taken care of for me, <br />
           including easy instructions for self-maintenance after the install.”<br />
-          -Erica Shen
+          -Erica Shen -->
         </div><!-- .services-blurb-overlay -->
-        <img src="img/services/installations1.png" />
+        <img src="img/services/installations4-smaller.png" />
       </div><!-- .section-blurb -->
     </div><!-- .section-container -->
 
@@ -221,9 +220,11 @@
         <div class="section-heading">
           <a id="installations" class="anchor"></a>Installations
         </div><!-- .section-heading -->
-        <br />
-        We have installed tanks from 10-100 gallons within a 1-3 week timeframe. For tanks larger than this, it might take much longer to gather all the equipment and materials. We do our best to deliver a quality product in a timely manner.<br /><br />
+        <div class="services-install">
+        We have installed tanks from 10-100 gallons within a 1-3 week timeframe. For tanks larger than this, it might take much longer to gather all the equipment and materials. We do our best to deliver a quality product in a timely manner.
+        <br /><br />
         Contact us for a free consultation where we can lay out the entire installation process for you!
+        </div>
       </div><!-- .section-content -->
     </div><!-- .section-container -->
 
@@ -233,10 +234,15 @@
         <div class="section-heading">
           <a id="maintenance" class="anchor"></a>Maintenance
         </div><!-- .section-heading -->
-        <br />
-        Our services include hassle-free and carefree maintenance.<br />
-        Planted tanks are actually a lot easier to maintain than you would think.<br />
+        <div class="services-maintenance">
+        Our services include hassle-free and carefree maintenance.
+        </div>
+        <div class="services-maintenance">
         We do our best to establish a self sustaining ecosystem that requires little to no maintenance!
+        </div>
+        <div class="services-maintenance">
+        Planted tanks are actually a lot easier to maintain than you would think.
+        </div>
       </div><!-- .section-content -->
     </div><!-- .section-container -->
 
@@ -246,7 +252,6 @@
         <div class="section-heading">
           <a id="gallery" class="anchor"></a>Gallery of Our Previous Installations
         </div><!-- .section-heading -->
-        <br /><br />
         <div class="services-slide">
           <div id="main-slider" class="flexslider">
             <ul class="slides">

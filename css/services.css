@@ -2,13 +2,13 @@
      /*Video*/
           .services-video-overlay{
                color:rgba(255,255,255,1);
-               font-size:50px;
+               font-size:45px;
                height:450px;
                line-height:130%;
                padding-top:125px;
                padding-left:75px;
                position:absolute;
-               text-shadow:3px 3px 10px rgba(0,0,0,1);
+               text-shadow:3px 3px 8px rgba(0,0,0,1);
                width:100%;
           }
 
@@ -49,6 +49,7 @@
           display:block;
           float:left;
           /*margin: 50px;*/
+          padding-top:15px;
           width: 30%; 
           }
 
@@ -56,6 +57,7 @@
           display:block;
           float:right;
           /*margin: 50px;*/
+          padding-top:25px;
           width: 60%; 
           }
 
@@ -182,12 +184,34 @@
                text-shadow:1px 1px 2px rgba(0,0,0,.5);
                width:100%;
           }
-
+          
 /*Gallery slider*/
      .services-slide{
           margin:0 auto;
+          padding-top:25px;
      }
 
      .services-slide img{
           width:100%;
      }
+
+
+.services-install{
+     font-size:21px;
+     padding-top:15px;
+}
+
+.services-maintenance{
+     float:left;
+     font-size:21px;
+     height:150px;
+     margin:0 auto;
+     overflow:hidden;
+     padding:15px 15px 60px 15px;
+     text-align:center;
+     width:33.3%;
+}
+
+.services-text{
+     font-size:18px;
+}
