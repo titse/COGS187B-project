@@ -235,10 +235,10 @@
           <a id="maintenance" class="anchor"></a>Maintenance
         </div><!-- .section-heading -->
         <div class="services-maintenance">
-        Our services include hassle-free and carefree maintenance.
+        We do our best to establish a self sustaining ecosystem that requires little to no maintenance!
         </div>
         <div class="services-maintenance">
-        We do our best to establish a self sustaining ecosystem that requires little to no maintenance!
+        Our services include hassle-free and carefree maintenance.
         </div>
         <div class="services-maintenance">
         Planted tanks are actually a lot easier to maintain than you would think.
