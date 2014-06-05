@@ -256,7 +256,7 @@ body a:hover {
 
   #product-image-overlay {
     position:absolute;
-    display:inline-block;
+    display:none;
     float:left;
     width:280px;
     height:280px;

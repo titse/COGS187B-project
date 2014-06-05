@@ -332,18 +332,20 @@
           <p class="product-name">Mint</p>
           <p class="price">$ 1.99</p>
         </div>
-        <!--  <div id="product-image-overlay">
-        <div class="product-image-conatiner">
-        <div class="product-image">
-        <a href="#description"><div id="upper-overlay" class="overlay-section">
-        <a href="item-modal-1.php" class="item-modal"><h3>DESCRIPTION</h3></a>
-      </div></a>
-      <a href="#addtocart"><div id="lower-overlay" class="overlay-section">
-      <h3>ADD TO CART</h3>
-    </div></a>
-  </div>
-</div>
-</div>-->
+
+        <div id="product-image-overlay">
+
+              <a href="#description">
+                <p id="description-icon" class="overlay-icon">&#xe820;</p>
+                Details
+              </a>
+
+              <a href="#addtocart">
+                <p id="add-to-cart-icon" class="overlay-icon">&#xe811;</p>
+                Add to cart
+              </a>
+
+        </div>
 
 </div><!-- #content-container -->
 
@@ -447,10 +449,12 @@
 <!-- JavaScript code  -->
 <script>
 
-var DEBUG = false;
+var DEBUG = true;
 
 var productOverlay = $("#product-image-overlay");
 
+
+//-------------- PRODUCT OVERLAY ---------------//
 
 //Registers hover over product and calls showOverlay
 $("div.product").mouseover(function() {
@@ -462,24 +466,23 @@ $("div.product").mouseover(function() {
     console.log("Mouse over product with ID: " + this.id);
     console.log("X: " + x + ", Y: " + y);
   };
+
   showOverlay(x, y);
 });
 
-//WHY ISN'T THIS WORKING?????
-/*$("div.product").mouseout(function() {
-console.log("Mouseout");
-//productOverlay.css("display", "none");
-});*/
+//Registers when the mouse leaves the product overlay and calls hideOverlay
+$("div#product-image-overlay").mouseleave(function() {
+  if (DEBUG) {
+    console.log("Mouse goes off product overlay: ");
+
+  };
+
+  hideOverlay();
+
+});
 
 
-//Shows product overlay
-function showOverlay(x, y) {
-  if (DEBUG) { console.log("Showing overlay at X: " + x + ", Y: " + y); };
-
-  setX("product-image-overlay", x);
-  setY("product-image-overlay", y);
-  productOverlay.css("display", "inline-block");
-}
+//---------------- FILTERING ----------------//
 
 //Showing products matching selected filtering option and highlighting the selected filter option
 $(".filterOptions").click(function() {
@@ -501,7 +504,9 @@ $(".filterOptions").click(function() {
   });
 });
 
+
 </script>
+
 
 <!-- Modal window -->
 <script type="text/javascript">

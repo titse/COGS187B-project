@@ -259,18 +259,20 @@
     <p class="price">$ 3.19</p>
   </div>
 
-  <!--  <div id="product-image-overlay">
-  <div class="product-image-conatiner">
-  <div class="product-image">
-  <a href="#description"><div id="upper-overlay" class="overlay-section">
-  <a href="item-modal-1.php" class="item-modal"><h3>DESCRIPTION</h3></a>
-</div></a>
-<a href="#addtocart"><div id="lower-overlay" class="overlay-section">
-<h3>ADD TO CART</h3>
-</div></a>
-</div>
-</div>
-</div>-->
+  <div id="product-image-overlay">
+
+        <a href="#description">
+          <p id="description-icon" class="overlay-icon">&#xe820;</p>
+          Details
+        </a>
+
+        <a href="#addtocart">
+          <p id="add-to-cart-icon" class="overlay-icon">&#xe811;</p>
+          Add to cart
+        </a>
+
+  </div>
+
 
 </div><!-- #content-container -->
 
@@ -371,65 +373,67 @@
                 </footer>
               </div><!-- #footer-container -->
 
-       <!-- JavaScript code  -->
-    <script>
+<!-- JavaScript code  -->
+<script>
 
-    var DEBUG = false;
+var DEBUG = true;
 
-    var productOverlay = $("#product-image-overlay");
-
-
-    //Registers hover over product and calls showOverlay
-    $("div.product").mouseover(function() {
-      var o = $(this);
-      var x = o.offset().left;
-      var y = o.offset().top;
-
-      if (DEBUG) {
-        console.log("Mouse over product with ID: " + this.id);
-        console.log("X: " + x + ", Y: " + y);
-      };
-      showOverlay(x, y);
-    });
-
-    //WHY ISN'T THIS WORKING?????
-    /*$("div.product").mouseout(function() {
-    console.log("Mouseout");
-    //productOverlay.css("display", "none");
-    });*/
+var productOverlay = $("#product-image-overlay");
 
 
-    //Shows product overlay
-    function showOverlay(x, y) {
-      if (DEBUG) { console.log("Showing overlay at X: " + x + ", Y: " + y); };
+//-------------- PRODUCT OVERLAY ---------------//
 
-      setX("product-image-overlay", x);
-      setY("product-image-overlay", y);
-      productOverlay.css("display", "inline-block");
+//Registers hover over product and calls showOverlay
+$("div.product").mouseover(function() {
+  var o = $(this);
+  var x = o.offset().left;
+  var y = o.offset().top;
+
+  if (DEBUG) {
+    console.log("Mouse over product with ID: " + this.id);
+    console.log("X: " + x + ", Y: " + y);
+  };
+
+  showOverlay(x, y);
+});
+
+//Registers when the mouse leaves the product overlay and calls hideOverlay
+$("div#product-image-overlay").mouseleave(function() {
+  if (DEBUG) {
+    console.log("Mouse goes off product overlay: ");
+
+  };
+
+  hideOverlay();
+
+});
+
+
+//---------------- FILTERING ----------------//
+
+//Showing products matching selected filtering option and highlighting the selected filter option
+$(".filterOptions").click(function() {
+  if (DEBUG) { console.log("Filtering products by " + this.text); };
+
+  var keyword = this.text.toLowerCase();
+
+  if(keyword == "all") {return;}
+
+  highlightFiltered(keyword);
+
+  var products = $(".product").map(function(index) {
+    var o = $(this);
+    if(o.hasClass(keyword)) {
+      o.show();
+    } else {
+      o.hide();
     }
+  });
+});
 
 
-      //Showing products matching selected filtering option and highlighting the selected filter option
-      $(".filterOptions").click(function() {
-        if (DEBUG) { console.log("Filtering products by " + this.text); };
+</script>
 
-        var keyword = this.text.toLowerCase();
-
-        if(keyword == "all") {return;}
-
-        highlightFiltered(keyword);
-
-        var products = $(".product").map(function(index) {
-          var o = $(this);
-          if(o.hasClass(keyword)) {
-            o.show();
-          } else {
-            o.hide();
-          }
-        });
-      });
-
-    </script>
 
           <!-- Modal window -->
                <script type="text/javascript">
