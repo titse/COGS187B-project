@@ -321,6 +321,120 @@
         Aquaponics filter
         <br />
         Aquarium
+        <br /><br />
+        
+
+
+         <div class="section-heading-2">Starter Kits</div>
+           <br />
+           These are starter kits that are bundled with fish and plants to get you started!
+          <br /><br />
+
+
+          <div class="section-container ecoqube-product-section">
+
+            <div class="product fish ecoqube">
+              <div class="product-image-conatiner">
+                <div class="product-image">
+                  <img src="img/shop/ecoqube.png" class="horizontal" alt="Product image">
+                </div>
+              </div>
+
+              <div class="info-icons-wrapper">
+                <div class="icon-description-field-4 key-info" data-title="Recommended for the EcoQube">
+                  <img src="img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon"/></a>
+                  <p class="icon-description">EQ item</p>
+                </div>
+
+                <div class="icon-description-field-4 key-info" data-title="Max size of the fish">
+                  <img src="img/shop/size-icon.png" class="icon" width="40" alt="Fish size icon"/>
+                  <p class="icon-description">1.5 inches </p>
+                </div>
+
+                <div class="icon-description-field-4 key-info" data-title="Reqired water tempreature">
+                  <img src="img/shop/water-temp-icon.png" class="icon" width="40" alt="Water temperature icon"/>
+                  <p class="icon-description">65-75° F</p>
+                </div>
+
+                <div class="icon-description-field-4 key-info" data-title="Swimming level">
+                  <img src="img/shop/swim-level-icon.png" class="icon" width="40" alt="Swimming level icon"/>
+                  <p class="icon-description">Top</p>
+                </div>
+              </div>
+              <p class="product-name">EcoQube UV</p>
+              <p class="price">$ 98.00</p>
+            </div> <!-- Cloud minnow done -->
+
+            <div class="product fish ecoqube">
+              <div class="product-image-conatiner">
+                <div class="product-image">
+                  <img src="img/shop/ecoqube.png" class="horizontal" alt="Product image">
+                </div>
+              </div>
+
+              <div class="info-icons-wrapper">
+                <div class="icon-description-field-4 key-info" data-title="Recommended for the EcoQube">
+                  <img src="img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon" title="Recommended for the EcoQube"/>
+                  <p class="icon-description">EQ item</p>
+                </div>
+
+                <div class="icon-description-field-4 key-info" data-title="Max size of the fish">
+                  <img src="img/shop/size-icon.png" class="icon" width="40" alt="Fish size icon" title="Max size of fish"/>
+                  <p class="icon-description">2 inches </p>
+                </div>
+
+                <div class="icon-description-field-4 key-info" data-title="Reqired water tempreature">
+                  <img src="img/shop/water-temp-icon.png" class="icon" width="40" alt="Water temperature icon" title="Reqired water tempreature"/>
+                  <p class="icon-description">70-82° F</p>
+                </div>
+
+                <div class="icon-description-field-4 key-info" data-title="Swimming level">
+                  <img src="img/shop/swim-level-icon.png" class="icon" width="40" alt="Swimming level icon" title="Swimming level"/>
+                  <p class="icon-description">Top</p>
+                </div>
+
+              </div>
+              <p class="product-name">EcoQube UV Complete Kit</p>
+              <p class="price">$ 98.00</p>
+            </div>
+
+            <div class="product fish ecoqube">
+              <div class="product-image-conatiner">
+                <div class="product-image">
+                  <img src="img/shop/ecoqube.png" class="horizontal" alt="Guppy">
+                </div>
+              </div>
+
+              <div class="info-icons-wrapper">
+                <div class="icon-description-field-4 key-info" data-title="Recommended for the EcoQube">
+                  <img src="img/shop/ecoqube-icon.png" class="icon" width="40" alt="EcoQube icon"/></a>
+                  <p class="icon-description">EQ item</p>
+                </div>
+
+                <div class="icon-description-field-4 key-info" data-title="Max size of the fish">
+                  <img src="img/shop/size-icon.png" class="icon" width="40" alt="Fish size icon"/>
+                  <p class="icon-description">1.5 inches </p>
+                </div>
+
+                <div class="icon-description-field-4 key-info" data-title="Reqired water tempreature">
+                  <img src="img/shop/water-temp-icon.png" class="icon" width="40" alt="Water temperature icon"/>
+                  <p class="icon-description">70-82° F</p>
+                </div>
+
+                <div class="icon-description-field-4 key-info" data-title="Swimming level">
+                  <img src="img/shop/swim-level-icon.png" class="icon" width="40" alt="Swimming level icon"/>
+                  <p class="icon-description">Top</p>
+                </div>
+              </div>
+              <p class="product-name">EcoQube Complete Kit</p>
+              <p class="price">$ 98.00</p>
+            </div>
+
+          </div> <!-- .ecoqube-products -->
+
+
+
+
       </div><!-- section-content -->
     </div><!-- .section-container -->
 
