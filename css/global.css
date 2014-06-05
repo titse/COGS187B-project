@@ -318,8 +318,8 @@ header a:active{
   /*background-color:blue;*/
   width:95%;
   height:30%;
-  margin:2.5%;
-  border:0.5px black solid;
+  margin:2% 2.5% 2% 2.5%;
+
 }
 
 .shoppingcart-product img{
@@ -348,11 +348,13 @@ header a:active{
 .shoppingcart-product .prod-name{
   display:inline-block;
   /*background-color:green;*/
-  width:65%;
+  width:60%;
   height:30%;
   line-height:25px;
   padding-left:5px;
   font-size:16px;
+  float:left;
+  margin:0;
 }
 
 .shoppingcart-product .total{
@@ -447,7 +449,7 @@ header a:active{
   display:inline-block;
   float:left;
   height:100%;
-  width:20%;
+  width:25%;
   /*background-color:blue;*/
 }
 
@@ -471,7 +473,7 @@ header a:active{
   display:inline-block;
   float:left;
   height:100%;
-  margin:8px 5px 5px 30px;
+  margin:8px 5px 5px 20px;
   padding:2px;
 }
 

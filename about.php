@@ -93,6 +93,114 @@
             </ul>
           </li>
           <li><a href="index.php" id="header-icon-cart">&#xe811;</a>
+            <div id="shoppingcart-dropdown">
+              <div id="shoppingcart-header">
+                <p>SHOPPING CART</p>
+              </div>
+
+              <div id="shoppingcart-product-field">
+
+                <div class="shoppingcart-product">
+                  <img src="img/shop/ecoqube-white.png"  alt="Product image">
+
+                  <div class="delete-prod">
+                    x
+                  </div>
+                  <p class="prod-name">EcoQube UV</p>
+                  <div class="qty-adjust">
+                    <p>&#xe864;</p>
+                    <p>&#xe862;</p>
+                  </div>
+                  <p class="total-values">
+                    1  <br>
+                    $ 98.00
+                  </p>
+                  <p class="total">Qty: <br> Price:</p>
+                </div>
+
+                <div class="shoppingcart-product">
+                  <img src="img/shop/clouded-minnow.jpg" class="horizontal" alt="Product image">
+
+                  <div class="delete-prod">
+                    x
+                  </div>
+                  <p class="prod-name">Clouded minnow</p>
+                  <div class="qty-adjust">
+                    <p>&#xe864;</p>
+                    <p>&#xe862;</p>
+                  </div>
+                  <p class="total-values">
+                    2  <br>
+                    $ 2.98
+                  </p>
+                  <p class="total">Qty: <br> Price:</p>
+                </div>
+
+                <div class="shoppingcart-product">
+                  <img src="img/shop/basil.jpg" class="horizontal" alt="Product image">
+
+                  <div class="delete-prod">
+                    x
+                  </div>
+                  <p class="prod-name">Basil</p>
+                  <div class="qty-adjust">
+                    <p>&#xe864;</p>
+                    <p>&#xe862;</p>
+                  </div>
+                  <p class="total-values">
+                    1  <br>
+                    $ 6.99
+                  </p>
+                  <p class="total">Qty: <br> Price:</p>
+                </div>
+
+                <div class="shoppingcart-product">
+                  <img src="img/shop/guppy.jpg" class="horizontal" alt="Product image">
+
+                  <div class="delete-prod">
+                    x
+                  </div>
+                  <p class="prod-name">Guppy</p>
+                  <div class="qty-adjust">
+                    <p>&#xe864;</p>
+                    <p>&#xe862;</p>
+                  </div>
+                  <p class="total-values">
+                    3  <br>
+                    $ 9.57
+                  </p>
+                  <p class="total">Qty: <br> Price:</p>
+                </div>
+
+              </div>
+
+              <div id="shoppingcart-footer">
+                <div id="shoppingcart-summary">
+                  <div id="totals">
+                    <p>
+                      Total qty: <br>
+                      Total price:
+                    </p>
+                  </div>
+
+                  <div id="total-values">
+                    <p>
+                      7 <br>
+                      $ 117.54
+                    </p>
+                  </div>
+
+                  <div id="checkout">
+                    <input id="checkout-btn" type="submit" value="Checkout"/>
+                  </div>
+                </div>
+
+                <div id="shoppingcart-notification">
+                  <p>30% OFF FISH STORE PRICES ON QUANTITIES OF 12 OR MORE</p>
+                </div>
+
+              </div>
+            </div>
           </li>
         </ul>
       </div><!-- #header-navigation -->

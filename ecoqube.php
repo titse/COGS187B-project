@@ -99,53 +99,106 @@
           </li>
           <li>
             <a href="index.php" id="header-icon-cart">&#xe811;</a>
+
             <div id="shoppingcart-dropdown">
               <div id="shoppingcart-header">
                 <p>SHOPPING CART</p>
               </div>
 
               <div id="shoppingcart-product-field">
+
+                <div class="shoppingcart-product">
+                  <img src="img/shop/ecoqube-white.png"  alt="Product image">
+
+                  <div class="delete-prod">
+                    x
+                  </div>
+                  <p class="prod-name">EcoQube UV</p>
+                  <div class="qty-adjust">
+                    <p>&#xe864;</p>
+                    <p>&#xe862;</p>
+                  </div>
+                  <p class="total-values">
+                    1  <br>
+                    $ 98.00
+                  </p>
+                  <p class="total">Qty: <br> Price:</p>
+                </div>
+
                 <div class="shoppingcart-product">
                   <img src="img/shop/clouded-minnow.jpg" class="horizontal" alt="Product image">
 
                   <div class="delete-prod">
                     x
                   </div>
-                  <p>Clouded minnow</p>
-                  <p>$ 1.49  - Qty:  3</p>
+                  <p class="prod-name">Clouded minnow</p>
+                  <div class="qty-adjust">
+                    <p>&#xe864;</p>
+                    <p>&#xe862;</p>
+                  </div>
+                  <p class="total-values">
+                    2  <br>
+                    $ 2.98
+                  </p>
+                  <p class="total">Qty: <br> Price:</p>
                 </div>
 
                 <div class="shoppingcart-product">
+                  <img src="img/shop/basil.jpg" class="horizontal" alt="Product image">
 
+                  <div class="delete-prod">
+                    x
+                  </div>
+                  <p class="prod-name">Basil</p>
+                  <div class="qty-adjust">
+                    <p>&#xe864;</p>
+                    <p>&#xe862;</p>
+                  </div>
+                  <p class="total-values">
+                    1  <br>
+                    $ 6.99
+                  </p>
+                  <p class="total">Qty: <br> Price:</p>
                 </div>
 
                 <div class="shoppingcart-product">
+                  <img src="img/shop/guppy.jpg" class="horizontal" alt="Product image">
 
+                  <div class="delete-prod">
+                    x
+                  </div>
+                  <p class="prod-name">Guppy</p>
+                  <div class="qty-adjust">
+                    <p>&#xe864;</p>
+                    <p>&#xe862;</p>
+                  </div>
+                  <p class="total-values">
+                    3  <br>
+                    $ 9.57
+                  </p>
+                  <p class="total">Qty: <br> Price:</p>
                 </div>
 
-                <div class="shoppingcart-product">
-
-                </div>
               </div>
 
               <div id="shoppingcart-footer">
                 <div id="shoppingcart-summary">
                   <div id="totals">
                     <p>
-                      <strong>Total qty: </strong><br>
-                      <strong>Total price: </strong>
+                      Total qty: <br>
+                      Total price:
                     </p>
                   </div>
 
                   <div id="total-values">
                     <p>
-                      4 <br>
-                      $ 9.99
+                      7 <br>
+                      $ 117.54
                     </p>
                   </div>
 
                   <div id="checkout">
-
+                    <input id="checkout-btn" type="submit" value="Checkout"/>
                   </div>
                 </div>
 
@@ -155,6 +208,7 @@
 
               </div>
             </div>
+            
           </li>
         </ul>
       </div><!-- #header-navigation -->
@@ -318,7 +372,7 @@
             <li>iltration Media</li>
           </ul></div>
         <br /><br />
-        
+
 
 
          <div class="section-heading-2">Starter Kits</div>
@@ -332,7 +386,7 @@
             <div class="product fish ecoqube">
               <div class="product-image-conatiner">
                 <div class="product-image">
-                  <img src="img/shop/ecoqube.png" class="horizontal" alt="Product image">
+                  <img src="img/shop/ecoqube-white.png" class="horizontal" alt="Product image">
                 </div>
               </div>
 
@@ -364,7 +418,7 @@
             <div class="product fish ecoqube">
               <div class="product-image-conatiner">
                 <div class="product-image">
-                  <img src="img/shop/ecoqube.png" class="horizontal" alt="Product image">
+                  <img src="img/shop/ecoqube-white.png" class="horizontal" alt="Product image">
                 </div>
               </div>
 
@@ -397,7 +451,7 @@
             <div class="product fish ecoqube">
               <div class="product-image-conatiner">
                 <div class="product-image">
-                  <img src="img/shop/ecoqube.png" class="horizontal" alt="Guppy">
+                  <img src="img/shop/ecoqube-white.png" class="horizontal" alt="Guppy">
                 </div>
               </div>
 
