@@ -255,26 +255,26 @@
   <div id="content-container">
     <div id="top" class="section-container section-0">
       <div class="section-content">
-        <a href="#ecoqube" class="faq-title">EcoQube</a><br />
-        · <a href="manual.pdf">Download full EcoQube instruction manual in a PDF format.</a><br />
-        · <a href="#ecoqube-q1">Why does my EcoQube have Algae?</a><br />
-        · <a href="#ecoqube-q2">Why is the water in my EcoQube cloudy?</a>
+        <a id="ecoqubeBtn" class="faq-title">EcoQube</a><br />
+      <!--  · <a href="manual.pdf">Download full EcoQube instruction manual in a PDF format.</a><br /> -->
+        <a id="ecoqube-q1Btn" class="faq-heading-question">Why does my EcoQube have Algae?</a><br />
+        <a id="ecoqube-q2Btn" class="faq-heading-question">Why is the water in my EcoQube cloudy?</a>
         <br /><br />
-        <a href="#shop" class="faq-title">Shop</a><br />
-        · <a href="#shop-q1">How do I navigate within the shop?</a><br />
-        · <a href="#shop-q2">What does the product icons mean?</a>
+        <a id="shopBtn" class="faq-title">Shop</a><br />
+        <a id="shop-q1Btn" class="faq-heading-question">How do I navigate within the shop?</a><br />
+        <a id="shop-q2Btn" class="faq-heading-question">What does the product icons mean?</a>
         <br /><br />
-        <a href="#services" class="faq-title">Services</a><br />
-        · <a href="#services-q1">How long is the installation process?</a><br />
-        · <a href="#services-q2">Will my tank be easy to maintain?</a>
+        <a id="servicesBtn" class="faq-title">Services</a><br />
+        <a id="shop-q1Btn" class="faq-heading-question">How long is the installation process?</a><br />
+        <a id="shop-q2Btn" class="faq-heading-question">Will my tank be easy to maintain?</a>
         <br /><br />
-        <a href="#shipping" class="faq-title">Shipping</a><br />
-        · <a href="#shipping-q1">How long is the shipping time?</a><br />
-        · <a href="#shipping-q2">What kind of shipping services do we use?</a>
+        <a id="shippingBtn" class="faq-title">Shipping</a><br />
+        <a id="shipping-q1Btn" class="faq-heading-question">How long is the shipping time?</a><br />
+        <a id="shipping-q2Btn" class="faq-heading-question">What kind of shipping services do we use?</a>
         <br /><br />
-        <a href="#warranty" class="faq-title">Warranty</a><br />
-        · <a href="#warranty-q1">What if my fish dies during the shipping?</a><br />
-        · <a href="#warranty-q2">What if my EcoQube is defective when it arrives?</a>
+        <a id="warrantyBtn" class="faq-title">Warranty</a><br />
+        <a id="warranty-q1Btn" class="faq-heading-question">What if my fish dies during the shipping?</a><br />
+        <a id="warranty-q2Btn" class="faq-heading-question">What if my EcoQube is defective when it arrives?</a>
       </div> <!-- .section-content -->
     </div><!-- .section-container -->
 
@@ -283,14 +283,19 @@
         <div class="section-heading">
           <a id="ecoqube" class="anchor"></a>EcoQube
         </div><!-- .section-heading -->
-        <br />
-        · <a id="ecoqube-q1"></a>Why does my EcoQube have Algae?<br />
-        Answer answer answer answer answer answer answer answer answer answer answer answer answer.
-        <br /><br />
-        · <a id="ecoqube-q2"></a>Why is the water in my EcoQube cloudy?<br />
-        Answer answer answer answer answer answer answer answer answer answer answer answer answer.
-        <br><br><br>
-        <a href="#top">Back to top</a>
+
+        <div class="faq">
+          <a id="ecoqube-q1" class="faq-anchor"></a>
+          <p class="question">Why does my EcoQube have Algae?</p>
+          <p class="answer">Answer answer answer answer answer answer answer answer answer answer answer answer answer.</p>
+        </div>
+
+        <div class="faq">
+          <a id="ecoqube-q2" class="faq-anchor"></a>
+          <p class="question">Why is the water in my EcoQube cloudy?</p>
+          <p class="answer">Answer answer answer answer answer answer answer answer answer answer answer answer answer.</p>
+        </div>
+
       </div> <!-- .section-content -->
     </div><!-- .section-container -->
 
@@ -299,14 +304,19 @@
         <div class="section-heading">
           <a id="shop" class="anchor"></a>Shop
         </div><!-- .section-heading -->
-        <br />
-        · <a id="shop-q1"></a>How do I navigate within the shop?<br />
-        Answer answer answer answer answer answer answer answer answer answer answer answer answer.
-        <br /><br />
-        · <a id="shop-q2"></a>What does the product icons mean?<br />
-        Answer answer answer answer answer answer answer answer answer answer answer answer answer.
-        <br><br><br>
-        <a href="#top">Back to top</a>
+
+        <div class="faq">
+          <a id="shop-q1" class="faq-anchor"></a>
+          <p class="question">How do I navigate within the shop?</p>
+          <p class="answer">Answer answer answer answer answer answer answer answer answer answer answer answer answer.</p>
+        </div>
+
+        <div class="faq">
+          <a id="shop-q2" class="faq-anchor"></a>
+          <p class="question">What does the product icons mean?</p>
+          <p class="answer">Answer answer answer answer answer answer answer answer answer answer answer answer answer.</p>
+        </div>
+
       </div> <!-- .section-content -->
     </div><!-- .section-container -->
 
@@ -315,14 +325,19 @@
         <div class="section-heading">
           <a id="services" class="anchor"></a>Services
         </div><!-- .section-heading -->
-        <br />
-        · <a id="services-q1"></a>How long is the installation process?<br />
-        Answer answer answer answer answer answer answer answer answer answer answer answer answer
-        <br /><br />
-        · <a id="services-q2"></a>Will my tank be easy to maintain?<br />
-        Answer answer answer answer answer answer answer answer answer answer answer answer answer.
-        <br><br><br>
-        <a href="#top">Back to top</a>
+
+        <div class="faq">
+          <a id="services-q1" class="faq-anchor"></a>
+          <p class="question">How long is the installation process?</p>
+          <p class="answer">Answer answer answer answer answer answer answer answer answer answer answer answer answer.</p>
+        </div>
+
+        <div class="faq">
+          <a id="services-q2" class="faq-anchor"></a>
+          <p class="question">Will my tank be easy to maintain?</p>
+          <p class="answer">Answer answer answer answer answer answer answer answer answer answer answer answer answer.</p>
+        </div>
+
       </div> <!-- .section-content -->
     </div><!-- .section-container -->
 
@@ -331,14 +346,19 @@
         <div class="section-heading">
           <a id="shipping" class="anchor"></a>Shipping
         </div><!-- .section-heading -->
-        <br />
-        · <a id="shipping-q1"></a>How long is the shipping time?<br />
-        Answer answer answer answer answer answer answer answer answer answer answer answer answer.
-        <br /><br />
-        · <a id="shipping-q2"></a>What kind of shipping services do we use?<br />
-        Answer answer answer answer answer answer answer answer answer answer answer answer answer.
-        <br><br><br>
-        <a href="#top">Back to top</a>
+
+        <div class="faq">
+          <a id="shipping-q1" class="faq-anchor"></a>
+          <p class="question">How long is the shipping time?</p>
+          <p class="answer">Answer answer answer answer answer answer answer answer answer answer answer answer answer.</p>
+        </div>
+
+        <div class="faq">
+          <a id="shipping-q2" class="faq-anchor"></a>
+          <p class="question">What kind of shipping services do we use?</p>
+          <p class="answer">Answer answer answer answer answer answer answer answer answer answer answer answer answer.</p>
+        </div>
+
       </div> <!-- .section-content -->
     </div><!-- .section-container -->
 
@@ -347,17 +367,21 @@
         <div class="section-heading">
           <a id="warranty" class="anchor"></a>Warranty
         </div><!-- .section-heading -->
-        <br />
-        · <a id="warranty-q1"></a>What if my fish dies during the shipping?<br />
-        Answer answer answer answer answer answer answer answer answer answer answer answer answer.
-        <br /><br>
-        · <a id="warranty-q2"></a>What if my EcoQube is defective when it arrives?<br />
-        Answer answer answer answer answer answer answer answer answer answer answer answer answer.
-        <br><br><br>
-        <a href="#top">Back to top</a>
-      </div><!-- section-content -->
+
+        <div class="faq">
+          <a id="warranty-q1" class="faq-anchor"></a>
+          <p class="question">What if my fish dies during the shipping?</p>
+          <p class="answer">Answer answer answer answer answer answer answer answer answer answer answer answer answer.</p>
+        </div>
+
+        <div class="faq">
+          <a id="warranty-q2" class="faq-anchor"></a>
+          <p class="question">What if my EcoQube is defective when it arrives?</p>
+          <p class="answer">Answer answer answer answer answer answer answer answer answer answer answer answer answer.</p>
+        </div>
+
+      </div> <!-- .section-content -->
     </div><!-- .section-container -->
-  </div><!-- #content-container -->
 
   <!-- Footer -->
   <div id="footer-container">
