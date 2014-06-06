@@ -94,6 +94,10 @@
           </li>
           <li><a href="../index.php" id="header-icon-cart">&#xe811;</a>
 
+              <div id="cart-item-notification">
+                <p id="item-count"> 7 </p>
+              </div>
+
               <div id="shoppingcart-dropdown">
                 <div id="shoppingcart-header">
                   <p>SHOPPING CART</p>

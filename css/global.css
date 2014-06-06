@@ -282,7 +282,39 @@ header a:active{
   font-size:24px;
 }
 
+#cart-item-notification {
+  background: rgba(0,0,0,.75);
+  border-radius: 2px;
+  color: #fff;
+  position: absolute;
+  right:12px;
+  bottom:31px;
+  z-index: 98;
+  text-align:center;
+  height:20px;
+  width:20px;
+  display:inline-block;
+}
+
+.faq-header#cart-item-notification {
+  bottom:29px;
+}
+
+#item-count {
+  font-size:13px;
+  line-height:13px;
+  color:#efefef;
+  margin:3px;
+  padding-top:2px;
+}
+
+#header-navigation li:hover #cart-item-notification {
+  bottom:33px;
+}
+
+
 /*Shoppingcart dropdown*/
+
 #shoppingcart-dropdown{
   display:none;
   width:300px;

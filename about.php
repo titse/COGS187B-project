@@ -87,6 +87,10 @@
                               </ul>
                          </li>
                          <li><a href="index.php" id="header-icon-cart">&#xe811;</a>
+                              <div id="cart-item-notification">
+                                <p id="item-count"> 7 </p>
+                              </div>
+
                               <div id="shoppingcart-dropdown">
                                    <div id="shoppingcart-header">
                                         <p>SHOPPING CART</p>
@@ -283,7 +287,7 @@
                                         But now, we'd like to expand our reach to you through the EcoQube, a miniature aquatic ecosystem that we created to deliver the practical solution and beauty of aquaponics to households and offices around the world!
                                    </li>
                                    <li class="left about-timeline-images">
-                                        <a href="https://www.kickstarter.com/projects/kevinzl/ecoqube-desktop-ecosystem-that-grow-flowers-and-he"><img src="img/about/kickstarter.png" /></a>
+                                        <a href="https://www.kickstarter.com/projects/kevinzl/ecoqube-desktop-ecosystem-that-grow-flowers-and-he"><img src="img/about/kickstarter.png" target="_blank"/></a>
                                    </li>
                                    <li class="highlight about-timeline-highlight">
                                         <a href="ecoqube.php"><img src="img/ecoqube2.jpg" /></a>

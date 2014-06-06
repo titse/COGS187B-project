@@ -28,7 +28,7 @@
   <!--Fixed header + horizontal scroll -->
        <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> -->
        <script type="text/javascript" src="ScrollToFixed-master/jquery-scrolltofixed.js"></script>
-       
+
 </head>
 <body>
   <!-- Header -->
@@ -90,6 +90,10 @@
             </ul>
           </li>
           <li><a href="index.php" id="header-icon-cart">&#xe811;</a>
+
+            <div id="cart-item-notification" class="faq-header">
+              <p id="item-count"> 7 </p>
+            </div>
 
             <div id="shoppingcart-dropdown">
               <div id="shoppingcart-header">
