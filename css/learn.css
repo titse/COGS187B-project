@@ -27,12 +27,12 @@
 	/*---- Slider ---*/
 	#ecosystems-slide-text {
 		margin-left:55%;
-		margin-top:-9%;
+		margin-top:0;
 	}
 
 	#blog-slide-text {
-		margin-left:%;
-		margin-top:-8%;
+		margin-left:10%;
+		margin-top:;
 	}
 
 	.index-slider-overlay.learn:hover {

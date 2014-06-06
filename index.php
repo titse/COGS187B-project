@@ -240,7 +240,7 @@
 
         <div class="picture3">
           <img src="img/index/shop-slide.jpg" width="1400"/>
-          <a href="shop/index.php"> -->
+          <a href="shop/index.php">
             <div class="ns_slideContent">
               <div class="shop-slide-text-overlay">
 
