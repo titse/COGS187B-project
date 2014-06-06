@@ -269,6 +269,13 @@ header a:active{
   text-decoration:none;
 }
 
+/* EcoQube leaf */
+#eq-leaf {
+  position:absolute;
+  top:22px;
+  left:65px;
+}
+
 /*Header Cart*/
 #header-icon-cart{
   font-family:"Fontello";

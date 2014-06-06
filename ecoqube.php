@@ -49,7 +49,8 @@
 
       <div id="header-navigation">
         <ul>
-          <li><a href="ecoqube.php" class="header-heading" id="header-current">EcoQube</a>
+          <li><a href="ecoqube.php" class="header-heading" id="header-current">EcoQube
+            <img src="img/ecoqube/eq-leaf.png" id="eq-leaf" width="12"></a>
             <ul class="sub_menu">
               <li><a href="ecoqube.php#howitworks" id="howitworksBtn" class="">How It Works</a></li>
               <li><a href="ecoqube.php#keyfeatures" id="keyfeaturesBtn" class="">Key Features</a></li>
@@ -208,7 +209,7 @@
 
               </div>
             </div>
-            
+
           </li>
         </ul>
       </div><!-- #header-navigation -->

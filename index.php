@@ -35,7 +35,8 @@
 
                     <div id="header-navigation">
                          <ul>
-                              <li><a href="ecoqube.php" class="header-heading">EcoQube</a>
+                              <li><a href="ecoqube.php" class="header-heading">EcoQube
+                                  <img src="img/ecoqube/eq-leaf.png" id="eq-leaf" width="12"></a>
                                    <ul class="sub_menu">
                                         <li><a href="ecoqube.php#howitworks">How It Works</a></li>
                                         <li><a href="ecoqube.php#keyfeatures">Key Features</a></li>
