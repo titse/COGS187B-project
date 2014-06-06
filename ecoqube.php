@@ -292,16 +292,22 @@
         </div><!-- .section-heading -->
         <div class="howitworks-left">
           <br />
-          <img src="img/ecoqube/fish.png" />
-          Fish excrete waste into the water.<br>
-          <img src="img/ecoqube/water.png" />
-          Aquaponics filter turns waste into fertilizer.<br>
-          <img src="img/ecoqube/leaf.png" />
-          Filter uses plants to purify the water.
-          <br /><br />
-          Fertilized water from the fish is fed to plant roots at 100 gallons per hour and the roots remove the fish waste before water re-enters the aquarium, making it a low maintenance plant propagator and easy to care for aquarium.
-          <br /><br />
-          This makes the EcoQube a natural, self-sustainable, and easy to care for aquarium.
+		  <div class="howitworks-blub"> <img src="img/ecoqube/fish.png" />
+         <div class="blub-text"> Fish excrete waste into the water.</div> 
+		  </div>
+		   <div class="howitworks-blub">  <img src="img/ecoqube/water.png" />
+          <div class="blub-text">Aquaponics filter turns waste into fertilizer. </div></div>
+		    <div class="howitworks-blub"> <img src="img/ecoqube/leaf.png" />
+          <div class="blub-text"> Filter uses plants to purify the water.</div></div>
+          
+         <div class="ecoqube-description"> 
+          <p> Fertilized water from the fish is fed to plant roots at 100 gallons per hour and the roots remove the fish waste before water re-enters the aquarium, making it a low maintenance plant propagator and easy to care for aquarium. </p>
+			<div class = "ecoqube-description-mainpoint">
+          This makes the EcoQube a natural, self-sustainable, and easy to care for aquarium. </div> <!--end of mainpoint-->
+		  
+		  </div><!--end of ecoqube description-->
+          
+          
         </div><!-- .howitworks-left -->
         <div class="howitworks-right">
           <img src="img/ecoqube/eqrender.png" />

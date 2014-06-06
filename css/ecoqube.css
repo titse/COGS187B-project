@@ -48,17 +48,38 @@
           .howitworks-left{
                display:inline-block;
                float:left;
-               max-width:70%;
+               max-width:75%;
                padding-bottom:75px;
           }
-
+		
           .howitworks-right{
                display:inline-block;
                float:right;
                max-width:30%;
                padding-bottom:75px;
           }
-
+		.howitworks-blub{
+			text-align:left; 
+			display:inline-block; 
+			float:left;
+			
+		}
+		.blub-text{
+			width:60%;
+			display:inline-block;
+			clear:both;
+			
+		}
+		.ecoqube-description {
+			padding-top:50px;
+			display:inline-block;
+			padding-bottom:20px;
+		}
+		.ecoqube-description-mainpoint {
+			padding-top:20px;
+			display:inline-block;
+			font-size:18px;
+		}
      /*Key Features*/
           .keyfeatures-left{
                display:inline-block;
