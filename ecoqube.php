@@ -715,42 +715,39 @@
                     <ul class="slides">
                       <li><div class="ecoqube-inside">
                         <a href="http://www.treehugger.com/gadgets/aquaponics-ecosystem-fits-your-desk.html"><img src="img/ecoqube/press-treehugger.png" class="ecoqube-press-logos" /></a>
-                        "... innovative and beautiful ..."
+                        <br />"... innovative and beautiful ..."
                       </div></li>
                       <li><div class="ecoqube-inside">
                         <a href="http://inventorspot.com/articles/ecoqube_minifarm_aquarium_combines_sustainability_beauty"><img src="img/ecoqube/press-inventorspot.png" class="ecoqube-press-logos" /></a>
-                        "perfected their design"
+                        <br />"perfected their design"
                       </div></li>
                       <li><div class="ecoqube-inside">
                         <a href="http://nextshark.com/ecoqube-how-this-startup-can-seriously-end-world-hunger/"><img src="img/ecoqube/press-nextshark.png" class="ecoqube-press-logos" /></a>
-                        How this startup can seriously end world hunger
+                        <br />How this startup can seriously end world hunger
                       </div></li>
                       <li><div class="ecoqube-inside">
                         <a href="http://www.enn.com/sustainability/article/46713"><img src="img/ecoqube/press-enn.png" class="ecoqube-press-logos" /></a>
-                        "... an accessible, scaled down aquaponics ecosystem ..."
-                      </div></li>
-                      <li><div class="ecoqube-inside">
-                        <a href="http://welldonestuff.com/ecoqube-bring-nature-life/"><img src="img/ecoqube/press-welldonestuff.png" class="ecoqube-press-logos" /></a>
+                        <br />"... an accessible, scaled down aquaponics ecosystem ..."
                       </div></li>
                       <li><div class="ecoqube-inside">
                         <a href="http://www.crowdlifted.com/news/2013/12/ecoqube-a-desktop-aquaponic-ecosystem-to-bring-organic-life-to-your-cubicle"><img src="img/ecoqube/press-crowdlifted.png" class="ecoqube-press-logos" /></a>
-                        "... a compact, elegant lesson in sustainability"
+                        <br />"... a compact, elegant lesson in sustainability"
                       </div></li>
                       <li><div class="ecoqube-inside">
                         <a href="http://amedicsworld.com/2013/12/ecoqube-the-most-beautiful-way-to-grow-herbs-house-plants-or-flowers-indoor-while-using-the-same-plants-to-clean-aquarium-water-with-ease.html"><img src="img/ecoqube/press-amedicsworld.png" class="ecoqube-press-logos" /></a>
-                        "... it can be its own art piece that you can create"
+                        <br />"... it can be its own art piece that you can create"
                       </div></li>
                       <li><div class="ecoqube-inside">
                         <a href="http://www.greenphillyblog.com/green-living/ecoqube-kickstarter/"><img src="img/ecoqube/press-greenphillyblog.png" class="ecoqube-press-logos" /></a>
-                        Feed fish, Get Plants. "... BRILLIANT ..."
+                        <br />Feed fish, Get Plants. "... BRILLIANT ..."
                       </div></li>
                       <li><div class="ecoqube-inside">
                         <a href="http://makobiscribe.com/ecoqube-coolest-gift-ever/"><img src="img/ecoqube/press-makobiscribe.png" class="ecoqube-press-logos" /></a>
-                        "Everyone needs one for their home!"
+                        <br />"Everyone needs one for their home!"
                       </div></li>
                       <li><div class="ecoqube-inside">
                         <a href="http://stagetecture.com/2013/11/ecoqube-kickstarter/"><img src="img/ecoqube/press-stagetecture.png" class="ecoqube-press-logos" /></a>
-                        A Greener Way To Beautify Your Home
+                        <br />A Greener Way To Beautify Your Home
                       </div></li>
                       <li><div class="ecoqube-inside">
                         <a href="http://www.homemaidsimple.com/2013/12/ecoqube-kickstarter-campaign.html"><img src="img/ecoqube/press-homemaidsimple.png" class="ecoqube-press-logos" /></a>
@@ -758,7 +755,7 @@
                       </div></li>
                       <li><div class="ecoqube-inside">
                         <a href="http://stacysrandomthoughts.com/2013/12/ecoqube-bring-nature-to-life/"><img src="img/ecoqube/press-stacyuncorked.png" class="ecoqube-press-logos" /></a>
-                        "... definitely need one of these on my counter ..."
+                        <br />"... definitely need one of these on my counter ..."
                       </div></li>
                     </ul>
                   </div>
