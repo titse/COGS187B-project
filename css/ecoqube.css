@@ -1,220 +1,247 @@
 /*Content*/
-     /*Video*/
-          .ecoqube-video-overlay{
-               color:rgba(79,79,79,1);
-               font-size:32px;
-               height:450px;
-               padding-top:115px;
-               padding-left:75px;
-               position:absolute;
-               text-shadow:1px 1px 2px rgba(255,255,255,.25);
-               width:100%;
-          }
+/*Video*/
+.ecoqube-video-overlay{
+  color:rgba(79,79,79,1);
+  font-size:32px;
+  height:450px;
+  padding-top:115px;
+  padding-left:75px;
+  position:absolute;
+  text-shadow:1px 1px 2px rgba(255,255,255,.25);
+  width:100%;
+}
 
-          .ecoqube-video-overlay img{
-               padding-top:10px;
-               width:375px;
-          }
+.ecoqube-video-overlay img{
+  padding-top:10px;
+  width:375px;
+}
 
-          .ecoqube-play-icon{
-               color:rgba(255,255,255,.75);
-               font-family:"Fontello";
-               font-size:125px;
-               min-width:1280px;
-               padding-top:150px;
-               position:absolute;
-               text-align:center;
-               width:100%;
-          }
+.ecoqube-play-icon{
+  color:rgba(255,255,255,.75);
+  font-family:"Fontello";
+  font-size:125px;
+  min-width:1280px;
+  padding-top:150px;
+  position:absolute;
+  text-align:center;
+  width:100%;
+}
 
-          .ecoqube-play-icon:hover{
-               color:rgba(0,108,184,.9);
-               /*min-height:450px;*/
-               width:100%;
-          }
+.ecoqube-play-icon:hover{
+  color:rgba(0,108,184,.9);
+  /*min-height:450px;*/
+  width:100%;
+}
 
-          .ecoqube-video-image{
-               /*height:450px;*/
-               /*overflow:hidden;*/
-               width:100%;
-          }
+.ecoqube-video-image{
+  /*height:450px;*/
+  /*overflow:hidden;*/
+  width:100%;
+}
 
-          .ecoqube-video-image img{
-               height:450px;
-               width:100%;
-          }
+.ecoqube-video-image img{
+  height:450px;
+  width:100%;
+}
 
-     /*How It Works*/
-          .howitworks-left{
-               display:inline-block;
-               float:left;
-               max-width:75%;
-               padding-bottom:75px;
-          }
+/*How It Works*/
+.howitworks-left{
+  display:inline-block;
+  float:left;
+  max-width:75%;
+  padding-bottom:75px;
+}
 
-          .howitworks-right{
-               display:inline-block;
-               float:right;
-               max-width:30%;
-               padding-bottom:75px;
-          }
-		.howitworks-blub{
-			text-align:left;
-			display:inline-block;
-			float:left;
+.howitworks-right{
+  display:inline-block;
+  float:right;
+  max-width:30%;
+  padding-bottom:75px;
+}
+.howitworks-blub{
+  text-align:left;
+  display:inline-block;
+  float:left;
 
-		}
-		.blub-text{
-			width:60%;
-			display:inline-block;
-			clear:both;
-		}
-		.ecoqube-description {
-			padding-top:50px;
-			display:inline-block;
-			padding-bottom:20px;
-      color:black;
-		}
+}
+.blub-text{
+  width:60%;
+  display:inline-block;
+  clear:both;
+}
+.ecoqube-description {
+  padding-top:50px;
+  display:inline-block;
+  padding-bottom:20px;
+  color:black;
+}
 
-    .ecoqube-description p {
-      color:black;
-    }
+.ecoqube-description p {
+  color:black;
+}
 
-		.ecoqube-description-mainpoint {
-			padding-top:20px;
-			display:inline-block;
-			font-size:18px;
-		}
-     /*Key Features*/
-          .keyfeatures-left{
-               display:inline-block;
-               float:left;
-               margin-right:0;
-               max-width:50%;
-               padding-bottom:75px;
-          }
+.ecoqube-description-mainpoint {
+  padding-top:20px;
+  display:inline-block;
+  font-size:18px;
+}
 
-          .keyfeatures-left ul{
-               list-style-type:square;
-               margin:0 auto;
-               padding:0 auto;
-          }
+/*Key Features*/
+.keyfeatures-left{
+  display:inline-block;
+  float:left;
+  margin-right:0;
+  max-width:50%;
+  padding-bottom:75px;
+}
 
-          .keyfeatures-right{
-               display:inline-block;
-               float:right;
-               margin-left:0;
-               max-width:50%;
-               padding-bottom:75px;
-          }
+.keyfeatures-left ul{
+  list-style-type:square;
+  margin:0 auto;
+  padding:0 auto;
+}
 
-     /*Buy It Today*/
+.keyfeatures-right{
+  display:inline-block;
+  float:right;
+  margin-left:0;
+  max-width:50%;
+  padding-bottom:75px;
+}
 
-          .bloop-left ul{
-               list-style-type:square;
-               margin:0 auto;
-               padding:0 auto;
-          }
+/*Buy It Today*/
 
-          .ecoqube-product-section {
-            width:100%;
-            text-align:center;
-          }
+.bloop-left ul{
+  list-style-type:square;
+  margin:0 auto;
+  padding:0 auto;
+}
 
-          .ecoqube-product-section .product {
-            float:left;
-            margin:3% 5%;
-          }
+.ecoqube-product-section {
+  width:100%;
+  text-align:center;
+}
 
-          .ecoqube-product-section .icon-description {
-            margin:0;
-          }
+.ecoqube-product-section .product {
+  float:left;
+  margin:3% 5%;
+}
 
-          .ecoqube-product-section .price {
-            margin:0;
-          }
+.ecoqube-product-section .icon-description {
+  margin:0;
+}
 
-          .ecoqube-product-section .product-name {
-            margin:0;
-          }
+.ecoqube-product-section .price {
+  margin:0;
+}
 
-          .ecoqube-product-section #product-image-overlay div, p, a{
-            padding:0;
-            margin:0;
-          }
+.ecoqube-product-section .product-name {
+  margin:0;
+}
 
+.ecoqube-product-section #product-image-overlay div, p, a{
+  padding:0;
+  margin:0;
+}
 
-     /*Blurbs*/
-          .ecoqube-blurb-overlay-1{
-               color:rgba(255,255,255,.9);
-               font-family:"Helvetica Neue LT Pro Light Extended";
-               font-size:32px;
-               letter-spacing:2px;
-               line-height:135%;
-               max-width:1600px;
-               min-width:1280px;
-               overflow:hidden;
-               padding:100px 25px;
-               position:absolute;
-               text-shadow:1px 1px 5px rgba(0,0,0,.9);
-               width:100%;
-          }
+.starterkit {
+  display:inline-block;
+  width:280px;
+  /*background-color:blue;*/
+  margin:0% 5%;
+  float:left;
+  overflow:none;
+  padding-left:10px;
+}
 
-          .ecoqube-blurb-overlay-2{
-               color:rgba(255,255,255,.9);
-               font-family:"Helvetica Neue LT Pro Light Extended";
-               font-size:28px;
-               letter-spacing:2px;
-               line-height:135%;
-               max-width:1600px;
-               min-width:1280px;
-               overflow:hidden;
-               padding:25px 0 0 525px;
-               position:absolute;
-               text-align:center;
-               text-shadow:1px 1px 5px rgba(0,0,0,.9);
-               width:100%;
-          }
+.starterkit ul {
+  margin:0;
+  padding-left:5px;
+  padding-top:5px;
+  list-style-image: url('../img/ecoqube/eq-bullet.gif');
+}
 
-          .ecoqube-blurb-overlay-3{
-               color:rgba(255,255,255,.9);
-               font-family:"Helvetica Neue LT Pro Light Extended";
-               font-size:26px;
-               letter-spacing:2px;
-               line-height:135%;
-               max-width:1600px;
-               min-width:1280px;
-               overflow:hidden;
-               padding:50px 25px 0 0;
-               position:absolute;
-               text-align:right;
-               text-shadow:1px 1px 5px rgba(0,0,0,.9);
-               width:100%;
-          }
+.starterkit li {
+  font-size:16px;
+  margin-left:30px;
+}
 
-     /*Press*/
-          #ecoqube-press-container{
-               /*margin-left:auto;*/
-               /*margin-right:auto;*/
-               /*text-align:left;*/
-               /*width:1300px;*/
-          }
+.starterkit lh {
+  font-size:20px;
+  color:#006cb8;
+}
 
-          .ecoqube-press-logos{
-               display:inline;
-               margin:0 auto;
-               vertical-align:top;
-               /*display:inline-block;*/
-               /*padding-right:2em;*/
-               /*padding-bottom:1.5em;*/
-          }
+/*Blurbs*/
+.ecoqube-blurb-overlay-1{
+  color:rgba(255,255,255,.9);
+  font-family:"Helvetica Neue LT Pro Light Extended";
+  font-size:32px;
+  letter-spacing:2px;
+  line-height:135%;
+  max-width:1600px;
+  min-width:1280px;
+  overflow:hidden;
+  padding:100px 25px;
+  position:absolute;
+  text-shadow:1px 1px 5px rgba(0,0,0,.9);
+  width:100%;
+}
 
-          .ecoqube-press-logos:hover{
-               opacity:.75;
-          }
+.ecoqube-blurb-overlay-2{
+  color:rgba(255,255,255,.9);
+  font-family:"Helvetica Neue LT Pro Light Extended";
+  font-size:28px;
+  letter-spacing:2px;
+  line-height:135%;
+  max-width:1600px;
+  min-width:1280px;
+  overflow:hidden;
+  padding:25px 0 0 525px;
+  position:absolute;
+  text-align:center;
+  text-shadow:1px 1px 5px rgba(0,0,0,.9);
+  width:100%;
+}
 
-          .ecoqube-inside{
-               font-size:32px;
-               padding:35px 90px 0 90px;
-               text-align:center;
-          }
+.ecoqube-blurb-overlay-3{
+  color:rgba(255,255,255,.9);
+  font-family:"Helvetica Neue LT Pro Light Extended";
+  font-size:26px;
+  letter-spacing:2px;
+  line-height:135%;
+  max-width:1600px;
+  min-width:1280px;
+  overflow:hidden;
+  padding:50px 25px 0 0;
+  position:absolute;
+  text-align:right;
+  text-shadow:1px 1px 5px rgba(0,0,0,.9);
+  width:100%;
+}
+
+/*Press*/
+#ecoqube-press-container{
+  /*margin-left:auto;*/
+  /*margin-right:auto;*/
+  /*text-align:left;*/
+  /*width:1300px;*/
+}
+
+.ecoqube-press-logos{
+  display:inline;
+  margin:0 auto;
+  vertical-align:top;
+  /*display:inline-block;*/
+  /*padding-right:2em;*/
+  /*padding-bottom:1.5em;*/
+}
+
+.ecoqube-press-logos:hover{
+  opacity:.75;
+}
+
+.ecoqube-inside{
+  font-size:32px;
+  padding:35px 90px 0 90px;
+  text-align:center;
+}
