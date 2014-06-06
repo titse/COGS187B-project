@@ -51,7 +51,7 @@
                max-width:75%;
                padding-bottom:75px;
           }
-		
+
           .howitworks-right{
                display:inline-block;
                float:right;
@@ -59,22 +59,27 @@
                padding-bottom:75px;
           }
 		.howitworks-blub{
-			text-align:left; 
-			display:inline-block; 
+			text-align:left;
+			display:inline-block;
 			float:left;
-			
+
 		}
 		.blub-text{
 			width:60%;
 			display:inline-block;
 			clear:both;
-			
 		}
 		.ecoqube-description {
 			padding-top:50px;
 			display:inline-block;
 			padding-bottom:20px;
+      color:black;
 		}
+
+    .ecoqube-description p {
+      color:black;
+    }
+
 		.ecoqube-description-mainpoint {
 			padding-top:20px;
 			display:inline-block;
