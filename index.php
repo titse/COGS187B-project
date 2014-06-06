@@ -203,44 +203,67 @@
     </header>
   </div><!-- #header-container -->
 
+
   <!-- Content -->
   <div id="content-container">
     <div class="section-container" >
       <div class="slider">
+
         <div class="picture1">
-          <img src="img/ecoqube6.png" />
+
+          <img src="img/ecoqube6.png"/>
+
+            <div class="ns_slideContent">
+              <div class="index-slider-overlay">
+                <div id="eq-description">
+                  <img src="img/logos/ecoqube-logo.png" id="eq-logo">
+                  <p id="eq-description-text">
+                    The most beautiful way to grow herbs, house
+                    plants, or flowers indoor while using the
+                    same plants to clean aquarium water with ease.
+                  </p>
+
+                </div>
+                <div id="buttons">
+                  <a href="ecoqube.php#buyittoday">
+                    <input id="eq-buy-btn" class="eq-slide-btn" type="submit" value="Buy today"/>
+                  </a>
+                  <a href="ecoqube.php">
+                    <input id="eq-learnmore-btn" class="eq-slide-btn" type="submit" value="Learn more"/>
+                  </a>
+                </div><!-- #buttons -->
+              </div><!-- .index-slider-overlay -->
+
+            </div><!-- ns_slideContent -->
+
+        </div><!-- .picture1 ~~~~~> there is no css code for this -->
+
+        <div class="picture3">
+          <img src="img/index/shop-slide.jpg" width="1400"/>
+          <a href="shop/index.php"> -->
+            <div class="ns_slideContent">
+              <div class="shop-slide-text-overlay">
+
+                <h1>CLICK TO SHOP! </h1>
+
+                30 % off fish store prices on <br>
+                quantities of 12 or more
+              </div><!-- .index-slider-overlay -->
+            </div><!-- ns_slideContent -->
+          </a>
+        </div><!-- .picture3 ~~~~~> there is no css code for this -->
+
+        <div class="picture2">
+          <img src="img/ecoqube/ecoqube-slide-banner.jpg" />
           <a href="ecoqube.php">
             <div class="ns_slideContent">
               <div class="index-slider-overlay">
-                <img src="img/logos/ecoqube-logo.png" width="1400"/><br /><br />
-                <!-- <div class="index-words"> -->
-                The most beautiful way to grow herbs, house <br />
-                plants, or flowers indoor while using the <br />
-                same plants to clean aquarium <br />
-                water with ease.
-                <!-- </div> --><!-- .index-words -->
               </div><!-- .index-slider-overlay -->
 
             </div><!-- ns_slideContent -->
           </a>
-        </div><!-- .picture1 ~~~~~> there is no css code for this -->
-        <div class="picture2">
-          <img src="img/ecoqube3.png" width="1400"/>
-          <!-- <a href="ecoqube.php"> -->
-          <div class="ns_slideContent">
-            <div class="index-slider-overlay">
-              <!-- <img src="img/index/kickstarter.png" /><br /><br /> -->
-              <!-- <div class="index-words"> -->
-              <!-- The most beautiful way to grow herbs, house <br />
-              plants, or flowers indoor while using the <br />
-              same plants to clean aquarium <br />
-              water with ease. -->
-              <!-- </div> --><!-- .index-words -->
-            </div><!-- .index-slider-overlay -->
-          </div><!-- ns_slideContent -->
-          <!-- </a> -->
         </div><!-- .picture2 ~~~~~> there is no css code for this -->
-        <!-- <img src = "img/ecoqube3.png"/> -->
+
       </div><!-- .slider -->
     </div><!-- .section-container #first-section-margin -->
   </div><!-- #content-container -->
