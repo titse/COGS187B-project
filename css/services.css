@@ -203,6 +203,7 @@
      .services-slide{
           margin:0 auto;
           padding-top:25px;
+          padding-bottom:75px;
      }
 
      .services-slide img{
@@ -216,7 +217,7 @@
 }
 
 .services-maintenance{
-          display:inline-block;
+          display:block;
           margin:0 auto;
           max-width:100%;
 }

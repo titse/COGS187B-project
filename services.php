@@ -290,7 +290,7 @@
               <input class="contact-input contact-subject" name="subject" placeholder="Message Subject" type="subject" required />
 
               <label class="mandatory">Message</label>
-              <textarea class="contact-input" name="message" placeholder="Type your message here." required /></textarea>
+              <textarea class="contact-input" name="message" placeholder="Type your message here" required /></textarea>
 
               <input id="submit" name="submit" type="submit" value="Send Message" />
 
@@ -334,9 +334,16 @@
           <a id="installations" class="anchor"></a>Installations
         </div><!-- .section-heading -->
         <div class="services-install">
-        We have installed tanks from 10-100 gallons within a 1-3 week timeframe. For tanks larger than this, it might take much longer to gather all the equipment and materials. We do our best to deliver a quality product in a timely manner.
-        <br /><br />
+        <div class="services-maintenance">
+        <div class="services-maintenance-blurb">
+        Tanks larger than 10-100 gallons may take longer than a timeframe of 1-3 weeks.
+        </div>
+        <div class="services-maintenance-blurb">
+        We do our best to deliver a quality product in a timely manner.
+        </div>
+        <div class="services-maintenance-blurb">
         Contact us for a free consultation where we can lay out the entire installation process for you!
+        </div>
         </div>
       </div><!-- .section-content -->
     </div><!-- .section-container -->
@@ -362,7 +369,7 @@
     </div><!-- .section-container -->
 
     <!-- Gallery -->
-    <div class="section-container section-4">
+    <div class="section-container section-4 last-section-margin">
       <div class="section-content">
         <div class="section-heading">
           <a id="gallery" class="anchor"></a>Gallery of Our Previous Installations
@@ -370,26 +377,21 @@
         <div class="services-slide">
           <div id="main-slider" class="flexslider">
             <ul class="slides">
-              <li><a class="gal" href="img/about/ourstory-4.jpg" title=""><img src="img/about/ourstory-4.jpg" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-5.jpg" title=""><img src="img/about/ourstory-5.jpg" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-6.jpg" title=""><img src="img/about/ourstory-6.jpg" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-13.jpg" title=""><img src="img/about/ourstory-13.jpg" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-7.jpg" title=""><img src="img/about/ourstory-7.jpg" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-10.jpg" title=""><img src="img/about/ourstory-10.jpg" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-1.jpg" title=""><img src="img/about/ourstory-1.jpg" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-9.jpg" title=""><img src="img/about/ourstory-9.jpg" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-2.jpg" title=""><img src="img/about/ourstory-2.jpg" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-3.jpg" title=""><img src="img/about/ourstory-3.jpg" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-18.jpg" title=""><img src="img/about/ourstory-18.jpg" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-21.jpg" title=""><img src="img/about/ourstory-21.jpg" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-8.jpg" title=""><img src="img/about/ourstory-8.jpg" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-14.jpg" title=""><img src="img/about/ourstory-14.jpg" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-15.jpg" title=""><img src="img/about/ourstory-15.jpg" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-16.jpg" title=""><img src="img/about/ourstory-17.jpg" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-17.jpg" title=""><img src="img/about/ourstory-16.jpg" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-19.jpg" title=""><img src="img/about/ourstory-19.jpg" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-20.jpg" title=""><img src="img/about/ourstory-20.jpg" /></a></li>
-              <li><a class="gal" href="img/about/ecoqube-2.jpg" title=""><img src="img/ecoqube2.jpg" /></a></li>
+              <li><a class="gal" href="img/about/ourstory-6.jpg" title=""><img src="img/services/installations6-th.png" /></a></li>
+              <li><a class="gal" href="img/about/ourstory-18.jpg" title=""><img src="img/about/ourstory-20-th.png" /></a></li>
+              <li><a class="gal" href="img/about/ourstory-13.jpg" title=""><img src="img/services/happyharbour1-th.png" /></a></li>
+              <li><a class="gal" href="img/about/ourstory-9.jpg" title=""><img src="img/services/installations5-th.png" /></a></li>
+              <li><a class="gal" href="img/about/ourstory-9.jpg" title=""><img src="img/about/ourstory-16-th.png" /></a></li>
+              <li><a class="gal" href="img/about/ourstory-2.jpg" title=""><img src="img/about/ourstory-17-th.png" /></a></li>
+              <li><a class="gal" href="img/about/ourstory-4.jpg" title=""><img src="img/services/installations2-th.png" /></a></li>
+              <li><a class="gal" href="img/about/ourstory-7.jpg" title=""><img src="img/services/installations1-th.png" /></a></li>
+              <li><a class="gal" href="img/about/ourstory-6.jpg" title=""><img src="img/services/installations7-th.png" /></a></li>
+              <li><a class="gal" href="img/about/ourstory-5.jpg" title=""><img src="img/services/installations3-th.png" /></a></li>
+              <li><a class="gal" href="img/about/ourstory-6.jpg" title=""><img src="img/services/installations9-th.png" /></a></li>
+              <li><a class="gal" href="img/about/ourstory-6.jpg" title=""><img src="img/services/installations4-th.png" /></a></li>
+              <li><a class="gal" href="img/about/ourstory-10.jpg" title=""><img src="img/about/ourstory-8-th.png" /></a></li>
+              <li><a class="gal" href="img/about/ourstory-1.jpg" title=""><img src="img/about/ourstory-15-th.png" /></a></li>
+              <li><a class="gal" href="img/about/ourstory-3.jpg" title=""><img src="img/about/ourstory-18-th.png" /></a></li>
             </ul>
           </div></div>
         </div><!-- .section-content -->
