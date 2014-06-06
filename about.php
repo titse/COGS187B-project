@@ -243,50 +243,39 @@
                                    <li class="left timeline-year-first">
                                         <span class="about-timeline-heading">The Beginning</span>
                                    </li>
-                                   <li class="left">
-                                        We started out working as operations managers, biology assistants, sales representatives, and installing aquariums at various locations.
-                                   </li>
                                    <li class="left about-timeline-logos">
+                                        We started out working as operations managers, biology assistants, sales representatives, and installing aquariums at various locations.
+                                        <br /><br /><br />
                                         <img src="img/about/californiaacademyofsciences.png" />
                                         <img src="img/about/aquaforestaquarium.png" />
                                         <img src="img/about/aquaticcentral.png" />
                                    </li>
-                                   <li class="right about-timeline-images">
-                                        <!-- <div id="main-slider" class="flexslider"> -->
-                                             <!-- <ul class="slides"> -->
-                                                  <!-- <li> --><img src="img/about/ourstory-4.jpg" /><!-- </li> -->
-                                                  <!-- <li><img src="img/about/ourstory-5.jpg" /></li> -->
-                                             <!-- </ul> -->
-                                        <!-- </div> -->
-                                   </li>
-                                   <li class="left">
+                                   <li class="right pad">
                                         With knowledge and experience, we established ADI with the fundamental goals to build a business around a solution for the aquarium industry and to raise environmental awareness.
                                    </li>
-                                   <li class="left">
-                                        Eventually, we decided to start our own online aquarium store while selling shrimp out of a garage in San Francisco
-                                   </li>
                                    <li class="left about-timeline-images">
+                                        Eventually, we decided to start our own online aquarium store while selling shrimp out of a garage in San Francisco
+                                        <br /><br /><br />
                                         <img src="img/about/ourstory-1.jpg" />
                                    </li>
-                                   <li class="right timeline-year-second">
+                                   <li class="right timeline-year-second pad">
                                         <span class="about-timeline-heading">The Evolution</span>
                                    </li>
-                                   <li class="right">
-                                        We continued pursuing our passion for connecting people with nature through aquatic ecosystem installations.
-                                   </li>
-                                   <li class="left">
-                                        We even brought our love of aquariums with us to college.
-                                   </li>
-                                   <li class="left about-timeline-images">
+                                   <li class="right about-timeline-images">
+                                        We brought our love of aquariums with us to college.
+                                        <br /><br /><br />
                                         <img src="img/about/ourstory-8.jpg" class="about-ourstory-timeline-images" />
+                                   </li>
+                                   <li class="left pad">
+                                        We continued pursuing our passion for connecting people with nature through aquatic ecosystem installations.
                                    </li>
                                    <li class="right timeline-year-third">
                                         <span class="about-timeline-heading">The Company Today</span>
                                    </li>
-                                   <li class="right">
+                                   <li class="right pad">
                                         But now, we'd like to expand our reach to you through the EcoQube, a miniature aquatic ecosystem that we created to deliver the practical solution and beauty of aquaponics to households and offices around the world!
                                    </li>
-                                   <li class="left about-timeline-images">
+                                   <li class="left about-timeline-images pad">
                                         <a href="https://www.kickstarter.com/projects/kevinzl/ecoqube-desktop-ecosystem-that-grow-flowers-and-he"><img src="img/about/kickstarter.png" target="_blank"/></a>
                                    </li>
                                    <li class="highlight about-timeline-highlight">
