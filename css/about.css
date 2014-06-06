@@ -1,151 +1,119 @@
-/*Content*/
-          /*.section-heading{
-               text-align:center;
-          }*/
+/*.section-heading{
+     text-align:center;
+}*/
 
-          .about-founders-image{
-               /*height:450px;*/
-               /*overflow:hidden;*/
-               width:100%;
-          }
+/*Splash image*/
+     .about-founders-image{
+          /*height:450px;*/
+          /*overflow:hidden;*/
+          width:100%;
+     }
 
-          .about-founders-image img{
-               height:450px;
-               width:100%;
-          }
+     .about-founders-image img{
+          height:450px;
+          width:100%;
+     }
 
-          #ourstory-slide img{
-               background:rgba(255,255,255,.08);
-               border-bottom:4px solid rgba(255,255,255,.08);
-               border-left:2px solid rgba(255,255,255,.08);
-               border-right:2px solid rgba(255,255,255,.08);
-               border-top:4px solid rgba(255,255,255,.08);
-               width:100%;
-          }
+/*Our Story*/
+     /*Timeline's container*/ .about-timeline ul{
+       list-style:none;
+       margin:30px auto;
+       overflow:hidden;
+       padding:.5%;
+       position:relative;
+       width:100%;
+     }
 
-          .about-ourstory-images{
-               height:200px;
-          }
+     /*Line*/ .about-timeline ul:after{
+       background-color:rgba(0,108,184,1);
+       content:"";
+       left:50%;
+       min-height:100%;
+       /*margin-left:-2px;*/
+       position:absolute;
+       top:0px;
+       width:3px;
+       z-index:1;
+     }
 
-          #about-ourstory-thebeginning{
-               text-align:justify;
-          }
-
-          #about-ourstory-thebeginning img{
-               height:50px;
-               /*padding:0em 2em;*/
-          }
-
-          .about-values-list{
-               list-style-type:square;
-               margin:0 auto;
-               padding:0 auto;
-          }
-
-          .about-team-members{
-               width:100%;
-          }
-
-          .about-affiliates-names{
-               /*color:rgba(74,74,74,1);*/
-               font-size:36px;
-               /*font-weight:bold;*/
-               text-transform:uppercase;
-          }
-
-          .about-affiliates-names a{
-               color:rgba(0,108,184,1);
-               font-size:36px;
-               /*font-weight:bold;*/
-               text-transform:uppercase;
-          }
-
-          .about-inside{
-               padding:55px 90px;
-               text-align:center;
-          }
-
-          .about-flexslider2-text, .about-flexslider2-text a{
-               font-size:20px;
-          }
-
-     /*Timeline*/
-          .about-timeline ul {
-            position: relative;
-            overflow: hidden;
-            list-style: none;
-            width: 100%;
-            margin: 30px auto;
-            padding: 0;
-          }
-
-          .about-timeline ul:after {
-            content:"";
-            z-index: 1;
-            position: absolute;
-            left: 50%;
-            top:0px;
-            width: 3px;
-            margin-left: -2px;
-            min-height: 100%;
-            background-color: rgba(0,108,184,1);
-          }
-
-          .about-timeline li {
-            z-index: 2;
-            position: relative;
-            /*width: 380px;*/
+     /*Boxes*/
+          /*all boxes*/ .about-timeline li{
+            background-color:rgba(255,255,255,1);
+            border:5px solid rgba(239,239,239,1);
+            box-shadow:0px 0px 5px rgba(0,0,0,.15);
+            -webkit-box-shadow:0px 0px 5px rgba(0,0,0,.15);
+            -moz-box-shadow:0px 0px 5px rgba(0,0,0,.15);
+            -o-box-shadow:0px 0px 5px rgba(0,0,0,.15);
+            clear:both;
+            float:none;
+            margin-bottom:30px;
+            padding:20px;
+            position:relative;
             width:46%;
-            padding: 20px;
+            z-index:2;
+          }
+
+          /*boxes for headings*/
+               .about-timeline li.timeline-year-first{
+                    top:10px;
+                    left:26%;
+                    width:auto;
+               }
+
+               .about-timeline li.timeline-year-second{
+                    right:26%;
+                    width:auto;
+               }
+
+               .about-timeline li.timeline-year-third{
+                    right:19.7%;
+                    width:auto;
+               }
+
+          /*left box*/ .about-timeline li.left {
+            clear: left;
             float: left;
-            margin-bottom: 30px;
-            background-color: rgba(255,255,255,1);
+          }
+
+          /*right box*/.about-timeline li.right {
+            clear: right;
+            float: right;
+            top:100px;
+          }
+
+          /*full-width box*/ .about-timeline li.highlight {
             border: 5px solid rgba(239,239,239,1);
             box-shadow: 0px 0px 5px rgba(0,0,0,.15);
             -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
             -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
             -o-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
-          }
-
-          .about-timeline li.left {
-            float: left;
-            clear: left;
-          }
-
-          .about-timeline li.right {
-            top:100px;
-            float: right;
-            clear: right;
-          }
-
-          .about-timeline li.highlight {
+            clear: both;
+            float: none;
             margin-bottom:125px;
             top:100px;
-            float: none;
-            clear: both;
             width: auto;
-            border: 5px solid rgba(239,239,239,1);
-            box-shadow: 0px 0px 5px rgba(0,0,0,.15);
-            -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
-            -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
-            -o-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
           }
 
-          /* arrow */
+          /*all boxes' hover color change*/ .about-timeline li:hover {
+            border: 5px solid rgba(0,108,184,1);
+            transition: .7s;
+            -webkit-transition: .7s;
+          }
 
+     /*Arrows*/
           .about-timeline li:before {
-            content:"";
-            z-index: 1;
-            position: absolute;
-            top: 12px;
-            right: -6px;
-            left: -6px;
-            width: 15px;
-            height: 12px;
             background-color: rgba(255,255,255,1);
             transform: rotate(45deg);
             -ms-transform:rotate(45deg);
-           -webkit-transform:rotate(45deg);
+            -webkit-transform:rotate(45deg);
+            content:"";
+            height: 12px;
+            left: -6px;
+            position: absolute;
+            right: -6px;
+            top: 12px;
+            width: 15px;
+            z-index: 1;
           }
 
           .about-timeline li.left:before {
@@ -164,42 +132,113 @@
             top: -6px;
           }
 
-          /* dot */
-          .about-timeline li:after {
-            content:"";
-            z-index: 1;
-            position: absolute;
-            top: 10px;
-            right: -58px;
-            left: -58px;
-            width: 20px;
-            height: 20px;
+     /*Circles*/
+          /*all circle*/ .about-timeline li:after {
+            background-color: rgba(255,255,255,1);
             border: 3px solid rgba(239,239,239,1);
             border-radius: 100%;
-            background-color: rgba(255,255,255,1);
-            transition: .7s;
-            -webkit-transition: .7s;
             box-shadow: 0px 0px 5px rgba(0,0,0,.15);
             -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
             -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
             -o-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
-          }
-
-
-          .about-timeline li:hover {
-            border: 5px solid rgba(0,108,184,1);
+            content:"";
+            height: 20px;
+            left: -61px;
+            position: absolute;
+            right: -65px;
+            top: 10px;
             transition: .7s;
             -webkit-transition: .7s;
+            width: 20px;
+            z-index: 1;
           }
 
-          .about-timeline li:hover:after {
+          /*all circles' color change*/ .about-timeline li:hover:after {
             background-color: rgba(0,108,184,1);
-            top: 10px;
-            right: -58px;
-            left: -58px;
-            width: 20px;
-            height: 20px;
           }
+
+          /*Year*/
+               /*First year*/
+                    .about-timeline li.timeline-year-first:after{
+                         background-color:rgba(0,108,184,1);
+                         border-radius:100%;
+                         color:rgba(255,255,255,1);
+                         content:"2008";
+                         height:60px;
+                         left:-85px;
+                         padding:16px 0 20px 9px;
+                         position: absolute;
+                         right:-85px;
+                         top:10px;
+                         width:60px;
+                         z-index: 1;
+                    }
+
+                    .about-timeline li.timeline-year-first:hover:after{
+                      background-color: rgba(255,255,255,1);
+                      border:3px solid rgba(0,108,184,1);
+                      color:rgba(0,0,0,1);
+                      height:60px;
+                      width:60px;
+                      transition: .7s;
+                      -webkit-transition: .7s;
+                    }
+
+               /*Second year*/
+                    .about-timeline li.timeline-year-second:after{
+                         background-color:rgba(0,108,184,1);
+                         border-radius:100%;
+                         color:rgba(255,255,255,1);
+                         content:"2010";
+                         height:60px;
+                         width:60px;
+                      z-index: 1;
+                      position: absolute;
+                      top: 10px;
+                      right: -78px;
+                      left: -78px;
+                      padding:16px 0 20px 9px;
+                    }
+
+                    .about-timeline li.timeline-year-second:hover:after{
+                      background-color: rgba(255,255,255,1);
+                      border:3px solid rgba(0,108,184,1);
+                      color:rgba(0,0,0,1);
+                      height:60px;
+                      width:60px;
+                      left: -78px;
+                      right:-78px;
+                      transition: .7s;
+                      -webkit-transition: .7s;
+                    }
+
+               /*Third year*/
+                    .about-timeline li.timeline-year-third:after{
+                         background-color:rgba(0,108,184,1);
+                         border-radius:100%;
+                         color:rgba(255,255,255,1);
+                         content:"2013";
+                         height:60px;
+                         width:60px;
+                      z-index: 1;
+                      position: absolute;
+                      top: 10px;
+                      right: -78px;
+                      left: -78px;
+                      padding:16px 0 20px 9px;
+                    }
+
+                    .about-timeline li.timeline-year-third:hover:after{
+                      background-color: rgba(255,255,255,1);
+                      border:3px solid rgba(0,108,184,1);
+                      color:rgba(0,0,0,1);
+                      height:60px;
+                      width:60px;
+                      right: -78px;
+                      left:-78px;
+                      transition: .7s;
+                      -webkit-transition: .7s;
+                    }
 
           .about-timeline li.left:after {
             left: auto;
@@ -232,10 +271,10 @@
             top: -40px;
           }
 
-          /*Images and text formatting*/
+     /*Images and text formatting*/
           .about-timeline-images{
-               margin:0 auto;
-               text-align:center;
+               /*margin:0 auto;*/
+               /*text-align:center;*/
           }
 
           .about-timeline-images img{
@@ -243,7 +282,7 @@
           }
 
           .about-timeline-logos img{
-               margin:0 auto;
+               /*margin:0 auto;*/
                width:32.7%;
           }
 
@@ -258,7 +297,7 @@
                text-transform:uppercase;
           }
 
-     /*Vision and Values*/
+/*Vision and Values*/
      .about-vision{
           display:block;
           margin:0 auto;
@@ -266,40 +305,77 @@
      }
 
      .about-vision-blurb{
+          background-color:rgba(255,255,255,1);
+          border:5px solid rgba(239,239,239,1);
           float:left;
-          font-size:18px;
           height:150px;
-          margin:0 auto;
+          /*height:auto;*/
+          margin:0 5px 10px 5px;
           overflow:hidden;
-          padding:0 15px 60px 15px;
-          text-align:center;
-          width:33.3%;
+          padding:30px;
+          width:30%;
      }
 
      .about-vision-heading{
-          font-size:22px;
+          font-size:18px;
           font-style:italic;
           text-transform:uppercase;
-     }
-
-     .about-vision-blurb-2{
-          font-size:21px;
-          font-style:italic;
      }
 
      .about-vision-quote{
           color:rgba(0,0,0,.8);
-          display:block;
+          display:inline-block;
           font-family:"Helvetica Neue LT Pro Light Extended";
           font-size:28px;
           /*font-style:italic;*/
-          margin:0 auto;
+          margin:50px auto 0 auto;
           text-align:center;
           text-transform:uppercase;
-          width:75%;
+          width:90%;
      }
 
+/*The Team*/
      .about-team{
           font-size:20px;
+          /*text-align:center;*/
+     }
+
+     .about-team-members{
+          width:100%;
+     }
+
+/*Affiliates*/
+     .about-affiliates-names{
+          /*color:rgba(74,74,74,1);*/
+          font-size:36px;
+          /*font-weight:bold;*/
+          text-transform:uppercase;
+     }
+
+     .about-affiliates-names a{
+          color:rgba(0,108,184,1);
+          font-size:36px;
+          /*font-weight:bold;*/
+          text-transform:uppercase;
+     }
+
+     .about-inside{
+          padding:55px 90px;
           text-align:center;
+     }
+
+     .about-inside-one{
+          float:left;
+          font-family:"Fontello";
+          font-size:50px;
+          margin:50px 50px 100px 50px;
+          vertical-align:middle;
+     }
+
+     .about-float-two{
+          float:left;
+     }
+
+     .about-flexslider2-text, .about-flexslider2-text a{
+          font-size:20px;
      }

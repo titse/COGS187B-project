@@ -344,14 +344,16 @@
           <a id="maintenance" class="anchor"></a>Maintenance
         </div><!-- .section-heading -->
         <div class="services-maintenance">
+        <div class="services-maintenance-blurb">
         We do our best to establish a self sustaining ecosystem that requires little to no maintenance!
         </div>
-        <div class="services-maintenance">
+        <div class="services-maintenance-blurb">
         Our services include hassle-free and carefree maintenance.
         </div>
-        <div class="services-maintenance">
+        <div class="services-maintenance-blurb">
         Planted tanks are actually a lot easier to maintain than you would think.
         </div>
+      </div>
       </div><!-- .section-content -->
     </div><!-- .section-container -->
 

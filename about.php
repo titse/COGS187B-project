@@ -1,332 +1,301 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>About</title>
-  <link type="text/css" rel="stylesheet" href="css/global.css"/>
-  <link type="text/css" rel="stylesheet" href="css/about.css"/>
-  <link type="image/png" rel="shortcut icon" href="img/logos/favicon.ico" />
+     <title>About</title>
+     <link type="text/css" rel="stylesheet" href="css/global.css"/>
+     <link type="text/css" rel="stylesheet" href="css/about.css"/>
+     <link type="image/png" rel="shortcut icon" href="img/logos/favicon.ico" />
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Modal window -->
-  <!-- Magnific Popup core CSS file -->
-  <link rel="stylesheet" href="Magnific-Popup-master/dist/magnific-popup.css">
+     <!-- Custom Javascript functions used across pages -->
+          <script type="text/javascript" src="js/global.js"></script>
 
-  <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+     <!-- Modal window -->
+          <!-- Magnific Popup core CSS file --> <link rel="stylesheet" href="Magnific-Popup-master/dist/magnific-popup.css">
+          <!-- jQuery 1.7.2+ or Zepto.js 1.0+ --> <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+          <!-- Magnific Popup core JS file --> <script src="Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
 
-  <!-- Magnific Popup core JS file -->
-  <script src="Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+     <!-- JQuery visible library to detect which sections of the page is visible on the users screen and sdjust the blue dot-->
+          <script type="text/javascript" src="js/jquery.visible.js"></script>
 
-  <!-- JQuery visible library to detect which sections of the page is visible on the users screen and sdjust the blue dot-->
-  <script type="text/javascript" src="js/jquery.visible.js"></script>
+     <!-- FlexSlider2 -->
+          <link rel="stylesheet" href="flexslider2/flexslider-about.css" type="text/css">
+          <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> -->
+          <script src="flexslider2/jquery.flexslider.js"></script>
 
-  <!-- Custom Javascript functions used across pages -->
-  <script type="text/javascript" src="js/global.js"></script>
-
-  <!-- FlexSlider2 -->
-  <link rel="stylesheet" href="flexslider2/flexslider-about.css" type="text/css">
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> -->
-  <script src="flexslider2/jquery.flexslider.js"></script>
-
-  <!-- Fixed header + horizontal scroll -->
-  <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> -->
-  <script type="text/javascript" src="ScrollToFixed-master/jquery-scrolltofixed.js"></script>
+     <!-- Allows for a fixed header to have horizontal scroll -->
+          <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> -->
+          <script type="text/javascript" src="ScrollToFixed-master/jquery-scrolltofixed.js"></script>
 </head>
 <body>
-  <!-- Header -->
-  <div id="header-container">
-    <header>
-      <div id="header-logo">
-        <a href="index.php"><img src="img/logos/header-logo.png" /></a>
-      </div><!-- #header-logo -->
+     <!-- Header --> <div id="header-container">
+          <header>
+               <div id="header-logo">
+                    <a href="index.php"><img src="img/logos/header-logo.png" /></a>
+               </div><!-- #header-logo -->
 
-      <div id="header-navigation">
-        <ul>
-          <li><a href="ecoqube.php" class="header-heading">EcoQube
-            <img src="img/ecoqube/eq-leaf.png" id="eq-leaf" width="12"></a>
-            <ul class="sub_menu">
-              <li><a href="ecoqube.php#howitworks">How It Works</a></li>
-              <li><a href="ecoqube.php#keyfeatures">Key Features</a></li>
-              <li><a href="ecoqube.php#buyittoday">Buy It Today</a></li>
-              <li><a href="ecoqube.php#fishandplants">Fish & Plants</a></li>
-              <li><a href="ecoqube.php#press">Press Releases</a></li>
-            </ul>
-          </li>
-          <li><a href="shop/index.php" class="header-heading">Shop</a>
-            <ul class="sub_menu">
-              <li><a href="shop/ecoqube.php">EcoQube</a></li>
-              <li><a href="shop/livestock.php">Livestock</a></li>
-              <li><a href="shop/plants.php">Plants</a></li>
-              <li><a href="shop/accessories.php">Accessories</a></li>
-            </ul>
-          </li>
-          <li><a href="services.php" class="header-heading">Services</a>
-            <ul  class="sub_menu">
-              <li><a href="services.php#contact">Contact</a></li>
-              <li><a href="services.php#installations">Installations</a></li>
-              <li><a href="services.php#maintenance">Maintenance</a></li>
-              <li><a href="services.php#gallery">Gallery</a></li>
-            </ul>
-          </li>
-          <li><a href="about.php" class="header-heading" id="header-current">About</a>
-            <ul  class="sub_menu">
-              <li><a href="about.php#ourstory" id="ourstoryBtn" class="">Our Story</a></li>
-              <li><a href="about.php#values" id="valuesBtn" class="">Values</a></li>
-              <li><a href="about.php#theteam" id="theteamBtn" class="">The Team</a></li>
-              <li><a href="about.php#affiliates" id="affiliatesBtn" class="">Affiliates</a></li>
-            </ul>
-          </li>
-          <li><a href="learn/index.php" class="header-heading">Learn</a>
-            <ul  class="sub_menu">
-              <li><a href="learn/blog.php">Blog</a></li>
-              <li><a href="learn/ecosystems.php">Ecosystems</a></li>
-            </ul>
-          </li>
-          <li><a href="faq.php" class="header-heading">FAQ</a>
-            <ul class="sub_menu">
-              <li><a href="faq.php#ecoqube">EcoQube</a></li>
-              <li><a href="faq.php#shop">Shop</a></li>
-              <li><a href="faq.php#services">Services</a></li>
-              <li><a href="faq.php#shipping">Shipping</a></li>
-              <li><a href="faq.php#warranty">Warranty</a></li>
-            </ul>
-          </li>
-          <li><a href="index.php" id="header-icon-cart">&#xe811;</a>
-            <div id="shoppingcart-dropdown">
-              <div id="shoppingcart-header">
-                <p>SHOPPING CART</p>
-              </div>
+               <div id="header-navigation">
+                    <ul>
+                         <li><a href="ecoqube.php" class="header-heading">EcoQube <img src="img/ecoqube/eq-leaf.png" id="eq-leaf" width="12"></a>
+                              <ul class="sub_menu">
+                                   <li><a href="ecoqube.php#howitworks">How It Works</a></li>
+                                   <li><a href="ecoqube.php#keyfeatures">Key Features</a></li>
+                                   <li><a href="ecoqube.php#buyittoday">Buy It Today</a></li>
+                                   <li><a href="ecoqube.php#fishandplants">Fish & Plants</a></li>
+                                   <li><a href="ecoqube.php#press">Press Releases</a></li>
+                              </ul>
+                         </li>
+                         <li><a href="shop/index.php" class="header-heading">Shop</a>
+                              <ul class="sub_menu">
+                                   <li><a href="shop/ecoqube.php">EcoQube</a></li>
+                                   <li><a href="shop/livestock.php">Livestock</a></li>
+                                   <li><a href="shop/plants.php">Plants</a></li>
+                                   <li><a href="shop/accessories.php">Accessories</a></li>
+                              </ul>
+                         </li>
+                         <li><a href="services.php" class="header-heading">Services</a>
+                              <ul  class="sub_menu">
+                                   <li><a href="services.php#contact">Contact</a></li>
+                                   <li><a href="services.php#installations">Installations</a></li>
+                                   <li><a href="services.php#maintenance">Maintenance</a></li>
+                                   <li><a href="services.php#gallery">Gallery</a></li>
+                              </ul>
+                         </li>
+                         <li><a href="about.php" class="header-heading" id="header-current">About</a>
+                              <ul  class="sub_menu">
+                                   <li><a href="about.php#ourstory" id="ourstoryBtn" class="">Our Story</a></li>
+                                   <li><a href="about.php#values" id="valuesBtn" class="">Values</a></li>
+                                   <li><a href="about.php#theteam" id="theteamBtn" class="">The Team</a></li>
+                                   <li><a href="about.php#affiliates" id="affiliatesBtn" class="">Affiliates</a></li>
+                              </ul>
+                         </li>
+                         <li><a href="learn/index.php" class="header-heading">Learn</a>
+                              <ul  class="sub_menu">
+                                   <li><a href="learn/blog.php">Blog</a></li>
+                                   <li><a href="learn/ecosystems.php">Ecosystems</a></li>
+                              </ul>
+                         </li>
+                         <li><a href="faq.php" class="header-heading">FAQ</a>
+                              <ul class="sub_menu">
+                                   <li><a href="faq.php#ecoqube">EcoQube</a></li>
+                                   <li><a href="faq.php#shop">Shop</a></li>
+                                   <li><a href="faq.php#services">Services</a></li>
+                                   <li><a href="faq.php#shipping">Shipping</a></li>
+                                   <li><a href="faq.php#warranty">Warranty</a></li>
+                              </ul>
+                         </li>
+                         <li><a href="index.php" id="header-icon-cart">&#xe811;</a>
+                              <div id="shoppingcart-dropdown">
+                                   <div id="shoppingcart-header">
+                                        <p>SHOPPING CART</p>
+                                   </div>
+                                   <div id="shoppingcart-product-field">
+                                        <div class="shoppingcart-product">
+                                             <img src="img/shop/ecoqube-white.png"  alt="Product image">
+                                             <div class="delete-prod">
+                                                  x
+                                             </div>
+                                             <p class="prod-name">EcoQube UV</p>
+                                             <div class="qty-adjust">
+                                                  <p>&#xe864;</p>
+                                                  <p>&#xe862;</p>
+                                             </div>
+                                             <p class="total-values">
+                                                  1  <br>
+                                                  $ 98.00
+                                             </p>
+                                             <p class="total">Qty: <br> Price:</p>
+                                        </div>
+                                        <div class="shoppingcart-product">
+                                             <img src="img/shop/clouded-minnow.jpg" class="horizontal" alt="Product image">
+                                             <div class="delete-prod">
+                                                  x
+                                             </div>
+                                             <p class="prod-name">Clouded minnow</p>
+                                             <div class="qty-adjust">
+                                                  <p>&#xe864;</p>
+                                                  <p>&#xe862;</p>
+                                             </div>
+                                             <p class="total-values">
+                                                  2  <br>
+                                                  $ 2.98
+                                             </p>
+                                             <p class="total">Qty: <br> Price:</p>
+                                        </div>
+                                        <div class="shoppingcart-product">
+                                             <img src="img/shop/basil.jpg" class="horizontal" alt="Product image">
+                                             <div class="delete-prod">
+                                                  x
+                                             </div>
+                                             <p class="prod-name">Basil</p>
+                                             <div class="qty-adjust">
+                                                  <p>&#xe864;</p>
+                                                  <p>&#xe862;</p>
+                                             </div>
+                                             <p class="total-values">
+                                                  1  <br>
+                                                  $ 6.99
+                                             </p>
+                                             <p class="total">Qty: <br> Price:</p>
+                                        </div>
+                                        <div class="shoppingcart-product">
+                                             <img src="img/shop/guppy.jpg" class="horizontal" alt="Product image">
+                                             <div class="delete-prod">
+                                                  x
+                                             </div>
+                                             <p class="prod-name">Guppy</p>
+                                             <div class="qty-adjust">
+                                                  <p>&#xe864;</p>
+                                                  <p>&#xe862;</p>
+                                             </div>
+                                             <p class="total-values">
+                                                  3  <br>
+                                                  $ 9.57
+                                             </p>
+                                             <p class="total">Qty: <br> Price:</p>
+                                        </div>
+                                   </div>
+                                   <div id="shoppingcart-footer">
+                                        <div id="shoppingcart-summary">
+                                             <div id="totals">
+                                                  <p>
+                                                       Total qty: <br>
+                                                       Total price:
+                                                  </p>
+                                             </div>
+                                             <div id="total-values">
+                                                  <p>
+                                                       7 <br>
+                                                       $ 117.54
+                                                  </p>
+                                             </div>
+                                             <div id="checkout">
+                                                  <input id="checkout-btn" type="submit" value="Checkout"/>
+                                             </div>
+                                        </div>
+                                        <div id="shoppingcart-notification">
+                                             <p>30% OFF FISH STORE PRICES ON QUANTITIES OF 12 OR MORE</p>
+                                        </div>
+                                   </div>
+                              </div>
+                         </li>
+                    </ul>
+               </div><!-- #header-navigation -->
+          </header>
+     </div><!-- #header-container -->
 
-              <div id="shoppingcart-product-field">
-
-                <div class="shoppingcart-product">
-                  <img src="img/shop/ecoqube-white.png"  alt="Product image">
-
-                  <div class="delete-prod">
-                    x
-                  </div>
-                  <p class="prod-name">EcoQube UV</p>
-                  <div class="qty-adjust">
-                    <p>&#xe864;</p>
-                    <p>&#xe862;</p>
-                  </div>
-                  <p class="total-values">
-                    1  <br>
-                    $ 98.00
-                  </p>
-                  <p class="total">Qty: <br> Price:</p>
-                </div>
-
-                <div class="shoppingcart-product">
-                  <img src="img/shop/clouded-minnow.jpg" class="horizontal" alt="Product image">
-
-                  <div class="delete-prod">
-                    x
-                  </div>
-                  <p class="prod-name">Clouded minnow</p>
-                  <div class="qty-adjust">
-                    <p>&#xe864;</p>
-                    <p>&#xe862;</p>
-                  </div>
-                  <p class="total-values">
-                    2  <br>
-                    $ 2.98
-                  </p>
-                  <p class="total">Qty: <br> Price:</p>
-                </div>
-
-                <div class="shoppingcart-product">
-                  <img src="img/shop/basil.jpg" class="horizontal" alt="Product image">
-
-                  <div class="delete-prod">
-                    x
-                  </div>
-                  <p class="prod-name">Basil</p>
-                  <div class="qty-adjust">
-                    <p>&#xe864;</p>
-                    <p>&#xe862;</p>
-                  </div>
-                  <p class="total-values">
-                    1  <br>
-                    $ 6.99
-                  </p>
-                  <p class="total">Qty: <br> Price:</p>
-                </div>
-
-                <div class="shoppingcart-product">
-                  <img src="img/shop/guppy.jpg" class="horizontal" alt="Product image">
-
-                  <div class="delete-prod">
-                    x
-                  </div>
-                  <p class="prod-name">Guppy</p>
-                  <div class="qty-adjust">
-                    <p>&#xe864;</p>
-                    <p>&#xe862;</p>
-                  </div>
-                  <p class="total-values">
-                    3  <br>
-                    $ 9.57
-                  </p>
-                  <p class="total">Qty: <br> Price:</p>
-                </div>
-
-              </div>
-
-              <div id="shoppingcart-footer">
-                <div id="shoppingcart-summary">
-                  <div id="totals">
-                    <p>
-                      Total qty: <br>
-                      Total price:
-                    </p>
-                  </div>
-
-                  <div id="total-values">
-                    <p>
-                      7 <br>
-                      $ 117.54
-                    </p>
-                  </div>
-
-                  <div id="checkout">
-                    <input id="checkout-btn" type="submit" value="Checkout"/>
-                  </div>
-                </div>
-
-                <div id="shoppingcart-notification">
-                  <p>30% OFF FISH STORE PRICES ON QUANTITIES OF 12 OR MORE</p>
-                </div>
-
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div><!-- #header-navigation -->
-    </header>
-  </div><!-- #header-container -->
-
-  <!-- Dot navigation -->
-  <div id="dot-navigation-container">
-    <ul>
-
-      <li class="dot-navigation-icon">
-        <a id="topBtn" class="dot-hover" href="ecoqube.php#top" data-title="Top">
-          <img class="navigation-dot" id="img-section-0-dot" src="img/dots/dot-current.png" width="25" height="25" alt="Top Navigation Dot"/>
-          <img class="navigation-dot hover" id="img-section-0-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Top Navigation Dot"/>
-        </a>
-      </li>
-
-      <li class="dot-navigation-icon">
-        <a id="ourstoryBtn" class="dot-hover" href="about.php#ourstory" data-title="Our Story">
-          <img class="navigation-dot" id="img-section-1-dot" src="img/dots/dot.png" width="25" height="25" alt="Our Story Navigation Dot" />
-          <img class="navigation-dot hover" id="img-section-1-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Our Story Navigation Dot" />
-        </a>
-      </li>
-
-      <li class="dot-navigation-icon">
-        <a id="valuesBtn" class="dot-hover" href="about.php#values" data-title="Vision and values">
-          <img class="navigation-dot" id="img-section-2-dot" src="img/dots/dot.png" width="25" height="25" alt="Values Navigation Dot"  />
-          <img class="navigation-dot hover" id="img-section-2-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Values Navigation Dot"  />
-        </a>
-      </li>
-
-      <li class="dot-navigation-icon">
-        <a id="theteamBtn" class="dot-hover" href="about.php#theteam" data-title="The Team">
-          <img class="navigation-dot" id="img-section-3-dot" src="img/dots/dot.png" width="25" height="25" alt="The Team Navigation Dot" />
-          <img class="navigation-dot hover" id="img-section-3-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="The Team Navigation Dot" />
-        </a>
-      </li>
-
-      <li class="dot-navigation-icon">
-        <a id="affiliatesBtn" class="dot-hover" href="about.php#affiliates" data-title="Affiliates and sposorships">
-          <img class="navigation-dot" id="img-section-4-dot" src="img/dots/dot.png" width="25" height="25" alt="Affiliates Navigation Dot"/>
-          <img class="navigation-dot hover" id="img-section-4-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Affiliates Navigation Dot"/>
-        </a>
-      </li>
-    </ul>
-  </div>
-
-  <!-- Content  -->
-  <div id="content-container">
-    <div id="top" class="section-container section-0">
-      <div class="about-founders-image">
-        <img src="img/about/team-1.jpg" />
-      </div><!-- .about-founders-image -->
-    </div><!-- .section-container -->
-
-    <!-- Our Story -->
-    <div class="section-container">
-      <div class="section-content">
-        <div class="section-heading section-1">
-          <a id="ourstory" class="anchor"></a>Our Story
-        </div><!-- .section-heading -->
-        <div class="about-ourstory">
-               <div class="about-timeline">
-               <ul class="about-outer-list">
-                 <li class="left">
-                   <span class="about-timeline-heading">The Beginning</span>
-                   <br />
-                   <br />
-                   We started out working as operations managers, biology assistants, sales representatives, and installing aquariums at various locations.
-                 </li>
-                 <li class="left about-timeline-logos">
-                   <img src="img/about/aquaticcentral.png" />
-                   <img src="img/about/californiaacademyofsciences.png" />
-                   <img src="img/about/aquaforestaquarium.png" />
-                 </li>
-                 <li class="right about-timeline-images">
-                         <!-- <div id="main-slider" class="flexslider"> -->
-                           <!-- <ul class="slides"> -->
-                             <!-- <li> --><img src="img/about/ourstory-4.jpg" /><!-- </li> -->
-                             <!-- <li><img src="img/about/ourstory-5.jpg" /></li> -->
-                           <!-- </ul> -->
-                         <!-- </div> -->
-                 </li>
-                  <li class="left">
-                   With knowledge and experience, we established ADI with the fundamental goals to build a business around a solution for the aquarium industry and to raise environmental awareness.
-                 </li>
-                 <li class="left">
-                   Eventually, we decided to start our own online aquarium store while selling shrimp out of a garage in San Francisco
-                 </li>
-                 <li class="left about-timeline-images">
-                    <img src="img/about/ourstory-1.jpg" />
-                </li>
-                 <li class="right">
-                   <span class="about-timeline-heading">The Evolution</span>
-                   <br />
-                   <br />
-                   We continued pursuing our passion for connecting people with nature through aquatic ecosystem installations.
-                 </li>
-                 <li class="right">
-                   We even brought our love of aquariums with us to college.
-                 </li>
-                 <li class="right about-timeline-images">
-                    <img src="img/about/ourstory-8.jpg" class="about-ourstory-timeline-images" />
-                 </li>
-                 <li class="right about-timeline-images">
-                    <a href="https://www.kickstarter.com/projects/kevinzl/ecoqube-desktop-ecosystem-that-grow-flowers-and-he"><img src="img/about/kickstarter.png" /></a>
-                 </li>
-                 <li class="left">
-                   <span class="about-timeline-heading">The Company Today</span>
-                   <br />
-                   <br />
-                   But now, we'd like to expand our reach to you through the EcoQube, a miniature aquatic ecosystem that we created to deliver the practical solution and beauty of aquaponics to households and offices around the world!
-                 </li>
-                 <li class="highlight about-timeline-highlight">
-                    <a href="ecoqube.php"><img src="img/ecoqube2.jpg" /></a>
-                 </li>
-                 <li class="left">
-                   We know that we can’t solve the many problems in our world with a fish tank, no matter how beautiful it is, but we hope to connect people to our environment and influence the way they perceive the larger issues in our world today.
+     <!-- Dot navigation --> <div id="dot-navigation-container">
+          <ul>
+               <li class="dot-navigation-icon">
+                    <a id="topBtn" class="dot-hover" href="ecoqube.php#top" data-title="Top">
+                         <img class="navigation-dot" id="img-section-0-dot" src="img/dots/dot-current.png" width="25" height="25" alt="Top Navigation Dot"/>
+                         <img class="navigation-dot hover" id="img-section-0-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Top Navigation Dot"/>
+                    </a>
                </li>
-               </ul>
-               </div>
+               <li class="dot-navigation-icon">
+                    <a id="ourstoryBtn" class="dot-hover" href="about.php#ourstory" data-title="Our Story">
+                         <img class="navigation-dot" id="img-section-1-dot" src="img/dots/dot.png" width="25" height="25" alt="Our Story Navigation Dot" />
+                         <img class="navigation-dot hover" id="img-section-1-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Our Story Navigation Dot" />
+                    </a>
+               </li>
+               <li class="dot-navigation-icon">
+                    <a id="valuesBtn" class="dot-hover" href="about.php#values" data-title="Vision and values">
+                         <img class="navigation-dot" id="img-section-2-dot" src="img/dots/dot.png" width="25" height="25" alt="Values Navigation Dot"  />
+                         <img class="navigation-dot hover" id="img-section-2-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Values Navigation Dot"  />
+                    </a>
+               </li>
+               <li class="dot-navigation-icon">
+                    <a id="theteamBtn" class="dot-hover" href="about.php#theteam" data-title="The Team">
+                         <img class="navigation-dot" id="img-section-3-dot" src="img/dots/dot.png" width="25" height="25" alt="The Team Navigation Dot" />
+                         <img class="navigation-dot hover" id="img-section-3-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="The Team Navigation Dot" />
+                    </a>
+               </li>
+               <li class="dot-navigation-icon">
+                    <a id="affiliatesBtn" class="dot-hover" href="about.php#affiliates" data-title="Affiliates and sposorships">
+                         <img class="navigation-dot" id="img-section-4-dot" src="img/dots/dot.png" width="25" height="25" alt="Affiliates Navigation Dot"/>
+                         <img class="navigation-dot hover" id="img-section-4-dot" src="img/dots/dot-hover.png" width="25" height="25" alt="Affiliates Navigation Dot"/>
+                    </a>
+               </li>
+          </ul>
+     </div><!-- #dot-navigation-container -->
 
-         </div><!-- .about-ourstory -->
-        </div><!-- .section-content -->
-      </div><!-- .section-container -->
+     <!-- Content  --> <div id="content-container">
+          <div id="top" class="section-container section-0">
+               <div class="about-founders-image">
+                    <img src="img/about/team-1.jpg" />
+               </div><!-- .about-founders-image -->
+          </div><!-- .section-container -->
+
+          <!-- Our Story --> <div class="section-container">
+               <div class="section-content">
+                    <div class="section-heading section-1">
+                         <a id="ourstory" class="anchor"></a>Our Story
+                    </div><!-- .section-heading -->
+                    <div class="about-ourstory">
+                         <div class="about-timeline">
+                              <ul class="about-outer-list">
+                                   <li class="left timeline-year-first">
+                                        <span class="about-timeline-heading">The Beginning</span>
+                                   </li>
+                                   <li class="left">
+                                        We started out working as operations managers, biology assistants, sales representatives, and installing aquariums at various locations.
+                                   </li>
+                                   <li class="left about-timeline-logos">
+                                        <img src="img/about/californiaacademyofsciences.png" />
+                                        <img src="img/about/aquaforestaquarium.png" />
+                                        <img src="img/about/aquaticcentral.png" />
+                                   </li>
+                                   <li class="right about-timeline-images">
+                                        <!-- <div id="main-slider" class="flexslider"> -->
+                                             <!-- <ul class="slides"> -->
+                                                  <!-- <li> --><img src="img/about/ourstory-4.jpg" /><!-- </li> -->
+                                                  <!-- <li><img src="img/about/ourstory-5.jpg" /></li> -->
+                                             <!-- </ul> -->
+                                        <!-- </div> -->
+                                   </li>
+                                   <li class="left">
+                                        With knowledge and experience, we established ADI with the fundamental goals to build a business around a solution for the aquarium industry and to raise environmental awareness.
+                                   </li>
+                                   <li class="left">
+                                        Eventually, we decided to start our own online aquarium store while selling shrimp out of a garage in San Francisco
+                                   </li>
+                                   <li class="left about-timeline-images">
+                                        <img src="img/about/ourstory-1.jpg" />
+                                   </li>
+                                   <li class="right timeline-year-second">
+                                        <span class="about-timeline-heading">The Evolution</span>
+                                   </li>
+                                   <li class="right">
+                                        We continued pursuing our passion for connecting people with nature through aquatic ecosystem installations.
+                                   </li>
+                                   <li class="left">
+                                        We even brought our love of aquariums with us to college.
+                                   </li>
+                                   <li class="left about-timeline-images">
+                                        <img src="img/about/ourstory-8.jpg" class="about-ourstory-timeline-images" />
+                                   </li>
+                                   <li class="right timeline-year-third">
+                                        <span class="about-timeline-heading">The Company Today</span>
+                                   </li>
+                                   <li class="right">
+                                        But now, we'd like to expand our reach to you through the EcoQube, a miniature aquatic ecosystem that we created to deliver the practical solution and beauty of aquaponics to households and offices around the world!
+                                   </li>
+                                   <li class="left about-timeline-images">
+                                        <a href="https://www.kickstarter.com/projects/kevinzl/ecoqube-desktop-ecosystem-that-grow-flowers-and-he"><img src="img/about/kickstarter.png" /></a>
+                                   </li>
+                                   <li class="highlight about-timeline-highlight">
+                                        <a href="ecoqube.php"><img src="img/ecoqube2.jpg" /></a>
+                                   </li>
+                                   <li class="left">
+                                        We know that we can’t solve the many problems in our world with a fish tank, no matter how beautiful it is, but we hope to connect people to our environment and influence the way they perceive the larger issues in our world today.
+                                   </li>
+                              </ul><!-- .about-outer-list -->
+                         </div><!-- .about-timeline -->
+                    </div><!-- .about-ourstory -->
+               </div><!-- .section-content -->
+          </div><!-- .section-container -->
 
       <!-- Vision and Values -->
       <div class="section-container">
@@ -336,18 +305,16 @@
           </div><!-- .section-heading -->
           <br /><br />
           <div class="about-vision">
-            <div class="about-vision-blurb"><span class="about-vision-heading">Less Environmental Impact</span><br />Less fish are lost and less fossil fuel is burned. Resulting in more:</div>
-            <div class="about-vision-blurb"><span class="about-vision-heading">Domestic Jobs</span><br />Happy local employees will then provide you with unmatchable.</div>
-
+            <div class="about-vision-blurb"><span class="about-vision-heading">Our Vision</span><br />To be much more than just an online vendor for aquarium goods and an installation company.</div>
+            <div class="about-vision-blurb"><span class="about-vision-heading">Less Environmental Impact</span><br />Less fish are lost and less fossil fuel is burned.</div>
             <div class="about-vision-blurb"><span class="about-vision-heading">Competitive Pricing</span><br />Savings are then passed onto you and higher profit margins allows for.</div>
             <br />
-            <div class="about-vision-blurb"><span class="about-vision-heading">Less Transport</span><br />Less time and resources spent on transporting livestock directly leads to unsurpassed quality.</div>
+            <div class="about-vision-blurb"><span class="about-vision-heading">Domestic Jobs</span><br />Happy local employees will then provide you with unmatchable.</div>
             <div class="about-vision-blurb"><span class="about-vision-heading">Quality and Service</span><br />Something all of our customers deserve!</div>
-            <div class="about-vision-blurb"><span class="about-vision-blurb-2">We have a vision to be much more than just an online vendor for aquarium goods and an installation company.</span></div>
-            <br /><br />
+            <div class="about-vision-blurb"><span class="about-vision-heading">Less Transport</span><br />Less time and resources spent on transporting livestock directly leads to unsurpassed quality.</div>
             <div class="about-vision-quote">When dealing with ADI, you are more than just a customer; you become part of the revolution.</div>
-          </div><!-- about-vision -->
-        </div><!-- section-content -->
+          </div><!-- .about-vision -->
+        </div><!-- .section-content -->
       </div><!-- .section-container -->
 
       <!-- The Team -->
@@ -377,10 +344,14 @@
             <ul class="slides">
               <li>
                 <div class="about-inside">
+                    <!-- <div class="about-inside-one">
+                         &#XE865;
+                    </div> -->
+                    <div class="about-inside-two">
                   <span class="about-affiliates-names">Chris E. Yin</span>
                   <br />
                   <span class="about-flexslider2-text">Chief Operating Officer at Bespoke Partners and founder of Pathways Ventures, an on-campus incubator at University of California, San Diego.</span>
-                </div>
+                </div></div>
               </li>
               <li>
                 <div class="about-inside">
