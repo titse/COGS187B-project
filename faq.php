@@ -25,9 +25,10 @@
   <!-- Custom Javascript functions used across pages -->
   <script type="text/javascript" src="js/global.js"></script>
 
-  <!-- Fixed header + horizontal scroll -->
-  <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> -->
-  <script type="text/javascript" src="ScrollToFixed-master/jquery-scrolltofixed.js"></script>
+  <!--Fixed header + horizontal scroll -->
+       <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> -->
+       <script type="text/javascript" src="ScrollToFixed-master/jquery-scrolltofixed.js"></script>
+       
 </head>
 <body>
   <!-- Header -->

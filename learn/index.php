@@ -6,7 +6,7 @@
   <link type="text/css" rel="stylesheet" href="../css/learn.css"/>
   <link type="text/css" rel="stylesheet" href="../css/index.css" />
   <link type="text/css" rel="stylesheet" href="../css/global.css"/>
-  <link type="image/png" rel="shortcut icon" href="img/logos/favicon.ico" />
+  <link type="image/png" rel="shortcut icon" href="../img/logos/favicon.ico" />
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -363,7 +363,5 @@ $(document).ready(function() {
   $('#header-container').scrollToFixed();
 });
 </script>
-
-
 
 </html>
