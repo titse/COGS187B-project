@@ -1,5 +1,4 @@
-/*Content*/
-     /*Video*/
+/*Video*/
           .services-video-overlay{
                color:rgba(255,255,255,1);
                font-size:45px;
@@ -44,7 +43,7 @@
                width:100%;
           }
 
-     /*Contact form*/
+/*Contact form*/
           .services-column-1{
           display:block;
           float:left;
@@ -182,12 +181,12 @@
                opacity:.8;
                }
 
-     .services-heading-2 {
-     font-size:30px;
-     text-transform:uppercase;
-     }
+.services-heading-2 {
+font-size:30px;
+text-transform:uppercase;
+}
 
-     /*Blurbs*/
+/*Blurbs*/
           .services-blurb-overlay{
                color:rgba(255,255,255,.9);
                font-family:"Helvetica Neue LT Pro Thin Extended";
@@ -201,38 +200,43 @@
           
 /*Gallery slider*/
      .services-slide{
-          margin:0 auto;
-          padding-top:25px;
-          padding-bottom:75px;
+          box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+          -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+          -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+          -o-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+          border: 3px solid rgba(239,239,239,1);
+          margin:25px auto 75px auto;
+          /*padding-top:25px;
+          padding-bottom:75px;*/
+               
      }
 
      .services-slide img{
           width:100%;
      }
 
-
-.services-install{
-     font-size:21px;
+.services-maintenance{
+     display:block;
+     margin:0 auto;
+     max-width:100%;
      padding-top:15px;
 }
 
-.services-maintenance{
-          display:block;
-          margin:0 auto;
-          max-width:100%;
-}
-
 .services-maintenance-blurb{
-          background-color:rgba(255,255,255,1);
-          border:5px solid rgba(239,239,239,1);
-          float:left;
-          font-size:20px;
-          height:140px;
-          /*height:auto;*/
-          margin:15px 25px 0 0;
-          overflow:hidden;
-          padding:30px;
-          width:30%;
+     background-color:rgba(255,255,255,.9);
+     box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+     -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+     -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+     -o-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+     border: 3px solid rgba(239,239,239,1);
+     float:left;
+     /*font-size:20px;*/
+     height:130px;
+     /*height:auto;*/
+     margin:15px 25px 0 0;
+     overflow:hidden;
+     padding:35px;
+     width:30%;
 }
 
 .services-text{
