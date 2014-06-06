@@ -377,21 +377,21 @@
         <div class="services-slide">
           <div id="main-slider" class="flexslider">
             <ul class="slides">
-              <li><a class="gal" href="img/about/ourstory-6.jpg" title=""><img src="img/services/installations6-th.png" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-18.jpg" title=""><img src="img/about/ourstory-20-th.png" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-13.jpg" title=""><img src="img/services/happyharbour1-th.png" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-9.jpg" title=""><img src="img/services/installations5-th.png" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-9.jpg" title=""><img src="img/about/ourstory-16-th.png" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-2.jpg" title=""><img src="img/about/ourstory-17-th.png" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-4.jpg" title=""><img src="img/services/installations2-th.png" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-7.jpg" title=""><img src="img/services/installations1-th.png" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-6.jpg" title=""><img src="img/services/installations7-th.png" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-5.jpg" title=""><img src="img/services/installations3-th.png" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-6.jpg" title=""><img src="img/services/installations9-th.png" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-6.jpg" title=""><img src="img/services/installations4-th.png" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-10.jpg" title=""><img src="img/about/ourstory-8-th.png" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-1.jpg" title=""><img src="img/about/ourstory-15-th.png" /></a></li>
-              <li><a class="gal" href="img/about/ourstory-3.jpg" title=""><img src="img/about/ourstory-18-th.png" /></a></li>
+              <li><a class="gal" href="img/services/installations6.png" title=""><img src="img/services/installations6-th.png" /></a></li>
+              <li><a class="gal" href="img/about/ourstory-20.jpg" title=""><img src="img/about/ourstory-20-th.png" /></a></li>
+              <li><a class="gal" href="img/services/happyharbour1.png" title=""><img src="img/services/happyharbour1-th.png" /></a></li>
+              <li><a class="gal" href="img/services/installations5.png" title=""><img src="img/services/installations5-th.png" /></a></li>
+              <li><a class="gal" href="img/about/ourstory-16.jpg" title=""><img src="img/about/ourstory-16-th.png" /></a></li>
+              <li><a class="gal" href="img/about/ourstory-17.jpg" title=""><img src="img/about/ourstory-17-th.png" /></a></li>
+              <li><a class="gal" href="img/services/installations2.jpg" title=""><img src="img/services/installations2-th.png" /></a></li>
+              <li><a class="gal" href="img/services/installations1.png" title=""><img src="img/services/installations1-th.png" /></a></li>
+              <li><a class="gal" href="img/services/installations7.png" title=""><img src="img/services/installations7-th.png" /></a></li>
+              <li><a class="gal" href="img/services/installations3.jpg" title=""><img src="img/services/installations3-th.png" /></a></li>
+              <li><a class="gal" href="img/services/installations9.png" title=""><img src="img/services/installations9-th.png" /></a></li>
+              <li><a class="gal" href="img/services/installations4.jpg" title=""><img src="img/services/installations4-th.png" /></a></li>
+              <li><a class="gal" href="img/about/ourstory-8.jpg" title=""><img src="img/about/ourstory-8-th.png" /></a></li>
+              <li><a class="gal" href="img/about/ourstory-15.jpg" title=""><img src="img/about/ourstory-15-th.png" /></a></li>
+              <li><a class="gal" href="img/about/ourstory-18.jpg" title=""><img src="img/about/ourstory-18-th.png" /></a></li>
             </ul>
           </div></div>
         </div><!-- .section-content -->
