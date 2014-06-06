@@ -265,7 +265,7 @@
           &#xe817;
         </div><!-- .services-play-icon -->
         <div class="services-video-image">
-          <img src="img/services/happyharbour1.png" />
+          <img src="img/services/happyharbour1-a.png" />
         </div><!-- .services-video-image -->
       </a>
     </div><!-- .section-container -->
