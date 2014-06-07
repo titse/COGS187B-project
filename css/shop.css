@@ -1,326 +1,286 @@
-/* General rules */
 .left-margin{
-  margin-left:15%;
+margin-left:15%;
 }
 
-
-
 body a {
-  color:#4a4a4a;
+color:#4a4a4a;
 }
 
 body a:hover {
-  color:#006cb8;
+color:#006cb8;
 }
 
 /* Shop notification bar */
-  #shop-notification-bar{
-    display:inline-block;
-    position:fixed;
-    width:100%;
-    height:30px;
-    background-color:rgba(38,160,47,1);
-    box-shadow:2px 2px 2px rgba(0,0,0,.2);
-    margin:-1px;
-    text-align:center;
-    z-index:1000;
-  }
+#shop-notification-bar{
+display:inline-block;
+position:fixed;
+width:100%;
+height:30px;
+background-color:rgba(38,160,47,1);
+box-shadow:2px 2px 2px rgba(0,0,0,.2);
+margin:-1px;
+text-align:center;
+z-index:1000;
+}
 
-  #shop-notification-text{
-    margin-top:5px;
-    font-size:20px;
-  }
+#shop-notification-text{
+margin-top:5px;
+font-size:20px;
+}
 
-  /*Shop heading section*/
-  .shop-heading{
-    display:inline-block;
-    /*background-color:green;*/
-    width:85%;
-    margin-top:2.5%;
-  }
+/*Shop heading section*/
+.shop-heading{
+display:inline-block;
+width:85%;
+margin-top:2.5%;
+}
 
-  .text{
-    font-size:20px;
-  }
+.text{
+font-size:20px;
+}
 
 /*Secondary navigation*/
-  .shop-header{
-    display:inline-block;
-    margin-bottom:2%;
-  }
+.shop-header{
+display:inline-block;
+margin-bottom:2%;
+}
 
-  .shop-header h1{
-    font-size:40px;
-  }
+.shop-header h1{
+font-size:40px;
+}
 
-  .side-navbar ul{
-    padding:0;
-    margin:0;
-    line-height:16px;
-    font-size:16px;
-  }
+.side-navbar ul{
+padding:0;
+margin:0;
+line-height:16px;
+font-size:16px;
+}
 
-  .side-navbar {
-    display:inline-block;
-    position:fixed;
-    width:15%;
-    height:50%;
-    /*background-color:#efefef;*/
-    top:17.5%
-  }
+.side-navbar {
+display:inline-block;
+position:fixed;
+width:15%;
+height:50%;
+top:17.5%
+}
 
-  .side-navbar-content {
-    display:inline-block;
-    margin-left:10%;
-  }
+.side-navbar-content {
+display:inline-block;
+margin-left:10%;
+}
 
-  .shop-heading{
-    font-size:24px;
-  }
+.shop-heading{
+font-size:24px;
+}
 
-  .categories-heading {
-    font-size:25px;
-  }
+.categories-heading {
+font-size:25px;
+}
 
-  .categories-heading h3{
-    font-size:25px;
-  }
+.categories-heading h3{
+font-size:25px;
+}
 
-  .shop-category {
-    display:block;
-    margin-top:32px;
-  }
+.shop-category {
+display:block;
+margin-top:32px;
+}
 
-  .shop-category-heading {
-    font-family:"Helvetica Neue LT Pro Medium";
-    font-size:20px;
-  }
+.shop-category-heading {
+font-family:"Helvetica Neue LT Pro Medium";
+font-size:20px;
+}
 
-  .shop-category-item {
-    font-family:"Helvetica Neue LT Pro Light";
-  }
+.shop-category-item {
+font-family:"Helvetica Neue LT Pro Light";
+}
 
-  /*Shop homepage*/
-  .video-thumbnail {
-    max-width:100%;
-    max-height:100%;
-  }
+/*Shop homepage*/
+.video-thumbnail {
+max-width:100%;
+max-height:100%;
+}
 
-  .shop-video {
-    margin-top:3%;
-    display:inline-block;
-    max-width:100%;
-    max-height:100%;
-    /*margin-top:6%;*/
-    /*margin-bottom:115px;*/
-    /*margin-left:-5%;*/
-  }
+.shop-video {
+margin-top:3%;
+display:inline-block;
+max-width:100%;
+max-height:100%;
+}
 
-  .shop-ecoqube-play-icon{
-       color:rgba(0,0,0,0.5);
-       font-family:"Fontello";
-       max-width:80%;
-       font-size:125px;
-       padding-top:150px;
-       overflow:hidden;
-       position:absolute;
-       text-align:center;
-       width:100%;
-  }
+.shop-ecoqube-play-icon{
+color:rgba(0,0,0,0.5);
+font-family:"Fontello";
+max-width:80%;
+font-size:125px;
+padding-top:150px;
+overflow:hidden;
+position:absolute;
+text-align:center;
+width:100%;
+}
 
-  .shop-ecoqube-play-icon:hover{
-       color:rgba(0,108,184,1);
-       width:100%;
-  }
+.shop-ecoqube-play-icon:hover{
+color:rgba(0,108,184,1);
+width:100%;
+}
 
-  /*Shop content*/
-  .shop-content-container {
-    display:inline-block;
-    width:80%;
-    /*background-color:blue;*/
-    margin-bottom:100px;
-  }
+/*Shop content*/
+.shop-content-container {
+display:inline-block;
+width:80%;
+margin-bottom:100px;
+}
 
-  .shop-content-container p {
-    margin:0;
-  }
+.shop-content-container p {
+margin:0;
+}
 
-  /*Product display*/
-  .product {
-    display:inline-block;
-    float:left;
-    width:280px;
-    height:400px;
-    /*background-color:white;*/
-    margin-top:3%;
-    margin-right:7%;
-    /*border:1px solid black;*/
-    background-color: rgba(255,255,255,1);
-    border: 5px solid rgba(239,239,239,1);
-    box-shadow: 0px 0px 5px rgba(0,0,0,.15);
-    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
-    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
-    -o-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
-  }
+/*Product display*/
+.product {
+display:inline-block;
+float:left;
+width:280px;
+height:400px;
+margin-top:3%;
+margin-right:7%;
+background-color: rgba(255,255,255,1);
+border: 5px solid rgba(239,239,239,1);
+box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+-o-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+}
 
-  .product-image-conatiner {
-    display:inline-block;
-    float:left;
-    width:100%;
-    height:70%;
-  }
+.product-image-conatiner {
+display:inline-block;
+float:left;
+width:100%;
+height:70%;
+}
 
-  .product-image {
-    display:inline-block;
-    float:left;
-    width:100%;
-    height:100%;
-    /*background-color:rgba(74,74,74,0.5);*/
-    text-align:center;
-    vertical-align:middle;
-  }
+.product-image {
+display:inline-block;
+float:left;
+width:100%;
+height:100%;
+text-align:center;
+vertical-align:middle;
+}
 
-  .product-image .horizontal {
-    display:inline-block;
-    max-width:100%;
-    height:100%
-  }
+.product-image .horizontal {
+display:inline-block;
+max-width:100%;
+height:100%
+}
 
-  .product-image .vertical {
-    display:inline-block;
-    max-height:100%;
-    width:100%;
-  }
+.product-image .vertical {
+display:inline-block;
+max-height:100%;
+width:100%;
+}
 
-  .info-icons-wrapper {
-    display:inline-block;
-    float:left;
-    width:100%;
-    height:20%;
-  /*  background-color:rgba(74,74,74,0.3);*/
-    text-align:center;
-  }
+.info-icons-wrapper {
+display:inline-block;
+float:left;
+width:100%;
+height:20%;
+text-align:center;
+}
 
-  .icon-description-field-3 {
-    width:30%;
-    height:100%;
-    /*background-color:rgba(74,74,74,1);*/
-    float:left;
-  }
+.icon-description-field-3 {
+width:30%;
+height:100%;
+float:left;
+}
 
-  .icon-description-field-4 {
-    width:25%;
-    height:100%;
-    /*background-color:rgba(74,74,74,1);*/
-    float:left;
-  }
+.icon-description-field-4 {
+width:25%;
+height:100%;
+float:left;
+}
 
-  .key-info:hover:after{
-    background: rgba(0,0,0,.5);
-    border-radius: 2px;
-    color: #fff;
-    content: attr(data-title);
-    bottom:7em;
-    padding: 5px 5px;
-    position: relative;
-    z-index: 98;
-    white-space: nowrap;
-    color:#efefef;
-    font-size:12px;
-  }
+.key-info:hover:after{
+background: rgba(255,255,255,1);
+border-radius: 1px;
+border:3px solid rgba(239,239,239,1);
+color: #fff;
+content: attr(data-title);
+bottom:7em;
+padding: 5px 5px;
+position: relative;
+z-index: 98;
+white-space: nowrap;
+color:rgba(0,108,184,1);
+font-size:12px;
+}
 
-  .icon {
-    margin-top:4px;
-  }
+.icon {
+margin-top:4px;
+}
 
-  .icon-description {
-    font-size:12px;
-    /*background-color:rgba(74,74,74,0.5);*/
-  }
+.icon-description {
+font-size:12px;
+}
 
-  .price {
-    display:inline-block;
-    width:100%;
-    height:5%;
-    /*background-color:rgba(74,74,74,0.7);*/
-    text-align:center;
-    font-family:"Helvetica Neue LT Pro Medium";
-  }
+.price {
+display:inline-block;
+width:100%;
+height:5%;
+text-align:center;
+font-family:"Helvetica Neue LT Pro Medium";
+}
 
-  .product-name {
-    display:inline-block;
-    float:left;
-    width:100%;
-    height:5%;
-    line-height:8px;
-    /*background-color:rgba(74,74,74,0.1);*/
-    text-align:center;
-    font-size:20px;
-  }
+.product-name {
+display:inline-block;
+float:left;
+width:100%;
+height:5%;
+line-height:8px;
+text-align:center;
+font-size:20px;
+}
 
-  /*Product overlay*/
+/*Product overlay*/
+#product-image-overlay {
+position:absolute;
+border-left: 5px solid rgba(239,239,239,1);
+border-right: 5px solid rgba(239,239,239,1);
+border-top: 5px solid rgba(239,239,239,1);
+display:none;
+float:left;
+width:280px;
+height:280px;
+background-color:rgba(0,0,0,.5);
+z-index:10;
+top:50%;
+left:30%;
+text-align:center;
+}
 
-  #product-image-overlay {
-    position:absolute;
-    border-left: 5px solid rgba(239,239,239,1);
-    border-right: 5px solid rgba(239,239,239,1);
-    border-top: 5px solid rgba(239,239,239,1);
-    display:none;
-    float:left;
-    width:280px;
-    height:280px;
-    background-color:rgba(0,0,0,.5);
-    z-index:10;
-    top:50%;
-    left:30%;
-    text-align:center;
-  }
+#product-image-overlay a {
+display:inline-block;
+margin-top:10%;
+width:60%;
+color:#efefef;
+text-transform:uppercase;
+text-shadow:0 0 2px rgba(0,0,0,.75);
+}
 
-  #product-image-overlay a {
-    display:inline-block;
-    /*background-color:grey;*/
-    /*font-family:"Helvetica Neue LT Pro Medium";*/
-    margin-top:10%;
-    width:60%;
-    color:#efefef;
-    text-transform:uppercase;
-    text-shadow:0 0 2px rgba(0,0,0,.75);
-  }
+.overlay-icon{
+font-family:"Fontello";
+font-size:60px;
+padding:5px;
+color:#efefef;
+text-shadow:0 0 2px rgba(0,0,0,.75);
+}
 
-  .overlay-icon{
-    font-family:"Fontello";
-    font-size:60px;
-    padding:5px;
-    color:#efefef;
-    text-shadow:0 0 2px rgba(0,0,0,.75);
-  }
+#product-image-overlay a:hover {
+color:#006cb8;
+text-shadow:0 0 2px rgba(255,255,255,0);
+}
 
-  #product-image-overlay a:hover {
-    color:#006cb8;
-    text-shadow:0 0 2px rgba(255,255,255,0);
-  }
-
-  #product-image-overlay a:hover .overlay-icon {
-    color:#006cb8;
-    text-shadow:0 0 2px rgba(255,255,255,0);
-  }
-
-  /*
-  #upper-overlay {
-    background-color:rgba(256,256,256,0.5);
-  }
-
-  #lower-overlay {
-    background-color:rgba(38,160,47,0.5);
-  }
-
-  .overlay-section {
-    display:inline-block;
-    width:100%;
-    height:50%;
-    text-align:center;
-    line-height:7em;
-    margin:0;
-    padding:0;
-  }
-  */
+#product-image-overlay a:hover .overlay-icon {
+color:#006cb8;
+text-shadow:0 0 2px rgba(255,255,255,0);
+}

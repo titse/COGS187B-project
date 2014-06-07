@@ -1,129 +1,120 @@
-/*Content*/
-     /*Slider*/
-          .index-slider-overlay{
-               color:rgba(255,255,255,.9);
-               font-size:32px;
-               height:450px;
-               position:absolute;
-               text-shadow:0 0 7px rgba(0,0,0,.8);
-               width:100%;
-          }
+/*Slider*/
+.index-slider-overlay{
+color:rgba(255,255,255,.9);
+font-size:32px;
+height:450px;
+position:absolute;
+text-shadow:0 0 7px rgba(0,0,0,.8);
+width:100%;
+}
 
-          .shop-slide-text-overlay {
-            display:inline-block;
-            border-radius:60px;
-            color:rgba(255,255,255,1);
-            text-shadow:0 0 7px rgba(0,0,0,.4);
-            box-shadow: 0 0 70px 70px rgba(255,255,255,.3);
-            background-color:rgba(255,255,255,.3);
-            font-size:35px;
-            overflow:hidden;
-            padding-top:10px;
-            padding-left:20px;
-            position:absolute;
+.shop-slide-text-overlay {
+display:inline-block;
+border-radius:60px;
+color:rgba(255,255,255,1);
+text-shadow:0 0 7px rgba(0,0,0,.4);
+box-shadow: 0 0 70px 70px rgba(255,255,255,.3);
+background-color:rgba(255,255,255,.3);
+font-size:35px;
+padding-top:10px;
+padding-left:20px;
+position:absolute;
 
-            text-align:left;
-            width:60%;
-            margin-top:9%;
-            margin-left:11%;
-          }
+text-align:left;
+width:60%;
+margin-top:9%;
+margin-left:11%;
+}
 
-          .shop-slide-text-overlay h1 {
-            color:rgba(0,108,184,1);
-            font-size:45px;
-            text-shadow:0 0 7px rgba(255,255,255,.4);
-            margin:0;
-            font-family:"Helvetica Neue LT Pro Extended";
-          }
+.shop-slide-text-overlay h1 {
+color:rgba(0,108,184,1);
+font-size:45px;
+text-shadow:0 0 7px rgba(255,255,255,.4);
+margin:0;
+font-family:"Helvetica Neue LT Pro Extended";
+}
 
-          #eq-description {
-            display:block;
-            /*background-color:yellow;*/
-            width:40%;
-            height:50%;
-            float:left;
-            margin-top:60px;
-            margin-left:100px;
-          }
+#eq-description {
+display:block;
+width:40%;
+height:50%;
+float:left;
+margin-top:60px;
+margin-left:100px;
+}
 
-          #eq-logo {
-            display:block;
-            padding:0;
-            float:left;
-            /*background-color:purple;*/
+#eq-logo {
+display:block;
+padding:0;
+float:left;
+}
 
-          }
+#eq-description-text {
+display:block;
+margin-top:90px;
+padding:0;
+float:left;
+color:rgba(255,255,255,.9);
+font-size:32px;
+text-shadow:0 0 7px rgba(0,0,0,.8);
+}
 
-          #eq-description-text {
-            display:block;
-            /*background-color:green;*/
-            margin-top:90px;
-            padding:0;
-            float:left;
-            color:rgba(255,255,255,.9);
-            font-size:32px;
-            text-shadow:0 0 7px rgba(0,0,0,.8);
-          }
+#buttons {
+float:left;
+margin:0;
+position:absolute;
+top:340px;
+/*left:200px;*/
+}
 
-          #buttons {
-            float:left;
-            /*background-color:blue;*/
-            margin:0;
-            position:absolute;
-            top:340px;
-            left:200px;
-          }
+.eq-slide-btn {
+background-color:rgba(0,81,137,1);
+border:2px solid rgba(0,81,137,1);
+color:rgba(255,255,255,1);
+display:inline-block;
+font-size:18px;
+line-height:14px;
+padding-top:5px;
+padding-bottom:5px;
+text-shadow:1px 1px 5px rgba(0,0,0,.75);
+text-transform:uppercase;
+float:left;
+}
 
-          .eq-slide-btn {
-            background-color:rgba(0,81,137,1);
-            border:2px solid rgba(0,81,137,1);
-            color:rgba(255,255,255,1);
-            display:inline-block;
-            font-size:20px;
-            line-height:14px;
-            padding-top:5px;
-            text-shadow:1px 1px 5px rgba(0,0,0,.75);
-            text-transform:uppercase;
-            float:left;
+#eq-buy-btn {
+background-color:rgba(38,160,47,1);
+border:2px solid rgba(38,160,47,1);
+margin-left:0px;
+}
 
-          }
+#eq-buy-btn:hover {
+cursor:pointer;
+background-color:rgba(38,160,47,.8);
+}
 
-          #eq-buy-btn {
-            background-color:rgba(38,160,47,1);
-            border:2px solid rgba(38,160,47,1);
-            margin-left:0px;
-          }
+#eq-learnmore-btn {
+background-color:rgba(0,81,137,1);
+margin-left:50px;
+}
 
-          #eq-buy-btn:hover {
-            cursor:pointer;
-            background-color:rgba(38,160,47,.8);
-          }
+#eq-learnmore-btn:hover {
+cursor:pointer;
+background-color:rgba(0,81,137,.8);
+}
 
-          #eq-learnmore-btn {
-            background-color:rgba(0,81,137,1);
-            margin-left:50px;
-          }
+.index-words{
+}
 
-          #eq-learnmore-btn:hover {
-            background-color:rgba(0,81,137,.8);
-          }
+.index-slider-overlay img{
+margin-bottom:15px;
+width:500px;
+}
 
-		.index-words{
-			/*padding-top:32px;*/
-		}
+.index-slider-image{
+width:100%;
+}
 
-          .index-slider-overlay img{
-               margin-bottom:15px;
-               width:500px;
-          }
-
-          .index-slider-image{
-               /*height:450px;*/
-               /*overflow:hidden;*/
-               width:100%;
-          }
-
-          .index-slider-image img{
-               height:450px;
-               width:100%;
-          }
+.index-slider-image img{
+height:450px;
+width:100%;
+}

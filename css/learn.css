@@ -1,173 +1,160 @@
-/*---learn homepage----*/
-	.learn-message{
-		display:inline-block;
-		height: 2em;
-		text-align:center;
-		padding-bottom: 10%;
-	}
-	.learn-topic-container{
-		display:block;
-		float:left;
-		width: 100%;
-		padding-left: 15em;
-		padding-bottom: 10%
-	}
-	.learn-ecosystems{
-		float:left;
-		width:40%;
-		margin: 1em;
-	}
-	.learn-blog{
-		float:left;
-		width: 40%;
-		margin: 1em;
+.learn-message{
+display:inline-block;
+height: 2em;
+text-align:center;
+padding-bottom: 10%;
+}
+.learn-topic-container{
+display:block;
+float:left;
+width: 100%;
+padding-left: 15em;
+padding-bottom: 10%
+}
+.learn-ecosystems{
+float:left;
+width:40%;
+margin: 1em;
+}
+.learn-blog{
+float:left;
+width: 40%;
+margin: 1em;
 
-	}
+}
 
-	/*---- Slider ---*/
-	#ecosystems-slide-text {
-		margin-left:55%;
-		margin-top:0;
-	}
+#ecosystems-slide-text {
+margin-left:55%;
+margin-top:0;
+}
 
-	#blog-slide-text {
-		margin-left:10%;
-		margin-top:;
-	}
+#blog-slide-text {
+margin-left:10%;
+margin-top:;
+}
 
-	.index-slider-overlay.learn:hover {
-		background-color:rgba(255,255,255,.1);
-	}
+.index-slider-overlay.learn:hover {
+background-color:rgba(255,255,255,.1);
+}
 
-	.index-slider-overlay p, h3 {
-		text-shadow:0px 0px 3px rgba(0,0,0,.5);
-	}
+.index-slider-overlay p, h3 {
+text-shadow:0px 0px 3px rgba(0,0,0,.5);
+}
 
-	.slide-heading {
-		color:#006cb8;
-		font-size:30px;
-	}
+.slide-heading {
+color:#006cb8;
+font-size:30px;
+}
 
-	.slide-text  {
-		font-size:25px;
-	}
+.slide-text  {
+font-size:25px;
+}
 
-/*--- Aquatic ecosystems ----*/
 .fullwidth-image{
-	width:100%;
-	/*background-color:blue;*/
+width:100%;
 }
 
 .fullwidth-image img {
-	width:100%;
-	overflow:hidden;
+width:100%;
+overflow:hidden;
 }
 
 .component.ecosystems-description {
-	height:160px;
-	margin-bottom:5%;
-	padding:10px;
-	background-color: rgba(255,255,255,1);
-	border: 5px solid rgba(239,239,239,1);
-	box-shadow: 0px 0px 5px rgba(0,0,0,.15);
-	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
-	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
-	-o-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
-	font-size:18px;
-	color:black;
+height:160px;
+margin-bottom:5%;
+padding:10px;
+background-color: rgba(255,255,255,1);
+border: 5px solid rgba(239,239,239,1);
+font-size:18px;
+color:black;
 }
 
 .image-text-overlay {
-	display:inline-block;
-	background-color:rgba(255,255,255,.4);
-	border-radius:60px;
-	box-shadow: 0 0 70px 70px rgba(255,255,255,.4);*/
-	color:rgba(0,0,0,1);
-	font-family:"Helvetica Neue LT Pro Light";
-	font-size:35px;
-	overflow:hidden;
-	padding-top:1em;
-	padding-bottom:1em;
-	position:absolute;
-	text-align:center;
-	width:60%;
-	margin:8% 20%;
+display:inline-block;
+background-color:rgba(255,255,255,.4);
+border-radius:60px;
+box-shadow: 0 0 70px 70px rgba(255,255,255,.4);*/
+color:rgba(0,0,0,1);
+font-family:"Helvetica Neue LT Pro Light";
+font-size:35px;
+overflow:hidden;
+padding-top:1em;
+padding-bottom:1em;
+position:absolute;
+text-align:center;
+width:60%;
+margin:8% 20%;
 }
 
 .emphasize {
-	font-size:1.2em;
+font-size:1.2em;
 }
 
 #acuaponic-cycle-infographic{
-	width:100%;
-	text-align:center;
-	margin-top:2em;
+width:100%;
+text-align:center;
+margin-top:2em;
 }
 
 #acuaponic-cycle-infographic img{
-	width:80%;
+width:80%;
 }
 
 .component {
-	display:inline-block;
-	width:320px;
-	height:250px;
-	/*background-color:green;*/
-	float:left;
-	margin:3% 3% 0% 3%;
+display:inline-block;
+width:320px;
+height:250px;
+float:left;
+margin:3% 3% 0% 3%;
 }
 
 .component-top-section {
-	display:inline-block;
-	width:100%;
-	heigth:40%;
-	/*background-color:red;*/
+display:inline-block;
+width:100%;
+heigth:40%;
 }
 
 .component-icon {
-	display:inline-block;
-	height:100px;
-	float:left;
-	/*background-color:black;*/
+display:inline-block;
+height:100px;
+float:left;
 }
 
 .component-icon img {
-	height:100%;
+height:100%;
 }
 
 .component-heading {
-	display:inline-block;
-	float:left;
-	font-size:1.5em;
-/*	background-color:blue;*/
-	text-align:center;
-	margin-left:5%;
-	margin-top:12%;
+display:inline-block;
+float:left;
+font-size:1.5em;
+text-align:center;
+margin-left:5%;
+margin-top:12%;
 }
 
 #terrestrial-plants-heading{
-	margin-top:8%;
+margin-top:8%;
 }
 
 #woodandrocks-heading{
-	margin-top:8%;
+margin-top:8%;
 }
 
 .component-description {
-	display:inline-block;
-	float:left;
-	width:100%;
-	font-size:1.2em;
-/*	background-color:blue;*/
-	text-align:center;
+display:inline-block;
+float:left;
+width:100%;
+font-size:1.2em;
+text-align:center;
 }
 
 #component-blurb {
-	padding-top:20px;
-	padding-left:10px;
-	margin-top:4%;
-	font-size:20px;
-	font-family:"Helvetica Neue LT Pro Light Italic";
-	font-style:italic;
-	text-align:center;
+padding-top:20px;
+padding-left:10px;
+margin-top:4%;
+font-size:20px;
+font-family:"Helvetica Neue LT Pro Light Italic";
+font-style:italic;
+text-align:center;
 }

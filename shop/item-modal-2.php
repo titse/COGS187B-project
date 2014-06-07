@@ -157,6 +157,7 @@ clear:both;
 float:left;
 margin-bottom:40px;
 font-size: 16px;
+padding-top:1px;
 text-transform: uppercase;
 }
 

@@ -1,82 +1,80 @@
 /* General rules */
 .left-margin{
-  margin-left:20%;
+margin-left:20%;
 }
 
 body a {
-  color:#4a4a4a;
+color:#4a4a4a;
 }
 
-  /*Shop heading section*/
-  .blog-heading{
-    display:inline-block;
-    /*background-color:green;*/
-    width:80%;
-  }
+/*Shop heading section*/
+.blog-heading{
+display:inline-block;
+width:80%;
+}
 
-  /*Secondary navigation*/
-  .side-navbar ul{
-    padding:0;
-    margin:0;
-    line-height:1em;
-    font-size:1em;
-  }
+/*Secondary navigation*/
+.side-navbar ul{
+padding:0;
+margin:0;
+line-height:1em;
+font-size:1em;
+}
 
-  .side-navbar {
-    display:block;
-    position:fixed;
-    min-width:15%;
-    max-width:20%;
-    height:50%;
-    /*background-color:#efefef;*/
-    top:25%
-  }
+.side-navbar {
+display:block;
+position:fixed;
+min-width:15%;
+max-width:20%;
+height:50%;
+top:25%
+}
 
-  .side-navbar-content {
-    display:inline-block;
-    margin-left:10%;
-  }
+.side-navbar-content {
+display:inline-block;
+margin-left:10%;
+}
 
-  .categories-heading {
-    font-size:1.2em;
-    margin-left:0;
-  }
+.categories-heading {
+font-size:1.2em;
+margin-left:0;
+}
 
-  .category-heading {
-    font-family:"Helvetica Neue LT Pro Medium";
-    font-size:1.2em;
-  }
+.category-heading {
+font-family:"Helvetica Neue LT Pro Medium";
+font-size:1.2em;
+}
 
-  .category-item {
-    font-family:"Helvetica Neue LT Pro Light";
-  }
+.category-item {
+font-family:"Helvetica Neue LT Pro Light";
+}
 
 
 /* Blog content */
 
-  .blog-content-container{
-    display:inline-block;
-    width:80%;
-  }
+.blog-content-container{
+display:inline-block;
+width:80%;
+}
 
-  .blog-category {
-    display:block;
-    margin-top:2em;
-    font-size:1.2em;
-  }
+.blog-category {
+display:block;
+margin-top:2em;
+font-size:1.2em;
+}
 
-  .blogpost-text{
-    width:80%;
-  }
+.blogpost-text{
+width:80%;
+}
 
-  .blog-content-container img {
-    display:block;
-    width:50%;
-    left-margin:15%;
-    float:left;
-  }
+.blog-content-container img {
+display:block;
+width:50%;
+left-margin:15%;
+float:left;
+}
 
-  .blog-content-container p {
-    display:block;
-    float:left;
-  }
+.blog-content-container p {
+display:block;
+float:left;
+}
