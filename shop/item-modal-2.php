@@ -1,156 +1,246 @@
-<!DOCTYPE html>
-<html>
-     <head>
-          <!-- Add this to the <head> -->
-               <!-- <link rel="stylesheet" href="../liquidslider-master/css/animate.css"> --> <!-- Optional -->
-               <link rel="stylesheet" href="liquidslider-master/css/liquid-slider.css">
-          <!-- Add these to the <head> or the <footer> -->
-               <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-               <script src="liquidslider-master/js/jquery.easing.1.3.js"></script>
-               <script src="liquidslider-master/js/jquery.touchSwipe.min.js"></script>
-               <script src="liquidslider-master/js/jquery.liquid-slider.min.js"></script>
+<div class="ajax-text-and-image white-popup-block">
+  
+<style>
 
-          <script>
-               /* If installing in the footer, you won't need $(function() {} */
-               $(function($){
-                    $('#slider-id').liquidSlider({   
-includeTitle:false,
-  slideEaseFunction:'animate.css',
-  animateIn:"fadeIn",
-  animateOut:"bounceOutRight"
-});
-               });
-          </script>
-     </head>
-     <style>
-          .modal-video{
-               background-color:rgba(255,255,255,1);
-               height:550px;
-               font-size:1.1em;
-               margin:50px auto;
-               padding:2em;
-               /*text-align:center;*/
-               width:853px;
-          }
-
-          .smaller{
-               width:50px;
-          }
-
-          .left{
-               float:left;
-          }
-
-          .left img{
-               border: 5px solid rgba(239,239,239,1);
-            box-shadow: 0px 0px 5px rgba(0,0,0,.15);
-            -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
-            -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
-            -o-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
-               /*padding:.5em;*/
-               height:350px;
-               width:350px;
-          }
-
-          .left-bot img{
-            border: 5px solid rgba(239,239,239,1);
-            height:100px;
-            width:100px;
-          }
-
-          .right{
-               float:right;
-          }
-
-          .item-name{;
-               font-family:"Helvetica Neue LT Pro Thin Extended";
-               font-size:1.8em;
-          }
-
-          .liqslider{
-               padding-top:2em;
-               width:350px;
-          }
-
-
-.but{
-     padding-top:2em;
+.ajax-text-and-image {
+max-width:800px;
+margin: 20px auto;
+background:url("img/green-cup.png") repeat #fff;
+padding: 0;
+line-height: 0;
 }
 
-          a.button {
-   display: -moz-inline-stack;
-   display: inline-block;
-   width: 157px;
-   height: 39px;
-   background: url("http://dabuttonfactory.com/b.png?t=Add%20to%20cart&f=sans-serif&ts=24&tc=ffffff00&tshs=1&tshc=00000000&it=png&c=0&bgt=unicolored&bgc=26a02e&hp=20&vp=11") no-repeat;
-   line-height: 39px;
-   vertical-align: text-middle;
-   text-align: center;
-   color: #ffffff;
-   font-size: 1.1em;
-   font-weight: normal;
-   font-style: normal;
-   text-shadow: #000000 1px 1px 0;
-   text-transform:uppercase;
-}
-a.button > span {
-   display: -moz-inline-block;
+.ajcol{
+width: 50%;
+float:left;
+background:url("img/green-cup.png") repeat #fff;
+height:500px;
+padding:25px;
+margin:25px auto;
 }
 
-.left-bot{
-     padding-top:2em;
-     margin:0 auto;
-     width:350px;
-     text-align:center;
+.ajcol img{
+width: 100%;
+height: 100%;
+box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+-o-box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+border: 3px solid rgba(239,239,239,1); 
 }
 
-
-.left-bot img:hover{
-     opacity:.5;
+@media all and (max-width:30em){
+.ajcol { 
+width: 100%;
+float:none;
 }
-     }
-     </style>
-     <body>
-<div class="modal-window-content">
-     
-     <div class="modal-video">
-          <div class="left">
-               <img src="img/shop/java-fern.jpg" />
-               <div class="left-bot">
-               <img src="img/shop/java-fern.jpg" />
-               <img src="img/shop/java-fern.jpg" />
-               <img src="img/shop/java-fern.jpg" />
-          </div></div>
-          <div class="right">
-               <div class="item-name">Java Fern&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$7.39</div>
-               <div class="but">
-                    Qty:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="index.php" class="button">Add to cart</a>
-               </div>
+}
 
-               <div class="liqslider">
-                    <div class="liquid-slider" id="slider-id">
-                         <div>
-                              <h2 class="title">Description</h2>
-                              <div class="inner">This is where an item description will go.
-                                   Information about the plant, the type it is, whether it is EcoQube-recommended, the environment in can live in, compatible fish and plants.</div>
-                         </div>
-                         <div>
-                              <h2 class="title">Shipping</h2>
-                              Shipping information goes here.<br />
-                              Ex. where they ship from, estimated shipping, international shipping.
-                         </div>
-                         <div>
-                              <h2 class="title">Warranty</h2>
-                              Warranty information goes here.<br />
-                              Ex. what to do if the fish is dead upon delivery, returns, extended warranties.
-                         </div>
-                    </div>
-               </div>
+ul.tabs{
+margin: 0;
+padding: 0;
+float: left;
+list-style: none;
+width: 100%;
+}
 
+ul.tabs li{
+float: left;
+margin: 0;
+cursor: pointer;
+border-top: 5px solid #efefef;
+border-left: 5px solid #efefef;
+border-bottom: 5px solid #efefef;
+background-color: #efefef;
+color: #000;
+overflow: hidden;
+position: relative;
+text-transform: uppercase;
+letter-spacing: 1px;
+padding:10px 13px;
+}
 
-          </div>
-     </div>
+.tab_last{
+border-right: 10px solid #efefef; padding:0 5px;
+}
+
+ul.tabs li:hover{
+background-color: rgba(0,108,184,.5);
+color: #fff;
+}
+
+ul.tabs li.active{
+background-color: #fff;
+color: rgba(0,108,184,1);
+border-bottom: 5px solid #fff;
+display: block;
+font-weight: bold;
+letter-spacing: 1px;
+}
+
+.tab_container{
+border: 5px solid #efefef;
+border-top: none;
+clear: both;
+float: left;
+width: 100%;
+background: #fff;
+overflow: auto;
+}
+
+.tab_content{
+padding: 25px;
+display: none;
+letter-spacing: 1px;
+color:rgba(0,0,0,1);
+line-height: 20px;
+}
+
+.tab_drawer_heading{
+display: none;
+}
+
+@media screen and (max-width: 480px){
+.tabs{
+display: none;
+}
+
+.tab_drawer_heading{
+background-color: #ccc;
+color: #fff;
+border-top: 1px solid #333;
+margin: 0;
+padding: 5px 20px;
+display: block;
+cursor: pointer;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+.d_active{
+background-color: 666;
+color: #fff;
+}
+}
+
+*{
+font-family:"Helvetica Neue LT Pro Light";
+font-size:14px;
+}
+.item-name{
+font-size: 30px;
+margin-bottom:25px;
+color:rgba(74,74,74,1);
+float: left;
+font-family:"Helvetica Neue LT Pro Light Extended";
+line-height:26px;
+}
+
+.item-price{
+float:right;
+font-size: 26px;
+margin-bottom:25px;
+color:rgba(74,74,74,1);
+font-family:"Helvetica Neue LT Pro Light Extended";
+line-height:28px;
+}
+
+.item-wt{
+clear:both;
+}
+
+.item-qty{
+float:left;
+margin-bottom:40px;
+font-size: 16px;
+text-transform: uppercase;
+}
+
+.item-add{
+float:right;
+margin-bottom:40px;
+}
+
+#num{
+border:3px solid #efefef;
+width:90px;
+padding:5px 10px;
+margin-left:10px;
+}
+
+#submit{
+background-color:rgba(38,160,47,1);
+border:none;
+box-shadow:2px 2px 2px rgba(0,0,0,.08);
+-webkit-box-shadow:2px 2px 2px rgba(0,0,0,.08);
+-moz-box-shadow:2px 2px 2px rgba(0,0,0,.08);
+-o-box-shadow:2px 2px 2px rgba(0,0,0,.08);
+color:rgba(255,255,255,1);
+padding:7px 20px;
+text-shadow:1px 1px 5px rgba(0,0,0,.75);
+text-transform:uppercase;
+}
+</style>
+
+<div class="ajcol">
+<img src="img/shop/java-fern.jpg"/>
 </div>
-</body>
-</html>
+<div class="ajcol" style="line-height: 1.231;">
+<div style="padding: 1em">
+<div class="item-name">Java Fern</div>
+<div class="item-price">$7.39</div>
+<div class="item-wt">
+<div class="item-qty">Qty. <input id="num" type="number" name="quantity" min="1" max="50" value="1"></div>
+<div class="item-add"><input id="submit" name="submit" type="submit" value="Add to cart" /></div>
+</div>
+<ul class="tabs">
+<li class="active" rel="tab1">Details</li>
+<li rel="tab2">Shipping</li>
+<li rel="tab3">Warranty</li>
+</ul>
+<div class="tab_container">
+<h3 class="d_active tab_drawer_heading" rel="tab1">Details</h3>
+<div id="tab1" class="tab_content">
+<p>This aquatic fern from southeast Asia will grow slowly under almost any light or water condition. Just make sure the plant is attached to a rock or piece of driftwood until new anchor roots develop.</p>
+</div>
+<h3 class="tab_drawer_heading" rel="tab2">Shipping</h3>
+<div id="tab2" class="tab_content">
+<p>
+We ship out most of our orders on Mondays, Tuesdays, and sometimes Wednesdays. If you order was placed after 2:00PM PST, it will most likely be shipped the following Monday, unless stated otherwise by an email from us.</p>
+</div>
+<h3 class="tab_drawer_heading" rel="tab3">Warranty</h3>
+<div id="tab3" class="tab_content">
+<p>We have live arrival guarantee for all of our shipments, so if your plant arrive dead, please send us a picture of the plant as proof to our email: info@aquadesigninnovations.com. Read our shipping policy carefully as it explains what we would do if your plant were to arrive dead.</p>
+</div>
+</div>
+<script>
+$(".tab_content").hide();
+$(".tab_content:first").show();
+$("ul.tabs li").click(function() {
+$(".tab_content").hide();
+var activeTab = $(this).attr("rel"); 
+$("#"+activeTab).fadeIn();    
+$("ul.tabs li").removeClass("active");
+$(this).addClass("active");
+$(".tab_drawer_heading").removeClass("d_active");
+$(".tab_drawer_heading[rel^='"+activeTab+"']").addClass("d_active");
+});
+$(".tab_drawer_heading").click(function() {
+$(".tab_content").hide();
+var d_activeTab = $(this).attr("rel"); 
+$("#"+d_activeTab).fadeIn();
+$(".tab_drawer_heading").removeClass("d_active");
+$(this).addClass("d_active");
+$("ul.tabs li").removeClass("active");
+$("ul.tabs li[rel^='"+d_activeTab+"']").addClass("active");
+});
+$('ul.tabs li').last().addClass("tab_last");
+</script>
+</div>
+</div>
+<div style="clear:both; line-height: 0;"></div>
+</div>

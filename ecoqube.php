@@ -795,7 +795,7 @@
                 </div></li>
                 <li><div class="ecoqube-inside">
                   <a href="http://www.homemaidsimple.com/2013/12/ecoqube-kickstarter-campaign.html"><img src="img/ecoqube/press-homemaidsimple.png" class="ecoqube-press-logos" /></a>
-                  "... our own little oasis inside."
+                  <br />"... our own little oasis inside."
                 </div></li>
                 <li><div class="ecoqube-inside">
                   <a href="http://stacysrandomthoughts.com/2013/12/ecoqube-bring-nature-to-life/"><img src="img/ecoqube/press-stacyuncorked.png" class="ecoqube-press-logos" /></a>
